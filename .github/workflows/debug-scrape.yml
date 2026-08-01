@@ -40,7 +40,7 @@ jobs:
         run: |
           E7_SCRAPER_BASE=https://epic7db.com \
             python scripts/scrape_rta_stats.py --discover --refresh \
-              --page / --page /heroes || true
+              --page /heroes/harsetti --page /heroes/aube || true
 
       - name: Upload raw response cache
         if: always()

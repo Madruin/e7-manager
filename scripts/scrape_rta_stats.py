@@ -395,7 +395,7 @@ _KEYWORDS = [
     "hero_code", "seasons", "last_updated", "usage", "artifact_code",
     "set_name", "winRate", "win_rate", "Aube",
     # rank-target recon (epic7db)
-    "Legend", "Champion", "speed", "targets",
+    "Legend", "Champion", "Master", "speed", "targets", "stat-",
 ]
 
 
