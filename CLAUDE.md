@@ -137,8 +137,17 @@ Consequences:
   trust the derived formulas stated inside each output file.
   The scraper validates every record before writing, so `meta/rta/` never
   contains fabricated data.
-- **epic7db.com** rank-targets stretch scraper: recon 2026-08-01 — site is
-  reachable from Actions runners (HTTP 200) but is not an RSC/Next site
-  (no flight chunks); `/heroes` is a 654 KB rendered-HTML page. See the
-  session-1 recon notes in git history; per-rank stat targets need an
-  HTML-parsing (or framework-specific JSON blob) approach of its own.
+- **epic7db.com** rank-targets stretch scraper: **deferred** after recon
+  2026-08-01. Findings: reachable from Actions runners; server-rendered
+  HTML (no RSC/Next payload, no JSON API surfaced). Hero list at `/heroes`
+  (654 KB; `<li class="hero" data-name=... data-element=... data-stars=...>`),
+  hero pages at `/heroes/{kebab-slug}` with base stats + a recommended
+  build-stats block (`cm_icon_stat_*` icons) — but **no per-rank
+  Master→Legend breakdown found on hero detail pages** (zero
+  "Master"/"Legend" text hits), so where epic7db keeps its per-rank RTA
+  stat targets is still unlocated. Also: new heroes lag — `/heroes/aube`
+  404s while Harsetti exists. Next attempt should recon their nav/guide
+  URLs for an RTA-builds section before writing any parser. Re-run recon:
+  `E7_SCRAPER_BASE=https://epic7db.com python scripts/scrape_rta_stats.py
+  --discover --page /heroes/<slug>` (works from Actions or locally, not
+  from cloud sessions).
