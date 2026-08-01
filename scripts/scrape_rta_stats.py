@@ -418,6 +418,23 @@ def analyze_page(fetcher: Fetcher, path: str) -> None:
         return
     payload = flight_payload(html)
 
+    if not payload:
+        # Not an RSC page — analyze the raw HTML instead.
+        for marker in ("__NEXT_DATA__", "__NUXT__", 'type="application/json"',
+                       "application/ld+json", "window.__", "fetch(", "axios"):
+            n = html.count(marker)
+            if n:
+                log(f"  raw-HTML marker {marker!r}: {n} occurrence(s)")
+        blobs = re.findall(
+            r'<script[^>]*type="application/(?:ld\+)?json"[^>]*>(.*?)</script>',
+            html, re.S)
+        for b in blobs[:5]:
+            log(f"  inline JSON blob ({len(b)} chars): {b[:300]!r}")
+        hero_links = sorted(set(re.findall(r'href="(/[^"]*hero[^"]*)"', html)))
+        log(f"  hero-ish links ({len(hero_links)}): {hero_links[:30]}")
+        dump_keyword_contexts(html, _KEYWORDS)
+        return
+
     keys = re.findall(r'"([A-Za-z_][A-Za-z0-9_]{0,40})":', payload)
     freq: dict[str, int] = {}
     for k in keys:
