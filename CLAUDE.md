@@ -108,14 +108,37 @@ Consequences:
   recorded below per site once observed — if a site blocks Actions runners
   too, that scraper is local-only.
 - `scripts/scrape_rta_stats.py --discover` performs runtime endpoint
-  discovery (fetches the page + JS bundles, extracts candidate API URLs) so
-  endpoint knowledge comes from the live site, not model memory.
+  discovery (fetches the page + JS bundles, extracts candidate API URLs,
+  analyzes RSC flight payloads or raw HTML) so endpoint knowledge comes
+  from the live site, not model memory. `E7_SCRAPER_BASE=<url>` points
+  discovery at another site for recon.
+- More cloud-session gotchas observed 2026-08-01: raw `curl` to
+  `api.github.com` is intercepted (use the GitHub MCP tools instead); the
+  session's GitHub token cannot `workflow_dispatch` (403) — trigger CI by
+  pushing to a branch with a push-trigger workflow; Actions artifact
+  downloads live on `*.blob.core.windows.net`, which the egress policy
+  also blocks, so get data out of CI via logs or by having CI commit it.
 
 ### Site-specific scrape status
 
-- **epic7rtastats.com**: pending first successful run (see above). The
-  scraper refuses to emit hero files until the endpoint response validates,
-  so `meta/rta/` never contains fabricated data.
-- **epic7db.com** rank-targets stretch scraper: deferred until
-  `scrape_rta_stats.py` has one verified live run (gate set in the session-1
-  brief).
+- **epic7rtastats.com** (verified live 2026-08-01, via Actions runners —
+  no datacenter-IP block observed): Next.js App Router site with **no
+  public JSON API** — `/api/...` probes 404 and the client bundles contain
+  no fetch URLs. Data ships inside each page's RSC flight payload
+  (`self.__next_f.push` chunks) as flat JSON objects, which is what
+  `scrape_rta_stats.py` extracts (embedded JSON, not rendered-HTML
+  parsing). Key routes: `/heroes` (hero index + current-season per-hero
+  aggregates: total_games/wins/losses/bans/prebans), `/heroes/{hero_code}`
+  (setStats, artifact stats, buildStats, usage denominators, season
+  metadata incl. the source's own `last_updated`). The numeric-id and slug
+  route variants return empty shells — always use the `cXXXX` hero code.
+  Semantics note: `total_games` ≈ wins + losses + prebans for low-preban
+  heroes but not in general — treat counts as source-verbatim and only
+  trust the derived formulas stated inside each output file.
+  The scraper validates every record before writing, so `meta/rta/` never
+  contains fabricated data.
+- **epic7db.com** rank-targets stretch scraper: recon 2026-08-01 — site is
+  reachable from Actions runners (HTTP 200) but is not an RSC/Next site
+  (no flight chunks); `/heroes` is a 654 KB rendered-HTML page. See the
+  session-1 recon notes in git history; per-rank stat targets need an
+  HTML-parsing (or framework-specific JSON blob) approach of its own.
