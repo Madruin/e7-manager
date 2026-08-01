@@ -3,17 +3,32 @@
 
 Stdlib only, so it runs on a bare GitHub Actions runner or any local Python 3.9+.
 
-The cloud dev environment cannot reach the site (see CLAUDE.md, OPERATIONAL
-NOTES), so endpoint knowledge must come from the live site, not from memory:
+How the site serves data (established empirically via --discover runs on
+2026-08-01; the cloud dev environment cannot reach the site, see CLAUDE.md):
 
-  --discover   fetch the homepage + JS bundles, extract candidate API
-               endpoints, probe them, and dump what they return. Run this
-               first (locally or via the meta-sync workflow) whenever the
-               site changes and the scrape mode stops validating.
-  (default)    scrape the heroes given on the command line (or the default
-               sample set) and write meta/rta/{slug}.json. A hero file is
-               only written if the response passes validation — this script
-               never emits fabricated or half-parsed data.
+- Next.js App Router. There are no public JSON API endpoints — probing
+  /api/... returns the 404 page, and the client bundles contain no fetch
+  URLs. Data is embedded in each page's RSC "flight" payload
+  (self.__next_f.push chunks in the HTML), as plain JSON objects.
+- /heroes embeds (a) a hero index [{"code":"c5190","name":"Aube",
+  "element":"ice","class":"ranger","id":6730}, ...] and (b) current-season
+  per-hero aggregates [{"hero_code":"c5190","season_code":"pvp_rta_ss20f",
+  "total_games":12837,"total_wins":5736,"total_losses":6490,
+  "total_bans":990,"total_prebans":614,"hero_name":"Aube"}, ...].
+
+So "prefer JSON endpoints over HTML parsing" lands here on: extract the
+embedded JSON objects from the flight payload (never scrape rendered HTML).
+Output carries the source's own field names (total_games, total_wins, ...)
+plus a "derived" block whose formulas are stated inline — no invented
+semantics. A hero file is only written when extraction validates; this
+script never emits fabricated data.
+
+Modes:
+  (default)    scrape heroes given on the command line (or the default
+               sample set) into meta/rta/{slug}.json
+  --discover   structural probing: dump link map, flight-payload JSON keys,
+               keyword contexts, server-action ids. Use when the site
+               changes and scraping stops validating.
 
 Politeness: descriptive User-Agent, >=1s between requests, raw responses
 cached in scripts/.cache/ (gitignored). --refresh bypasses cache reads.
@@ -36,6 +51,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 BASE_URL = "https://www.epic7rtastats.com"
+HEROES_PAGE = BASE_URL + "/heroes"
 USER_AGENT = (
     "e7-manager-scraper/0.1 (+https://github.com/madruin/e7-manager; "
     "personal single-account analysis; low volume, >=1s between requests)"
@@ -46,26 +62,6 @@ CACHE_DIR = REPO_ROOT / "scripts" / ".cache"
 OUT_DIR = REPO_ROOT / "meta" / "rta"
 
 DEFAULT_HEROES = ["Aube", "Notos", "Perfumer Byblis", "Harsetti", "Frieren"]
-
-# Endpoint templates to try per hero, in order. {slug} / {name} / {qname} are
-# substituted. This list is (re)populated from --discover output against the
-# live site; entries here are only ever *attempted* — every response must pass
-# validate_hero_payload() before anything is written, so a wrong guess costs a
-# probe request, never bad data.
-HERO_ENDPOINT_TEMPLATES: list[str] = [
-    "{base}/api/hero/{slug}",
-    "{base}/api/heroes/{slug}",
-    "{base}/api/hero?name={qname}",
-    "{base}/api/stats/hero/{slug}",
-    "{base}/api/herostats/{slug}",
-]
-
-# Parameterless endpoints worth probing during discovery (hero indexes etc.).
-DISCOVERY_PROBE_CANDIDATES = [
-    "{base}/api/heroes",
-    "{base}/api/hero-list",
-    "{base}/api/stats",
-]
 
 
 def log(msg: str) -> None:
@@ -89,9 +85,8 @@ class Fetcher:
         self._last_request = 0.0
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
-    def _cache_path(self, url: str) -> Path:
-        h = hashlib.sha256(url.encode()).hexdigest()[:24]
-        return CACHE_DIR / f"{h}.json"
+    def _cache_path(self, key: str) -> Path:
+        return CACHE_DIR / (hashlib.sha256(key.encode()).hexdigest()[:24] + ".json")
 
     @staticmethod
     def _decode(raw: bytes) -> str:
@@ -106,8 +101,8 @@ class Fetcher:
               headers: dict | None = None) -> tuple[int, str]:
         """Return (status_code, body_text). Serves from cache unless --refresh.
 
-        Non-2xx responses are returned (not raised) so callers can probe
-        candidate endpoints; network-level failures return (0, error_string).
+        Non-2xx responses are returned (not raised) so callers can probe;
+        network-level failures return (0, error_string).
         """
         cache = self._cache_path(url + json.dumps(headers or {}, sort_keys=True))
         if not self.refresh and cache.exists():
@@ -146,32 +141,159 @@ class Fetcher:
 
 
 # ---------------------------------------------------------------------------
-# Discovery
+# RSC flight payload extraction
 # ---------------------------------------------------------------------------
-
-_ENDPOINT_RE = re.compile(
-    r"""["'`](
-          /(?:api|data|stats|json)/[A-Za-z0-9_./?=&{}$:-]+   # absolute paths
-        | https?://[A-Za-z0-9_.-]*epic7rtastats[^"'`\s]+     # own-domain URLs
-        | [A-Za-z0-9_./-]+\.json(?:\?[^"'`\s]*)?             # .json assets
-    )["'`]""",
-    re.VERBOSE,
-)
-
 
 _FLIGHT_RE = re.compile(r'self\.__next_f\.push\(\[1,\s*"((?:[^"\\]|\\.)*)"\]\)')
 
 
 def flight_payload(html: str) -> str:
     """Concatenate and unescape the Next.js RSC flight chunks embedded in a page."""
-    chunks = _FLIGHT_RE.findall(html)
     out = []
-    for c in chunks:
+    for c in _FLIGHT_RE.findall(html):
         try:
             out.append(json.loads(f'"{c}"'))  # JS string escapes ≈ JSON escapes
         except json.JSONDecodeError:
             out.append(c)
     return "".join(out)
+
+
+def extract_flat_objects(payload: str, required_key: str) -> list[dict]:
+    """Pull every flat (non-nested) JSON object containing required_key."""
+    objs = []
+    for m in re.finditer(r'\{[^{}]*"%s"[^{}]*\}' % re.escape(required_key), payload):
+        try:
+            objs.append(json.loads(m.group(0)))
+        except json.JSONDecodeError:
+            continue
+    return objs
+
+
+# ---------------------------------------------------------------------------
+# Scraping
+# ---------------------------------------------------------------------------
+
+
+def load_heroes_payload(fetcher: Fetcher) -> str:
+    status, html = fetcher.fetch(HEROES_PAGE, accept="text/html")
+    if status != 200:
+        sys.exit(f"{HEROES_PAGE} returned HTTP {status}; body head: {html[:300]!r}")
+    payload = flight_payload(html)
+    if not payload:
+        sys.exit(f"{HEROES_PAGE}: no RSC flight chunks found — site layout "
+                 "changed; rerun --discover and update this script")
+    return payload
+
+
+def build_hero_record(hero: str, index_entry: dict, season_rows: list[dict]) -> dict:
+    out: dict = {
+        "hero": index_entry.get("name", hero),
+        "hero_slug": slugify(index_entry.get("name", hero)),
+        "hero_code": index_entry.get("code"),
+        "element": index_entry.get("element"),
+        "class": index_entry.get("class"),
+    }
+    # Season aggregate counts, verbatim from the source. Normally one row
+    # (the currently displayed season); keep all if several appear.
+    rows = [
+        {k: r[k] for k in (
+            "season_code", "total_games", "total_wins", "total_losses",
+            "total_bans", "total_prebans",
+        ) if k in r}
+        for r in season_rows
+    ]
+    out["season_stats"] = rows
+
+    primary = rows[0]
+    wins, losses = primary.get("total_wins"), primary.get("total_losses")
+    if isinstance(wins, int) and isinstance(losses, int) and wins + losses > 0:
+        out["derived"] = {
+            "win_rate": round(wins / (wins + losses), 4),
+            "win_rate_formula": "total_wins / (total_wins + total_losses), "
+                                f"season {primary.get('season_code')}",
+        }
+    out["sample_size"] = primary.get("total_games")
+    out["source_url"] = HEROES_PAGE
+    out["scraped_at"] = utc_now_iso()
+    return out
+
+
+def validate_record(rec: dict) -> list[str]:
+    problems = []
+    if not rec.get("hero_code"):
+        problems.append("missing hero_code from hero index")
+    rows = rec.get("season_stats") or []
+    if not rows:
+        problems.append("no season stat rows")
+    elif not isinstance(rows[0].get("total_games"), int):
+        problems.append("season row lacks integer total_games")
+    if "derived" not in rec:
+        problems.append("win rate not derivable (missing/zero wins+losses)")
+    return problems
+
+
+def scrape(fetcher: Fetcher, heroes: list[str]) -> int:
+    payload = load_heroes_payload(fetcher)
+
+    index = extract_flat_objects(payload, "element")
+    index = [o for o in index if "code" in o and "name" in o]
+    by_name = {o["name"].lower(): o for o in index}
+    stats = extract_flat_objects(payload, "hero_code")
+    log(f"payload: {len(index)} heroes in index, {len(stats)} season stat rows")
+    if not index or not stats:
+        sys.exit("hero index or season stats missing from /heroes payload — "
+                 "site layout changed; rerun --discover")
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    failures = 0
+    for hero in heroes:
+        entry = by_name.get(hero.lower())
+        if entry is None:
+            close = [n for n in by_name if hero.lower() in n]
+            log(f"FAIL {hero}: not in hero index (near matches: {close[:5]})")
+            failures += 1
+            continue
+        rows = [s for s in stats if s.get("hero_code") == entry["code"]]
+        if not rows:
+            log(f"FAIL {hero}: no season stats for {entry['code']} (hero exists "
+                "but has no games in the displayed season)")
+            failures += 1
+            continue
+        rec = build_hero_record(hero, entry, rows)
+        problems = validate_record(rec)
+        if problems:
+            log(f"FAIL {hero}: extracted record did not validate: {problems}")
+            log(f"  rows: {rows!r}")
+            failures += 1
+            continue
+        out_path = OUT_DIR / f"{rec['hero_slug']}.json"
+        out_path.write_text(json.dumps(rec, indent=2, ensure_ascii=False) + "\n")
+        log(f"OK   {hero} -> {out_path.relative_to(REPO_ROOT)} "
+            f"(games={rec['sample_size']}, wr={rec.get('derived', {}).get('win_rate')})")
+    return failures
+
+
+# ---------------------------------------------------------------------------
+# Discovery
+# ---------------------------------------------------------------------------
+
+# Candidate per-hero routes; per-hero set/artifact stats are not in the
+# /heroes payload, so look for a detail route that carries them.
+DISCOVERY_PAGES = [
+    "/heroes/c5190",           # by hero code (Aube)
+    "/heroes/6730",            # by numeric id
+    "/heroes/aube",            # by slug
+    "/heroes?hero=c5190",
+    "/heroes?hero_id=6730",
+    "/meta",
+    "/sets",
+    "/artifacts",
+]
+
+_KEYWORDS = [
+    "hero_code", "seasons", "last_updated", "usage", "artifact_code",
+    "set_name", "winRate", "win_rate", "Aube",
+]
 
 
 def dump_keyword_contexts(text: str, keywords: list[str], radius: int = 180) -> None:
@@ -183,255 +305,43 @@ def dump_keyword_contexts(text: str, keywords: list[str], radius: int = 180) -> 
             log(f"  [{kw}] ...{text[s:m.end() + radius]!r}...")
 
 
-def analyze_page(fetcher: Fetcher, path: str) -> str:
-    """Fetch one page, dump structure hints from its RSC flight payload.
-
-    Returns the decoded flight payload so callers can mine it for sub-links.
-    """
+def analyze_page(fetcher: Fetcher, path: str) -> None:
     url = urllib.parse.urljoin(BASE_URL + "/", path)
     log(f"\n== page analysis: {url} ==")
     status, html = fetcher.fetch(url, accept="text/html")
     log(f"HTML: HTTP {status}, {len(html)} bytes, "
         f"{len(_FLIGHT_RE.findall(html))} flight chunks")
     if status != 200:
-        return ""
+        return
     payload = flight_payload(html)
-    log(f"flight payload: {len(payload)} chars")
 
     keys = re.findall(r'"([A-Za-z_][A-Za-z0-9_]{0,40})":', payload)
     freq: dict[str, int] = {}
     for k in keys:
         freq[k] = freq.get(k, 0) + 1
-    top = sorted(freq.items(), key=lambda kv: -kv[1])[:80]
-    log(f"top JSON keys: {top}")
-
-    sublinks = sorted(set(re.findall(r'/heroes/[A-Za-z0-9_.%()-]+', payload)))
-    log(f"hero sub-links in payload ({len(sublinks)}): {sublinks[:40]}")
-
-    dump_keyword_contexts(payload, DEFAULT_HEROES + [
-        "winRate", "win_rate", "pickRate", "pick_rate", "banRate", "ban_rate",
-        "sample", "battles",
-    ])
-    return payload
+    top = sorted(freq.items(), key=lambda kv: -kv[1])[:60]
+    log(f"flight payload: {len(payload)} chars; top JSON keys: {top}")
+    dump_keyword_contexts(payload, _KEYWORDS)
 
 
 def discover(fetcher: Fetcher, pages: list[str] | None = None) -> None:
     log(f"== discovery against {BASE_URL} ==")
     status, html = fetcher.fetch(BASE_URL + "/", accept="text/html")
     log(f"homepage: HTTP {status}, {len(html)} bytes")
-    if status != 200:
-        log(f"homepage body (first 1000 chars):\n{html[:1000]}")
-        sys.exit(f"discovery aborted: homepage returned {status}")
 
-    candidates: set[str] = set(m.group(1) for m in _ENDPOINT_RE.finditer(html))
-
-    for marker in ("__NEXT_DATA__", "__NUXT__", "self.__next_f"):
-        if marker in html:
-            log(f"NOTE: homepage embeds {marker} app-state blob")
-
-    links = sorted(
-        {h for h in re.findall(r'href="([^"#?]+)', html) if h.startswith("/")}
-    )
-    log(f"\n== internal links ({len(links)}) ==")
-    for h in links[:120]:
-        log(f"  {h}")
-
+    # Server-action ids in bundles would explain client-side data loads.
     scripts = re.findall(r"""<script[^>]+src=["']([^"']+)["']""", html)
+    action_ids: set[str] = set()
     for src in scripts[:12]:
-        url = urllib.parse.urljoin(BASE_URL + "/", src)
-        s, body = fetcher.fetch(url)
-        found = set(m.group(1) for m in _ENDPOINT_RE.finditer(body))
-        if found:
-            log(f"bundle {url}: {len(found)} endpoint hits")
-        candidates |= found
+        _, body = fetcher.fetch(urllib.parse.urljoin(BASE_URL + "/", src))
+        action_ids |= set(re.findall(r'"([0-9a-f]{40,64})"', body))
+    log(f"server-action-like hex ids in bundles: {sorted(action_ids)[:10]} "
+        f"({len(action_ids)} total)")
 
-    candidates = {c.rstrip("\\") for c in candidates if "\\" not in c.rstrip("\\")}
-    log("\n== candidate endpoints from bundles ==")
-    for c in sorted(candidates):
-        log(f"  {c}")
+    for path in pages if pages is not None else DISCOVERY_PAGES:
+        analyze_page(fetcher, path)
 
-    # Analyze explicitly requested pages, or walk /heroes -> one hero detail.
-    if pages is not None:
-        for path in pages:
-            analyze_page(fetcher, path)
-    else:
-        payload = analyze_page(fetcher, "/heroes")
-        sublinks = sorted(set(re.findall(r'/heroes/[A-Za-z0-9_.%()-]+', payload)))
-        wanted = [slugify(h) for h in DEFAULT_HEROES]
-        detail = next(
-            (l for l in sublinks if any(w in l.lower() for w in wanted)),
-            sublinks[0] if sublinks else None,
-        )
-        if detail:
-            analyze_page(fetcher, detail)
-        else:
-            log("no hero detail links found in /heroes payload; dumping excerpt:")
-            log(repr(payload[:2500]))
-            log("...")
-            log(repr(payload[len(payload) // 2:len(payload) // 2 + 2500]))
-
-    log("\nDiscovery done. Update HERO_ENDPOINT_TEMPLATES / the parser from the above.")
-
-
-# ---------------------------------------------------------------------------
-# Scraping
-# ---------------------------------------------------------------------------
-
-
-def try_hero_endpoints(fetcher: Fetcher, hero: str) -> tuple[str, dict] | None:
-    """Try each endpoint template; return (url, parsed_json) for the first hit."""
-    subs = {
-        "base": BASE_URL,
-        "slug": slugify(hero),
-        "name": hero,
-        "qname": urllib.parse.quote(hero),
-    }
-    for template in HERO_ENDPOINT_TEMPLATES:
-        url = template.format(**subs)
-        status, body = fetcher.fetch(url, accept="application/json")
-        if status != 200:
-            continue
-        try:
-            data = json.loads(body)
-        except json.JSONDecodeError:
-            continue
-        if data:
-            return url, data
-    return None
-
-
-def _as_rate(value) -> float | None:
-    """Normalize a rate that may arrive as 0-1 float, 0-100 number, or '12.3%'."""
-    if isinstance(value, str):
-        value = value.strip().rstrip("%")
-        try:
-            value = float(value)
-        except ValueError:
-            return None
-    if not isinstance(value, (int, float)):
-        return None
-    return round(value / 100.0, 6) if value > 1 else round(float(value), 6)
-
-
-def parse_hero_payload(hero: str, url: str, data: dict) -> dict:
-    """Map the site's payload to our schema. Only emit fields actually present.
-
-    NOTE: written against candidate key aliases; validate_hero_payload() gates
-    the output, so if the live schema differs this fails loudly instead of
-    writing junk. Update the alias table from --discover output.
-    """
-
-    def pick(src: dict, *aliases):
-        for a in aliases:
-            if a in src and src[a] is not None:
-                return src[a]
-        return None
-
-    out: dict = {"hero": hero, "hero_slug": slugify(hero)}
-
-    n = pick(data, "sample_size", "battles", "total_battles", "games", "count", "picks")
-    if isinstance(n, (int, float)):
-        out["sample_size"] = int(n)
-
-    for field, aliases in {
-        "pick_rate": ("pick_rate", "pickRate", "pick"),
-        "ban_rate": ("ban_rate", "banRate", "ban"),
-        "win_rate": ("win_rate", "winRate", "win"),
-    }.items():
-        rate = _as_rate(pick(data, *aliases))
-        if rate is not None:
-            out[field] = rate
-
-    sets = pick(data, "top_sets", "sets", "set_stats", "setStats", "builds")
-    if isinstance(sets, list) and sets:
-        parsed = []
-        for s in sets:
-            if not isinstance(s, dict):
-                continue
-            entry = {}
-            name = pick(s, "sets", "set", "name", "label")
-            if name is not None:
-                entry["sets"] = name if isinstance(name, list) else [name]
-            usage = _as_rate(pick(s, "usage_rate", "usage", "usageRate", "rate", "pick_rate"))
-            if usage is not None:
-                entry["usage_rate"] = usage
-            wr = _as_rate(pick(s, "win_rate", "winRate", "win"))
-            if wr is not None:
-                entry["win_rate"] = wr
-            if entry:
-                parsed.append(entry)
-        if parsed:
-            out["top_sets"] = parsed[:10]
-
-    arts = pick(data, "top_artifacts", "artifacts", "artifact_stats", "artifactStats")
-    if isinstance(arts, list) and arts:
-        parsed = []
-        for a in arts:
-            if not isinstance(a, dict):
-                continue
-            entry = {}
-            name = pick(a, "name", "artifact", "label")
-            if name is not None:
-                entry["name"] = name
-            usage = _as_rate(pick(a, "usage_rate", "usage", "usageRate", "rate", "pick_rate"))
-            if usage is not None:
-                entry["usage_rate"] = usage
-            wr = _as_rate(pick(a, "win_rate", "winRate", "win"))
-            if wr is not None:
-                entry["win_rate"] = wr
-            if entry:
-                parsed.append(entry)
-        if parsed:
-            out["top_artifacts"] = parsed[:10]
-
-    stats = pick(data, "stat_medians", "medians", "stats", "stat_distributions", "statAverages")
-    if isinstance(stats, dict) and stats:
-        out["stats"] = stats
-
-    out["source_url"] = url
-    out["scraped_at"] = utc_now_iso()
-    return out
-
-
-def validate_hero_payload(parsed: dict) -> list[str]:
-    """Return a list of problems; empty means the file is worth writing."""
-    problems = []
-    core = {"sample_size", "pick_rate", "ban_rate", "win_rate"}
-    if not core & parsed.keys():
-        problems.append(
-            "no core stat field (sample_size / pick_rate / ban_rate / win_rate) "
-            "could be extracted — endpoint schema has diverged; rerun --discover "
-            "and update parse_hero_payload()"
-        )
-    if "top_sets" not in parsed and "top_artifacts" not in parsed:
-        problems.append("neither set nor artifact stats extracted")
-    return problems
-
-
-def scrape(fetcher: Fetcher, heroes: list[str]) -> int:
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    failures = 0
-    for hero in heroes:
-        hit = try_hero_endpoints(fetcher, hero)
-        if hit is None:
-            log(f"FAIL {hero}: no endpoint template returned valid JSON "
-                f"(tried {len(HERO_ENDPOINT_TEMPLATES)}). Run with --discover.")
-            failures += 1
-            continue
-        url, data = hit
-        parsed = parse_hero_payload(hero, url, data)
-        problems = validate_hero_payload(parsed)
-        if problems:
-            log(f"FAIL {hero}: response from {url} did not validate:")
-            for p in problems:
-                log(f"  - {p}")
-            log(f"  raw payload (first 500 chars): {json.dumps(data)[:500]!r}")
-            failures += 1
-            continue
-        out_path = OUT_DIR / f"{parsed['hero_slug']}.json"
-        out_path.write_text(json.dumps(parsed, indent=2, ensure_ascii=False) + "\n")
-        log(f"OK   {hero} -> {out_path.relative_to(REPO_ROOT)}")
-    return failures
+    log("\nDiscovery done.")
 
 
 def main() -> None:
@@ -439,10 +349,9 @@ def main() -> None:
     ap.add_argument("heroes", nargs="*", default=None,
                     help=f"hero names (default: {', '.join(DEFAULT_HEROES)})")
     ap.add_argument("--discover", action="store_true",
-                    help="probe the live site for API endpoints instead of scraping")
+                    help="probe the live site's structure instead of scraping")
     ap.add_argument("--page", action="append", dest="pages", metavar="PATH",
-                    help="with --discover: analyze this page path (repeatable) "
-                         "instead of auto-picking hero-looking links")
+                    help="with --discover: analyze this page path (repeatable)")
     ap.add_argument("--refresh", action="store_true",
                     help="bypass the response cache (still writes to it)")
     args = ap.parse_args()
