@@ -15,6 +15,13 @@ How the site serves data (established empirically via --discover runs on
   per-hero aggregates [{"hero_code":"c5190","season_code":"pvp_rta_ss20f",
   "total_games":12837,"total_wins":5736,"total_losses":6490,
   "total_bans":990,"total_prebans":614,"hero_name":"Aube"}, ...].
+- /heroes/{hero_code} (e.g. /heroes/c5190; numeric-id and slug variants
+  return an empty shell) embeds the per-hero detail data: setStats
+  [{set_code,set_name,total_games,total_wins,total_losses,...}],
+  artifact rows [{artifact_code,artifact_name,total_games,...}],
+  buildStats [{artifact_code,set_agg_code,total_games,...}], plus
+  totalSetStatsGames/totalArtifactStatsGames denominators, a seasons list
+  with last_updated, daily site-wide game totals, and trend/matchup rows.
 
 So "prefer JSON endpoints over HTML parsing" lands here on: extract the
 embedded JSON objects from the flight payload (never scrape rendered HTML).
@@ -185,11 +192,39 @@ def load_heroes_payload(fetcher: Fetcher) -> str:
     return payload
 
 
-def build_hero_record(hero: str, index_entry: dict, season_rows: list[dict]) -> dict:
+def _win_rate(row: dict) -> float | None:
+    wins, losses = row.get("total_wins"), row.get("total_losses")
+    if isinstance(wins, int) and isinstance(losses, int) and wins + losses > 0:
+        return round(wins / (wins + losses), 4)
+    return None
+
+
+def _stat_rows(objs: list[dict], season: str, keep: tuple[str, ...],
+               denominator: int | None, top_n: int = 10) -> list[dict]:
+    """Filter to one season, keep source fields + derived rates, cap at top_n."""
+    rows = []
+    for o in objs:
+        if o.get("season_code") != season:
+            continue
+        row = {k: o[k] for k in keep if k in o}
+        wr = _win_rate(o)
+        if wr is not None:
+            row["derived_win_rate"] = wr
+        games = o.get("total_games")
+        if denominator and isinstance(games, int):
+            row["derived_usage_share"] = round(games / denominator, 4)
+        rows.append(row)
+    rows.sort(key=lambda r: r.get("total_games") or 0, reverse=True)
+    return rows[:top_n]
+
+
+def build_hero_record(fetcher: Fetcher, index_entry: dict,
+                      season_rows: list[dict]) -> dict:
+    code = index_entry["code"]
     out: dict = {
-        "hero": index_entry.get("name", hero),
-        "hero_slug": slugify(index_entry.get("name", hero)),
-        "hero_code": index_entry.get("code"),
+        "hero": index_entry["name"],
+        "hero_slug": slugify(index_entry["name"]),
+        "hero_code": code,
         "element": index_entry.get("element"),
         "class": index_entry.get("class"),
     }
@@ -203,17 +238,73 @@ def build_hero_record(hero: str, index_entry: dict, season_rows: list[dict]) -> 
         for r in season_rows
     ]
     out["season_stats"] = rows
-
     primary = rows[0]
-    wins, losses = primary.get("total_wins"), primary.get("total_losses")
-    if isinstance(wins, int) and isinstance(losses, int) and wins + losses > 0:
-        out["derived"] = {
-            "win_rate": round(wins / (wins + losses), 4),
-            "win_rate_formula": "total_wins / (total_wins + total_losses), "
-                                f"season {primary.get('season_code')}",
-        }
+    season = primary.get("season_code")
     out["sample_size"] = primary.get("total_games")
-    out["source_url"] = HEROES_PAGE
+
+    # Per-hero detail page: sets, artifacts, builds for the current season.
+    detail_url = f"{HEROES_PAGE}/{code}"
+    status, html = fetcher.fetch(detail_url, accept="text/html")
+    if status == 200:
+        payload = flight_payload(html)
+
+        m = re.search(r'"totalSetStatsGames":(\d+)', payload)
+        set_denom = int(m.group(1)) if m else None
+        m = re.search(r'"totalArtifactStatsGames":(\d+)', payload)
+        art_denom = int(m.group(1)) if m else None
+
+        objs = [o for o in extract_flat_objects(payload, "hero_code")
+                if o.get("hero_code") == code and "date" not in o]
+        sets = [o for o in objs if "set_code" in o]
+        builds = [o for o in objs if "set_agg_code" in o]
+        arts = [o for o in objs
+                if "artifact_code" in o and "set_agg_code" not in o]
+
+        top_sets = _stat_rows(sets, season, (
+            "set_code", "set_name", "total_games", "total_wins",
+            "total_losses", "total_bans"), set_denom)
+        top_arts = _stat_rows(arts, season, (
+            "artifact_code", "artifact_name", "total_games", "total_wins",
+            "total_losses", "total_bans"), art_denom)
+        top_builds = _stat_rows(builds, season, (
+            "set_agg_code", "artifact_code", "artifact_name", "total_games",
+            "total_wins", "total_losses"), None)
+
+        if top_sets:
+            out["top_sets"] = top_sets
+        if top_arts:
+            out["top_artifacts"] = top_arts
+        if top_builds:
+            out["top_builds"] = top_builds
+        if set_denom:
+            out["total_set_stats_games"] = set_denom
+        if art_denom:
+            out["total_artifact_stats_games"] = art_denom
+
+        season_meta = [o for o in extract_flat_objects(payload, "last_updated")
+                       if o.get("code") == season]
+        if season_meta:
+            out["season"] = {k: season_meta[0][k] for k in (
+                "code", "name", "start_date", "last_updated")
+                if k in season_meta[0]}
+    else:
+        log(f"WARN {index_entry['name']}: detail page {detail_url} returned "
+            f"HTTP {status}; emitting season aggregates only")
+
+    wr = _win_rate(primary)
+    derived: dict = {}
+    if wr is not None:
+        derived["win_rate"] = wr
+    if derived:
+        derived["formulas"] = {
+            "win_rate": "total_wins / (total_wins + total_losses)",
+            "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+            "derived_usage_share": "row total_games / totalSetStatsGames "
+                                   "(sets) or totalArtifactStatsGames (artifacts)",
+        }
+        out["derived"] = derived
+
+    out["source_url"] = detail_url if status == 200 else HEROES_PAGE
     out["scraped_at"] = utc_now_iso()
     return out
 
@@ -229,6 +320,10 @@ def validate_record(rec: dict) -> list[str]:
         problems.append("season row lacks integer total_games")
     if "derived" not in rec:
         problems.append("win rate not derivable (missing/zero wins+losses)")
+    if "top_sets" not in rec or "top_artifacts" not in rec:
+        problems.append("set/artifact stats missing — detail page layout "
+                        "changed or hero has no build data this season; "
+                        "rerun --discover if this hits a meta-relevant hero")
     return problems
 
 
@@ -259,7 +354,7 @@ def scrape(fetcher: Fetcher, heroes: list[str]) -> int:
                 "but has no games in the displayed season)")
             failures += 1
             continue
-        rec = build_hero_record(hero, entry, rows)
+        rec = build_hero_record(fetcher, entry, rows)
         problems = validate_record(rec)
         if problems:
             log(f"FAIL {hero}: extracted record did not validate: {problems}")
