@@ -1,0 +1,239 @@
+{
+  "hero": "Perfumer Byblis",
+  "hero_slug": "perfumer-byblis",
+  "hero_code": "c5154",
+  "element": "fire",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 78186,
+      "total_wins": 25385,
+      "total_losses": 20994,
+      "total_bans": 4509,
+      "total_prebans": 34305
+    }
+  ],
+  "sample_size": 78186,
+  "top_sets": [
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 30024,
+      "total_wins": 16788,
+      "total_losses": 13236,
+      "derived_win_rate": 0.5592,
+      "derived_usage_share": 0.3225
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 24060,
+      "total_wins": 13149,
+      "total_losses": 10911,
+      "derived_win_rate": 0.5465,
+      "derived_usage_share": 0.2584
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 15454,
+      "total_wins": 8485,
+      "total_losses": 6969,
+      "derived_win_rate": 0.549,
+      "derived_usage_share": 0.166
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 12323,
+      "total_wins": 6943,
+      "total_losses": 5380,
+      "derived_win_rate": 0.5634,
+      "derived_usage_share": 0.1324
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 7542,
+      "total_wins": 4287,
+      "total_losses": 3255,
+      "derived_win_rate": 0.5684,
+      "derived_usage_share": 0.081
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 3095,
+      "total_wins": 1687,
+      "total_losses": 1408,
+      "derived_win_rate": 0.5451,
+      "derived_usage_share": 0.0332
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 465,
+      "total_wins": 270,
+      "total_losses": 195,
+      "derived_win_rate": 0.5806,
+      "derived_usage_share": 0.005
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 37963,
+      "total_wins": 20979,
+      "total_losses": 16984,
+      "derived_win_rate": 0.5526,
+      "derived_usage_share": 0.9067
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 1224,
+      "total_wins": 669,
+      "total_losses": 555,
+      "derived_win_rate": 0.5466,
+      "derived_usage_share": 0.0292
+    },
+    {
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 767,
+      "total_wins": 474,
+      "total_losses": 293,
+      "derived_win_rate": 0.618,
+      "derived_usage_share": 0.0183
+    },
+    {
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 289,
+      "total_wins": 160,
+      "total_losses": 129,
+      "derived_win_rate": 0.5536,
+      "derived_usage_share": 0.0069
+    },
+    {
+      "artifact_code": "efh02",
+      "artifact_name": "Shimadra Staff",
+      "total_games": 257,
+      "total_wins": 149,
+      "total_losses": 108,
+      "derived_win_rate": 0.5798,
+      "derived_usage_share": 0.0061
+    },
+    {
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 222,
+      "total_wins": 149,
+      "total_losses": 73,
+      "derived_win_rate": 0.6712,
+      "derived_usage_share": 0.0053
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 15460,
+      "total_wins": 8487,
+      "total_losses": 6973,
+      "derived_win_rate": 0.549
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 14609,
+      "total_wins": 8030,
+      "total_losses": 6579,
+      "derived_win_rate": 0.5497
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 6463,
+      "total_wins": 3699,
+      "total_losses": 2764,
+      "derived_win_rate": 0.5723
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 6144,
+      "total_wins": 3519,
+      "total_losses": 2625,
+      "derived_win_rate": 0.5728
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 3538,
+      "total_wins": 2001,
+      "total_losses": 1537,
+      "derived_win_rate": 0.5656
+    },
+    {
+      "set_agg_code": "set_res+set_max_hp+set_immune",
+      "total_games": 3535,
+      "total_wins": 2058,
+      "total_losses": 1477,
+      "derived_win_rate": 0.5822
+    },
+    {
+      "set_agg_code": "set_res+set_max_hp+set_immune",
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 3199,
+      "total_wins": 1855,
+      "total_losses": 1344,
+      "derived_win_rate": 0.5799
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 2837,
+      "total_wins": 1610,
+      "total_losses": 1227,
+      "derived_win_rate": 0.5675
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 2623,
+      "total_wins": 1366,
+      "total_losses": 1257,
+      "derived_win_rate": 0.5208
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 2431,
+      "total_wins": 1253,
+      "total_losses": 1178,
+      "derived_win_rate": 0.5154
+    }
+  ],
+  "total_set_stats_games": 93102,
+  "total_artifact_stats_games": 41870,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-01T02:48:29.431Z"
+  },
+  "derived": {
+    "win_rate": 0.5473,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c5154",
+  "scraped_at": "2026-08-01T06:52:31Z"
+}
