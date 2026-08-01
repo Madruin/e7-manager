@@ -1,0 +1,15 @@
+# Raw datamine dumps (normalized output in datamine/*.json is committed)
+datamine/raw/
+
+# Scraper response caches
+scripts/.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

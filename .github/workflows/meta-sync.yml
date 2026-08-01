@@ -1,0 +1,52 @@
+name: meta-sync
+
+# Weekly RTA meta scrape. Also dispatchable on demand — cloud Claude sessions
+# cannot reach the game-data sites (see CLAUDE.md, OPERATIONAL NOTES), so they
+# test/iterate on scrapers by dispatching this workflow and reading its logs.
+# A scrape failure fails the workflow (no silent skips); "no data changed" is
+# a success with an explicit log line.
+
+on:
+  schedule:
+    - cron: "17 9 * * 1" # Mondays 09:17 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "scrape writes meta/rta/ and commits; discover probes the site for API endpoints and only logs"
+        type: choice
+        options: [scrape, discover]
+        default: scrape
+
+permissions:
+  contents: write
+
+jobs:
+  meta-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scraper (${{ inputs.mode || 'scrape' }})
+        run: |
+          if [ "${{ inputs.mode || 'scrape' }}" = "discover" ]; then
+            python scripts/scrape_rta_stats.py --discover --refresh
+          else
+            python scripts/scrape_rta_stats.py --refresh
+          fi
+
+      - name: Commit if data changed
+        if: ${{ (inputs.mode || 'scrape') == 'scrape' }}
+        run: |
+          git add meta/rta
+          if git diff --cached --quiet; then
+            echo "No data changes; nothing to commit."
+          else
+            git config user.name "meta-sync[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "[scrape] weekly RTA meta sync"
+            git push
+          fi
