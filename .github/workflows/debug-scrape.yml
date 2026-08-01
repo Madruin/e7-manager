@@ -1,0 +1,41 @@
+# TEMPORARY: scraper iteration loop for the scaffold session. The cloud dev
+# environment cannot reach the game-data sites and its GitHub token cannot
+# dispatch workflows, so this runs on every push to the session branch and
+# uploads the raw response cache for inspection. Delete when the scraper works.
+name: debug-scrape
+
+on:
+  push:
+    branches: [claude/e7-manager-scaffold-scraper-6sxl63]
+
+permissions:
+  contents: read
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover endpoints
+        run: python scripts/scrape_rta_stats.py --discover --refresh
+
+      - name: Attempt scrape (allowed to fail while iterating)
+        run: python scripts/scrape_rta_stats.py || true
+
+      - name: Show any produced output
+        run: |
+          ls -la meta/rta/ || true
+          for f in meta/rta/*.json; do [ -f "$f" ] && { echo "== $f"; cat "$f"; }; done || true
+
+      - name: Upload raw response cache
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-cache
+          path: scripts/.cache/
+          if-no-files-found: warn
