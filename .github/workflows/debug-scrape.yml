@@ -1,7 +1,7 @@
 # TEMPORARY: scraper iteration loop for the scaffold session. The cloud dev
 # environment cannot reach the game-data sites and its GitHub token cannot
-# dispatch workflows, so this runs on every push to the session branch and
-# uploads the raw response cache for inspection. Delete when the scraper works.
+# dispatch workflows, so this runs on every push to the session branch.
+# Delete when the scaffold session wraps up.
 name: debug-scrape
 
 on:
@@ -9,7 +9,7 @@ on:
     branches: [claude/e7-manager-scaffold-scraper-6sxl63]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   debug:
@@ -21,16 +21,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Discover endpoints
-        run: python scripts/scrape_rta_stats.py --discover --refresh
+      - name: Scrape sample heroes
+        run: python scripts/scrape_rta_stats.py --refresh
 
-      - name: Attempt scrape (allowed to fail while iterating)
-        run: python scripts/scrape_rta_stats.py || true
-
-      - name: Show any produced output
+      - name: Commit sample output
         run: |
-          ls -la meta/rta/ || true
-          for f in meta/rta/*.json; do [ -f "$f" ] && { echo "== $f"; cat "$f"; }; done || true
+          git add meta/rta
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git config user.name "meta-sync[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "[scrape] sample RTA stats for Aube, Notos, Perfumer Byblis, Harsetti, Frieren"
+            git push
+          fi
+
+      - name: Recon epic7db.com for rank-target stretch scraper
+        run: |
+          E7_SCRAPER_BASE=https://epic7db.com \
+            python scripts/scrape_rta_stats.py --discover --refresh \
+              --page / --page /heroes || true
 
       - name: Upload raw response cache
         if: always()

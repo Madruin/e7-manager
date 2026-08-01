@@ -48,6 +48,7 @@ import gzip
 import hashlib
 import io
 import json
+import os
 import re
 import sys
 import time
@@ -57,7 +58,9 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-BASE_URL = "https://www.epic7rtastats.com"
+# E7_SCRAPER_BASE override exists for --discover recon against other sites
+# (e.g. epic7db.com); scrape mode is epic7rtastats-specific.
+BASE_URL = os.environ.get("E7_SCRAPER_BASE", "https://www.epic7rtastats.com")
 HEROES_PAGE = BASE_URL + "/heroes"
 USER_AGENT = (
     "e7-manager-scraper/0.1 (+https://github.com/madruin/e7-manager; "
@@ -284,9 +287,12 @@ def build_hero_record(fetcher: Fetcher, index_entry: dict,
         season_meta = [o for o in extract_flat_objects(payload, "last_updated")
                        if o.get("code") == season]
         if season_meta:
-            out["season"] = {k: season_meta[0][k] for k in (
-                "code", "name", "start_date", "last_updated")
-                if k in season_meta[0]}
+            # Strip the RSC flight "$D" date sentinel from timestamp strings.
+            out["season"] = {
+                k: (v[2:] if isinstance(v, str) and v.startswith("$D") else v)
+                for k, v in season_meta[0].items()
+                if k in ("code", "name", "start_date", "last_updated")
+            }
     else:
         log(f"WARN {index_entry['name']}: detail page {detail_url} returned "
             f"HTTP {status}; emitting season aggregates only")
@@ -388,6 +394,8 @@ DISCOVERY_PAGES = [
 _KEYWORDS = [
     "hero_code", "seasons", "last_updated", "usage", "artifact_code",
     "set_name", "winRate", "win_rate", "Aube",
+    # rank-target recon (epic7db)
+    "Legend", "Champion", "speed", "targets",
 ]
 
 
@@ -423,6 +431,10 @@ def discover(fetcher: Fetcher, pages: list[str] | None = None) -> None:
     log(f"== discovery against {BASE_URL} ==")
     status, html = fetcher.fetch(BASE_URL + "/", accept="text/html")
     log(f"homepage: HTTP {status}, {len(html)} bytes")
+
+    links = sorted({h for h in re.findall(r'href="([^"#?]+)', html)
+                    if h.startswith("/")})
+    log(f"internal links ({len(links)}): {links[:80]}")
 
     # Server-action ids in bundles would explain client-side data loads.
     scripts = re.findall(r"""<script[^>]+src=["']([^"']+)["']""", html)
