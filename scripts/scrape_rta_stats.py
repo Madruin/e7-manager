@@ -183,23 +183,36 @@ def dump_keyword_contexts(text: str, keywords: list[str], radius: int = 180) -> 
             log(f"  [{kw}] ...{text[s:m.end() + radius]!r}...")
 
 
-def analyze_page(fetcher: Fetcher, path: str) -> None:
-    """Fetch one page as HTML and as an RSC flight request; dump data hints."""
+def analyze_page(fetcher: Fetcher, path: str) -> str:
+    """Fetch one page, dump structure hints from its RSC flight payload.
+
+    Returns the decoded flight payload so callers can mine it for sub-links.
+    """
     url = urllib.parse.urljoin(BASE_URL + "/", path)
     log(f"\n== page analysis: {url} ==")
     status, html = fetcher.fetch(url, accept="text/html")
     log(f"HTML: HTTP {status}, {len(html)} bytes, "
         f"{len(_FLIGHT_RE.findall(html))} flight chunks")
-    if status == 200:
-        payload = flight_payload(html)
-        log(f"flight payload: {len(payload)} chars")
-        dump_keyword_contexts(payload, [
-            "winRate", "win_rate", "pickRate", "pick_rate", "banRate",
-            "ban_rate", "sample", "battles", "artifact", "Speed", '"sets"',
-        ])
-    # App Router serves the raw flight stream when asked with the RSC header.
-    s2, rsc = fetcher.fetch(url, accept="*/*", headers={"RSC": "1"})
-    log(f"RSC fetch: HTTP {s2}, {len(rsc)} bytes; first 600 chars: {rsc[:600]!r}")
+    if status != 200:
+        return ""
+    payload = flight_payload(html)
+    log(f"flight payload: {len(payload)} chars")
+
+    keys = re.findall(r'"([A-Za-z_][A-Za-z0-9_]{0,40})":', payload)
+    freq: dict[str, int] = {}
+    for k in keys:
+        freq[k] = freq.get(k, 0) + 1
+    top = sorted(freq.items(), key=lambda kv: -kv[1])[:80]
+    log(f"top JSON keys: {top}")
+
+    sublinks = sorted(set(re.findall(r'/heroes/[A-Za-z0-9_.%()-]+', payload)))
+    log(f"hero sub-links in payload ({len(sublinks)}): {sublinks[:40]}")
+
+    dump_keyword_contexts(payload, DEFAULT_HEROES + [
+        "winRate", "win_rate", "pickRate", "pick_rate", "banRate", "ban_rate",
+        "sample", "battles",
+    ])
+    return payload
 
 
 def discover(fetcher: Fetcher, pages: list[str] | None = None) -> None:
@@ -237,15 +250,25 @@ def discover(fetcher: Fetcher, pages: list[str] | None = None) -> None:
     for c in sorted(candidates):
         log(f"  {c}")
 
-    # Analyze explicitly requested pages, or auto-pick hero-looking links.
-    if pages is None:
-        heroish = [h for h in links if "hero" in h.lower()]
-        slugs = [slugify(h) for h in DEFAULT_HEROES]
-        heroish += [h for h in links if any(s in h for s in slugs)]
-        pages = list(dict.fromkeys(heroish))[:3]
-        log(f"\nauto-selected pages for analysis: {pages}")
-    for path in pages:
-        analyze_page(fetcher, path)
+    # Analyze explicitly requested pages, or walk /heroes -> one hero detail.
+    if pages is not None:
+        for path in pages:
+            analyze_page(fetcher, path)
+    else:
+        payload = analyze_page(fetcher, "/heroes")
+        sublinks = sorted(set(re.findall(r'/heroes/[A-Za-z0-9_.%()-]+', payload)))
+        wanted = [slugify(h) for h in DEFAULT_HEROES]
+        detail = next(
+            (l for l in sublinks if any(w in l.lower() for w in wanted)),
+            sublinks[0] if sublinks else None,
+        )
+        if detail:
+            analyze_page(fetcher, detail)
+        else:
+            log("no hero detail links found in /heroes payload; dumping excerpt:")
+            log(repr(payload[:2500]))
+            log("...")
+            log(repr(payload[len(payload) // 2:len(payload) // 2 + 2500]))
 
     log("\nDiscovery done. Update HERO_ENDPOINT_TEMPLATES / the parser from the above.")
 
