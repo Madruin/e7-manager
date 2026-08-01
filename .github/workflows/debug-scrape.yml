@@ -39,3 +39,4 @@ jobs:
           name: scrape-cache
           path: scripts/.cache/
           if-no-files-found: warn
+          include-hidden-files: true

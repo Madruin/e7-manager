@@ -93,13 +93,23 @@ class Fetcher:
         h = hashlib.sha256(url.encode()).hexdigest()[:24]
         return CACHE_DIR / f"{h}.json"
 
-    def fetch(self, url: str, accept: str = "*/*") -> tuple[int, str]:
+    @staticmethod
+    def _decode(raw: bytes) -> str:
+        if raw[:2] == b"\x1f\x8b":  # gzip magic; error bodies arrive gzipped too
+            try:
+                raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
+            except OSError:
+                pass
+        return raw.decode("utf-8", errors="replace")
+
+    def fetch(self, url: str, accept: str = "*/*",
+              headers: dict | None = None) -> tuple[int, str]:
         """Return (status_code, body_text). Serves from cache unless --refresh.
 
         Non-2xx responses are returned (not raised) so callers can probe
-        candidate endpoints; network-level failures raise.
+        candidate endpoints; network-level failures return (0, error_string).
         """
-        cache = self._cache_path(url)
+        cache = self._cache_path(url + json.dumps(headers or {}, sort_keys=True))
         if not self.refresh and cache.exists():
             entry = json.loads(cache.read_text())
             return entry["status"], entry["body"]
@@ -114,16 +124,16 @@ class Fetcher:
                 "User-Agent": USER_AGENT,
                 "Accept": accept,
                 "Accept-Encoding": "gzip",
+                **(headers or {}),
             },
         )
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
-                raw = resp.read()
-                if resp.headers.get("Content-Encoding") == "gzip":
-                    raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
-                status, body = resp.status, raw.decode("utf-8", errors="replace")
+                status, body = resp.status, self._decode(resp.read())
         except urllib.error.HTTPError as e:
-            status, body = e.code, e.read().decode("utf-8", errors="replace")
+            status, body = e.code, self._decode(e.read())
+        except (urllib.error.URLError, OSError, ValueError) as e:
+            status, body = 0, f"FETCH ERROR: {e}"
         finally:
             self._last_request = time.monotonic()
 
@@ -149,7 +159,50 @@ _ENDPOINT_RE = re.compile(
 )
 
 
-def discover(fetcher: Fetcher) -> None:
+_FLIGHT_RE = re.compile(r'self\.__next_f\.push\(\[1,\s*"((?:[^"\\]|\\.)*)"\]\)')
+
+
+def flight_payload(html: str) -> str:
+    """Concatenate and unescape the Next.js RSC flight chunks embedded in a page."""
+    chunks = _FLIGHT_RE.findall(html)
+    out = []
+    for c in chunks:
+        try:
+            out.append(json.loads(f'"{c}"'))  # JS string escapes ≈ JSON escapes
+        except json.JSONDecodeError:
+            out.append(c)
+    return "".join(out)
+
+
+def dump_keyword_contexts(text: str, keywords: list[str], radius: int = 180) -> None:
+    for kw in keywords:
+        for i, m in enumerate(re.finditer(re.escape(kw), text)):
+            if i >= 2:
+                break
+            s = max(0, m.start() - radius)
+            log(f"  [{kw}] ...{text[s:m.end() + radius]!r}...")
+
+
+def analyze_page(fetcher: Fetcher, path: str) -> None:
+    """Fetch one page as HTML and as an RSC flight request; dump data hints."""
+    url = urllib.parse.urljoin(BASE_URL + "/", path)
+    log(f"\n== page analysis: {url} ==")
+    status, html = fetcher.fetch(url, accept="text/html")
+    log(f"HTML: HTTP {status}, {len(html)} bytes, "
+        f"{len(_FLIGHT_RE.findall(html))} flight chunks")
+    if status == 200:
+        payload = flight_payload(html)
+        log(f"flight payload: {len(payload)} chars")
+        dump_keyword_contexts(payload, [
+            "winRate", "win_rate", "pickRate", "pick_rate", "banRate",
+            "ban_rate", "sample", "battles", "artifact", "Speed", '"sets"',
+        ])
+    # App Router serves the raw flight stream when asked with the RSC header.
+    s2, rsc = fetcher.fetch(url, accept="*/*", headers={"RSC": "1"})
+    log(f"RSC fetch: HTTP {s2}, {len(rsc)} bytes; first 600 chars: {rsc[:600]!r}")
+
+
+def discover(fetcher: Fetcher, pages: list[str] | None = None) -> None:
     log(f"== discovery against {BASE_URL} ==")
     status, html = fetcher.fetch(BASE_URL + "/", accept="text/html")
     log(f"homepage: HTTP {status}, {len(html)} bytes")
@@ -159,34 +212,40 @@ def discover(fetcher: Fetcher) -> None:
 
     candidates: set[str] = set(m.group(1) for m in _ENDPOINT_RE.finditer(html))
 
-    # Embedded app-state blobs (Next/Nuxt) carry both data and route hints.
-    for marker in ("__NEXT_DATA__", "__NUXT__", "window.__INITIAL_STATE__"):
+    for marker in ("__NEXT_DATA__", "__NUXT__", "self.__next_f"):
         if marker in html:
             log(f"NOTE: homepage embeds {marker} app-state blob")
 
+    links = sorted(
+        {h for h in re.findall(r'href="([^"#?]+)', html) if h.startswith("/")}
+    )
+    log(f"\n== internal links ({len(links)}) ==")
+    for h in links[:120]:
+        log(f"  {h}")
+
     scripts = re.findall(r"""<script[^>]+src=["']([^"']+)["']""", html)
-    log(f"script tags: {scripts}")
     for src in scripts[:12]:
         url = urllib.parse.urljoin(BASE_URL + "/", src)
         s, body = fetcher.fetch(url)
         found = set(m.group(1) for m in _ENDPOINT_RE.finditer(body))
-        log(f"bundle {url}: HTTP {s}, {len(body)} bytes, {len(found)} endpoint hits")
+        if found:
+            log(f"bundle {url}: {len(found)} endpoint hits")
         candidates |= found
 
-    log("\n== candidate endpoints ==")
+    candidates = {c.rstrip("\\") for c in candidates if "\\" not in c.rstrip("\\")}
+    log("\n== candidate endpoints from bundles ==")
     for c in sorted(candidates):
         log(f"  {c}")
 
-    log("\n== probing parameterless candidates ==")
-    probes = [t.format(base=BASE_URL) for t in DISCOVERY_PROBE_CANDIDATES]
-    probes += [
-        urllib.parse.urljoin(BASE_URL + "/", c)
-        for c in sorted(candidates)
-        if "{" not in c and "$" not in c and not c.endswith((".js", ".css"))
-    ][:15]
-    for url in dict.fromkeys(probes):
-        s, body = fetcher.fetch(url, accept="application/json")
-        log(f"  {url} -> HTTP {s}; first 400 chars: {body[:400]!r}")
+    # Analyze explicitly requested pages, or auto-pick hero-looking links.
+    if pages is None:
+        heroish = [h for h in links if "hero" in h.lower()]
+        slugs = [slugify(h) for h in DEFAULT_HEROES]
+        heroish += [h for h in links if any(s in h for s in slugs)]
+        pages = list(dict.fromkeys(heroish))[:3]
+        log(f"\nauto-selected pages for analysis: {pages}")
+    for path in pages:
+        analyze_page(fetcher, path)
 
     log("\nDiscovery done. Update HERO_ENDPOINT_TEMPLATES / the parser from the above.")
 
@@ -358,13 +417,16 @@ def main() -> None:
                     help=f"hero names (default: {', '.join(DEFAULT_HEROES)})")
     ap.add_argument("--discover", action="store_true",
                     help="probe the live site for API endpoints instead of scraping")
+    ap.add_argument("--page", action="append", dest="pages", metavar="PATH",
+                    help="with --discover: analyze this page path (repeatable) "
+                         "instead of auto-picking hero-looking links")
     ap.add_argument("--refresh", action="store_true",
                     help="bypass the response cache (still writes to it)")
     args = ap.parse_args()
 
     fetcher = Fetcher(refresh=args.refresh)
     if args.discover:
-        discover(fetcher)
+        discover(fetcher, pages=args.pages)
         return
 
     failures = scrape(fetcher, args.heroes or DEFAULT_HEROES)
