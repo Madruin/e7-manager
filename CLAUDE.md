@@ -69,9 +69,24 @@ memory** — model knowledge here is stale or absent:
 
 ## ROSTER GOALS
 
-<!-- TODO(owner): fill in priority heroes and content targets
-     (RTA rank goal, hunt auto-teams, Abyss/Tower push, guild war core, etc.).
-     Analysis sessions (5+) read this section to decide who gets gear. -->
+Owner's framing (2026-08-11): specific hero priorities are **deliberately
+premature** until the collection is imported. The primary goal is:
+
+> Develop a comprehensive list of my heroes, gear, and resources, and have
+> up-to-date resources connected to that data which allow me to optimize my
+> characters and actions in Epic Seven across all game modes — particularly
+> hunt, guild wars, arena, and RTA, as well as difficult seasonal events.
+
+Implications for analysis sessions until specific heroes are listed here:
+
+- Optimize for **mode coverage** (hunt, GW, arena, RTA, seasonal), not for
+  a named-hero shortlist.
+- After session 3 (collection import), propose a concrete priority list
+  from the actual roster + meta data, and ask the owner to confirm it —
+  then record the confirmed list in this section.
+
+<!-- TODO(owner, after session 3): confirm priority heroes + content
+     targets (RTA rank goal, hunt auto-teams, GW core, etc.). -->
 
 ## CONVENTIONS
 
