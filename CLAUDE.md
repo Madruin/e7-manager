@@ -29,6 +29,102 @@ conflict, lower tier number wins.
 
 **Dead, do not use:** EpicSevenDB (closed Jan 2023), gamepress.
 
+## DATAMINE
+
+Verified working locally 2026-08-11 (session 2). The EpicSevenAssetRipper
+route is **not** broken on the current pack format — no fallback to
+CeciliaBot's published data was needed, so `datamine/*.json` is genuinely T0.
+
+### Running it
+
+Local desktop only — it reads the installed game client.
+
+```
+pip install pathvalidate                 # only third-party dependency
+python scripts/rip_datamine.py           # data.pack -> datamine/raw/tables/*.json
+python scripts/normalize_datamine.py     # -> datamine/{heroes,skills,items}.json
+```
+
+- `data.pack` lives at `C:\ProgramData\Smilegate\Games\EpicSeven\data.pack`
+  (STOVE install; override with `--pack` or `$E7_PACK`). 7.3 GB, 89 552
+  records. A full scan takes ~7 s; the whole pipeline runs in ~2 min.
+- `scripts/rip_datamine.py` clones the ripper to `tools/EpicSevenAssetRipper`
+  on first use (gitignored; override with `$E7_RIPPER`). Only `pathvalidate`
+  is needed — the ripper's `app/` package is driven headlessly, its PyQt6 GUI
+  is never imported.
+- Useful flags: `--list REGEX` searches the pack file tree, `--extract-raw
+  REGEX` dumps records verbatim, `--all-db` parses all ~950 `db/` tables
+  instead of the curated list in `TABLES`.
+- `datamine/raw/manifest.json` records provenance for every run: pack path,
+  size, mtime, per-partition data versions, ripper commit, and the row/column
+  count of each table (plus anything that failed). The normalized files copy
+  that into their `source` block.
+
+### Pack format (reverse-engineered locally, session 2)
+
+Two encryption layers, documented in `scripts/e7pack.py`:
+
+1. `data.pack` is a `PLPcK` container XOR-encrypted with a 128-byte key at
+   absolute file offset. The ripper handles this layer and the record scan.
+2. Each extracted `.db` payload is a **second** `PLPcK` container, XOR'd with
+   a **different 256-byte key at a per-file rotation**. The ripper does *not*
+   decode this. The key was recovered from the live pack (not from any
+   published source): `db/level_enter_drops.db` decrypts to ~61 % NUL bytes,
+   so the per-residue modal ciphertext byte over its key-length blocks is the
+   key. Every other table then decrypts at some rotation 0–255, recovered from
+   the known 5-byte `PLPcK` magic and **confirmed against the container's
+   trailing footer** before any data is returned — a key or format change
+   fails loudly instead of yielding garbage.
+
+Inside a decrypted container: header, an offset hash table, then back-to-back
+nodes (`u32 total | u8 tag=2 | u8 key_len | u32 val_len | u8 pad | u32 ptr |
+key | value`), then a footer. Tables are rebuilt from four key shapes —
+`\x09cols`, `\x09rows`, `\x09<i>` (column name), `\x09\x09<i>` (row id) — with
+the row's own node holding its column values NUL-joined.
+
+English strings live in `text/en/text.db` (140 958 rows); every `*_nm`,
+`*_name`, `*_de`, `chrn_*`, `sk_*_sknm` key in the tables resolves there.
+
+### Tables worth knowing
+
+| Table | Holds |
+|---|---|
+| `db/character_player*.db` | roster (3 files: base, grade2, grade3) |
+| `db/skill_player*.db`, `db/sklv.db` | skills and per-skill-level scaling |
+| `db/equip_item.db` | gear, artifacts, exclusive equipment |
+| `db/equip_stat.db` | main/substat value ranges (`val_min`/`val_max`) |
+| `db/item_set.db`, `db/item_set_rate.db` | gear sets; per-content drop pools |
+| `db/level_enter_drops.db` | every stage's drops (10 716 rows) |
+| `db/level_battlemenu_hunt.db`, `..._chaosgate.db` | hunt / Chaos Gate config |
+| `db/recommend_equip.db` | per-hero recommended sets, artifacts, stat weights |
+| `db/item_material.db` | catalysts, runes, charms, gems, reforge mats |
+| `db/cs_player.db` | condition states (buffs/debuffs), *not* character stats |
+
+### Coverage (measured 2026-08-11)
+
+**907 of 926** `db/` tables (story scripts excluded) parse with the code
+above; all 20 curated tables in `rip_datamine.py`'s `TABLES` are in that set.
+The 19 that don't fall into two groups, neither of which blocks anything so
+far:
+
+- **12 tiny stubs** (57–535 B) with no valid key rotation — `cs.db`,
+  `skill.db`, `character.db`, `skillset.db`, `level_enter.db`,
+  `level_stage_2_data.db`, `support_unit.db`, `support_unit_stat.db`,
+  `background.db`, `background_flip.db`, `tile_sub_event.db`,
+  `tile_sub_action.db`. Each has a much larger sibling that does parse
+  (`cs_player.db`, `skill_player.db`, `level_stage_1_info.db`, …), so these
+  look like stubs or shard indexes rather than data.
+- **7 tables whose row-id nodes carry binary keys** (`\x1bk\x00\x00…`)
+  instead of string ids, so the row lookup misses — `pvp_npcbattle.db`,
+  `pvp_npcbattle_team.db` (224 KB), `tile_sub_object_data.db`,
+  `tile_sub_mission.db`, `level_chapter_starmig.db`, `character_recall.db`,
+  `equip_item_undress.db`. A second row-key encoding is the likely cause;
+  worth revisiting only if one of these tables is actually needed.
+
+Also not decoded: `pass/public.pass` (Lua bundle — `formula.lua`,
+`battle_logic_stat.lua`; a different encryption scheme than the `.db` layer).
+That is what blocks hero base stats, see KNOWN UNKNOWNS.
+
 ## COLLECTION FORMATS
 
 Placeholder. The Fribbels E7 Optimizer `autosave.json` schema gets documented
@@ -46,7 +142,9 @@ Substat weighting (WSS — weighted substat score):
 - % stats (Atk%/Def%/HP%/Eff/ER) ×1
 - Flat stats normalized against their % equivalents (convert a flat roll to
   the % of the relevant base stat it represents, using datamined base stats,
-  then weight as a % stat)
+  then weight as a % stat) — **blocked**: per-hero base stats are not yet
+  available, see KNOWN UNKNOWNS. `datamine/items.json` → `stat_scales` does
+  give the per-roll `val_min`/`val_max` ranges for every main/substat.
 
 Mechanics that analysis code must model:
 
@@ -61,11 +159,50 @@ Mechanics that analysis code must model:
 Resolve these **from data (datamine, official site, scrapes), never from model
 memory** — model knowledge here is stale or absent:
 
-- Current hunt drop tables post-renewal.
-- The **Weakened** and **Fevor** gear sets (added ~June 2026) — effects,
-  piece counts, where they drop.
-- Current Warfare Rules.
 - Anything numeric about the live meta (usage, win rates, stat targets).
+- **Hero base stats.** `character_player.db` stores only the personality seeds
+  (`bra`/`int`/`fai`/`des`) plus class, rarity and the `*_rate` multipliers;
+  the client derives lv1/lv60 Atk/HP/Def/Spd from those at runtime via
+  `formula.lua` inside `pack:pass/public.pass`, which is encrypted with a
+  *different* scheme than the `.db` layer and is **not** decoded. GEAR MATH's
+  flat-stat normalization needs these, so getting them is the next datamine
+  job — either by cracking `public.pass` or by taking base stats from a T1/T2
+  source and recording the tier downgrade.
+- The per-season **Warfare Rule list**. The mechanic is resolved (below), but
+  the individual rules in effect are server-driven and are not in the client
+  tables that were searched.
+
+### Resolved 2026-08-11 (session 2 datamine, T0 — see DATAMINE section)
+
+- **Hunt drop tables, post-renewal.** Five hunts remain, each with four
+  stages (`<key>009`, `011`, `013`, `101`) — `db/level_battlemenu_hunt.db`
+  plus `db/level_enter_drops.db`. Gear-set pool per hunt (uniform over the
+  rows `db/item_set_rate.db` lists, so equal probability):
+  - Wyvern (`hunw`): Hit / Critical / Speed — 1/3 each
+  - Golem (`hung`): Attack / Defense / Health / Protection — 1/4 each
+  - Banshee (`hunb`): Counter / Destruction / Resist / Lifesteal — 1/4 each
+  - Azimanak (`hunq`): Unity / Immunity / Rage — 1/3 each
+  - Caides (`hund`): Penetration / Revenge / Injury / Torrent — 1/4 each
+  Full per-stage drops (gear ids, materials, counts) are in
+  `datamine/items.json` → `hunts[].stages`.
+- **"Weakened" and "Fevor" sets.** Their real English names are
+  **Weakening Set** (`set_weak`) and **Fervor Set** (`set_might`).
+  - Weakening Set — **4-piece**: Speed +15%, and +15% chance to inflict
+    debuffs.
+  - Fervor Set — **2-piece**: at the start of an extra turn, increases the
+    damage of the next attack by 20%. Does not stack with other sets of the
+    same name.
+  - Source: **Chaos Gate**, season 3 (`chaosgate_ss3`, "Remnant of
+    Supremacy") — pool `set_chaosgate3` = {Weakening, Fervor}. Chaos Gate
+    seasons 1 and 2 drop Reversal/Riposte and Pursuit/Warfare respectively.
+    They do **not** drop from any hunt.
+- **What "Warfare Rules" are.** An RTA (World Arena) mechanic, not a gear
+  mechanic — distinct from the Warfare *Set* (`set_opener`). Client text
+  (`help_inforta_13_1_desc`, `pvp_rta_opening_rule_*`): a random set of
+  special rules is selected per match, revealed before the pre-ban phase,
+  inspectable during ban/pick and in combat, and applied only in ranked
+  matches at **Champion league or higher**. The season's full rule list is
+  shown in the World Arena lobby (server-driven).
 
 ## ROSTER GOALS
 

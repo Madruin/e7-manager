@@ -1,12 +1,16 @@
 # ROADMAP
 
 Sessions 2–6, each as a ready-to-paste kickoff prompt. Session 1 (scaffold +
-docs + first scraper) is done — see git history. Paste the fenced block for
-the session you're starting; the LOCAL/cloud tag tells you where to run it.
+docs + first scraper) and session 2 (datamine) are done — see git history and
+CLAUDE.md's DATAMINE section. Paste the fenced block for the session you're
+starting; the LOCAL/cloud tag tells you where to run it.
 
 ---
 
-## Session 2 — Datamine feasibility gate (LOCAL desktop CLI — not cloud)
+## Session 2 — Datamine feasibility gate — DONE 2026-08-11 (LOCAL desktop CLI)
+
+Ripper worked on the current pack format; no fallback needed, output is T0.
+Re-run with `python scripts/rip_datamine.py && python scripts/normalize_datamine.py`.
 
 ```text
 This is session 2 of e7-manager (read CLAUDE.md first): the datamine

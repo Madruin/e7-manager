@@ -1,6 +1,9 @@
 # Raw datamine dumps (normalized output in datamine/*.json is committed)
 datamine/raw/
 
+# Third-party tools cloned by scripts (EpicSevenAssetRipper)
+tools/
+
 # Scraper response caches
 scripts/.cache/
 
