@@ -45,6 +45,20 @@ substitution (source, tier downgrade T0→T3, date) in CLAUDE.md.
 This is session 3 of e7-manager (read CLAUDE.md first): getting my real gear
 and hero collection into the repo. Run on my desktop.
 
+0. First, close the base-stats gap left by session 2 (see KNOWN UNKNOWNS):
+   produce datamine/base_stats.json with per-hero base Atk/HP/Def/Spd (and
+   crit/eff/res if the source has them), keyed by our cXXXX hero ids.
+   Candidate sources, in order — discover the actual file layout from the
+   live source, never from memory:
+   a. The Fribbels optimizer's bundled/fetched hero data (it must carry base
+      stats to optimize; you're installing it in step 1 anyway).
+   b. CeciliaBot's published data (E7Tools / E7Assets repos or the
+      ceciliabot.github.io data files).
+   Record source_url + scraped_at + an explicit tier note (T3 substitute for
+   the T0 formula.lua we couldn't decrypt), cross-check 2-3 heroes against
+   the in-game stat screen (owner can confirm) and epic7db hero pages, then
+   update CLAUDE.md's GEAR MATH + KNOWN UNKNOWNS to unblocked-with-downgrade.
+
 1. Install Fribbels E7 Optimizer
    (https://github.com/fribbels/Fribbels-Epic-7-Optimizer) and Npcap — Npcap
    must be installed with the "support raw 802.11 traffic" option enabled.
