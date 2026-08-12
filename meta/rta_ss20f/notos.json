@@ -1,0 +1,248 @@
+{
+  "hero": "Notos",
+  "hero_slug": "notos",
+  "hero_code": "c2181",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 135376,
+      "total_wins": 17443,
+      "total_losses": 13467,
+      "total_bans": 8534,
+      "total_prebans": 129882
+    }
+  ],
+  "sample_size": 135376,
+  "top_sets": [
+    {
+      "set_code": "set_opener",
+      "set_name": "Warfare",
+      "total_games": 22369,
+      "total_wins": 12659,
+      "total_losses": 9710,
+      "derived_win_rate": 0.5659,
+      "derived_usage_share": 0.5045
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 17943,
+      "total_wins": 10246,
+      "total_losses": 7697,
+      "derived_win_rate": 0.571,
+      "derived_usage_share": 0.4046
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 3201,
+      "total_wins": 1714,
+      "total_losses": 1487,
+      "derived_win_rate": 0.5355,
+      "derived_usage_share": 0.0722
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 272,
+      "total_wins": 164,
+      "total_losses": 108,
+      "derived_win_rate": 0.6029,
+      "derived_usage_share": 0.0061
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 220,
+      "total_wins": 142,
+      "total_losses": 78,
+      "derived_win_rate": 0.6455,
+      "derived_usage_share": 0.005
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 19548,
+      "total_wins": 11087,
+      "total_losses": 8461,
+      "derived_win_rate": 0.5672,
+      "derived_usage_share": 0.8736
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 991,
+      "total_wins": 549,
+      "total_losses": 442,
+      "derived_win_rate": 0.554,
+      "derived_usage_share": 0.0443
+    },
+    {
+      "artifact_code": "efk20",
+      "artifact_name": "Broken Will of the Priest",
+      "total_games": 418,
+      "total_wins": 253,
+      "total_losses": 165,
+      "derived_win_rate": 0.6053,
+      "derived_usage_share": 0.0187
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 328,
+      "total_wins": 206,
+      "total_losses": 122,
+      "derived_win_rate": 0.628,
+      "derived_usage_share": 0.0147
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 224,
+      "total_wins": 116,
+      "total_losses": 108,
+      "derived_win_rate": 0.5179,
+      "derived_usage_share": 0.01
+    },
+    {
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 217,
+      "total_wins": 122,
+      "total_losses": 95,
+      "derived_win_rate": 0.5622,
+      "derived_usage_share": 0.0097
+    },
+    {
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 185,
+      "total_wins": 96,
+      "total_losses": 89,
+      "derived_win_rate": 0.5189,
+      "derived_usage_share": 0.0083
+    },
+    {
+      "artifact_code": "efk23",
+      "artifact_name": "A Precious Connection",
+      "total_games": 173,
+      "total_wins": 84,
+      "total_losses": 89,
+      "derived_win_rate": 0.4855,
+      "derived_usage_share": 0.0077
+    },
+    {
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 114,
+      "total_wins": 53,
+      "total_losses": 61,
+      "derived_win_rate": 0.4649,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "total_games": 17938,
+      "total_wins": 10246,
+      "total_losses": 7692,
+      "derived_win_rate": 0.5712
+    },
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 15940,
+      "total_wins": 9129,
+      "total_losses": 6811,
+      "derived_win_rate": 0.5727
+    },
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "total_games": 3199,
+      "total_wins": 1713,
+      "total_losses": 1486,
+      "derived_win_rate": 0.5355
+    },
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 2609,
+      "total_wins": 1392,
+      "total_losses": 1217,
+      "derived_win_rate": 0.5335
+    },
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 870,
+      "total_wins": 485,
+      "total_losses": 385,
+      "derived_win_rate": 0.5575
+    },
+    {
+      "set_agg_code": "set_opener",
+      "total_games": 402,
+      "total_wins": 215,
+      "total_losses": 187,
+      "derived_win_rate": 0.5348
+    },
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "artifact_code": "efk20",
+      "artifact_name": "Broken Will of the Priest",
+      "total_games": 379,
+      "total_wins": 230,
+      "total_losses": 149,
+      "derived_win_rate": 0.6069
+    },
+    {
+      "set_agg_code": "set_opener",
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 368,
+      "total_wins": 195,
+      "total_losses": 173,
+      "derived_win_rate": 0.5299
+    },
+    {
+      "set_agg_code": "set_opener+set_res",
+      "total_games": 272,
+      "total_wins": 164,
+      "total_losses": 108,
+      "derived_win_rate": 0.6029
+    },
+    {
+      "set_agg_code": "set_opener+set_chase",
+      "total_games": 220,
+      "total_wins": 142,
+      "total_losses": 78,
+      "derived_win_rate": 0.6455
+    }
+  ],
+  "total_set_stats_games": 44343,
+  "total_artifact_stats_games": 22376,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5643,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2181",
+  "scraped_at": "2026-08-10T10:38:36Z"
+}

@@ -26,14 +26,21 @@ jobs:
           git rm -q -r --ignore-unmatch meta/rta
           python scripts/scrape_rta_stats.py --all --refresh
 
-      - name: Pinned Pre-Season snapshot -> meta/rta_ss20f/
+      - name: Probe whether the site exposes past seasons
         run: |
-          python scripts/scrape_rta_stats.py --all --season pvp_rta_ss20f \
-            --out-dir meta/rta_ss20f
+          echo "== default /heroes season histogram is logged by --all above."
+          echo "== probing season-parameter variants for ss20f recovery:"
+          for q in "?season=pvp_rta_ss20f" "?seasonCode=pvp_rta_ss20f" "?s=17"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" \
+              "https://www.epic7rtastats.com/heroes$q" || echo ERR)
+            hit=$(curl -s "https://www.epic7rtastats.com/heroes$q" \
+              | grep -o "pvp_rta_ss20f" | head -1 || true)
+            echo "  /heroes$q -> HTTP $code, ss20f present in body: ${hit:-no}"
+          done
 
       - name: Commit
         run: |
-          git add -A meta/rta meta/rta_ss20f
+          git add -A meta/rta
           if git diff --cached --quiet; then
             echo "No data changes."
           else
