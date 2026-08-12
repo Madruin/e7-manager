@@ -4,9 +4,9 @@
   "tier_note": "T3 SUBSTITUTE for a T0 value. Base stats are not stored in any data.pack table; the client computes them from the personality seeds in datamine/heroes.json via formula.lua inside pass/public.pass, which is not decrypted. Replace this file with a T0 derivation if that formula is ever recovered.",
   "source_url": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cache/herodata.json",
   "upstream_repo": "https://github.com/fribbels/Fribbels-Epic-7-Optimizer",
-  "upstream_commit": "b291cbbc415f11abede146859edc7b67d26e9c4b",
-  "upstream_commit_date": "2026-07-17T08:19:33Z",
-  "upstream_commit_subject": "update: patch 20260716 (#257)",
+  "upstream_commit": null,
+  "upstream_commit_date": null,
+  "upstream_commit_subject": null,
   "roster": "datamine/heroes.json",
   "key_mapping": {
    "atk": "att",
@@ -20,10 +20,10 @@
    "efr": "res",
    "cp": "cp"
   },
-  "scraped_at": "2026-08-12T00:04:02Z",
+  "scraped_at": "2026-08-12T00:43:20Z",
   "coverage": {
-   "roster_heroes": 456,
-   "with_base_stats": 447,
+   "roster_heroes": 460,
+   "with_base_stats": 451,
    "unmatched": 9,
    "upstream_entries": 386
   }
@@ -3430,6 +3430,36 @@
     "res": 0
    }
   },
+  "c1099": {
+   "name": "Command Model Laika",
+   "source_code": "c1099",
+   "source_name": "Command Model Laika",
+   "match_rule": "id",
+   "lv50_5star_awakened": {
+    "cp": 16761,
+    "att": 904,
+    "max_hp": 4221,
+    "speed": 114,
+    "def": 460,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
+    "res": 0
+   },
+   "lv60_6star_awakened": {
+    "cp": 21177,
+    "att": 1182,
+    "max_hp": 5299,
+    "speed": 114,
+    "def": 571,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
+    "res": 0
+   }
+  },
   "c1100": {
    "name": "Alencia",
    "source_code": "c1100",
@@ -3847,6 +3877,36 @@
     "cri_dmg": 1.5,
     "coop": 0.03,
     "acc": 0,
+    "res": 0
+   }
+  },
+  "c1110": {
+   "name": "Flan",
+   "source_code": "c1110",
+   "source_name": "Flan",
+   "match_rule": "id",
+   "lv50_5star_awakened": {
+    "cp": 16999,
+    "att": 804,
+    "max_hp": 4542,
+    "speed": 115,
+    "def": 472,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
+    "res": 0
+   },
+   "lv60_6star_awakened": {
+    "cp": 21701,
+    "att": 1003,
+    "max_hp": 5704,
+    "speed": 115,
+    "def": 585,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.3,
     "res": 0
    }
   },
@@ -8647,6 +8707,66 @@
     "cri_dmg": 1.5,
     "coop": 0.03,
     "acc": 0,
+    "res": 0
+   }
+  },
+  "c2110": {
+   "name": "Pirate Captain Flan",
+   "source_code": "c2110",
+   "source_name": "Pirate Captain Flan",
+   "match_rule": "id",
+   "lv50_5star_awakened": {
+    "cp": 16761,
+    "att": 904,
+    "max_hp": 4221,
+    "speed": 114,
+    "def": 460,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
+    "res": 0
+   },
+   "lv60_6star_awakened": {
+    "cp": 21177,
+    "att": 1182,
+    "max_hp": 5299,
+    "speed": 114,
+    "def": 571,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
+    "res": 0
+   }
+  },
+  "c2110_s01": {
+   "name": "Pirate Captain Flan",
+   "source_code": "c2110",
+   "source_name": "Pirate Captain Flan",
+   "match_rule": "skin_suffix",
+   "lv50_5star_awakened": {
+    "cp": 16761,
+    "att": 904,
+    "max_hp": 4221,
+    "speed": 114,
+    "def": 460,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
+    "res": 0
+   },
+   "lv60_6star_awakened": {
+    "cp": 21177,
+    "att": 1182,
+    "max_hp": 5299,
+    "speed": 114,
+    "def": 571,
+    "cri": 0.15,
+    "cri_dmg": 1.5,
+    "coop": 0.03,
+    "acc": 0.18,
     "res": 0
    }
   },

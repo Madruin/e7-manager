@@ -107,9 +107,15 @@ def build_heroes(text: dict):
         # 'character' rows. complete == 'y' is the client's own released flag: it
         # drops 173 unreleased rows that the text table names "Unknown Hero",
         # plus boss units like c1352 that are named but never obtainable.
+        #
+        # `using` deliberately NOT filtered on: it is not a released flag.
+        # Validated 2026-08-12 against the owner's real 239-hero account export --
+        # requiring using == 'y' dropped four heroes they actually own (Flan,
+        # Pirate Captain Flan, Command Model Laika), while dropping the condition
+        # adds only those four and no placeholders.
         if r['type'] not in ('character', 'limited'):
             continue
-        if r['using'] != 'y' or r['race'] != 'hero' or r['complete'] != 'y':
+        if r['race'] != 'hero' or r['complete'] != 'y':
             continue
         base = r['variation_group'] or r['id']
         skills = [r[f'skill{i}'] for i in range(1, 10) if r[f'skill{i}']]
@@ -408,8 +414,9 @@ def main() -> int:
         'source': source_block([f'db/{t}.db' for t in CHAR_TABLES] + ['text/en/text.db']),
         'notes': [
             'Roster filter: character_player*.type in ("character", "limited"), '
-            'using == "y", race == "hero", complete == "y". The complete flag is what '
-            'excludes unreleased rows (the text table names them "Unknown Hero").',
+            'race == "hero", complete == "y". The complete flag is what excludes '
+            'unreleased rows (the text table names them "Unknown Hero"); the '
+            '`using` column is NOT a released flag and is deliberately ignored.',
             'base_id is the table\'s variation_group: skins (id suffix _s01/_s02) and story '
             'or tutorial duplicates share a base_id with the canonical unit, and carry '
             'is_variant. Variants reuse the base unit\'s skill ids.',

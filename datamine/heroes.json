@@ -25,14 +25,14 @@
    "text/en/text.db"
   ],
   "extracted_at": "2026-08-11T05:56:25Z",
-  "normalized_at": "2026-08-12T00:00:25Z"
+  "normalized_at": "2026-08-12T00:43:20Z"
  },
  "notes": [
-  "Roster filter: character_player*.type in (\"character\", \"limited\"), using == \"y\", race == \"hero\", complete == \"y\". The complete flag is what excludes unreleased rows (the text table names them \"Unknown Hero\").",
+  "Roster filter: character_player*.type in (\"character\", \"limited\"), race == \"hero\", complete == \"y\". The complete flag is what excludes unreleased rows (the text table names them \"Unknown Hero\"); the `using` column is NOT a released flag and is deliberately ignored.",
   "base_id is the table's variation_group: skins (id suffix _s01/_s02) and story or tutorial duplicates share a base_id with the canonical unit, and carry is_variant. Variants reuse the base unit's skill ids.",
   "stat_seed holds the datamined personality values the client feeds into its base-stat formula; that formula lives in pass/public.pass (separately encrypted) and is NOT decoded here, so no derived lv60 stats are emitted."
  ],
- "count": 456,
+ "count": 460,
  "heroes": [
   {
    "id": "c0001",
@@ -4111,6 +4111,38 @@
    "source_table": "character_player"
   },
   {
+   "id": "c1099",
+   "name": "Command Model Laika",
+   "name_key": "chrn_c1099",
+   "base_id": "c1099",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "wind",
+   "class": "ranger",
+   "zodiac": "twins",
+   "is_moonlight": false,
+   "is_ordinary": true,
+   "skills": [
+    "sk_c1099_1",
+    "sk_c1099_2",
+    "sk_c1099_3"
+   ],
+   "devotion_skill": "ds_acc_g5_s2",
+   "devotion_skill_self": "ds_acc_g5_self",
+   "devotion_skill_slots": [
+    "2",
+    "3"
+   ],
+   "stat_seed": {
+    "bravery": 99,
+    "intellect": 85,
+    "faith": 63,
+    "destiny": 87
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
    "id": "c1100",
    "name": "Alencia",
    "name_key": "chrn_c1100",
@@ -4613,6 +4645,38 @@
     "intellect": 91,
     "faith": 58,
     "destiny": 84
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c1110",
+   "name": "Flan",
+   "name_key": "chrn_c1110",
+   "base_id": "c1110",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "ice",
+   "class": "ranger",
+   "zodiac": "goat",
+   "is_moonlight": false,
+   "is_ordinary": true,
+   "skills": [
+    "sk_c1110_1",
+    "sk_c1110_2",
+    "sk_c1110_3"
+   ],
+   "devotion_skill": "ds_att_rate_g5_s2",
+   "devotion_skill_self": "ds_acc_g5_self",
+   "devotion_skill_slots": [
+    "2",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 94,
+    "intellect": 95,
+    "faith": 67,
+    "destiny": 79
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -10338,6 +10402,78 @@
     "intellect": 98,
     "faith": 89,
     "destiny": 63
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c2110",
+   "name": "Pirate Captain Flan",
+   "name_key": "chrn_c2110",
+   "base_id": "c1110",
+   "is_variant": true,
+   "rarity": 5,
+   "element": "dark",
+   "class": "ranger",
+   "zodiac": "twins",
+   "is_moonlight": true,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c2110_1",
+    "sk_c2110_2",
+    "sk_c2110_3",
+    "sk_c2110_4",
+    "sk_c2110_5",
+    "sk_c2110_6",
+    "sk_c2110_7"
+   ],
+   "devotion_skill": "ds_max_hp_rate_g5_s2",
+   "devotion_skill_self": "ds_att_rate_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2"
+   ],
+   "stat_seed": {
+    "bravery": 99,
+    "intellect": 85,
+    "faith": 63,
+    "destiny": 87
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c2110_s01",
+   "name": "Pirate Captain Flan",
+   "name_key": "chrn_c2110",
+   "base_id": "c1110",
+   "is_variant": true,
+   "rarity": 5,
+   "element": "dark",
+   "class": "ranger",
+   "zodiac": "twins",
+   "is_moonlight": true,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c2110_1",
+    "sk_c2110_2",
+    "sk_c2110_3",
+    "sk_c2110_4",
+    "sk_c2110_5",
+    "sk_c2110_6",
+    "sk_c2110_7"
+   ],
+   "devotion_skill": "ds_max_hp_rate_g5_s2",
+   "devotion_skill_self": "ds_att_rate_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2"
+   ],
+   "stat_seed": {
+    "bravery": 99,
+    "intellect": 85,
+    "faith": 63,
+    "destiny": 87
    },
    "sell_price": 4800,
    "source_table": "character_player"

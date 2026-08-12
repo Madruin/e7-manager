@@ -30,7 +30,7 @@
    "text/en/text.db"
   ],
   "extracted_at": "2026-08-11T05:56:25Z",
-  "normalized_at": "2026-08-12T00:00:25Z"
+  "normalized_at": "2026-08-12T00:43:20Z"
  },
  "notes": [
   "set_drop_pools give the sets a content source can roll; weights are the row counts item_set_rate lists per pool, so probability is uniform over rows.",

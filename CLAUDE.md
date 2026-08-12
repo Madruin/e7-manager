@@ -128,10 +128,78 @@ That is what blocks hero base stats, see KNOWN UNKNOWNS.
 
 ## COLLECTION FORMATS
 
-Placeholder. The Fribbels E7 Optimizer `autosave.json` schema gets documented
-here **from a real exported file in session 3** — do not invent or assume it
-from model memory. Until then, nothing in `collection/` has a defined schema
-except `collection/screenshots/` (raw images, `YYYY-MM-DD/` subfolders).
+Documented 2026-08-12 from the owner's real export (1068 gear, 239 heroes),
+not from the optimizer's docs. `collection/screenshots/` stays raw images in
+`YYYY-MM-DD/` subfolders.
+
+### Fribbels `autosave.json`
+
+Written to `Documents/FribbelsOptimizerSaves/autosave.json` (~2.9 MB). That
+Documents folder is OneDrive-redirected on this machine, so
+`scripts/sync_collection.py` probes both roots and honours `--source` /
+`$E7_FRIBBELS_SAVES`. It lands in the repo as
+`collection/autosave-YYYY-MM-DD.json` (dated by the source file's mtime) plus
+`collection/autosave-latest.json`, a copy rather than a symlink.
+
+Top level is exactly two keys: **`heroes`** and **`items`**, both lists. There
+is no account id, player name, or email anywhere in the file.
+
+**`items[]`** — one per gear piece:
+
+| Field | Notes |
+|---|---|
+| `gear` | `Weapon` `Helmet` `Armor` `Necklace` `Ring` `Boots` |
+| `rank` | rarity; `Rare` / `Epic` / `Heroic` observed |
+| `set` | PascalCase + `Set`, e.g. `SpeedSet`, `CriticalSet`, `HitSet` |
+| `enhance` | 0–15 |
+| `level` | gear level, 55–90 observed |
+| `main` | `{type, value}` |
+| `substats` | `[{type, value, rolls}]` — **`rolls` is present on every substat**, which is what reforge projection needs |
+| `op` | per-roll log, see below |
+| `augmentedStats` / `reforgedStats` | flat `{StatName: value, …, mainType, mainValue}`; `reforgedStats` is the lv85+ *projection* and differs from `augmentedStats` only where a reforge is still pending |
+| `id`, `ingameId` | in-game gear id (string) |
+| `equippedById`, `equippedByName` | present only on equipped pieces (415/1068); `equippedByName` is the hero's English name, `equippedById` an optimizer-local uuid |
+| `wss`, `reforgedWss`, `dpsWss`, `supportWss`, `combatWss` | **the optimizer's own scores, not our WSS** — GEAR MATH defines different weights, so recompute rather than reuse these |
+| `locked`, `disableMods`, `reforgeable`, `upgradeable`, `convertable`, `alreadyEquipped`, `priority`, `duplicateId`, `allowedMods` | flags/metadata |
+
+Stat naming differs *within the same record*: `main.type` and
+`substats[].type` use the optimizer's PascalCase (`AttackPercent`,
+`EffectResistancePercent`, …) with percents as whole numbers (`10` = 10%),
+while `op` uses **our T0 codes** (`att_rate`, `max_hp_rate`, `speed`, `acc`,
+`res`, `def_rate`, `cri`, `cri_dmg`) with percents as fractions (`"0.04"`).
+
+`op` decomposes as: **entry 0 = the base main-stat value** (its code matched
+`main.type` on all 1068 items), then **one entry per substat roll**, summing
+exactly to that substat's `value`. Already-reforged level-90 pieces carry up
+to four extra entries tagged `'u'` — the per-substat reforge bonus. So `op` is
+a complete roll history, not a summary.
+
+**`heroes[]`** — one per owned hero. Stats are **as currently geared**, not
+base stats:
+
+- `id` is an optimizer-local uuid. **There is no `cXXXX` game code**, so the
+  join to `datamine/heroes.json` has to go through the English `name`.
+- `name`, `index`, `rarity` (natural), `stars` (current), `attribute`, `role`.
+- Geared stats: `atk` `hp` `def` `cr` `cd` `eff` `res` `dac` `spd` `cp`.
+- Derived: `ehp` `hpps` `ehpps` `dmg` `dmgps` `mcdmg` `mcdmgps` `dmgh` `dmgd`
+  `s1` `s2` `s3` `score` `bs`.
+- `bonus*` / `aei*` / `final*Multiplier` / `artifact*` modifier fields — all
+  zero in this export, so their semantics are unconfirmed.
+- `equipment` — `{Ring: {…full item object…}, …}`, present on 87/239 heroes.
+
+### Joining collection → datamine
+
+By English name, with two gotchas, both verified against the real export:
+
+1. **Normalize punctuation.** 238/239 owned heroes join on the raw name. The
+   one holdout is `Jack-O`, which the game text spells `Jack-O'` (trailing
+   apostrophe) — strip/normalize apostrophes before matching and it is 239/239.
+2. **One name can map to several ids** (54 of them) because skins share a
+   name — e.g. `Cidd` → `c1014`, `c1014_s01`. Prefer the row with
+   `is_variant == false`; skins do not change stats.
+
+With that normalization, every owned hero also resolves to a
+`datamine/base_stats.json` entry.
 
 ## GEAR MATH
 
