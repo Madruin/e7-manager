@@ -335,7 +335,8 @@ def validate_record(rec: dict) -> list[str]:
 
 
 def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
-           min_games: int = 500, season: str | None = None) -> int:
+           min_games: int = 500, season: str | None = None,
+           out_dir: Path = OUT_DIR) -> int:
     payload = load_heroes_payload(fetcher)
 
     index = extract_flat_objects(payload, "element")
@@ -395,7 +396,7 @@ def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
                 continue
             targets.append((entry, rows))
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir.mkdir(parents=True, exist_ok=True)
     for entry, rows in targets:
         name = entry["name"]
         rec = build_hero_record(fetcher, entry, rows)
@@ -413,7 +414,7 @@ def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
             log(f"  rows: {rows!r}")
             failures += 1
             continue
-        out_path = OUT_DIR / f"{rec['hero_slug']}.json"
+        out_path = out_dir / f"{rec['hero_slug']}.json"
         out_path.write_text(json.dumps(rec, indent=2, ensure_ascii=False) + "\n")
         log(f"OK   {name} -> {out_path.relative_to(REPO_ROOT)} "
             f"(games={rec['sample_size']}, wr={rec.get('derived', {}).get('win_rate')})")
@@ -533,6 +534,9 @@ def main() -> None:
     ap.add_argument("--season", metavar="CODE",
                     help="pin to a specific season_code (e.g. pvp_rta_ss20f); "
                          "default is the season the site currently displays")
+    ap.add_argument("--out-dir", metavar="DIR",
+                    help="write hero files here instead of meta/rta/ "
+                         "(e.g. meta/rta_ss20f for a pinned-season snapshot)")
     args = ap.parse_args()
 
     fetcher = Fetcher(refresh=args.refresh)
@@ -540,9 +544,10 @@ def main() -> None:
         discover(fetcher, pages=args.pages)
         return
 
+    out_dir = (REPO_ROOT / args.out_dir) if args.out_dir else OUT_DIR
     failures = scrape(fetcher, args.heroes or DEFAULT_HEROES,
                       all_mode=args.all_mode, min_games=args.min_games,
-                      season=args.season)
+                      season=args.season, out_dir=out_dir)
     if failures:
         sys.exit(f"{failures} hero(es) failed — nothing fabricated, see log above")
 

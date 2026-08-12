@@ -1,5 +1,7 @@
-# TEMPORARY: one-shot trigger for the first full-meta scrape (cloud sessions
+# TEMPORARY: one-shot trigger for the "keep both" meta scrape (cloud sessions
 # cannot dispatch workflows, so this fires on push). Delete after the run.
+#   meta/rta/        -> current season (self-updates via weekly meta-sync)
+#   meta/rta_ss20f/  -> pinned Pre-Season (Post Summer 2026) snapshot, frozen
 name: run-once-full-scrape
 
 on:
@@ -19,18 +21,25 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Full-meta scrape
-        run: python scripts/scrape_rta_stats.py --all --refresh
+      - name: Current-season meta -> meta/rta/ (clear stale files first)
+        run: |
+          git rm -q -r --ignore-unmatch meta/rta
+          python scripts/scrape_rta_stats.py --all --refresh
+
+      - name: Pinned Pre-Season snapshot -> meta/rta_ss20f/
+        run: |
+          python scripts/scrape_rta_stats.py --all --season pvp_rta_ss20f \
+            --out-dir meta/rta_ss20f
 
       - name: Commit
         run: |
-          git add meta/rta
+          git add -A meta/rta meta/rta_ss20f
           if git diff --cached --quiet; then
             echo "No data changes."
           else
             git config user.name "meta-sync[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "[scrape] full current-season RTA meta (--all)"
+            git commit -m "[scrape] full meta: current season + pinned ss20f snapshot"
             git pull --rebase
             git push
           fi

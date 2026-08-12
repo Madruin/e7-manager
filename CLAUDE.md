@@ -394,6 +394,19 @@ Consequences:
   trust the derived formulas stated inside each output file.
   The scraper validates every record before writing, so `meta/rta/` never
   contains fabricated data.
+  - **Modes/flags** (added 2026-08-12): `--all` scrapes every hero in the
+    displayed season above `--min-games` (default 500) instead of a named
+    list; the weekly `meta-sync` uses it. Each run is **pinned to one
+    season** — the modal season in the payload, or `--season <code>` — so a
+    rollover never mixes seasons within a file. `--out-dir` redirects output.
+  - **Season rollover, 2026-08-12**: RTA moved from Pre-Season
+    (`pvp_rta_ss20f`, Post Summer 2026) to `pvp_rta_ss21` (Fall 2026).
+    Two-folder policy (owner's call): `meta/rta/` tracks the **current**
+    season (self-updates weekly, thin right after a rollover), and
+    `meta/rta_ss20f/` is a **frozen snapshot** of the last completed
+    season's robust samples (12k–90k games) for use until Fall accumulates.
+    Regenerate the snapshot with
+    `python scripts/scrape_rta_stats.py --all --season <code> --out-dir meta/rta_<code>`.
 - **epic7db.com** rank-targets stretch scraper: **deferred** after recon
   2026-08-01. Findings: reachable from Actions runners; server-rendered
   HTML (no RSC/Next payload, no JSON API surfaced). Hero list at `/heroes`
