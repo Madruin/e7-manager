@@ -130,9 +130,26 @@ and the ROSTER GOALS section of CLAUDE.md. Build, in order:
     order (sequential greedy first); leave hooks for a smarter global
     solver later.
 
+(e) Hero prioritization (owner's directive 2026-08-12: "as much info and
+    mode-specific context as available"). Since ROSTER GOALS is still
+    mode-based, produce BOTH, from the actual roster (collection) + meta
+    (meta/rta/ current + meta/rta_ss20f/ robust) + datamine:
+    - a single cross-mode priority list (who to invest in next, and why),
+      and
+    - a per-mode list (hunt / guild war offense+defense / arena / RTA /
+      hard seasonal), each with the mode-specific context that justifies it
+      (e.g. for RTA: pick/ban/WR + which of my built heroes are already
+      meta; for hunt: which of my heroes can hit known one-shot/auto
+      thresholds). Flag where the current Fall season is too thin and fall
+      back to meta/rta_ss20f/, saying so.
+    Present both for my confirmation, then record the confirmed lists in
+    CLAUDE.md's ROSTER GOALS so later sessions read them.
+
 Output: committed reports (format your choice, [analysis] prefix) plus
 reusable scripts — analysis will be re-run after every collection sync.
-If ROSTER GOALS is still empty, stop and ask me to fill it in first.
+Note: ROSTER GOALS is intentionally mode-based right now; do NOT stop for
+lack of a named-hero list — deliverable (e) produces it. Use the whole
+built roster for scoring/EV; use meta + modes to rank.
 ```
 
 ---
