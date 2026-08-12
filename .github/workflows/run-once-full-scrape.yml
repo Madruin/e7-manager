@@ -1,7 +1,6 @@
-# TEMPORARY: one-shot trigger for the "keep both" meta scrape (cloud sessions
-# cannot dispatch workflows, so this fires on push). Delete after the run.
-#   meta/rta/        -> current season (self-updates via weekly meta-sync)
-#   meta/rta_ss20f/  -> pinned Pre-Season (Post Summer 2026) snapshot, frozen
+# TEMPORARY: one-shot back-fill of full ss20f coverage, now that the site's
+# ?season= param is confirmed to work. Cloud sessions can't dispatch, so it
+# fires on push. Delete after this run.
 name: run-once-full-scrape
 
 on:
@@ -21,32 +20,29 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Current-season meta -> meta/rta/ (clear stale files first)
+      - name: Full ss20f back-fill -> meta/rta_ss20f/ (replace 5-hero snapshot)
         run: |
-          git rm -q -r --ignore-unmatch meta/rta
-          python scripts/scrape_rta_stats.py --all --refresh
+          git rm -q -r --ignore-unmatch meta/rta_ss20f
+          python scripts/scrape_rta_stats.py --all --season pvp_rta_ss20f \
+            --out-dir meta/rta_ss20f --refresh
+          # keep the folder README
+          git checkout HEAD -- meta/rta_ss20f/README.md 2>/dev/null || true
 
-      - name: Probe whether the site exposes past seasons
+      - name: Restore README if the scrape removed it
         run: |
-          echo "== default /heroes season histogram is logged by --all above."
-          echo "== probing season-parameter variants for ss20f recovery:"
-          for q in "?season=pvp_rta_ss20f" "?seasonCode=pvp_rta_ss20f" "?s=17"; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" \
-              "https://www.epic7rtastats.com/heroes$q" || echo ERR)
-            hit=$(curl -s "https://www.epic7rtastats.com/heroes$q" \
-              | grep -o "pvp_rta_ss20f" | head -1 || true)
-            echo "  /heroes$q -> HTTP $code, ss20f present in body: ${hit:-no}"
-          done
+          if [ ! -f meta/rta_ss20f/README.md ]; then
+            git show HEAD:meta/rta_ss20f/README.md > meta/rta_ss20f/README.md
+          fi
 
       - name: Commit
         run: |
-          git add -A meta/rta
+          git add -A meta/rta_ss20f
           if git diff --cached --quiet; then
             echo "No data changes."
           else
             git config user.name "meta-sync[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "[scrape] full meta: current season + pinned ss20f snapshot"
+            git commit -m "[scrape] full-roster ss20f snapshot via ?season= back-fill"
             git pull --rebase
             git push
           fi

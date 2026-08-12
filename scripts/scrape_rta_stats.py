@@ -185,8 +185,11 @@ def extract_flat_objects(payload: str, required_key: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 
-def load_heroes_payload(fetcher: Fetcher) -> str:
-    status, html = fetcher.fetch(HEROES_PAGE, accept="text/html")
+def load_heroes_payload(fetcher: Fetcher, season: str | None = None) -> str:
+    # A past season is served by /heroes?season=<code> (verified 2026-08-12);
+    # the default /heroes shows the current season.
+    url = HEROES_PAGE + (f"?season={urllib.parse.quote(season)}" if season else "")
+    status, html = fetcher.fetch(url, accept="text/html")
     if status != 200:
         sys.exit(f"{HEROES_PAGE} returned HTTP {status}; body head: {html[:300]!r}")
     payload = flight_payload(html)
@@ -223,7 +226,7 @@ def _stat_rows(objs: list[dict], season: str, keep: tuple[str, ...],
 
 
 def build_hero_record(fetcher: Fetcher, index_entry: dict,
-                      season_rows: list[dict]) -> dict:
+                      season_rows: list[dict], season_param: str | None = None) -> dict:
     code = index_entry["code"]
     out: dict = {
         "hero": index_entry["name"],
@@ -247,7 +250,8 @@ def build_hero_record(fetcher: Fetcher, index_entry: dict,
     out["sample_size"] = primary.get("total_games")
 
     # Per-hero detail page: sets, artifacts, builds for the current season.
-    detail_url = f"{HEROES_PAGE}/{code}"
+    detail_url = f"{HEROES_PAGE}/{code}" + (
+        f"?season={urllib.parse.quote(season_param)}" if season_param else "")
     status, html = fetcher.fetch(detail_url, accept="text/html")
     if status == 200:
         payload = flight_payload(html)
@@ -337,7 +341,7 @@ def validate_record(rec: dict) -> list[str]:
 def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
            min_games: int = 500, season: str | None = None,
            out_dir: Path = OUT_DIR) -> int:
-    payload = load_heroes_payload(fetcher)
+    payload = load_heroes_payload(fetcher, season=season)
 
     index = extract_flat_objects(payload, "element")
     index = [o for o in index if "code" in o and "name" in o]
@@ -399,7 +403,7 @@ def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
     out_dir.mkdir(parents=True, exist_ok=True)
     for entry, rows in targets:
         name = entry["name"]
-        rec = build_hero_record(fetcher, entry, rows)
+        rec = build_hero_record(fetcher, entry, rows, season_param=season)
         problems = validate_record(rec)
         only_missing_builds = problems and all(
             "set/artifact stats missing" in p for p in problems)
