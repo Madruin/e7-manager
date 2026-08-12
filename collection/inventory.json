@@ -1,0 +1,158 @@
+{
+  "source": {
+    "kind": "vision_parse",
+    "captured_by": "owner screenshots (in-chat upload, not committed to repo)",
+    "capture_date": "2026-08-12",
+    "parser": "session 4 (cloud vision)",
+    "tier": "T3",
+    "note": "Values OCR'd from in-game inventory screenshots. Top-bar and tooltip-confirmed values are high confidence; icon-identified currencies and the dense material/charm grids are flagged in needs_verification. The Crafting Materials and Enhancement Ingredients tabs contain hundreds of per-set/per-stat tiles the game only names one-at-a-time, so those are summarized, not itemized — see needs_verification."
+  },
+  "scraped_at": "2026-08-12T00:00:00Z",
+
+  "currencies": {
+    "gold": {"value": 758891697, "confidence": "high", "note": "matches top bar across all screenshots", "source_screenshot": "chat 2026-08-12 (all)"},
+    "skystone": {"value": 4347, "confidence": "high", "note": "matches top bar (blue gem)", "source_screenshot": "chat 2026-08-12 (all)"},
+    "covenant_bookmarks": {"value": 230, "confidence": "high", "note": "tooltip-confirmed 'Covenant Bookmarks'; a 15d timer was shown on this stack", "source_screenshot": "chat batch2 currency"},
+    "energy_leif": {"value": 845419, "confidence": "medium", "note": "red fox icon; shown as the leftmost top-bar value on the Forest of Souls screen and in the currency grid. Likely Energy/Leif. VERIFY identity.", "source_screenshot": "chat batch1 forest + batch2 currency"}
+  },
+
+  "currency_grid_unidentified": {
+    "note": "Currency tab values read left-to-right, top-to-bottom. Counts are reliable; item IDENTITY is NOT (the game shows a name tooltip for only the selected tile). Please confirm which is which — especially Mystic Medals, Galaxy Bookmarks, Friendship, Molagora, Charms, arena/guild currencies.",
+    "confidence": "low_identity_high_count",
+    "row1": [230, 217, 780, 200, 5274, 97, 1, 20, 4],
+    "row2": [2, 4, 1, 2, 334, 80, 4347, 2087, 1286],
+    "row3": [500, 140, 562, 1125, 35, 95, 515, 3, 761],
+    "row4": [383113, 758891697, 8975, 13583, 5, 299, 845419, 3, 2],
+    "row5": [47],
+    "anchors": {
+      "row1_pos1_230": "Covenant Bookmarks (tooltip-confirmed)",
+      "row2_pos7_4347": "Skystone (matches top bar)",
+      "row4_pos2_758891697": "Gold (matches top bar)",
+      "row4_pos7_845419": "red fox icon (also top bar on Forest screen)",
+      "row2_pos9_1286": "green leaf icon — candidate Molagora, VERIFY"
+    }
+  },
+
+  "crafting_materials": {
+    "note": "Hunt set-crafting materials (Crafting Materials tab). The set 'molecule' tiles (blue crystals with element+set badges) number in the hundreds of distinct set x element x grade combos; counts are legible but per-tile identity is not OCR-reliable, so only the named/high-count anchors are recorded. Ask for a targeted re-capture if session 5/6 needs a specific set's craft stock.",
+    "altus_anak_shell": {"value": 1851, "confidence": "high", "note": "tooltip-confirmed; Azimanak Hunt, crafts Unity/Immunity/Rage", "source_screenshot": "chat batch2 crafting"},
+    "bulk_material_anchors": {
+      "confidence": "medium",
+      "note": "Top-row Crafting Materials values (identity by icon, unverified): purple-swirl 5802, red-feather 636, black-ore 54562, teal-claw 278155, grey-molecule 5.",
+      "values": [1851, 5802, 636, 54562, 278155, 5]
+    },
+    "set_molecule_grid": {
+      "confidence": "count_only",
+      "note": "Present in large quantity across ~5 screens; individual set/element/grade tiles NOT itemized (OCR icon-ID unreliable). Re-capture per-set if needed."
+    }
+  },
+
+  "artifact_materials": {
+    "epic_artifact_charm": {"value": 12, "confidence": "high", "note": "tooltip-confirmed 'Epic Artifact Charm — for granting incredible strength to Artifacts'", "source_screenshot": "chat batch2 enhancement"},
+    "gear_charm_grid": {
+      "confidence": "count_only",
+      "note": "The Enhancement Ingredients tab holds hundreds of gear charm tiles (stat x set x element, counts mostly 1-12). Counts legible; per-tile identity not OCR-reliable. These feed gear crafting/mod decisions — re-capture specific stat charms if session 5 needs them."
+    }
+  },
+
+  "sanctuary": {
+    "forest_of_souls": {
+      "building_levels": null,
+      "note": "Building/sanctuary upgrades were PATCHED OUT (owner-confirmed 2026-08-12). Forest of Souls now only runs timed farms (Penguin Nest, Spirit Well, MolaGora Farm) — these are cooldowns, not stock, so no levels to record.",
+      "farm_state_at_capture": {"penguin_nest": "07:24:57", "spirit_well": "06:23:08", "molagora_farm": "166:51:44", "cultivate": "0/3"}
+    }
+  },
+
+  "artifacts_owned": {
+    "note": "Spare/owned artifact catalog from the Artifact tab (16 screens, 194/400 slots used). Best-effort OCR: names high confidence, per-copy enhancement/count MEDIUM. max_plus = highest enhancement seen; count = copies visible. Equipped artifacts are also in the Fribbels export; this list is the full owned set incl. spares.",
+    "confidence": "medium",
+    "inventory_slots_used": 194,
+    "inventory_slots_total": 400,
+    "items": [
+      {"name": "Ritual of Sealing Flames", "rank": "Epic", "max_plus": 15, "count": 1},
+      {"name": "Prophetic Candlestick", "max_plus": 30, "count": 1},
+      {"name": "Card of Small Miracles", "max_plus": 30, "count": 1},
+      {"name": "Daydream Joker", "max_plus": 30, "count": 3},
+      {"name": "Dust Devil", "max_plus": 30, "count": 1},
+      {"name": "Rainbow Scale", "max_plus": 30, "count": 2},
+      {"name": "Super Duper Water Gun Shooter", "max_plus": 30, "count": 2},
+      {"name": "Wondrous Potion Vial", "max_plus": 30, "count": 3},
+      {"name": "Water's Origin", "max_plus": 24, "count": 2},
+      {"name": "Magaraha's Tome", "max_plus": 28, "count": 2},
+      {"name": "Tagehel's Ancient Book", "max_plus": 30, "count": 4},
+      {"name": "Adamant Shield", "max_plus": 30, "count": 3},
+      {"name": "Aurius", "max_plus": 30, "count": 4},
+      {"name": "Hilag Lance", "max_plus": 16, "count": 2},
+      {"name": "Rosa Hargana", "max_plus": 30, "count": 2},
+      {"name": "Infinity Basket", "max_plus": 30, "count": 2},
+      {"name": "Iela Violin", "max_plus": 30, "count": 2},
+      {"name": "Sira-Ren", "max_plus": 30, "count": 2},
+      {"name": "Kal'adra", "max_plus": 30, "count": 3},
+      {"name": "War Horn", "max_plus": 30, "count": 1},
+      {"name": "A Symbol of Unity", "max_plus": 30, "count": 1},
+      {"name": "Victorious Flag", "max_plus": 30, "count": 1},
+      {"name": "Proof of Valor", "max_plus": 30, "count": 2},
+      {"name": "Sepulcrum", "max_plus": 30, "count": 2},
+      {"name": "Strak Gauntlet", "max_plus": 30, "count": 2},
+      {"name": "Hell Cutter", "max_plus": 30, "count": 2},
+      {"name": "El's Fist", "max_plus": 12, "count": 2},
+      {"name": "Elyha's Knife", "max_plus": 6, "count": 3},
+      {"name": "Alsacian Spear", "max_plus": 6, "count": 3},
+      {"name": "Ancient Sheath", "max_plus": 7, "count": 2},
+      {"name": "Butterfly Mandolin", "max_plus": 6, "count": 3},
+      {"name": "Mighty Yaksha", "max_plus": 7, "count": 2},
+      {"name": "Portrait of the Saviors", "max_plus": 30, "count": 6},
+      {"name": "Golden Cocoa Cookie", "max_plus": 5, "count": 8},
+      {"name": "Bastion of Perlutia", "max_plus": 30, "count": 2},
+      {"name": "Elbris Ritual Sword", "max_plus": 30, "count": 2},
+      {"name": "Bastion of Hope", "max_plus": 30, "count": 1},
+      {"name": "Guide to a Decision", "max_plus": 30, "count": 1},
+      {"name": "Ms. Confille", "max_plus": 30, "count": 1},
+      {"name": "Guiding Light", "max_plus": 30, "count": 1},
+      {"name": "Reingar's Special Drink", "max_plus": 30, "count": 1},
+      {"name": "Iron Fan", "max_plus": 30, "count": 1},
+      {"name": "Magic for Friends", "max_plus": 30, "count": 1},
+      {"name": "Idol's Cheer", "max_plus": 30, "count": 2},
+      {"name": "Celestine", "max_plus": 30, "count": 2},
+      {"name": "Touch of Rekos", "max_plus": 27, "count": 1},
+      {"name": "Rod of Amaryllis", "max_plus": 27, "count": 1},
+      {"name": "Song of Stars", "max_plus": 27, "count": 1},
+      {"name": "Star of the Deep Sea", "max_plus": 24, "count": 1},
+      {"name": "Butterfly Hair Ornament", "max_plus": 24, "count": 1},
+      {"name": "Wall of Order", "max_plus": 18, "count": 1},
+      {"name": "Spirit's Breath", "max_plus": 15, "count": 1},
+      {"name": "Fairy Tale for a Nightmare", "max_plus": 15, "count": 1},
+      {"name": "Bloodstone", "max_plus": 15, "count": 1},
+      {"name": "Umbral Keystones", "max_plus": 15, "count": 1},
+      {"name": "Necro & Undine", "max_plus": 10, "count": 1},
+      {"name": "Abyssal Crown", "max_plus": 21, "count": 1},
+      {"name": "Violet Talisman", "max_plus": 21, "count": 1},
+      {"name": "Double-Edged Decrescent", "max_plus": 21, "count": 1},
+      {"name": "Shepherd of the Hollow", "max_plus": 21, "count": 1},
+      {"name": "Rhianna & Luciella", "max_plus": 21, "count": 1},
+      {"name": "Rise of a Monarch", "max_plus": 21, "count": 1},
+      {"name": "Spear of a New Dawn", "max_plus": 21, "count": 1},
+      {"name": "Unfading Memories", "max_plus": 21, "count": 1},
+      {"name": "Sword of Judgment", "max_plus": 21, "count": 1},
+      {"name": "Shimadra Staff", "max_plus": 21, "count": 1},
+      {"name": "Severed Horn Wand", "max_plus": 7, "count": 2},
+      {"name": "Sword of Cycling Seasons", "max_plus": 30, "count": 1},
+      {"name": "Spooky Solayu Stories", "max_plus": 14, "count": 1},
+      {"name": "XVIII. The Moon", "max_plus": 9, "count": 1},
+      {"name": "XVI. The Tower", "max_plus": 8, "count": 1},
+      {"name": "The Guardian Star's Blessing", "max_plus": 8, "count": 2},
+      {"name": "VII. The Chariot", "max_plus": 7, "count": 1},
+      {"name": "Holy Sacrifice", "max_plus": 3, "count": 1, "note": "spare; equipped copies exist in Fribbels export"}
+    ],
+    "itemization_caveat": "This lists the higher-signal / meta-relevant and multi-copy artifacts plus notables. A long tail of single-copy low-enhancement event artifacts (tarot cards, cookies, seasonal) was seen but not exhaustively transcribed. Ask for a full itemization if you want every spare recorded."
+  },
+
+  "needs_verification": [
+    "Currency identities: confirm which grid tile is Mystic Medals, Galaxy Bookmarks, Friendship, Molagora, Charms/Powder, and the arena/guild currencies (I only tooltip-confirmed Covenant Bookmarks=230, Gold, Skystone). See currency_grid_unidentified.",
+    "energy_leif=845419 (red fox icon) — confirm this is Energy/Leif and not another currency.",
+    "Molagora stock: is it the green-leaf 1286 in the currency grid, or on the Growth Ingredients tab (not clearly captured)? A clean shot of Growth Ingredients would settle molagora + penguins + spirit blooms + skill-up catalysts.",
+    "Catalysts (skill-up hunt catalysts like molars/claws): not clearly on a captured tab — likely under Growth Ingredients. Re-capture if session 5's enhancement/skill planning needs them.",
+    "Artifact per-copy counts/enhancements are MEDIUM confidence; names are reliable. Flag any that look wrong.",
+    "Crafting-material set molecules and gear charms: counts legible but per-tile identity not itemized. Tell me if you want specific sets/stats pulled."
+  ]
+}
