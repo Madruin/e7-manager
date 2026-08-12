@@ -195,11 +195,19 @@ memory** — model knowledge here is stale or absent:
     `patch 20260716` when the 2026-08-11 pack was ripped), so a brand-new
     hero can be missing or stale. `unmatched_heroes` in the file lists who.
   - **Verify before trusting.** `scripts/crosscheck_base_stats.py` re-checks
-    a sample against epic7db, an independent source. Result on
-    2026-08-12: 4/5 exact on all four stats (Ras, Vildred, Arbiter Vildred,
-    Harsetti); **Belian mismatched on Speed — ours 110, epic7db 106**, other
-    three stats agree. Unresolved: one of the two sources is stale. Confirm
-    in-game before relying on Belian's speed.
+    a sample against epic7db, an independent source. Result 2026-08-12: 5/5
+    reconciled (Ras, Vildred, Arbiter Vildred, Harsetti exact on all four
+    stats; Belian explained below).
+  - **Awakening baseline — owner-confirmed 2026-08-12.** Belian at lv60 6★
+    reads Speed **110 awakened / 106 unawakened** in-game. `base_stats.json`
+    stores the **awakened** figure — upstream's key is literally
+    `lv60SixStarFullyAwakened` — which is the right baseline for gear math.
+    epic7db's "Base Stats" block matched the *unawakened* 106, and that site
+    lists awakenings as a separate tab. So epic7db is a weaker cross-check:
+    expect it to differ wherever a hero's awakening moves a stat (it did not
+    for the other four probes, whose awakenings evidently don't touch
+    att/max_hp/def/speed). A mismatch there means "check the awakening
+    baseline", not "our data is wrong".
 
 ### Resolved 2026-08-11 (session 2 datamine, T0 — see DATAMINE section)
 

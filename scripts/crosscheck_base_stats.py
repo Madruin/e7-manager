@@ -9,6 +9,14 @@ silently trusting either side. Run it after every `fetch_base_stats.py`.
 epic7db serves plain HTML with a "Base Stats" block reading
 `Attack: N Health: N Defense: N Speed: N`, which is what this parses.
 
+**Baselines differ.** base_stats.json stores the *awakened* lv60 6-star figure
+(upstream's key is `lv60SixStarFullyAwakened`); epic7db's "Base Stats" block is
+the *unawakened* figure, and that site lists awakenings separately. Confirmed
+in-game 2026-08-12: Belian reads Speed 110 awakened / 106 unawakened, and the
+two sources report exactly those two numbers. So a mismatch here means "this
+hero's awakening moves that stat", not "base_stats.json is wrong" — it is only
+evidence of a real problem if the gap is large or hits many heroes at once.
+
     python scripts/crosscheck_base_stats.py
     python scripts/crosscheck_base_stats.py --hero c1001=ras --hero c1117=belian
 """
@@ -101,8 +109,9 @@ def main() -> int:
         name = ours[hid].get('name', hid)
         if diffs:
             disagree.append((hid, name, slug, diffs))
-            detail = ', '.join(f'{k}: ours={a} epic7db={b}' for k, (a, b) in diffs.items())
-            print(f'  MISMATCH  {hid} {name} ({slug}) -> {detail}')
+            detail = ', '.join(f'{k}: awakened={a} epic7db_unawakened={b}'
+                               for k, (a, b) in diffs.items())
+            print(f'  DIFFERS   {hid} {name} ({slug}) -> {detail}')
         else:
             agree += 1
             print(f'  ok        {hid} {name} ({slug}) -> att/max_hp/def/speed all match')
@@ -111,10 +120,12 @@ def main() -> int:
         print(f'  skipped   {hid} ({slug}): {why}')
 
     print(f'\n{agree}/{len(probes)} probes agree on all four stats; '
-          f'{len(disagree)} mismatched, {len(skipped)} skipped')
+          f'{len(disagree)} differ, {len(skipped)} skipped')
     if disagree:
-        print('A mismatch means one source is stale, not that base_stats.json is wrong. '
-              'Confirm the hero in-game before changing anything.')
+        print('Differences are expected where a hero\'s awakening moves a stat '
+              '(we store awakened, epic7db shows unawakened). Treat a large gap, '
+              'or many heroes differing at once, as a real problem and confirm '
+              'in-game before changing anything.')
     return 0
 
 
