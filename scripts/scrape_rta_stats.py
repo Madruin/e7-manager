@@ -52,6 +52,7 @@ import os
 import re
 import sys
 import time
+from collections import Counter
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -334,7 +335,7 @@ def validate_record(rec: dict) -> list[str]:
 
 
 def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
-           min_games: int = 500) -> int:
+           min_games: int = 500, season: str | None = None) -> int:
     payload = load_heroes_payload(fetcher)
 
     index = extract_flat_objects(payload, "element")
@@ -346,6 +347,17 @@ def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
     if not index or not stats:
         sys.exit("hero index or season stats missing from /heroes payload — "
                  "site layout changed; rerun --discover")
+
+    # A season rollover leaves stale rows from the previous season in the
+    # /heroes payload for some heroes. Pin the whole run to ONE season so
+    # files never mix seasons: the caller's choice, else the modal season
+    # across all rows (the one the site is currently displaying).
+    season_hist = Counter(s.get("season_code") for s in stats if s.get("season_code"))
+    if season is None:
+        season = season_hist.most_common(1)[0][0]
+    log(f"season histogram in payload: {dict(season_hist)}")
+    log(f"pinning this run to season: {season}")
+    stats = [s for s in stats if s.get("season_code") == season]
 
     # Resolve targets to (index_entry, season_rows) pairs.
     targets: list[tuple[dict, list[dict]]] = []
@@ -518,6 +530,9 @@ def main() -> None:
     ap.add_argument("--min-games", type=int, default=500,
                     help="with --all: skip heroes below this many season games "
                          "(default 500; their build stats are too noisy)")
+    ap.add_argument("--season", metavar="CODE",
+                    help="pin to a specific season_code (e.g. pvp_rta_ss20f); "
+                         "default is the season the site currently displays")
     args = ap.parse_args()
 
     fetcher = Fetcher(refresh=args.refresh)
@@ -526,7 +541,8 @@ def main() -> None:
         return
 
     failures = scrape(fetcher, args.heroes or DEFAULT_HEROES,
-                      all_mode=args.all_mode, min_games=args.min_games)
+                      all_mode=args.all_mode, min_games=args.min_games,
+                      season=args.season)
     if failures:
         sys.exit(f"{failures} hero(es) failed — nothing fabricated, see log above")
 
