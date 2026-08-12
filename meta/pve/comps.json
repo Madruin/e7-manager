@@ -5,11 +5,12 @@
     "site": "epic7db.com/guides",
     "note": "Team comps only; per-slot stat thresholds are prose on epic7db and are NOT captured. Hero names resolved to datamine roster; unresolved slugs kept with resolved=false."
   },
-  "scraped_at": "2026-08-12T05:45:08Z",
+  "scraped_at": "2026-08-12T05:50:14Z",
   "guide_count": 9,
   "comps": [
     {
-      "title": "3* only guide to Hunts | Epic7db.com",
+      "title": "3* only guide to Hunts",
+      "kind": "comp",
       "source_url": "https://epic7db.com/guides/3-only-guide-to-hunts",
       "content_tags": [
         "hunt"
@@ -166,12 +167,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:44:48Z",
+      "scraped_at": "2026-08-12T05:49:52Z",
       "resolved_heroes": 20,
       "total_hero_slots": 23
     },
     {
-      "title": "Specialty Change - Adventurer Ras Specialty Change Guide | Epic7db.com",
+      "title": "Specialty Change - Adventurer Ras Specialty Change Guide",
+      "kind": "specialty_change",
       "source_url": "https://epic7db.com/guides/adventurer-ras-specialty-change-guide",
       "content_tags": [],
       "teams": [
@@ -190,12 +192,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:44:50Z",
+      "scraped_at": "2026-08-12T05:49:54Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
     {
-      "title": "Specialty Change - Angelic Montmorancy Specialty Change Guide | Epic7db.com",
+      "title": "Specialty Change - Angelic Montmorancy Specialty Change Guide",
+      "kind": "specialty_change",
       "source_url": "https://epic7db.com/guides/angelic-montmorancy-specialty-change-guide",
       "content_tags": [],
       "teams": [
@@ -214,12 +217,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:44:51Z",
+      "scraped_at": "2026-08-12T05:49:55Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
     {
-      "title": "Specialty Change - Falconer Kluri Specialty Change Guide | Epic7db.com",
+      "title": "Specialty Change - Falconer Kluri Specialty Change Guide",
+      "kind": "specialty_change",
       "source_url": "https://epic7db.com/guides/falconer-kluri-specialty-change-guide",
       "content_tags": [],
       "teams": [
@@ -238,12 +242,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:44:58Z",
+      "scraped_at": "2026-08-12T05:50:03Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
     {
-      "title": "Moriyaism&#039;s New Player Progression Guide - Late Game - Wyvern Speed Clears, Gearing, and Arena | Epic7db.com",
+      "title": "Moriyaism's New Player Progression Guide - Late Game - Wyvern Speed Clears, Gearing, and Arena",
+      "kind": "comp",
       "source_url": "https://epic7db.com/guides/late-game-wyvern-speed-clears-gearing-and-arena",
       "content_tags": [
         "wyvern"
@@ -464,12 +469,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:45:02Z",
+      "scraped_at": "2026-08-12T05:50:08Z",
       "resolved_heroes": 31,
       "total_hero_slots": 33
     },
     {
-      "title": "Moriyaism&#039;s New Player Progression Guide - Mid Game - Finishing PvE and early PvP progression | Epic7db.com",
+      "title": "Moriyaism's New Player Progression Guide - Mid Game - Finishing PvE and early PvP progression",
+      "kind": "comp",
       "source_url": "https://epic7db.com/guides/mid-game-finishing-pve-and-early-pvp-progression",
       "content_tags": [],
       "teams": [
@@ -630,12 +636,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:45:03Z",
+      "scraped_at": "2026-08-12T05:50:09Z",
       "resolved_heroes": 24,
       "total_hero_slots": 24
     },
     {
-      "title": "Hunt 13 Auto Teams - Setting Up Your First Azimanak 13 Auto Team | Epic7db.com",
+      "title": "Hunt 13 Auto Teams - Setting Up Your First Azimanak 13 Auto Team",
+      "kind": "comp",
       "source_url": "https://epic7db.com/guides/setting-up-your-first-azimanak-13-auto-team",
       "content_tags": [
         "azimanak",
@@ -801,12 +808,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:45:05Z",
+      "scraped_at": "2026-08-12T05:50:11Z",
       "resolved_heroes": 24,
       "total_hero_slots": 24
     },
     {
-      "title": "Hunt 13 Auto Teams - Setting Up Your First Wyvern 13 Auto Team | Epic7db.com",
+      "title": "Hunt 13 Auto Teams - Setting Up Your First Wyvern 13 Auto Team",
+      "kind": "comp",
       "source_url": "https://epic7db.com/guides/setting-up-your-first-wyvern-13-auto-team",
       "content_tags": [
         "hunt",
@@ -866,12 +874,13 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:45:06Z",
+      "scraped_at": "2026-08-12T05:50:12Z",
       "resolved_heroes": 8,
       "total_hero_slots": 8
     },
     {
-      "title": "Specialty Change - Silvertide Christy Specialty Change Guide | Epic7db.com",
+      "title": "Specialty Change - Silvertide Christy Specialty Change Guide",
+      "kind": "specialty_change",
       "source_url": "https://epic7db.com/guides/silvertide-christy-specialty-change-guide",
       "content_tags": [],
       "teams": [
@@ -890,7 +899,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:45:08Z",
+      "scraped_at": "2026-08-12T05:50:14Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     }
