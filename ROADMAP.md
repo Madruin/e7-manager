@@ -81,7 +81,21 @@ and hero collection into the repo. Run on my desktop.
 
 ---
 
-## Session 4 — Vision inventory (cloud, from phone)
+## Session 4 — Vision inventory (cloud, from phone) — PARTIAL 2026-08-12
+
+Done: currencies (gold/skystone/covenant bookmarks high-conf), artifact
+ownership catalog, Epic Artifact Charm count, Forest of Souls state. Two
+corrections/gaps recorded for a future top-up capture:
+- **Sanctuary/Forest of Souls building upgrades were PATCHED OUT** — there
+  are no building levels to record anymore, only timed farms. (The prompt
+  below still lists "sanctuary levels"; ignore that line.)
+- **Growth Ingredients tab was not cleanly captured** — molagora, penguins,
+  spirit blooms, and skill-up catalysts still need a shot. The dense
+  Crafting-Materials and Enhancement-Ingredients grids are recorded as
+  counts-only (per-tile identity not OCR-reliable); re-capture specific
+  sets/stat-charms on demand.
+
+```text
 
 ```text
 This is session 4 of e7-manager (read CLAUDE.md first): parsing my inventory
