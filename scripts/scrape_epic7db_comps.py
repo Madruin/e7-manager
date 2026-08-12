@@ -50,7 +50,11 @@ def utc() -> str:
 
 
 def slugify(name: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    # Match epic7db's slug convention: apostrophes and periods are REMOVED
+    # (not turned into separators), so "Summer's Disciple Alexa" ->
+    # "summers-disciple-alexa" and "Ainos 2.0" -> "ainos-20".
+    n = name.lower().replace("'", "").replace("’", "").replace(".", "")
+    return re.sub(r"[^a-z0-9]+", "-", n).strip("-")
 
 
 class Fetch:
