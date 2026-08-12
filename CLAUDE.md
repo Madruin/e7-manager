@@ -319,16 +319,28 @@ premature** until the collection is imported. The primary goal is:
 > characters and actions in Epic Seven across all game modes — particularly
 > hunt, guild wars, arena, and RTA, as well as difficult seasonal events.
 
-Implications for analysis sessions until specific heroes are listed here:
+### Confirmed priority (owner, 2026-08-12, after session-5 review)
 
-- Optimize for **mode coverage** (hunt, GW, arena, RTA, seasonal), not for
-  a named-hero shortlist.
-- After session 3 (collection import), propose a concrete priority list
-  from the actual roster + meta data, and ask the owner to confirm it —
-  then record the confirmed list in this section.
+**All-mode readiness, PvE co-equal — RTA is NOT the primary lens.** The
+owner explicitly rejected an RTA-first priority. The goal is to have
+optimized heroes ready across **all PvE content** (hunts, Abyss, Tower,
+seasonal/side content) **and** Guild Wars, Arena, and RTA — with PvE
+weighted at least as heavily as PvP, not treated as a leftover.
 
-<!-- TODO(owner, after session 3): confirm priority heroes + content
-     targets (RTA rank goal, hunt auto-teams, GW core, etc.). -->
+Implications for analysis/priority tooling:
+
+- Do **not** rank the roster primarily by RTA win rate. RTA meta is one
+  input among several, not the spine.
+- **The binding constraint is data, not method:** we have large-sample
+  numeric data only for RTA. Hunt/Abyss/Tower/GW-defense comps and
+  thresholds do **not** exist in the repo yet — that's **session 6**. A
+  genuinely PvE-weighted priority is therefore *blocked on session 6*;
+  until then, PvE ranking is provisional (role + gear only) and must be
+  labeled as such. **Session 6 is now the highest-value next step given
+  this priority.**
+- No named-hero shortlist yet: the owner optimizes for mode coverage, not a
+  fixed hero list. `analysis/priority.md` reflects this (per-mode lists,
+  RTA-backed where data exists, provisional elsewhere).
 
 ## CONVENTIONS
 

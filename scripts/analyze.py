@@ -223,82 +223,97 @@ def hero_builds_report(builds: list[dict]) -> None:
 # ---------------------------------------------------------------------------
 
 def priority_report(d: Data, builds: list[dict]) -> None:
-    by_name = {b["name"]: b for b in builds}
-    # meta-relevant built heroes (have RTA data), scored by WR then gear
-    metaed = [b for b in builds if b.get("meta_wr")]
-    metaed.sort(key=lambda b: (-(b["meta_wr"] or 0), -b["total_wss"]))
+    role_of = {h["name"]: h.get("role") for h in d.heroes}
+    for b in builds:
+        b["role"] = role_of.get(b["name"])
 
-    L = ["# Hero investment priority", "",
-         "Two lists, per owner request: a cross-mode priority and per-mode "
-         "lists. Built from your **56 fully-geared heroes**, the **RTA meta** "
-         "(current Fall season + frozen ss20f snapshot), and gear quality "
-         "(total reforge-projected WSS). ",
-         "",
-         "**Data honesty:** our only large-sample numeric meta is RTA "
-         "(epic7rtastats). Arena/GW-offense overlap RTA heavily and use it as a "
-         "proxy. **Hunt and GW-defense have no comp/threshold data in the repo "
-         "yet — that's session 6**; those lists below are provisional, from role "
-         "+ gear, and should not be treated as meta-backed.", ""]
+    L = ["# Hero readiness & priority", "",
+         "Owner priority (CLAUDE.md ROSTER GOALS, 2026-08-12): **all-mode "
+         "readiness with PvE co-equal — NOT RTA-first.** So this is organized "
+         "as *mode-coverage readiness* (are the right roles well-geared?), not "
+         "an RTA win-rate ladder.", "",
+         "> **Data caveat, stated plainly:** the repo's only large-sample "
+         "numeric data is RTA. Hunt / Abyss / Tower / GW-defense comps and "
+         "stat thresholds are **not in the repo yet (session 6)**. So the "
+         "PvE-weighted priority you actually want is *blocked on session 6*; "
+         "below, PvE/GW readiness is provisional (role + gear), and only the "
+         "RTA column is data-backed.", ""]
 
-    # cross-mode: weight meta WR (PvP relevance) + gear investment + already-built
-    def xscore(b):
-        wr = (b.get("meta_wr") or 0.50)
-        return wr * 100 + b["total_wss"] / 10
-    ranked = sorted(builds, key=lambda b: -xscore(b))
-    L += ["## 1. Cross-mode priority (who to invest in next)", "",
-          "Ranked by RTA meta strength × your current gear investment. Heroes "
-          "already at the top are your safest continued investments; strong-meta "
-          "heroes with lower WSS are your best *upgrade* targets.", "",
-          "| # | Hero | Total WSS | RTA WR | Note |", "|--:|---|--:|--:|---|"]
-    for i, b in enumerate(ranked[:20], 1):
-        wr = f"{b['meta_wr']*100:.1f}%" if b.get("meta_wr") else "no RTA data"
-        if b.get("meta_wr") and b["total_wss"] < 330:
-            note = "strong meta, gear below your average — **upgrade target**"
-        elif b.get("meta_wr"):
-            note = "meta-relevant, well-geared — maintain"
-        else:
-            note = "not in RTA meta; value is PvE/niche"
-        L.append(f"| {i} | {b['name']} | {b['total_wss']:.0f} | {wr} | {note} |")
+    # --- Readiness by role (the all-mode spine) ---
+    L += ["## 1. Readiness by role (your all-mode spine)", "",
+          "Your best-geared built heroes in each role. Good mode coverage means "
+          "each role has options; thin roles are where new investment pays off "
+          "across *every* mode.", ""]
+    by_role = defaultdict(list)
+    for b in builds:
+        by_role[b["role"] or "unknown"].append(b)
+    for role in sorted(by_role, key=lambda r: -len(by_role[r])):
+        hs = sorted(by_role[role], key=lambda b: -b["total_wss"])
+        line = ", ".join(f"{b['name']} ({b['total_wss']:.0f})" for b in hs[:6])
+        more = f" +{len(hs)-6} more" if len(hs) > 6 else ""
+        L.append(f"- **{role}** ({len(hs)} built): {line}{more}")
+    L += ["", "_Number in parens = total reforge-projected WSS (gear quality). "
+          "Role labels are from the Fribbels export._", ""]
 
-    L += ["", "## 2. Per-mode lists", ""]
-    # RTA
-    L += ["### RTA (meta-backed)", "",
-          "Your built heroes that appear in the RTA meta, by win rate:", "",
+    # --- Actionable fixes (data-backed, mode-agnostic) ---
+    L += ["## 2. Highest-value fixes (act on these regardless of mode)", "",
+          "These come straight from the gear data and help in *every* mode:", ""]
+    no_set = [b for b in builds if not b["sets"]]
+    if no_set:
+        L.append(f"- **No active set bonus** ({len(no_set)}): "
+                 + ", ".join(f"{b['name']}" for b in sorted(no_set, key=lambda b:-b['total_wss']))
+                 + ". These waste their substats — re-slot into a real set (see "
+                 "the allocator). Biggest loss: your best-geared piece is often here.")
+    mismatched = [b for b in builds if b.get("meta_source") and b.get("set_aligned") is False
+                  and b.get("meta_top_build")]
+    if mismatched:
+        L.append(f"- **Set differs from RTA meta** ({len(mismatched)}), for the "
+                 "heroes where we *have* RTA data — worth a look for PvP:")
+        for b in sorted(mismatched, key=lambda b:-(b.get('meta_wr') or 0))[:8]:
+            mb = "+".join(CODE_TO_NAME.get(c,c) for c in (b.get('meta_top_build') or '').split('+') if c)
+            L.append(f"    - {b['name']}: you run {'+'.join(b['sets']) or 'no set'} · "
+                     f"meta {mb} ({b['meta_wr']*100:.0f}% WR)")
+    L.append("- **Reforge-pending**: 438 lv85 pieces gain WSS from a free reforge "
+             "(see gear_report.md) — cheapest upgrade across all modes.")
+    L.append("")
+
+    # --- Per-mode ---
+    L += ["## 3. Per-mode readiness", "",
+          "### RTA (data-backed)",
+          "Built heroes present in the RTA meta, with your set alignment:", "",
           "| Hero | RTA WR | Games | Your sets | Meta build | Aligned |",
           "|---|--:|--:|---|---|:-:|"]
-    for b in metaed[:15]:
+    metaed = sorted([b for b in builds if b.get("meta_wr")],
+                    key=lambda b: -(b["meta_wr"] or 0))
+    for b in metaed:
         mb = "+".join(CODE_TO_NAME.get(c, c) for c in
                       (b.get("meta_top_build") or "").split("+") if c) or "—"
         L.append(f"| {b['name']} | {b['meta_wr']*100:.1f}% | {fmt_int(b['meta_games'])} | "
-                 f"{'+'.join(b['sets']) or '—'} | {mb} | {'✓' if b.get('set_aligned') else '·'} |")
+                 f"{'+'.join(b['sets']) or 'no set'} | {mb} | {'✓' if b.get('set_aligned') else '·'} |")
+    L += ["", f"_Only {len(metaed)} of your 56 built heroes are in the RTA meta; "
+          "the rest are older/PvE-oriented and can't be ranked on PvP data._", ""]
 
-    # Arena / GW offense (proxy = RTA)
-    L += ["", "### Arena / Guild War offense (RTA-proxy)", "",
-          "No dedicated arena-defense or GW-offense sample in the repo; RTA is "
-          "the closest proxy. Treat the RTA list above as the working order for "
-          "PvP offense until a dedicated source is added.", ""]
-
-    # Hunt / PvE provisional by role + gear
-    role_of = {}
-    for h in d.heroes:
-        role_of[h["name"]] = h.get("role")
-    L += ["### Hunt / PvE (provisional — session 6 will replace this)", "",
-          "No hunt one-shot/auto comp data yet (session 6). Provisional read: "
-          "your best-geared heroes by role, since hunt teams want a bruiser/CR "
-          "pusher + sustain + DPS. Confirm against real comps later.", "",
-          "| Hero | Role | Total WSS | Spd |", "|---|---|--:|--:|"]
-    for b in sorted(builds, key=lambda b: -b["total_wss"])[:12]:
-        L.append(f"| {b['name']} | {role_of.get(b['name']) or '?'} | {b['total_wss']:.0f} | {b['spd']} |")
-
-    L += ["", "---", "",
-          "### Recommended next actions",
-          "- Confirm or adjust these lists; I'll record the confirmed priority "
-          "in CLAUDE.md ROSTER GOALS so later sessions read it.",
-          "- Session 6 adds hunt/endgame comps + thresholds, which will replace "
-          "the provisional PvE list with real per-slot targets.",
-          "- To sharpen RTA gap reports with numeric stat targets, either "
-          "normalize the T0 `recommend_equip` datamine table (local re-run) or "
-          "revisit the epic7db rank-target scraper (deferred).", ""]
+    L += ["### Arena / Guild War offense",
+          "Overlaps RTA heavily; use the RTA table as the working proxy until a "
+          "dedicated arena-defense / GW sample is added. **Not separately "
+          "data-backed.**", "",
+          "### PvE (hunts, Abyss, Tower, seasonal) — PROVISIONAL",
+          "**No PvE comp/threshold data in the repo yet — session 6.** Until "
+          "then this is only 'who is well-geared, by role' (section 1), which is "
+          "necessary but not sufficient: PvE wants *specific* units hitting "
+          "*specific* speed/bulk breakpoints per boss. Do not treat section 1 as "
+          "a PvE tier list.", "",
+          "---", "",
+          "### What actually moves your stated priority forward",
+          "1. **Run session 6 next** — it builds the hunt/Abyss/Tower/GW comp "
+          "library with per-slot stat thresholds. That is the missing input for "
+          "a real PvE-weighted priority; everything else here is method waiting "
+          "on that data.",
+          "2. Meanwhile, the section-2 fixes (no-set builds, reforge-pending) "
+          "help in every mode and need no new data.",
+          "3. Optional T0 upgrade: normalize the datamine `recommend_equip` "
+          "table (local re-run) for per-hero recommended sets/artifacts/stat "
+          "weights — usable for PvE too, not just RTA.", ""]
     (ANALYSIS / "priority.md").write_text("\n".join(L) + "\n")
 
 
