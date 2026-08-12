@@ -1,0 +1,898 @@
+{
+  "source": {
+    "tier": "T3",
+    "kind": "guide_scrape",
+    "site": "epic7db.com/guides",
+    "note": "Team comps only; per-slot stat thresholds are prose on epic7db and are NOT captured. Hero names resolved to datamine roster; unresolved slugs kept with resolved=false."
+  },
+  "scraped_at": "2026-08-12T05:45:08Z",
+  "guide_count": 9,
+  "comps": [
+    {
+      "title": "3* only guide to Hunts | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/3-only-guide-to-hunts",
+      "content_tags": [
+        "hunt"
+      ],
+      "teams": [
+        [
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          },
+          {
+            "slug": "muwi",
+            "name": "Muwi",
+            "code": "c3132",
+            "resolved": true
+          },
+          {
+            "slug": "alexa",
+            "name": "Alexa",
+            "code": "c3012",
+            "resolved": true
+          },
+          {
+            "slug": "taranor-guard",
+            "name": "Taranor Guard",
+            "code": "c3032",
+            "resolved": true
+          },
+          {
+            "slug": "ian",
+            "name": "Ian",
+            "code": "c3102",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "bask",
+            "name": "Bask",
+            "code": "c3006",
+            "resolved": true
+          },
+          {
+            "slug": "helen",
+            "name": "Helen",
+            "code": "c3122",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "falconer-kluri",
+            "name": "Falconer Kluri",
+            "code": "c4003",
+            "resolved": true
+          },
+          {
+            "slug": "mercenary-helga",
+            "name": "Mercenary Helga",
+            "code": "c4023",
+            "resolved": true
+          },
+          {
+            "slug": "lilka",
+            "name": "Lilka",
+            "code": "c3153",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "lucy",
+            "name": "Lucy",
+            "code": "c3113",
+            "resolved": true
+          },
+          {
+            "slug": "captain-rikoris",
+            "name": "Captain Rikoris",
+            "code": "c4034",
+            "resolved": true
+          },
+          {
+            "slug": "batisse",
+            "name": "Batisse",
+            "code": "c3095",
+            "resolved": true
+          },
+          {
+            "slug": "summers-disciple-alexa",
+            "name": null,
+            "code": null,
+            "resolved": false
+          }
+        ],
+        [
+          {
+            "slug": "unbound-knight-arowell",
+            "name": "Unbound Knight Arowell",
+            "code": "c4004",
+            "resolved": true
+          },
+          {
+            "slug": "savior-adin",
+            "name": "Savior Adin",
+            "code": "c4144",
+            "resolved": true
+          },
+          {
+            "slug": "juni",
+            "name": "Juni",
+            "code": "c3151",
+            "resolved": true
+          },
+          {
+            "slug": "ainos-20",
+            "name": null,
+            "code": null,
+            "resolved": false
+          }
+        ],
+        [
+          {
+            "slug": "ainos-20",
+            "name": null,
+            "code": null,
+            "resolved": false
+          },
+          {
+            "slug": "camilla",
+            "name": "Camilla",
+            "code": "c3124",
+            "resolved": true
+          },
+          {
+            "slug": "captain-rikoris",
+            "name": "Captain Rikoris",
+            "code": "c4034",
+            "resolved": true
+          },
+          {
+            "slug": "commander-lorina",
+            "name": "Commander Lorina",
+            "code": "c4035",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:44:48Z",
+      "resolved_heroes": 20,
+      "total_hero_slots": 23
+    },
+    {
+      "title": "Specialty Change - Adventurer Ras Specialty Change Guide | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/adventurer-ras-specialty-change-guide",
+      "content_tags": [],
+      "teams": [
+        [
+          {
+            "slug": "ras",
+            "name": "Ras",
+            "code": "c1001",
+            "resolved": true
+          },
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:44:50Z",
+      "resolved_heroes": 2,
+      "total_hero_slots": 2
+    },
+    {
+      "title": "Specialty Change - Angelic Montmorancy Specialty Change Guide | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/angelic-montmorancy-specialty-change-guide",
+      "content_tags": [],
+      "teams": [
+        [
+          {
+            "slug": "montmorancy",
+            "name": "Montmorancy",
+            "code": "c3042",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:44:51Z",
+      "resolved_heroes": 2,
+      "total_hero_slots": 2
+    },
+    {
+      "title": "Specialty Change - Falconer Kluri Specialty Change Guide | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/falconer-kluri-specialty-change-guide",
+      "content_tags": [],
+      "teams": [
+        [
+          {
+            "slug": "kluri",
+            "name": "Kluri",
+            "code": "c3003",
+            "resolved": true
+          },
+          {
+            "slug": "falconer-kluri",
+            "name": "Falconer Kluri",
+            "code": "c4003",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:44:58Z",
+      "resolved_heroes": 2,
+      "total_hero_slots": 2
+    },
+    {
+      "title": "Moriyaism&#039;s New Player Progression Guide - Late Game - Wyvern Speed Clears, Gearing, and Arena | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/late-game-wyvern-speed-clears-gearing-and-arena",
+      "content_tags": [
+        "wyvern"
+      ],
+      "teams": [
+        [
+          {
+            "slug": "rose",
+            "name": "Rose",
+            "code": "c1003",
+            "resolved": true
+          },
+          {
+            "slug": "furious",
+            "name": "Furious",
+            "code": "c1087",
+            "resolved": true
+          },
+          {
+            "slug": "muwi",
+            "name": "Muwi",
+            "code": "c3132",
+            "resolved": true
+          },
+          {
+            "slug": "alexa",
+            "name": "Alexa",
+            "code": "c3012",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "general-purrgis",
+            "name": "General Purrgis",
+            "code": "c2035",
+            "resolved": true
+          },
+          {
+            "slug": "furious",
+            "name": "Furious",
+            "code": "c1087",
+            "resolved": true
+          },
+          {
+            "slug": "sigret",
+            "name": "Sigret",
+            "code": "c1072",
+            "resolved": true
+          },
+          {
+            "slug": "summers-disciple-alexa",
+            "name": null,
+            "code": null,
+            "resolved": false
+          }
+        ],
+        [
+          {
+            "slug": "sinful-angelica",
+            "name": "Sinful Angelica",
+            "code": "c2062",
+            "resolved": true
+          },
+          {
+            "slug": "seaside-bellona",
+            "name": "Seaside Bellona",
+            "code": "c5071",
+            "resolved": true
+          },
+          {
+            "slug": "flan",
+            "name": "Flan",
+            "code": "c1110",
+            "resolved": true
+          },
+          {
+            "slug": "sigret",
+            "name": "Sigret",
+            "code": "c1072",
+            "resolved": true
+          },
+          {
+            "slug": "clarissa",
+            "name": "Clarissa",
+            "code": "c1028",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "sinful-angelica",
+            "name": "Sinful Angelica",
+            "code": "c2062",
+            "resolved": true
+          },
+          {
+            "slug": "seaside-bellona",
+            "name": "Seaside Bellona",
+            "code": "c5071",
+            "resolved": true
+          },
+          {
+            "slug": "karin",
+            "name": "Karin",
+            "code": "c1011",
+            "resolved": true
+          },
+          {
+            "slug": "sigret",
+            "name": "Sigret",
+            "code": "c1072",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "sinful-angelica",
+            "name": "Sinful Angelica",
+            "code": "c2062",
+            "resolved": true
+          },
+          {
+            "slug": "seaside-bellona",
+            "name": "Seaside Bellona",
+            "code": "c5071",
+            "resolved": true
+          },
+          {
+            "slug": "furious",
+            "name": "Furious",
+            "code": "c1087",
+            "resolved": true
+          },
+          {
+            "slug": "summers-disciple-alexa",
+            "name": null,
+            "code": null,
+            "resolved": false
+          }
+        ],
+        [
+          {
+            "slug": "sinful-angelica",
+            "name": "Sinful Angelica",
+            "code": "c2062",
+            "resolved": true
+          },
+          {
+            "slug": "seaside-bellona",
+            "name": "Seaside Bellona",
+            "code": "c5071",
+            "resolved": true
+          },
+          {
+            "slug": "camilla",
+            "name": "Camilla",
+            "code": "c3124",
+            "resolved": true
+          },
+          {
+            "slug": "rem",
+            "name": "Rem",
+            "code": "c1114",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "sinful-angelica",
+            "name": "Sinful Angelica",
+            "code": "c2062",
+            "resolved": true
+          },
+          {
+            "slug": "seaside-bellona",
+            "name": "Seaside Bellona",
+            "code": "c5071",
+            "resolved": true
+          },
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "rem",
+            "name": "Rem",
+            "code": "c1114",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "ian",
+            "name": "Ian",
+            "code": "c3102",
+            "resolved": true
+          },
+          {
+            "slug": "seaside-bellona",
+            "name": "Seaside Bellona",
+            "code": "c5071",
+            "resolved": true
+          },
+          {
+            "slug": "watcher-schuri",
+            "name": "Watcher Schuri",
+            "code": "c2020",
+            "resolved": true
+          },
+          {
+            "slug": "straze",
+            "name": "Straze",
+            "code": "c1034",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:45:02Z",
+      "resolved_heroes": 31,
+      "total_hero_slots": 33
+    },
+    {
+      "title": "Moriyaism&#039;s New Player Progression Guide - Mid Game - Finishing PvE and early PvP progression | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/mid-game-finishing-pve-and-early-pvp-progression",
+      "content_tags": [],
+      "teams": [
+        [
+          {
+            "slug": "mercedes",
+            "name": "Mercedes",
+            "code": "c1005",
+            "resolved": true
+          },
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "lorina",
+            "name": "Lorina",
+            "code": "c3035",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "mercedes",
+            "name": "Mercedes",
+            "code": "c1005",
+            "resolved": true
+          },
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "specter-tenebria",
+            "name": "Specter Tenebria",
+            "code": "c2050",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "lorina",
+            "name": "Lorina",
+            "code": "c3035",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "specter-tenebria",
+            "name": "Specter Tenebria",
+            "code": "c2050",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "lorina",
+            "name": "Lorina",
+            "code": "c3035",
+            "resolved": true
+          },
+          {
+            "slug": "tamarinne",
+            "name": "Tamarinne",
+            "code": "c1067",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "specter-tenebria",
+            "name": "Specter Tenebria",
+            "code": "c2050",
+            "resolved": true
+          },
+          {
+            "slug": "tamarinne",
+            "name": "Tamarinne",
+            "code": "c1067",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:45:03Z",
+      "resolved_heroes": 24,
+      "total_hero_slots": 24
+    },
+    {
+      "title": "Hunt 13 Auto Teams - Setting Up Your First Azimanak 13 Auto Team | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/setting-up-your-first-azimanak-13-auto-team",
+      "content_tags": [
+        "azimanak",
+        "hunt"
+      ],
+      "teams": [
+        [
+          {
+            "slug": "unbound-knight-arowell",
+            "name": "Unbound Knight Arowell",
+            "code": "c4004",
+            "resolved": true
+          },
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "blood-moon-haste",
+            "name": "Blood Moon Haste",
+            "code": "c2039",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "vildred",
+            "name": "Vildred",
+            "code": "c1007",
+            "resolved": true
+          },
+          {
+            "slug": "bomb-model-kanna",
+            "name": "Bomb Model Kanna",
+            "code": "c1097",
+            "resolved": true
+          },
+          {
+            "slug": "mercedes",
+            "name": "Mercedes",
+            "code": "c1005",
+            "resolved": true
+          },
+          {
+            "slug": "arbiter-vildred",
+            "name": "Arbiter Vildred",
+            "code": "c2007",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "luluca",
+            "name": "Luluca",
+            "code": "c1082",
+            "resolved": true
+          },
+          {
+            "slug": "falconer-kluri",
+            "name": "Falconer Kluri",
+            "code": "c4003",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "tamarinne",
+            "name": "Tamarinne",
+            "code": "c1067",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "mercedes",
+            "name": "Mercedes",
+            "code": "c1005",
+            "resolved": true
+          },
+          {
+            "slug": "falconer-kluri",
+            "name": "Falconer Kluri",
+            "code": "c4003",
+            "resolved": true
+          },
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "adventurer-ras",
+            "name": "Adventurer Ras",
+            "code": "c5001",
+            "resolved": true
+          },
+          {
+            "slug": "mercedes",
+            "name": "Mercedes",
+            "code": "c1005",
+            "resolved": true
+          },
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "tamarinne",
+            "name": "Tamarinne",
+            "code": "c1067",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "unbound-knight-arowell",
+            "name": "Unbound Knight Arowell",
+            "code": "c4004",
+            "resolved": true
+          },
+          {
+            "slug": "vildred",
+            "name": "Vildred",
+            "code": "c1007",
+            "resolved": true
+          },
+          {
+            "slug": "iseria",
+            "name": "Iseria",
+            "code": "c1024",
+            "resolved": true
+          },
+          {
+            "slug": "tamarinne",
+            "name": "Tamarinne",
+            "code": "c1067",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:45:05Z",
+      "resolved_heroes": 24,
+      "total_hero_slots": 24
+    },
+    {
+      "title": "Hunt 13 Auto Teams - Setting Up Your First Wyvern 13 Auto Team | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/setting-up-your-first-wyvern-13-auto-team",
+      "content_tags": [
+        "hunt",
+        "wyvern"
+      ],
+      "teams": [
+        [
+          {
+            "slug": "crozet",
+            "name": "Crozet",
+            "code": "c1036",
+            "resolved": true
+          },
+          {
+            "slug": "furious",
+            "name": "Furious",
+            "code": "c1087",
+            "resolved": true
+          },
+          {
+            "slug": "sigret",
+            "name": "Sigret",
+            "code": "c1072",
+            "resolved": true
+          },
+          {
+            "slug": "muwi",
+            "name": "Muwi",
+            "code": "c3132",
+            "resolved": true
+          }
+        ],
+        [
+          {
+            "slug": "angelic-montmorancy",
+            "name": "Angelic Montmorancy",
+            "code": "c4042",
+            "resolved": true
+          },
+          {
+            "slug": "furious",
+            "name": "Furious",
+            "code": "c1087",
+            "resolved": true
+          },
+          {
+            "slug": "sigret",
+            "name": "Sigret",
+            "code": "c1072",
+            "resolved": true
+          },
+          {
+            "slug": "muwi",
+            "name": "Muwi",
+            "code": "c3132",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:45:06Z",
+      "resolved_heroes": 8,
+      "total_hero_slots": 8
+    },
+    {
+      "title": "Specialty Change - Silvertide Christy Specialty Change Guide | Epic7db.com",
+      "source_url": "https://epic7db.com/guides/silvertide-christy-specialty-change-guide",
+      "content_tags": [],
+      "teams": [
+        [
+          {
+            "slug": "christy",
+            "name": "Christy",
+            "code": "c3123",
+            "resolved": true
+          },
+          {
+            "slug": "silvertide-christy",
+            "name": "Silvertide Christy",
+            "code": "c4123",
+            "resolved": true
+          }
+        ]
+      ],
+      "scraped_at": "2026-08-12T05:45:08Z",
+      "resolved_heroes": 2,
+      "total_hero_slots": 2
+    }
+  ]
+}
