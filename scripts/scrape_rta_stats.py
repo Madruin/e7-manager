@@ -333,43 +333,77 @@ def validate_record(rec: dict) -> list[str]:
     return problems
 
 
-def scrape(fetcher: Fetcher, heroes: list[str]) -> int:
+def scrape(fetcher: Fetcher, heroes: list[str], all_mode: bool = False,
+           min_games: int = 500) -> int:
     payload = load_heroes_payload(fetcher)
 
     index = extract_flat_objects(payload, "element")
     index = [o for o in index if "code" in o and "name" in o]
     by_name = {o["name"].lower(): o for o in index}
+    by_code = {o["code"]: o for o in index}
     stats = extract_flat_objects(payload, "hero_code")
     log(f"payload: {len(index)} heroes in index, {len(stats)} season stat rows")
     if not index or not stats:
         sys.exit("hero index or season stats missing from /heroes payload — "
                  "site layout changed; rerun --discover")
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    # Resolve targets to (index_entry, season_rows) pairs.
+    targets: list[tuple[dict, list[dict]]] = []
     failures = 0
-    for hero in heroes:
-        entry = by_name.get(hero.lower())
-        if entry is None:
-            close = [n for n in by_name if hero.lower() in n]
-            log(f"FAIL {hero}: not in hero index (near matches: {close[:5]})")
-            failures += 1
-            continue
-        rows = [s for s in stats if s.get("hero_code") == entry["code"]]
-        if not rows:
-            log(f"FAIL {hero}: no season stats for {entry['code']} (hero exists "
-                "but has no games in the displayed season)")
-            failures += 1
-            continue
+    if all_mode:
+        rows_by_code: dict[str, list[dict]] = {}
+        for s in stats:
+            rows_by_code.setdefault(s["hero_code"], []).append(s)
+        skipped = []
+        for code, rows in rows_by_code.items():
+            games = rows[0].get("total_games") or 0
+            if code not in by_code:
+                log(f"FAIL {code}: season stats but no hero-index entry")
+                failures += 1
+            elif games < min_games:
+                skipped.append(f"{by_code[code]['name']}({games})")
+            else:
+                targets.append((by_code[code], rows))
+        targets.sort(key=lambda t: -(t[1][0].get("total_games") or 0))
+        log(f"--all: scraping {len(targets)} heroes with >= {min_games} games; "
+            f"skipping {len(skipped)} below the floor: {', '.join(skipped)}")
+    else:
+        for hero in heroes:
+            entry = by_name.get(hero.lower())
+            if entry is None:
+                close = [n for n in by_name if hero.lower() in n]
+                log(f"FAIL {hero}: not in hero index (near matches: {close[:5]})")
+                failures += 1
+                continue
+            rows = [s for s in stats if s.get("hero_code") == entry["code"]]
+            if not rows:
+                log(f"FAIL {hero}: no season stats for {entry['code']} (hero "
+                    "exists but has no games in the displayed season)")
+                failures += 1
+                continue
+            targets.append((entry, rows))
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    for entry, rows in targets:
+        name = entry["name"]
         rec = build_hero_record(fetcher, entry, rows)
         problems = validate_record(rec)
+        only_missing_builds = problems and all(
+            "set/artifact stats missing" in p for p in problems)
+        if problems and all_mode and only_missing_builds:
+            # Source genuinely has no build data for this hero this season —
+            # nothing to write is not a scraper defect in bulk mode.
+            log(f"SKIP {name}: no set/artifact data on detail page "
+                f"(games={rec.get('sample_size')})")
+            continue
         if problems:
-            log(f"FAIL {hero}: extracted record did not validate: {problems}")
+            log(f"FAIL {name}: extracted record did not validate: {problems}")
             log(f"  rows: {rows!r}")
             failures += 1
             continue
         out_path = OUT_DIR / f"{rec['hero_slug']}.json"
         out_path.write_text(json.dumps(rec, indent=2, ensure_ascii=False) + "\n")
-        log(f"OK   {hero} -> {out_path.relative_to(REPO_ROOT)} "
+        log(f"OK   {name} -> {out_path.relative_to(REPO_ROOT)} "
             f"(games={rec['sample_size']}, wr={rec.get('derived', {}).get('win_rate')})")
     return failures
 
@@ -478,6 +512,12 @@ def main() -> None:
                     help="with --discover: analyze this page path (repeatable)")
     ap.add_argument("--refresh", action="store_true",
                     help="bypass the response cache (still writes to it)")
+    ap.add_argument("--all", action="store_true", dest="all_mode",
+                    help="scrape every hero in the current season's stats "
+                         "instead of a named list")
+    ap.add_argument("--min-games", type=int, default=500,
+                    help="with --all: skip heroes below this many season games "
+                         "(default 500; their build stats are too noisy)")
     args = ap.parse_args()
 
     fetcher = Fetcher(refresh=args.refresh)
@@ -485,7 +525,8 @@ def main() -> None:
         discover(fetcher, pages=args.pages)
         return
 
-    failures = scrape(fetcher, args.heroes or DEFAULT_HEROES)
+    failures = scrape(fetcher, args.heroes or DEFAULT_HEROES,
+                      all_mode=args.all_mode, min_games=args.min_games)
     if failures:
         sys.exit(f"{failures} hero(es) failed — nothing fabricated, see log above")
 

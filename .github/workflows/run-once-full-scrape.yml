@@ -1,0 +1,36 @@
+# TEMPORARY: one-shot trigger for the first full-meta scrape (cloud sessions
+# cannot dispatch workflows, so this fires on push). Delete after the run.
+name: run-once-full-scrape
+
+on:
+  push:
+    branches: [claude/e7-manager-scaffold-scraper-6sxl63]
+
+permissions:
+  contents: write
+
+jobs:
+  full-scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Full-meta scrape
+        run: python scripts/scrape_rta_stats.py --all --refresh
+
+      - name: Commit
+        run: |
+          git add meta/rta
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git config user.name "meta-sync[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "[scrape] full current-season RTA meta (--all)"
+            git pull --rebase
+            git push
+          fi
