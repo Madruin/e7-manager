@@ -1,0 +1,243 @@
+{
+  "source": {
+    "tier": "T0",
+    "kind": "datamine",
+    "from": "datamine/items.json (hunts, chaos_gate, gear_sets)",
+    "note": "Structure/drops/stages are T0. comps[] and stat thresholds are NOT datamine-derivable (no boss stat tables; comps come from community guides) and are left empty pending the epic7db harvest — see README."
+  },
+  "hunts": [
+    {
+      "enter_key": "hunw",
+      "name": "Wyvern Hunt",
+      "boss_monster_id": "wyvern_f_b_wyvern1",
+      "reward_material": "ma_wyvern6",
+      "drop_sets": [
+        {
+          "set_id": "set_acc",
+          "set_name": "Hit Set",
+          "probability": 0.333333
+        },
+        {
+          "set_id": "set_cri",
+          "set_name": "Critical Set",
+          "probability": 0.333333
+        },
+        {
+          "set_id": "set_speed",
+          "set_name": "Speed Set",
+          "probability": 0.333333
+        }
+      ],
+      "stages": [
+        "hunw009",
+        "hunw011",
+        "hunw013",
+        "hunw101"
+      ],
+      "comps": []
+    },
+    {
+      "enter_key": "hung",
+      "name": "Golem Hunt",
+      "boss_monster_id": "golem_w_b_golem1",
+      "reward_material": "ma_golem6",
+      "drop_sets": [
+        {
+          "set_id": "set_att",
+          "set_name": "Attack Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_def",
+          "set_name": "Defense Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_max_hp",
+          "set_name": "Health Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_shield",
+          "set_name": "Protection Set",
+          "probability": 0.25
+        }
+      ],
+      "stages": [
+        "hung009",
+        "hung011",
+        "hung013",
+        "hung101"
+      ],
+      "comps": []
+    },
+    {
+      "enter_key": "hunb",
+      "name": "Banshee Hunt",
+      "boss_monster_id": "banshee_queen_i_b_banshee_queen1",
+      "reward_material": "ma_banshee6",
+      "drop_sets": [
+        {
+          "set_id": "set_counter",
+          "set_name": "Counter Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_cri_dmg",
+          "set_name": "Destruction Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_res",
+          "set_name": "Resist Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_vampire",
+          "set_name": "Lifesteal Set",
+          "probability": 0.25
+        }
+      ],
+      "stages": [
+        "hunb009",
+        "hunb011",
+        "hunb013",
+        "hunb101"
+      ],
+      "comps": []
+    },
+    {
+      "enter_key": "hunq",
+      "name": "Azimanak Hunt",
+      "boss_monster_id": "insectj_d_b_mznet10",
+      "reward_material": "ma_azimanak6",
+      "drop_sets": [
+        {
+          "set_id": "set_coop",
+          "set_name": "Unity Set",
+          "probability": 0.333333
+        },
+        {
+          "set_id": "set_immune",
+          "set_name": "Immunity Set",
+          "probability": 0.333333
+        },
+        {
+          "set_id": "set_rage",
+          "set_name": "Rage Set",
+          "probability": 0.333333
+        }
+      ],
+      "stages": [
+        "hunq009",
+        "hunq011",
+        "hunq013",
+        "hunq101"
+      ],
+      "comps": []
+    },
+    {
+      "enter_key": "hund",
+      "name": "Caides Hunt",
+      "boss_monster_id": "demontk_l_b_mznet10",
+      "reward_material": "ma_demon6",
+      "drop_sets": [
+        {
+          "set_id": "set_penetrate",
+          "set_name": "Penetration Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_revenge",
+          "set_name": "Revenge Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_scar",
+          "set_name": "Injury Set",
+          "probability": 0.25
+        },
+        {
+          "set_id": "set_torrent",
+          "set_name": "Torrent Set",
+          "probability": 0.25
+        }
+      ],
+      "stages": [
+        "hund009",
+        "hund011",
+        "hund013",
+        "hund101"
+      ],
+      "comps": []
+    }
+  ],
+  "chaos_gate": [
+    {
+      "id": "chaosgate_ss1",
+      "name": "Remnant of Hubris",
+      "drop_sets": [
+        {
+          "set_id": "set_revenant",
+          "set_name": "Reversal Set",
+          "probability": 0.5
+        },
+        {
+          "set_id": "set_riposte",
+          "set_name": "Riposte Set",
+          "probability": 0.5
+        }
+      ],
+      "stages": [
+        "chaosgate_stage01",
+        "chaosgate_stage02",
+        "chaosgate_stage03"
+      ],
+      "comps": []
+    },
+    {
+      "id": "chaosgate_ss2",
+      "name": "Remnant of Darkness",
+      "drop_sets": [
+        {
+          "set_id": "set_chase",
+          "set_name": "Pursuit Set",
+          "probability": 0.5
+        },
+        {
+          "set_id": "set_opener",
+          "set_name": "Warfare Set",
+          "probability": 0.5
+        }
+      ],
+      "stages": [
+        "chaosgate_stage01",
+        "chaosgate_stage02",
+        "chaosgate_stage03"
+      ],
+      "comps": []
+    },
+    {
+      "id": "chaosgate_ss3",
+      "name": "Remnant of Supremacy",
+      "drop_sets": [
+        {
+          "set_id": "set_might",
+          "set_name": "Fervor Set",
+          "probability": 0.5
+        },
+        {
+          "set_id": "set_weak",
+          "set_name": "Weakening Set",
+          "probability": 0.5
+        }
+      ],
+      "stages": [
+        "chaosgate_stage01",
+        "chaosgate_stage02",
+        "chaosgate_stage03"
+      ],
+      "comps": []
+    }
+  ]
+}
