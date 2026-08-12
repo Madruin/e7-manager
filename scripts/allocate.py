@@ -33,15 +33,24 @@ def equipped_ids(d: Data) -> set:
     return ids
 
 
-def candidate_pool(d: Data, hero_name: str):
-    """Per slot: the hero's current piece + all spare pieces of that slot."""
+def candidate_pool(d: Data, hero_name: str, exclude_ids: set | None = None):
+    """Per slot: the hero's current piece + all spare pieces of that slot.
+
+    exclude_ids: spare pieces already claimed by another hero's plan, so a
+    batch of allocations never hands the same physical piece to two heroes.
+    The hero's own current gear is never excluded.
+    """
+    exclude_ids = exclude_ids or set()
     hero = next((h for h in d.heroes if h["name"] == hero_name), None)
     if hero is None or not hero.get("equipment"):
         sys.exit(f"{hero_name}: not found or not geared")
     eq_ids = equipped_ids(d)
-    # spare = items not equipped by anyone
-    spare = [x for x in d.items if x.get("ingameId") not in eq_ids]
     current = {it["gear"]: it for it in hero["equipment"].values()}
+    cur_ids = {it.get("ingameId") for it in current.values()}
+    # spare = items not equipped by anyone and not already claimed elsewhere
+    spare = [x for x in d.items
+             if x.get("ingameId") not in eq_ids
+             and (x.get("ingameId") not in exclude_ids or x.get("ingameId") in cur_ids)]
     pool = {}
     for slot in SLOTS:
         opts = [it for it in spare if it["gear"] == slot]
@@ -55,25 +64,34 @@ def build_wss(d: Data, combo) -> float:
     return sum(d.reforge_wss(it) for it in combo)
 
 
-def best_build(d: Data, hero_name: str, want_sets=None, top_k_per_slot=8):
-    """Greedy-ish search: keep the top-WSS pieces per slot, then brute-force
-    combos, keeping the best that yields a valid set bonus (optionally matching
-    want_sets). The per-slot cap keeps the product tractable."""
-    hero, current, pool = candidate_pool(d, hero_name)
-    # cap each slot to its top-K by WSS to bound the search
+_PIECES = {c: p for _, (c, p) in FRIBBELS_TO_CODE.items()}
+
+
+def _set_slots(sets: list[str]) -> int:
+    """How many of the 6 slots are accounted for by the active set bonuses."""
+    return sum(_PIECES.get(c, 0) for c in sets)
+
+
+def best_build(d: Data, hero_name: str, want_sets=None, top_k_per_slot=8,
+               min_set_slots=4, exclude_ids=None):
+    """Search current + spare gear for the highest-WSS build that forms a
+    *coherent* set (>= min_set_slots slots in sets — i.e. a 4-piece, or two
+    2-piece sets, not a lone 2-piece). Optionally force want_sets. Per-slot
+    cap bounds the brute force. exclude_ids blocks spare pieces already claimed
+    by another hero's plan (see candidate_pool)."""
+    hero, current, pool = candidate_pool(d, hero_name, exclude_ids)
     capped = {s: sorted(v, key=lambda it: -d.reforge_wss(it))[:top_k_per_slot]
               for s, v in pool.items()}
-    sizes = [len(capped[s]) for s in SLOTS]
     total = 1
-    for n in sizes:
-        total *= max(n, 1)
+    for s in SLOTS:
+        total *= max(len(capped[s]), 1)
 
     best = None
     for combo in product(*[capped[s] or [None] for s in SLOTS]):
         if any(c is None for c in combo):
             continue
         sets = active_sets(list(combo))
-        if not sets:
+        if not sets or _set_slots(sets) < min_set_slots:
             continue
         if want_sets and set(sets) != set(want_sets):
             continue
