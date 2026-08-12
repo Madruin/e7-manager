@@ -1,11 +1,11 @@
-# TEMPORARY: run the epic7db comp harvester (cloud can't reach epic7db) and
-# commit meta/pve/comps.json. Delete once the harvest is stable / folded into
-# a scheduled job.
+# Weekly epic7db PvE-comp harvest (+ on-demand). Cloud sessions can't reach
+# epic7db, so this runs on Actions. Commits meta/pve/comps.json only on change.
 name: pve-harvest
 
 on:
-  push:
-    branches: [claude/e7-manager-scaffold-scraper-6sxl63]
+  schedule:
+    - cron: "37 9 * * 1" # Mondays 09:37 UTC (after meta-sync)
+  workflow_dispatch:
 
 permissions:
   contents: write
