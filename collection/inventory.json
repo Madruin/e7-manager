@@ -10,27 +10,25 @@
   "scraped_at": "2026-08-12T00:00:00Z",
 
   "currencies": {
-    "gold": {"value": 758891697, "confidence": "high", "note": "matches top bar across all screenshots", "source_screenshot": "chat 2026-08-12 (all)"},
-    "skystone": {"value": 4347, "confidence": "high", "note": "matches top bar (blue gem)", "source_screenshot": "chat 2026-08-12 (all)"},
-    "covenant_bookmarks": {"value": 230, "confidence": "high", "note": "tooltip-confirmed 'Covenant Bookmarks'; a 15d timer was shown on this stack", "source_screenshot": "chat batch2 currency"},
-    "energy_leif": {"value": 845419, "confidence": "medium", "note": "red fox icon; shown as the leftmost top-bar value on the Forest of Souls screen and in the currency grid. Likely Energy/Leif. VERIFY identity.", "source_screenshot": "chat batch1 forest + batch2 currency"}
+    "gold": {"value": 758891697, "confidence": "high", "note": "matches top bar", "source_screenshot": "chat 2026-08-12"},
+    "skystone": {"value": 4347, "confidence": "high", "note": "matches top bar (blue gem)", "source_screenshot": "chat 2026-08-12"},
+    "covenant_bookmarks": {"value": 217, "confidence": "high", "note": "owner-confirmed (blue star icon)", "source_screenshot": "chat batch2 currency"},
+    "covenant_bookmarks_limited": {"value": 230, "confidence": "high", "note": "tooltip 'Covenant Bookmarks' with a 15d expiry timer — a time-limited event stack, tracked separately from the permanent 217", "source_screenshot": "chat batch2 currency"},
+    "friendship_points": {"value": 383113, "confidence": "high", "note": "owner-confirmed (green heart icon)", "source_screenshot": "chat batch2 currency"},
+    "stigma": {"value": 845419, "confidence": "high", "note": "owner-confirmed (red fox icon); also the leftmost top-bar value on the Forest of Souls screen", "source_screenshot": "chat batch1 forest + batch2 currency"},
+    "leif": {"value": 1286, "confidence": "high", "note": "owner-confirmed (green leaf icon)", "source_screenshot": "chat batch2 currency"},
+    "powder_of_knowledge": {"value": 1125, "confidence": "high", "note": "owner-confirmed (pink crystals icon)", "source_screenshot": "chat batch2 currency"},
+    "commanders_armband": {"value": 515, "confidence": "high", "note": "owner-confirmed (red ring icon)", "source_screenshot": "chat batch2 currency"}
   },
 
-  "currency_grid_unidentified": {
-    "note": "Currency tab values read left-to-right, top-to-bottom. Counts are reliable; item IDENTITY is NOT (the game shows a name tooltip for only the selected tile). Please confirm which is which — especially Mystic Medals, Galaxy Bookmarks, Friendship, Molagora, Charms, arena/guild currencies.",
-    "confidence": "low_identity_high_count",
-    "row1": [230, 217, 780, 200, 5274, 97, 1, 20, 4],
-    "row2": [2, 4, 1, 2, 334, 80, 4347, 2087, 1286],
-    "row3": [500, 140, 562, 1125, 35, 95, 515, 3, 761],
-    "row4": [383113, 758891697, 8975, 13583, 5, 299, 845419, 3, 2],
-    "row5": [47],
-    "anchors": {
-      "row1_pos1_230": "Covenant Bookmarks (tooltip-confirmed)",
-      "row2_pos7_4347": "Skystone (matches top bar)",
-      "row4_pos2_758891697": "Gold (matches top bar)",
-      "row4_pos7_845419": "red fox icon (also top bar on Forest screen)",
-      "row2_pos9_1286": "green leaf icon — candidate Molagora, VERIFY"
-    }
+  "currency_grid_unlabeled": {
+    "note": "Remaining Currency-tab tiles: counts reliable, identity not yet confirmed by the owner. Owner labeled the high-value ones (see currencies above); these are the leftovers. Owner can tap any tile in-game to name it if a specific one is ever needed.",
+    "confidence": "count_only",
+    "values_row1": [780, 200, 5274, 97, 1, 20, 4],
+    "values_row2": [2, 4, 1, 2, 334, 80, 2087],
+    "values_row3": [500, 140, 562, 35, 95, 3, 761],
+    "values_row4": [8975, 13583, 5, 299, 3, 2],
+    "values_row5": [47]
   },
 
   "crafting_materials": {
@@ -52,6 +50,20 @@
     "gear_charm_grid": {
       "confidence": "count_only",
       "note": "The Enhancement Ingredients tab holds hundreds of gear charm tiles (stat x set x element, counts mostly 1-12). Counts legible; per-tile identity not OCR-reliable. These feed gear crafting/mod decisions — re-capture specific stat charms if session 5 needs them."
+    }
+  },
+
+  "growth_ingredients": {
+    "note": "Growth Ingredients tab (skill-ups, awakening, hero XP). MolaGora is tooltip+owner confirmed; other tiles (spirit blooms, penguins/fodder, hunt skill-up catalysts) are counts-only — legible but per-tile identity not OCR-reliable. Ask for a specific catalyst on demand.",
+    "molagora": {"value": 705, "confidence": "high", "note": "tooltip+owner-confirmed 'MolaGora — Skill Enhancer'", "source_screenshot": "chat batch3 growth"},
+    "spirit_bloom_anchors": {
+      "confidence": "medium",
+      "note": "Awakening blooms by icon (unverified): purple-lotus 229 (Superior?), gold-lotus 1000 (Greater?), white-flower 4426 (basic Spirit Bloom).",
+      "values": [229, 1000, 4426]
+    },
+    "other_growth_grid": {
+      "confidence": "count_only",
+      "note": "Penguins/fodder (top-left ~9/12/27), elemental awakening stones, and hunt skill-up catalysts present in quantity; not itemized."
     }
   },
 
@@ -148,11 +160,8 @@
   },
 
   "needs_verification": [
-    "Currency identities: confirm which grid tile is Mystic Medals, Galaxy Bookmarks, Friendship, Molagora, Charms/Powder, and the arena/guild currencies (I only tooltip-confirmed Covenant Bookmarks=230, Gold, Skystone). See currency_grid_unidentified.",
-    "energy_leif=845419 (red fox icon) — confirm this is Energy/Leif and not another currency.",
-    "Molagora stock: is it the green-leaf 1286 in the currency grid, or on the Growth Ingredients tab (not clearly captured)? A clean shot of Growth Ingredients would settle molagora + penguins + spirit blooms + skill-up catalysts.",
-    "Catalysts (skill-up hunt catalysts like molars/claws): not clearly on a captured tab — likely under Growth Ingredients. Re-capture if session 5's enhancement/skill planning needs them.",
     "Artifact per-copy counts/enhancements are MEDIUM confidence; names are reliable. Flag any that look wrong.",
-    "Crafting-material set molecules and gear charms: counts legible but per-tile identity not itemized. Tell me if you want specific sets/stats pulled."
+    "Crafting-material set molecules, gear charms, spirit blooms, penguins, and skill-up catalysts: counts legible but per-tile identity not itemized (owner opted for pull-specifics-on-demand). Ask when session 5/6 needs a specific set/stat/catalyst.",
+    "A handful of low-value Currency tiles remain unlabeled (see currency_grid_unlabeled); owner labeled all the high-value ones."
   ]
 }
