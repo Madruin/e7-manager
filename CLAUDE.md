@@ -433,3 +433,14 @@ Consequences:
   `E7_SCRAPER_BASE=https://epic7db.com python scripts/scrape_rta_stats.py
   --discover --page /heroes/<slug>` (works from Actions or locally, not
   from cloud sessions).
+  - **Guide library LOCATED 2026-08-12 (session 6):** `/guides` is a real
+    index (HTTP 200, ~103 KB) full of hunt/team/auto content (Wyvern,
+    Azimanak, "Team", "Auto"…). Individual guide pages carry **structured
+    team comps**: `<div class="hero-list hero-team">` blocks (≈6 teams on
+    the sample page), each listing heroes via `/heroes/{kebab-slug}` links
+    with `class="hero"/"hero-avatar"`. **But no structured stat
+    thresholds** — the speed/atk/crit-near-number probe came back empty, so
+    breakpoints live in the prose `class="wysiwyg"` body (unreliable to
+    parse). So a harvester can reliably pull *team lists* per guide, but
+    per-slot stat targets would need prose NLP or a different source. This
+    unblocks `meta/pve/*.comps` team data; thresholds remain open.

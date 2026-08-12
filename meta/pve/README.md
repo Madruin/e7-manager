@@ -18,12 +18,23 @@ Each hunt/chaos entry has a `comps: []` field that is **not yet populated**.
 Filling it needs two things the repo does not have yet:
 
 1. **The comps themselves** (which heroes clear what, on auto/one-shot) —
-   these are community knowledge, intended source **epic7db's guide
-   library**. Per CLAUDE.md KNOWN UNKNOWNS, these must come from data, **not
-   model memory**, so they are NOT invented here. Status: the epic7db guide
-   structure was probed (see `pve-recon` workflow / CLAUDE.md site notes);
-   harvesting is **deferred** until the guide/comp URLs are located and a
-   parser is written (mirrors the epic7db rank-target deferral).
+   community knowledge, source **epic7db's guide library**. Per CLAUDE.md
+   KNOWN UNKNOWNS these come from data, **not model memory**, so they are
+   NOT invented here.
+   **Source located 2026-08-12 (session 6):** `epic7db.com/guides` is a
+   working index; guide pages expose team comps as
+   `<div class="hero-list hero-team">` with `/heroes/{slug}` links (see
+   CLAUDE.md epic7db notes). **Harvest blueprint** (build via GitHub
+   Actions — cloud can't reach epic7db):
+   1. GET `/guides`, extract guide URLs.
+   2. Per guide: parse each `.hero-list.hero-team` → list of hero slugs;
+      map slug → our hero name/`cXXXX` via `datamine/heroes.json`.
+   3. Tag the guide's content (hunt/abyss/tower/GW) from its title/heading.
+   4. Write `comps[]` here with `team`, `content`, `source_url`,
+      `scraped_at`; leave `per_slot_thresholds` empty (NOT in structured
+      markup — see caveat) unless a threshold source is found.
+   Status: **blueprint ready, parser not yet written** (a multi-run scraper
+   build like the RTA scraper) — pending a decision to build it.
 2. **Boss stat thresholds** (speed/bulk breakpoints) — the datamine we have
    normalized carries hunt *structure* but **no boss stat tables**, so
    datamine-derived thresholds are not available either. Cracking the boss
