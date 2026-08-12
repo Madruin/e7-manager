@@ -1,0 +1,35 @@
+# TEMPORARY: locate epic7db's PvE guide / hunt-comp structure for session 6.
+# Cloud sessions can't reach epic7db; this probes it from an Actions runner.
+# Delete after recon.
+name: pve-recon
+
+on:
+  push:
+    branches: [claude/e7-manager-scaffold-scraper-6sxl63]
+
+permissions:
+  contents: read
+
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe epic7db for guide/comp pages
+        run: |
+          E7_SCRAPER_BASE=https://epic7db.com python scripts/scrape_rta_stats.py \
+            --discover --refresh \
+            --page /guides --page /guide --page /content --page /hunts \
+            --page /wyvern --page /guides/wyvern --page /heroes/vildred \
+            || true
+      - name: Raw curl of candidate guide URLs (structure sniff)
+        run: |
+          for u in / /guides /guide /content /hunt /hunts /pve /teams /comps; do
+            code=$(curl -s -o /tmp/p.html -w "%{http_code}" "https://epic7db.com$u" || echo ERR)
+            bytes=$(wc -c < /tmp/p.html 2>/dev/null || echo 0)
+            hits=$(grep -oiE "guide|team|comp|wyvern|banshee|golem|azimanak|caides|abyss|one.?shot|auto" /tmp/p.html 2>/dev/null | sort | uniq -c | sort -rn | head -8 | tr '\n' ' ')
+            echo "epic7db$u -> HTTP $code, ${bytes}B | keyword hits: $hits"
+          done
