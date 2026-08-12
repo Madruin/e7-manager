@@ -24,15 +24,15 @@
    "db/character_player_grade3.db",
    "text/en/text.db"
   ],
-  "extracted_at": "2026-08-11T05:48:37Z",
-  "normalized_at": "2026-08-11T05:52:54Z"
+  "extracted_at": "2026-08-11T05:56:25Z",
+  "normalized_at": "2026-08-12T00:00:25Z"
  },
  "notes": [
-  "Roster filter: character_player*.type == \"character\", using == \"y\", race == \"hero\".",
+  "Roster filter: character_player*.type in (\"character\", \"limited\"), using == \"y\", race == \"hero\", complete == \"y\". The complete flag is what excludes unreleased rows (the text table names them \"Unknown Hero\").",
   "base_id is the table's variation_group: skins (id suffix _s01/_s02) and story or tutorial duplicates share a base_id with the canonical unit, and carry is_variant. Variants reuse the base unit's skill ids.",
   "stat_seed holds the datamined personality values the client feeds into its base-stat formula; that formula lives in pass/public.pass (separately encrypted) and is NOT decoded here, so no derived lv60 stats are emitted."
  ],
- "count": 620,
+ "count": 456,
  "heroes": [
   {
    "id": "c0001",
@@ -2092,6 +2092,40 @@
    "source_table": "character_player"
   },
   {
+   "id": "c1040",
+   "name": "Serila",
+   "name_key": "chrn_c1040",
+   "base_id": "c1040",
+   "is_variant": false,
+   "rarity": 4,
+   "element": "fire",
+   "class": "mage",
+   "zodiac": "waterbearer",
+   "is_moonlight": false,
+   "is_ordinary": true,
+   "skills": [
+    "sk_c1040_1",
+    "sk_c1040_2",
+    "sk_c1040_3"
+   ],
+   "devotion_skill": "ds_acc_g4_s4",
+   "devotion_skill_self": "ds_acc_g4_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 108,
+    "intellect": 60,
+    "faith": 95,
+    "destiny": 74
+   },
+   "sell_price": 1000,
+   "source_table": "character_player"
+  },
+  {
    "id": "c1042",
    "name": "Tywin",
    "name_key": "chrn_c1042",
@@ -3480,6 +3514,41 @@
    "source_table": "character_player"
   },
   {
+   "id": "c1083",
+   "name": "Zeno",
+   "name_key": "chrn_c1083",
+   "base_id": "c1083",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "ice",
+   "class": "mage",
+   "zodiac": "bull",
+   "is_moonlight": false,
+   "is_ordinary": true,
+   "skills": [
+    "sk_c1083_1",
+    "sk_c1083_2",
+    "sk_c1083_3",
+    "sk_c1083_4"
+   ],
+   "devotion_skill": "ds_acc_g5_s4",
+   "devotion_skill_self": "ds_def_rate_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 98,
+    "intellect": 85,
+    "faith": 92,
+    "destiny": 82
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
    "id": "c1085",
    "name": "Khawazu",
    "name_key": "chrn_c1085",
@@ -3788,6 +3857,43 @@
     "intellect": 74,
     "faith": 98,
     "destiny": 72
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c1092",
+   "name": "Sol",
+   "name_key": "chrn_c1092",
+   "base_id": "c1092",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "fire",
+   "class": "warrior",
+   "zodiac": "archer",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c1092_1",
+    "sk_c1092_2",
+    "sk_c1092_3",
+    "sk_c1092_4",
+    "sk_c1092_5",
+    "sk_c1092_6",
+    "sk_c1092_7"
+   ],
+   "counter_skill": "sk_c1092_7",
+   "devotion_skill": "ds_def_rate_g5_s2",
+   "devotion_skill_self": "ds_att_rate_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "3"
+   ],
+   "stat_seed": {
+    "bravery": 104,
+    "intellect": 91,
+    "faith": 58,
+    "destiny": 89
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -4408,6 +4514,40 @@
    "source_table": "character_player"
   },
   {
+   "id": "c1107",
+   "name": "Kizuna AI",
+   "name_key": "chrn_c1107",
+   "base_id": "c1107",
+   "is_variant": false,
+   "rarity": 4,
+   "element": "fire",
+   "class": "manauser",
+   "zodiac": "crab",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c1107_1",
+    "sk_c1107_2",
+    "sk_c1107_3"
+   ],
+   "devotion_skill": "ds_att_rate_g4_s4",
+   "devotion_skill_self": "ds_max_hp_rate_g4_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 47,
+    "intellect": 75,
+    "faith": 100,
+    "destiny": 62
+   },
+   "sell_price": 1000,
+   "source_table": "character_player"
+  },
+  {
    "id": "c1108",
    "name": "Ervalen",
    "name_key": "chrn_c1108",
@@ -4653,6 +4793,41 @@
     "intellect": 102,
     "faith": 66,
     "destiny": 68
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c1115",
+   "name": "Ram",
+   "name_key": "chrn_c1115",
+   "base_id": "c1115",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "wind",
+   "class": "mage",
+   "zodiac": "twins",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c1115_1",
+    "sk_c1115_2",
+    "sk_c1115_3",
+    "sk_c1115_4"
+   ],
+   "devotion_skill": "ds_max_hp_rate_g5_s4",
+   "devotion_skill_self": "ds_acc_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 106,
+    "intellect": 67,
+    "faith": 95,
+    "destiny": 75
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -4939,6 +5114,41 @@
     "intellect": 75,
     "faith": 86,
     "destiny": 80
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c1123",
+   "name": "Shuna",
+   "name_key": "chrn_c1123",
+   "base_id": "c1123",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "fire",
+   "class": "manauser",
+   "zodiac": "twins",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c1123_1",
+    "sk_c1123_2",
+    "sk_c1123_3",
+    "sk_c1123_4"
+   ],
+   "devotion_skill": "ds_max_hp_rate_g5_s4",
+   "devotion_skill_self": "ds_res_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 55,
+    "intellect": 74,
+    "faith": 98,
+    "destiny": 72
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -5429,6 +5639,42 @@
     "intellect": 59,
     "faith": 84,
     "destiny": 84
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
+   "id": "c1136",
+   "name": "Riza Hawkeye",
+   "name_key": "chrn_c1136",
+   "base_id": "c1136",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "ice",
+   "class": "ranger",
+   "zodiac": "goat",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c1136_1",
+    "sk_c1136_2",
+    "sk_c1136_3",
+    "sk_c1136_4",
+    "sk_c1136_5"
+   ],
+   "devotion_skill": "ds_att_rate_g5_s4",
+   "devotion_skill_self": "ds_cri_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 94,
+    "intellect": 95,
+    "faith": 67,
+    "destiny": 79
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -6678,6 +6924,43 @@
    "source_table": "character_player"
   },
   {
+   "id": "c1174",
+   "name": "Stark",
+   "name_key": "chrn_c1174",
+   "base_id": "c1174",
+   "is_variant": false,
+   "rarity": 5,
+   "element": "fire",
+   "class": "warrior",
+   "zodiac": "goat",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c1174_1",
+    "sk_c1174_2",
+    "sk_c1174_3",
+    "sk_c1174_4",
+    "sk_c1174_5",
+    "sk_c1174_6"
+   ],
+   "devotion_skill": "ds_def_rate_g5_s4",
+   "devotion_skill_self": "ds_cri_g5_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 90,
+    "intellect": 109,
+    "faith": 77,
+    "destiny": 68
+   },
+   "sell_price": 4800,
+   "source_table": "character_player"
+  },
+  {
    "id": "c1176",
    "name": "Setsuka",
    "name_key": "chrn_c1176",
@@ -6932,44 +7215,6 @@
     "intellect": 110,
     "faith": 87,
     "destiny": 62
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c1352",
-   "name": "Boss Arunka",
-   "name_key": "chrn_c1352",
-   "base_id": "c1124",
-   "is_variant": true,
-   "rarity": 5,
-   "element": "wind",
-   "class": "warrior",
-   "zodiac": "scorpion",
-   "is_moonlight": false,
-   "is_ordinary": true,
-   "skills": [
-    "sk_c1124_1",
-    "sk_c1124_2",
-    "sk_c1124_3",
-    "sk_c1124_4",
-    "sk_c1124_5",
-    "sk_c1124_6",
-    "sk_c1124_7"
-   ],
-   "devotion_skill": "ds_max_hp_rate_g5_s4",
-   "devotion_skill_self": "ds_att_rate_g5_self",
-   "devotion_skill_slots": [
-    "1",
-    "2",
-    "3",
-    "4"
-   ],
-   "stat_seed": {
-    "bravery": 107,
-    "intellect": 102,
-    "faith": 66,
-    "destiny": 68
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -8177,32 +8422,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2030",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2030",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2031",
    "name": "Auxiliary Lots",
    "name_key": "chrn_c2031",
@@ -8298,32 +8517,6 @@
     "destiny": 100
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2034",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2034",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -8508,32 +8701,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2040",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2040",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2042",
    "name": "Ambitious Tywin",
    "name_key": "chrn_c2042",
@@ -8599,32 +8766,6 @@
     "destiny": 78
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2044",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2044",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -8984,58 +9125,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2055",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2055",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2060",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2060",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2062",
    "name": "Sinful Angelica",
    "name_key": "chrn_c2062",
@@ -9198,32 +9287,6 @@
     "intellect": 82,
     "faith": 75,
     "destiny": 97
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2067",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2067",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -9663,32 +9726,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2081",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2081",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2082",
    "name": "Top Model Luluca",
    "name_key": "chrn_c2082",
@@ -9718,32 +9755,6 @@
     "intellect": 62,
     "faith": 89,
     "destiny": 89
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2083",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2083",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -10073,58 +10084,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2096",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2096",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2097",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2097",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2099",
    "name": "Architect Laika",
    "name_key": "chrn_c2099",
@@ -10156,32 +10115,6 @@
     "intellect": 59,
     "faith": 86,
     "destiny": 89
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2100",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2100",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -10337,32 +10270,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2104",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2104",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2106",
    "name": "Dragon Bride Senya",
    "name_key": "chrn_c2106",
@@ -10395,32 +10302,6 @@
     "intellect": 110,
     "faith": 87,
     "destiny": 62
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2108",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2108",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -10639,84 +10520,6 @@
     "intellect": 113,
     "faith": 101,
     "destiny": 57
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2117",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2117",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2118",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2118",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2119",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2119",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -11020,188 +10823,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2133",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2133",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2141",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2141",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2142",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2142",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2143",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2143",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2144",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2144",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2145",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2145",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2147",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2147",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2148",
    "name": "Tidal Rift Elvira",
    "name_key": "chrn_c2148",
@@ -11240,318 +10861,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2149",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2149",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2150",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2150",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2151",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2151",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2152",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2152",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2153",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2153",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2154",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2154",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2158",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2158",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2159",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2159",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2160",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2160",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2161",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2161",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2162",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2162",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2163",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2163",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2165",
    "name": "New Kid Adin",
    "name_key": "chrn_c2165",
@@ -11585,292 +10894,6 @@
     "destiny": 89
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2166",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2166",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2168",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2168",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2169",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2169",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2170",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2170",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2171",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2171",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2175",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2175",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2176",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2176",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2177",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2177",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2178",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2178",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2179",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2179",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2180",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2180",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -11954,58 +10977,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c2182",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2182",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2183",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2183",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c2184",
    "name": "Salome",
    "name_key": "chrn_c2184",
@@ -12072,58 +11043,6 @@
     "intellect": 79,
     "faith": 46,
     "destiny": 107
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2186",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2186",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c2190",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c2190",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -13624,6 +12543,40 @@
    "source_table": "character_player_grade3"
   },
   {
+   "id": "c3084",
+   "name": "Kikirat v2",
+   "name_key": "chrn_c3084",
+   "base_id": "c3084",
+   "is_variant": false,
+   "rarity": 3,
+   "element": "light",
+   "class": "knight",
+   "zodiac": "goat",
+   "is_moonlight": true,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c3084_1",
+    "sk_c3084_2",
+    "sk_c3084_3"
+   ],
+   "devotion_skill": "ds_max_hp_g3_s4",
+   "devotion_skill_self": "ds_def_g3_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 57,
+    "intellect": 95,
+    "faith": 86,
+    "destiny": 48
+   },
+   "sell_price": 400,
+   "source_table": "character_player_grade3"
+  },
+  {
    "id": "c3091",
    "name": "Hataan",
    "name_key": "chrn_c3091",
@@ -13964,6 +12917,40 @@
     "intellect": 51,
     "faith": 71,
     "destiny": 66
+   },
+   "sell_price": 400,
+   "source_table": "character_player_grade3"
+  },
+  {
+   "id": "c3113",
+   "name": "Lucy",
+   "name_key": "chrn_c3113",
+   "base_id": "c3113",
+   "is_variant": false,
+   "rarity": 3,
+   "element": "wind",
+   "class": "manauser",
+   "zodiac": "maiden",
+   "is_moonlight": false,
+   "is_ordinary": false,
+   "skills": [
+    "sk_c3113_1",
+    "sk_c3113_2",
+    "sk_c3113_3"
+   ],
+   "devotion_skill": "ds_att_g3_s4",
+   "devotion_skill_self": "ds_acc_g3_self",
+   "devotion_skill_slots": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "stat_seed": {
+    "bravery": 45,
+    "intellect": 71,
+    "faith": 78,
+    "destiny": 59
    },
    "sell_price": 400,
    "source_table": "character_player_grade3"
@@ -16678,58 +15665,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c6001",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6001",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6002",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6002",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c6003",
    "name": "Wretched Rose",
    "name_key": "chrn_c6003",
@@ -16761,32 +15696,6 @@
     "destiny": 69
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6004",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6004",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -16822,58 +15731,6 @@
     "intellect": 74,
     "faith": 87,
     "destiny": 82
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6006",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6006",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6007",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6007",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -16917,58 +15774,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c6009",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6009",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6010",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6010",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c6011",
    "name": "Last Piece Karin",
    "name_key": "chrn_c6011",
@@ -17002,58 +15807,6 @@
     "destiny": 97
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6012",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6012",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6013",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6013",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -17093,58 +15846,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c6015",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6015",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6016",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6016",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c6017",
    "name": "Infinite Horizon Achates",
    "name_key": "chrn_c6017",
@@ -17177,58 +15878,6 @@
     "destiny": 65
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6018",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6018",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6019",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6019",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -17266,84 +15915,6 @@
     "destiny": 83
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6021",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6021",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6022",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6022",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6023",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6023",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {
@@ -17388,240 +15959,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c6027",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6027",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6028",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6028",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6029",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6029",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6030",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6030",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6031",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6031",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6032",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6032",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6033",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6033",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6035",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6035",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6036",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6036",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c6037",
    "name": "Moon Bunny Dominiel",
    "name_key": "chrn_c6037",
@@ -17657,266 +15994,6 @@
    "source_table": "character_player"
   },
   {
-   "id": "c6038",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6038",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6039",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6039",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6040",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6040",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6042",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6042",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6043",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6043",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6044",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6044",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6046",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6046",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6047",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6047",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6048",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6048",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6049",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6049",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
    "id": "c6050",
    "name": "Witch of the Mere Tenebria",
    "name_key": "chrn_c6050",
@@ -17945,110 +16022,6 @@
     "intellect": 86,
     "faith": 81,
     "destiny": 80
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6053",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6053",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6054",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6054",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6055",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6055",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6060",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6060",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
    },
    "sell_price": 4800,
    "source_table": "character_player"
@@ -18125,2164 +16098,6 @@
     "destiny": 74
    },
    "sell_price": 1000,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6066",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6066",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6067",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6067",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6069",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6069",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6070",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6070",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6071",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6071",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6072",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6072",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6073",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6073",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6074",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6074",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6076",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6076",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6079",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6079",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6080",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6080",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6081",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6081",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6082",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6082",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6083",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6083",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6085",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6085",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6086",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6086",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6087",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6087",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6088",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6088",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6089",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6089",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6090",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6090",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6091",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6091",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6095",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6095",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6096",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6096",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6097",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6097",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6099",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6099",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6100",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6100",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6101",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6101",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6102",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6102",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6103",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6103",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6104",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6104",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6106",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6106",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6108",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6108",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6109",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6109",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6110",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6110",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6111",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6111",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6112",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6112",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6113",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6113",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6118",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6118",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6119",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6119",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6124",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6124",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6125",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6125",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6126",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6126",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6127",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6127",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6128",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6128",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6129",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6129",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6131",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6131",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6132",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6132",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6133",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6133",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6141",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6141",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6142",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6142",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6143",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6143",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6144",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6144",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6145",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6145",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6147",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6147",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6148",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6148",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6149",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6149",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6150",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6150",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6151",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6151",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6152",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6152",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6154",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6154",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6158",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6158",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6159",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6159",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6160",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6160",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6161",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6161",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6162",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6162",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6163",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6163",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6166",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6166",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6168",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6168",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6169",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6169",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6170",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6170",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6171",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6171",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6175",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6175",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6176",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6176",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6177",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6177",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6178",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6178",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6179",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6179",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6180",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6180",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6181",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6181",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6182",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6182",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6183",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6183",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6184",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6184",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6185",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6185",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
-   "source_table": "character_player"
-  },
-  {
-   "id": "c6190",
-   "name": "Unknown Hero",
-   "name_key": "chrn_unknown",
-   "base_id": "c6190",
-   "is_variant": false,
-   "rarity": 5,
-   "element": "light",
-   "class": "knight",
-   "zodiac": "scales",
-   "is_moonlight": true,
-   "is_ordinary": false,
-   "skills": [
-    "sk_c1001_1",
-    "sk_c1001_2",
-    "sk_c1001_3"
-   ],
-   "stat_seed": {
-    "bravery": 81,
-    "intellect": 106,
-    "faith": 92,
-    "destiny": 63
-   },
-   "sell_price": 4800,
    "source_table": "character_player"
   },
   {

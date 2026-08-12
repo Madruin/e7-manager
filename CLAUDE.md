@@ -26,6 +26,7 @@ conflict, lower tier number wins.
 | epic7db | https://epic7db.com | Per-rank RTA stat targets (Master→Legend), guide library | T2/T3 | Ongoing |
 | CeciliaBot site | https://ceciliabot.github.io | Banner timeline, hero/artifact DB | T3 | Ongoing |
 | e7calc | https://e7calc.xyz | Damage calculator + skill multipliers | T3 | After balance patches |
+| Fribbels E7 Optimizer | https://github.com/fribbels/Fribbels-Epic-7-Optimizer | `data/cache/herodata.json` → per-hero base stats (T0 substitute, see KNOWN UNKNOWNS); the app itself produces the gear export in `collection/` | T3 | Per game patch |
 
 **Dead, do not use:** EpicSevenDB (closed Jan 2023), gamepress.
 
@@ -141,10 +142,17 @@ Substat weighting (WSS — weighted substat score):
 - Crit Damage ×8/7
 - % stats (Atk%/Def%/HP%/Eff/ER) ×1
 - Flat stats normalized against their % equivalents (convert a flat roll to
-  the % of the relevant base stat it represents, using datamined base stats,
-  then weight as a % stat) — **blocked**: per-hero base stats are not yet
-  available, see KNOWN UNKNOWNS. `datamine/items.json` → `stat_scales` does
-  give the per-roll `val_min`/`val_max` ranges for every main/substat.
+  the % of the relevant base stat it represents, then weight as a % stat).
+  **Unblocked as of 2026-08-12, with a tier downgrade** — use
+  `datamine/base_stats.json` (`heroes[<id>].lv60_6star_awakened`), which is
+  **T3**, not T0: see KNOWN UNKNOWNS. Per-roll `val_min`/`val_max` ranges for
+  every main/substat are in `datamine/items.json` → `stat_scales`.
+
+Stat vocabulary is shared across `datamine/*.json` and comes from the T0
+tables: `att`, `max_hp`, `def`, `speed`, `cri`, `cri_dmg`, `acc`, `res`,
+`coop` (and the `*_rate` percentage forms). `base_stats.json` renames its
+upstream keys into this vocabulary and records the mapping in its own
+`source.key_mapping`.
 
 Mechanics that analysis code must model:
 
@@ -160,17 +168,38 @@ Resolve these **from data (datamine, official site, scrapes), never from model
 memory** — model knowledge here is stale or absent:
 
 - Anything numeric about the live meta (usage, win rates, stat targets).
-- **Hero base stats.** `character_player.db` stores only the personality seeds
-  (`bra`/`int`/`fai`/`des`) plus class, rarity and the `*_rate` multipliers;
-  the client derives lv1/lv60 Atk/HP/Def/Spd from those at runtime via
-  `formula.lua` inside `pack:pass/public.pass`, which is encrypted with a
-  *different* scheme than the `.db` layer and is **not** decoded. GEAR MATH's
-  flat-stat normalization needs these, so getting them is the next datamine
-  job — either by cracking `public.pass` or by taking base stats from a T1/T2
-  source and recording the tier downgrade.
+- **The T0 base-stat formula.** `character_player.db` stores only the
+  personality seeds (`bra`/`int`/`fai`/`des`) plus class, rarity and the
+  `*_rate` multipliers; the client derives Atk/HP/Def/Spd from those at
+  runtime via `formula.lua` inside `pack:pass/public.pass`, which uses a
+  *different* encryption scheme than the `.db` layer and is still not decoded.
+  **Worked around, not solved** — see the T3 substitute below. Cracking
+  `public.pass` would upgrade `base_stats.json` back to T0 and is the only
+  reason to revisit this.
 - The per-season **Warfare Rule list**. The mechanic is resolved (below), but
   the individual rules in effect are server-driven and are not in the client
   tables that were searched.
+
+### Worked around 2026-08-12 (session 3, T0 → T3 downgrade)
+
+- **Hero base stats** now live in `datamine/base_stats.json`, built by
+  `scripts/fetch_base_stats.py` from the Fribbels E7 Optimizer's bundled
+  `data/cache/herodata.json` (the data the optimizer itself optimizes
+  against; its maintainers refresh it per game patch). **This is T3, not
+  T0** — treat it as authoritative only until `formula.lua` is decoded, and
+  re-run the fetch after each game patch.
+  - Coverage: **447 of 456** roster heroes. The 9 gaps are 4 alternate
+    Mercedes story forms (Mercedes herself is covered via `c0002`) and the
+    5 Lefundos 2★ story mages, none of which upstream carries.
+  - Upstream lags our pack by roughly one patch (herodata was at
+    `patch 20260716` when the 2026-08-11 pack was ripped), so a brand-new
+    hero can be missing or stale. `unmatched_heroes` in the file lists who.
+  - **Verify before trusting.** `scripts/crosscheck_base_stats.py` re-checks
+    a sample against epic7db, an independent source. Result on
+    2026-08-12: 4/5 exact on all four stats (Ras, Vildred, Arbiter Vildred,
+    Harsetti); **Belian mismatched on Speed — ours 110, epic7db 106**, other
+    three stats agree. Unresolved: one of the two sources is stale. Confirm
+    in-game before relying on Belian's speed.
 
 ### Resolved 2026-08-11 (session 2 datamine, T0 — see DATAMINE section)
 

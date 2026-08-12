@@ -102,8 +102,14 @@ def build_heroes(text: dict):
 
     heroes = []
     for r in rows:
-        # playable roster only: monster/npc/devotion rows and unreleased units out
-        if r['type'] != 'character' or r['using'] != 'y' or r['race'] != 'hero':
+        # Playable roster only. 'limited' is the type collab/limited heroes carry
+        # (Zeno, Sol, Ram, Riza Hawkeye, Stark, ...) -- they are as playable as
+        # 'character' rows. complete == 'y' is the client's own released flag: it
+        # drops 173 unreleased rows that the text table names "Unknown Hero",
+        # plus boss units like c1352 that are named but never obtainable.
+        if r['type'] not in ('character', 'limited'):
+            continue
+        if r['using'] != 'y' or r['race'] != 'hero' or r['complete'] != 'y':
             continue
         base = r['variation_group'] or r['id']
         skills = [r[f'skill{i}'] for i in range(1, 10) if r[f'skill{i}']]
@@ -401,7 +407,9 @@ def main() -> int:
     write(os.path.join(OUT_DIR, 'heroes.json'), {
         'source': source_block([f'db/{t}.db' for t in CHAR_TABLES] + ['text/en/text.db']),
         'notes': [
-            'Roster filter: character_player*.type == "character", using == "y", race == "hero".',
+            'Roster filter: character_player*.type in ("character", "limited"), '
+            'using == "y", race == "hero", complete == "y". The complete flag is what '
+            'excludes unreleased rows (the text table names them "Unknown Hero").',
             'base_id is the table\'s variation_group: skins (id suffix _s01/_s02) and story '
             'or tutorial duplicates share a base_id with the canonical unit, and carry '
             'is_variant. Variants reuse the base unit\'s skill ids.',
