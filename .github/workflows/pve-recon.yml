@@ -1,6 +1,4 @@
-# TEMPORARY: locate epic7db's PvE guide / hunt-comp structure for session 6.
-# Cloud sessions can't reach epic7db; this probes it from an Actions runner.
-# Delete after recon.
+# TEMPORARY: map epic7db /guides structure for the session-6 comp harvest.
 name: pve-recon
 
 on:
@@ -15,21 +13,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Probe epic7db for guide/comp pages
+      - name: Map /guides links
         run: |
-          E7_SCRAPER_BASE=https://epic7db.com python scripts/scrape_rta_stats.py \
-            --discover --refresh \
-            --page /guides --page /guide --page /content --page /hunts \
-            --page /wyvern --page /guides/wyvern --page /heroes/vildred \
-            || true
-      - name: Raw curl of candidate guide URLs (structure sniff)
+          curl -s https://epic7db.com/guides -o guides.html
+          echo "== /guides is $(wc -c < guides.html) bytes"
+          echo "== anchor hrefs containing guide/team/hunt (uniq):"
+          grep -oiE 'href="[^"]*(guide|team|hunt|wyvern|banshee|golem|azimanak|caides|abyss|auto)[^"]*"' guides.html \
+            | sed 's/href=//; s/"//g' | sort -u | head -60
+      - name: Fetch a sample guide page and dump its structure
         run: |
-          for u in / /guides /guide /content /hunt /hunts /pve /teams /comps; do
-            code=$(curl -s -o /tmp/p.html -w "%{http_code}" "https://epic7db.com$u" || echo ERR)
-            bytes=$(wc -c < /tmp/p.html 2>/dev/null || echo 0)
-            hits=$(grep -oiE "guide|team|comp|wyvern|banshee|golem|azimanak|caides|abyss|one.?shot|auto" /tmp/p.html 2>/dev/null | sort | uniq -c | sort -rn | head -8 | tr '\n' ' ')
-            echo "epic7db$u -> HTTP $code, ${bytes}B | keyword hits: $hits"
-          done
+          SAMPLE=$(grep -oiE 'href="https://epic7db.com/guides/[^"]+"' guides.html \
+            | sed 's/href=//; s/"//g' | sort -u | head -1)
+          echo "== sample guide: $SAMPLE"
+          curl -s "$SAMPLE" -o g.html
+          echo "== $(wc -c < g.html) bytes; headings:"
+          grep -oiE '<h[1-4][^>]*>[^<]{0,80}' g.html | head -30
+          echo "== team/hero links in the guide:"
+          grep -oiE 'href="[^"]*heroes/[^"]+"' g.html | sed 's/href=//; s/"//g' | sort -u | head -30
+          echo "== stat / threshold markup (speed/atk/cr near numbers):"
+          grep -oiE '(speed|attack|crit|effectiveness|health|defense)[^<]{0,30}[0-9,]{2,}' g.html | head -30
+          echo "== data-* attributes and class hints:"
+          grep -oiE '(data-[a-z-]+|class)="[^"]{0,60}"' g.html | sort | uniq -c | sort -rn | head -25
