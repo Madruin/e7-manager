@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Astromancer</title>
+<style>
+:root{
+  --ground:#f3f4f8; --surface:#ffffff; --surface-2:#eef0f6; --border:#d9dde8;
+  --text:#1a1d27; --muted:#606779; --accent:#1f8fc7; --accent-soft:#dceef7;
+  --gold:#b4832a; --good:#2f9e6b; --warn:#c78a1e; --crit:#c9524c;
+  --shadow:0 1px 2px rgba(20,24,40,.06),0 4px 16px rgba(20,24,40,.06);
+}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0c0e15; --surface:#151925; --surface-2:#1c2130; --border:#29303f;
+  --text:#e7eaf2; --muted:#8b93a7; --accent:#45b7e8; --accent-soft:#132a38;
+  --gold:#e0b64a; --good:#4fbf87; --warn:#e0a33a; --crit:#e0655f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 22px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --ground:#0c0e15; --surface:#151925; --surface-2:#1c2130; --border:#29303f;
+  --text:#e7eaf2; --muted:#8b93a7; --accent:#45b7e8; --accent-soft:#132a38;
+  --gold:#e0b64a; --good:#4fbf87; --warn:#e0a33a; --crit:#e0655f;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 22px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 80px}
+header{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:4px}
+h1{font-size:26px;margin:0;letter-spacing:-.02em;font-weight:700}
+.sub{color:var(--muted);font-size:13.5px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:22px 0 20px;border-bottom:1px solid var(--border)}
+.tab{appearance:none;background:none;border:0;color:var(--muted);font:inherit;
+  font-weight:600;padding:9px 14px;cursor:pointer;border-bottom:2px solid transparent;
+  margin-bottom:-1px;border-radius:6px 6px 0 0}
+.tab:hover{color:var(--text);background:var(--surface-2)}
+.tab[aria-selected="true"]{color:var(--accent);border-bottom-color:var(--accent)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.panel{display:none}.panel.on{display:block;animation:f .18s ease}
+@keyframes f{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.panel.on{animation:none}}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:22px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:14px 16px;box-shadow:var(--shadow)}
+.card .k{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.card .v{font-size:24px;font-weight:700;margin-top:3px;font-variant-numeric:tabular-nums}
+.card .v small{font-size:13px;color:var(--muted);font-weight:600}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}}
+.block{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:16px 18px;box-shadow:var(--shadow);margin-bottom:18px}
+.block h2{font-size:15px;margin:0 0 12px;letter-spacing:-.01em}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+input[type=search],select{background:var(--surface);color:var(--text);border:1px solid var(--border);
+  border-radius:8px;padding:8px 11px;font:inherit}
+input[type=search]{min-width:200px;flex:1}
+input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+.scroll{overflow-x:auto}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);white-space:nowrap}
+th{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;
+  cursor:pointer;user-select:none;position:sticky;top:0;background:var(--surface)}
+th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr:hover{background:var(--surface-2)}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11.5px;font-weight:600;
+  border:1px solid transparent}
+.pill.good{color:var(--good);background:color-mix(in srgb,var(--good) 14%,transparent)}
+.pill.warn{color:var(--warn);background:color-mix(in srgb,var(--warn) 16%,transparent)}
+.pill.mut{color:var(--muted);background:var(--surface-2)}
+.pill.acc{color:var(--accent);background:var(--accent-soft)}
+.bar{height:6px;border-radius:3px;background:var(--surface-2);overflow:hidden;min-width:60px}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--gold))}
+.team{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.hchip{padding:3px 9px;border-radius:8px;font-size:12.5px;border:1px solid var(--border);background:var(--surface-2)}
+.hchip.owned{border-color:var(--good);color:var(--good);background:color-mix(in srgb,var(--good) 10%,transparent)}
+.note{color:var(--muted);font-size:12.5px;margin-top:8px}
+.toggle{margin-left:auto;background:var(--surface);border:1px solid var(--border);color:var(--muted);
+  border-radius:8px;padding:7px 11px;font:inherit;cursor:pointer}
+.toggle:hover{color:var(--text)}
+a{color:var(--accent)}
+.tag{font-size:11px;color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent);
+  border-radius:6px;padding:1px 6px;margin-right:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Astromancer</h1>
+    <span class="sub" id="stamp"></span>
+    <button class="toggle" id="themeBtn" type="button">Theme</button>
+  </header>
+  <div class="sub">Your Epic Seven account, browsable. Snapshot from the repo data — regenerate with <code>python scripts/build_dashboard.py</code>.</div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-p="overview" aria-selected="true">Overview</button>
+    <button class="tab" role="tab" data-p="heroes" aria-selected="false">Heroes</button>
+    <button class="tab" role="tab" data-p="gear" aria-selected="false">Gear</button>
+    <button class="tab" role="tab" data-p="pve" aria-selected="false">PvE comps</button>
+  </nav>
+
+  <section class="panel on" id="overview"></section>
+  <section class="panel" id="heroes"></section>
+  <section class="panel" id="gear"></section>
+  <section class="panel" id="pve"></section>
+</div>
+
+<script id="data" type="application/json">{"roster": 239, "built": 56, "gear": 1068, "reforge_pending": 438, "reforge_gain": 2327, "no_set": ["All-Rounder Wanda", "Sage Baal & Sezan"], "role_counts": {"mage": 11, "warrior": 11, "assassin": 9, "ranger": 9, "knight": 8, "manauser": 8}, "resources": {"Gold": 758891697, "Skystone": 4347, "Covenant Bookmarks": 217, "Powder of Knowledge": 1125, "MolaGora": 705, "Friendship": 383113, "Stigma": 845419, "Leif": 1286}, "heroes": [{"name": "Sage Baal & Sezan", "role": "mage", "wss": 415.6, "spd": 184, "cr": 39, "cd": 157, "sets": "—", "no_set": true, "meta_wr": 0.5414, "meta_build": "Speed+Hit", "aligned": false}, {"name": "Mercedes", "role": "mage", "wss": 405.3, "spd": 178, "cr": 100, "cd": 278, "sets": "Critical+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "All-Rounder Wanda", "role": "ranger", "wss": 403.0, "spd": 205, "cr": 105, "cd": 164, "sets": "—", "no_set": true, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Tenebria", "role": "mage", "wss": 397.7, "spd": 244, "cr": 89, "cd": 250, "sets": "Critical+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Champion Zerato", "role": "mage", "wss": 393.9, "spd": 169, "cr": 94, "cd": 183, "sets": "Resist", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Mediator Kawerik", "role": "warrior", "wss": 389.0, "spd": 225, "cr": 15, "cd": 180, "sets": "Health+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Elphelt", "role": "ranger", "wss": 388.4, "spd": 204, "cr": 100, "cd": 245, "sets": "Critical+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Briar Witch Iseria", "role": "ranger", "wss": 388.3, "spd": 183, "cr": 102, "cd": 230, "sets": "Speed", "no_set": false, "meta_wr": 0.4974, "meta_build": "Speed", "aligned": true}, {"name": "Specter Tenebria", "role": "mage", "wss": 385.9, "spd": 183, "cr": 101, "cd": 254, "sets": "Attack+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Kikirat v2", "role": "knight", "wss": 385.2, "spd": 168, "cr": 79, "cd": 192, "sets": "Hit+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Blood Blade Karin", "role": "assassin", "wss": 384.8, "spd": 131, "cr": 100, "cd": 337, "sets": "Destruction", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Shuna", "role": "manauser", "wss": 382.1, "spd": 166, "cr": 110, "cd": 188, "sets": "Hit+Defense", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Conqueror Lilias", "role": "warrior", "wss": 382.0, "spd": 245, "cr": 15, "cd": 150, "sets": "Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Basar", "role": "mage", "wss": 381.1, "spd": 175, "cr": 100, "cd": 216, "sets": "Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Straze", "role": "warrior", "wss": 380.3, "spd": 155, "cr": 89, "cd": 263, "sets": "Attack", "no_set": false, "meta_wr": 0.4679, "meta_build": "Speed+Torrent", "aligned": false}, {"name": "Landy", "role": "ranger", "wss": 378.5, "spd": 183, "cr": 100, "cd": 290, "sets": "Attack+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Fairytale Tenebria", "role": "mage", "wss": 376.8, "spd": 222, "cr": 38, "cd": 172, "sets": "Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Silvertide Christy", "role": "knight", "wss": 375.6, "spd": 139, "cr": 21, "cd": 150, "sets": "Immunity+Health+Health", "no_set": false, "meta_wr": 0.5307, "meta_build": "Resist+Resist+Resist", "aligned": false}, {"name": "Dizzy", "role": "mage", "wss": 374.8, "spd": 186, "cr": 107, "cd": 256, "sets": "Destruction", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Seaside Bellona", "role": "ranger", "wss": 374.3, "spd": 122, "cr": 101, "cd": 319, "sets": "Critical+Critical+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Falconer Kluri", "role": "knight", "wss": 374.0, "spd": 191, "cr": 38, "cd": 158, "sets": "Critical+Health", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Angel of Light Angelica", "role": "mage", "wss": 373.7, "spd": 253, "cr": 28, "cd": 157, "sets": "Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Elena", "role": "manauser", "wss": 373.4, "spd": 179, "cr": 109, "cd": 210, "sets": "Critical+Defense", "no_set": false, "meta_wr": 0.483, "meta_build": "Speed+Resist", "aligned": false}, {"name": "Boss Arunka", "role": "knight", "wss": 372.4, "spd": 147, "cr": 24, "cd": 150, "sets": "Health+Health+Health", "no_set": false, "meta_wr": 0.572, "meta_build": "Protection+Immunity", "aligned": false}, {"name": "Savior Adin", "role": "assassin", "wss": 371.3, "spd": 209, "cr": 104, "cd": 250, "sets": "Hit+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Rimuru", "role": "warrior", "wss": 371.2, "spd": 189, "cr": 69, "cd": 275, "sets": "Attack+Health", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Bellona", "role": "ranger", "wss": 370.9, "spd": 224, "cr": 107, "cd": 205, "sets": "Hit+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Politis", "role": "mage", "wss": 369.2, "spd": 172, "cr": 81, "cd": 235, "sets": "Critical+Defense", "no_set": false, "meta_wr": 0.5111, "meta_build": "Weakening+Hit", "aligned": false}, {"name": "Martial Artist Ken", "role": "warrior", "wss": 368.6, "spd": 113, "cr": 77, "cd": 288, "sets": "Critical+Penetration", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Charles", "role": "knight", "wss": 367.3, "spd": 121, "cr": 90, "cd": 287, "sets": "Destruction", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Tempest Surin", "role": "assassin", "wss": 367.1, "spd": 226, "cr": 100, "cd": 233, "sets": "Critical+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Tamarinne", "role": "manauser", "wss": 366.0, "spd": 196, "cr": 38, "cd": 155, "sets": "Critical+Defense", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Setsuka", "role": "assassin", "wss": 364.7, "spd": 180, "cr": 107, "cd": 228, "sets": "Hit+Critical", "no_set": false, "meta_wr": 0.5078, "meta_build": "Riposte+Immunity", "aligned": false}, {"name": "Lilias", "role": "knight", "wss": 363.6, "spd": 190, "cr": 96, "cd": 150, "sets": "Immunity+Health", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Kiris", "role": "ranger", "wss": 363.3, "spd": 213, "cr": 40, "cd": 179, "sets": "Hit+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Dark Corvus", "role": "warrior", "wss": 362.4, "spd": 187, "cr": 29, "cd": 150, "sets": "Health+Health", "no_set": false, "meta_wr": 0.4884, "meta_build": "Warfare+Health", "aligned": false}, {"name": "Sigret", "role": "warrior", "wss": 360.6, "spd": 122, "cr": 85, "cd": 296, "sets": "Attack+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Muwi", "role": "assassin", "wss": 360.6, "spd": 187, "cr": 40, "cd": 167, "sets": "Health+Health", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Lilibet", "role": "warrior", "wss": 360.1, "spd": 151, "cr": 93, "cd": 250, "sets": "Attack+Penetration", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Ruele of Light", "role": "manauser", "wss": 359.2, "spd": 167, "cr": 23, "cd": 150, "sets": "Health+Resist+Resist", "no_set": false, "meta_wr": 0.5226, "meta_build": "Reversal+Immunity", "aligned": false}, {"name": "Genesis Ras", "role": "knight", "wss": 358.3, "spd": 113, "cr": 65, "cd": 298, "sets": "Destruction+Health", "no_set": false, "meta_wr": 0.5259, "meta_build": "Destruction+Health", "aligned": true}, {"name": "Adventurer Ras", "role": "knight", "wss": 356.1, "spd": 221, "cr": 29, "cd": 170, "sets": "Hit+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Destina", "role": "manauser", "wss": 356.1, "spd": 190, "cr": 35, "cd": 157, "sets": "Counter+Health", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Summer's Disciple Alexa", "role": "assassin", "wss": 355.9, "spd": 123, "cr": 90, "cd": 289, "sets": "Hit+Critical", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Celine", "role": "assassin", "wss": 355.5, "spd": 192, "cr": 104, "cd": 232, "sets": "Hit+Critical+Critical", "no_set": false, "meta_wr": 0.4854, "meta_build": "Destruction+Penetration", "aligned": false}, {"name": "Cermia", "role": "warrior", "wss": 353.2, "spd": 175, "cr": 74, "cd": 335, "sets": "Destruction+Penetration", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Sol", "role": "warrior", "wss": 352.1, "spd": 131, "cr": 102, "cd": 324, "sets": "Critical+Destruction", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Solitaria of the Snow", "role": "mage", "wss": 350.9, "spd": 213, "cr": 23, "cd": 177, "sets": "Health+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Emilia", "role": "manauser", "wss": 349.9, "spd": 201, "cr": 27, "cd": 150, "sets": "Health+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Spirit Eye Celine", "role": "assassin", "wss": 344.6, "spd": 144, "cr": 42, "cd": 294, "sets": "Destruction", "no_set": false, "meta_wr": 0.4882, "meta_build": "Speed+Penetration", "aligned": false}, {"name": "Baiken", "role": "assassin", "wss": 344.4, "spd": 202, "cr": 106, "cd": 196, "sets": "Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Roana", "role": "manauser", "wss": 339.9, "spd": 194, "cr": 39, "cd": 150, "sets": "Defense+Health", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Holiday Yufine", "role": "warrior", "wss": 334.2, "spd": 188, "cr": 20, "cd": 162, "sets": "Hit", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Vigilante Leader Glenn", "role": "ranger", "wss": 333.9, "spd": 171, "cr": 76, "cd": 286, "sets": "Critical+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Iseria", "role": "ranger", "wss": 330.4, "spd": 206, "cr": 96, "cd": 187, "sets": "Critical+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}, {"name": "Ainos 2.0", "role": "manauser", "wss": 324.9, "spd": 224, "cr": 15, "cd": 195, "sets": "Hit+Speed", "no_set": false, "meta_wr": null, "meta_build": null, "aligned": null}], "top_gear": [{"gear": "Helmet", "set": "Lifesteal", "main": "Health", "wss": 80.8, "enh": 15, "by": "Sage Baal & Sezan"}, {"gear": "Weapon", "set": "Speed", "main": "Attack", "wss": 80.0, "enh": 15, "by": "Fairytale Tenebria"}, {"gear": "Necklace", "set": "Lifesteal", "main": "AttackPercent", "wss": 79.6, "enh": 15, "by": "Sage Baal & Sezan"}, {"gear": "Weapon", "set": "Hit", "main": "Attack", "wss": 79.14, "enh": 15, "by": "spare"}, {"gear": "Necklace", "set": "Rage", "main": "AttackPercent", "wss": 77.0, "enh": 15, "by": "Charles"}, {"gear": "Weapon", "set": "Speed", "main": "Attack", "wss": 76.6, "enh": 15, "by": "Mercedes"}, {"gear": "Weapon", "set": "Hit", "main": "Attack", "wss": 76.2, "enh": 15, "by": "Savior Adin"}, {"gear": "Helmet", "set": "Critical", "main": "Health", "wss": 76.0, "enh": 15, "by": "Basar"}, {"gear": "Weapon", "set": "Speed", "main": "Attack", "wss": 75.6, "enh": 15, "by": "Tempest Surin"}, {"gear": "Weapon", "set": "Speed", "main": "Attack", "wss": 75.6, "enh": 15, "by": "Briar Witch Iseria"}, {"gear": "Weapon", "set": "Speed", "main": "Attack", "wss": 75.6, "enh": 15, "by": "Angel of Light Angelica"}, {"gear": "Ring", "set": "Immunity", "main": "HealthPercent", "wss": 75.6, "enh": 15, "by": "Silvertide Christy"}, {"gear": "Helmet", "set": "Hit", "main": "Health", "wss": 75.14, "enh": 15, "by": "Setsuka"}, {"gear": "Necklace", "set": "Speed", "main": "HealthPercent", "wss": 75.0, "enh": 15, "by": "Mediator Kawerik"}, {"gear": "Weapon", "set": "Lifesteal", "main": "Attack", "wss": 74.6, "enh": 15, "by": "Tamarinne"}, {"gear": "Boots", "set": "Penetration", "main": "Speed", "wss": 74.46, "enh": 15, "by": "spare"}, {"gear": "Weapon", "set": "Counter", "main": "Attack", "wss": 74.2, "enh": 15, "by": "spare"}, {"gear": "Ring", "set": "Speed", "main": "AttackPercent", "wss": 74.14, "enh": 15, "by": "spare"}, {"gear": "Necklace", "set": "Speed", "main": "HealthPercent", "wss": 74.0, "enh": 15, "by": "spare"}, {"gear": "Weapon", "set": "Critical", "main": "Attack", "wss": 73.6, "enh": 15, "by": "Elphelt"}, {"gear": "Ring", "set": "Attack", "main": "Health", "wss": 73.6, "enh": 15, "by": "Free Spirit Tieria"}, {"gear": "Weapon", "set": "Lifesteal", "main": "Attack", "wss": 73.2, "enh": 15, "by": "Politis"}, {"gear": "Boots", "set": "Attack", "main": "Speed", "wss": 73.2, "enh": 15, "by": "Landy"}, {"gear": "Boots", "set": "Hit", "main": "Attack", "wss": 73.06, "enh": 15, "by": "Shuna"}, {"gear": "Weapon", "set": "Speed", "main": "Attack", "wss": 73.0, "enh": 15, "by": "Shuna"}], "comps": [{"title": "3* only guide to Hunts | Epic7db.com", "tags": ["hunt"], "url": "https://epic7db.com/guides/3-only-guide-to-hunts", "teams": [[{"name": "Angelic Montmorancy", "owned": true}, {"name": "Muwi", "owned": true}, {"name": "Alexa", "owned": false}, {"name": "Taranor Guard", "owned": true}, {"name": "Ian", "owned": false}], [{"name": "Bask", "owned": false}, {"name": "Helen", "owned": false}], [{"name": "Falconer Kluri", "owned": true}, {"name": "Mercenary Helga", "owned": true}, {"name": "Lilka", "owned": false}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Lucy", "owned": false}, {"name": "Captain Rikoris", "owned": true}, {"name": "Batisse", "owned": true}, {"name": "summers-disciple-alexa", "owned": false}], [{"name": "Unbound Knight Arowell", "owned": false}, {"name": "Savior Adin", "owned": true}, {"name": "Juni", "owned": false}, {"name": "ainos-20", "owned": false}], [{"name": "ainos-20", "owned": false}, {"name": "Camilla", "owned": true}, {"name": "Captain Rikoris", "owned": true}, {"name": "Commander Lorina", "owned": true}]]}, {"title": "Moriyaism&#039;s New Player Progression Guide - Late Game - Wyvern Speed Clears, Gearing, and Arena | Epic7db.com", "tags": ["wyvern"], "url": "https://epic7db.com/guides/late-game-wyvern-speed-clears-gearing-and-arena", "teams": [[{"name": "Rose", "owned": true}, {"name": "Furious", "owned": true}, {"name": "Muwi", "owned": true}, {"name": "Alexa", "owned": false}], [{"name": "General Purrgis", "owned": true}, {"name": "Furious", "owned": true}, {"name": "Sigret", "owned": true}, {"name": "summers-disciple-alexa", "owned": false}], [{"name": "Sinful Angelica", "owned": true}, {"name": "Seaside Bellona", "owned": true}, {"name": "Flan", "owned": true}, {"name": "Sigret", "owned": true}, {"name": "Clarissa", "owned": true}], [{"name": "Sinful Angelica", "owned": true}, {"name": "Seaside Bellona", "owned": true}, {"name": "Karin", "owned": true}, {"name": "Sigret", "owned": true}], [{"name": "Sinful Angelica", "owned": true}, {"name": "Seaside Bellona", "owned": true}, {"name": "Furious", "owned": true}, {"name": "summers-disciple-alexa", "owned": false}], [{"name": "Sinful Angelica", "owned": true}, {"name": "Seaside Bellona", "owned": true}, {"name": "Camilla", "owned": true}, {"name": "Rem", "owned": true}], [{"name": "Sinful Angelica", "owned": true}, {"name": "Seaside Bellona", "owned": true}, {"name": "Adventurer Ras", "owned": true}, {"name": "Rem", "owned": true}], [{"name": "Ian", "owned": false}, {"name": "Seaside Bellona", "owned": true}, {"name": "Watcher Schuri", "owned": true}, {"name": "Straze", "owned": true}]]}, {"title": "Moriyaism&#039;s New Player Progression Guide - Mid Game - Finishing PvE and early PvP progression | Epic7db.com", "tags": [], "url": "https://epic7db.com/guides/mid-game-finishing-pve-and-early-pvp-progression", "teams": [[{"name": "Mercedes", "owned": true}, {"name": "Adventurer Ras", "owned": true}, {"name": "Lorina", "owned": false}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Mercedes", "owned": true}, {"name": "Adventurer Ras", "owned": true}, {"name": "Specter Tenebria", "owned": true}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Adventurer Ras", "owned": true}, {"name": "Iseria", "owned": true}, {"name": "Lorina", "owned": false}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Adventurer Ras", "owned": true}, {"name": "Iseria", "owned": true}, {"name": "Specter Tenebria", "owned": true}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Adventurer Ras", "owned": true}, {"name": "Iseria", "owned": true}, {"name": "Lorina", "owned": false}, {"name": "Tamarinne", "owned": true}], [{"name": "Adventurer Ras", "owned": true}, {"name": "Iseria", "owned": true}, {"name": "Specter Tenebria", "owned": true}, {"name": "Tamarinne", "owned": true}]]}, {"title": "Hunt 13 Auto Teams - Setting Up Your First Azimanak 13 Auto Team | Epic7db.com", "tags": ["azimanak", "hunt"], "url": "https://epic7db.com/guides/setting-up-your-first-azimanak-13-auto-team", "teams": [[{"name": "Unbound Knight Arowell", "owned": false}, {"name": "Adventurer Ras", "owned": true}, {"name": "Blood Moon Haste", "owned": true}], [{"name": "Vildred", "owned": true}, {"name": "Bomb Model Kanna", "owned": true}, {"name": "Mercedes", "owned": true}, {"name": "Arbiter Vildred", "owned": true}], [{"name": "Iseria", "owned": true}, {"name": "Luluca", "owned": true}, {"name": "Falconer Kluri", "owned": true}], [{"name": "Tamarinne", "owned": true}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Adventurer Ras", "owned": true}, {"name": "Mercedes", "owned": true}, {"name": "Falconer Kluri", "owned": true}, {"name": "Angelic Montmorancy", "owned": true}], [{"name": "Adventurer Ras", "owned": true}, {"name": "Mercedes", "owned": true}, {"name": "Iseria", "owned": true}, {"name": "Tamarinne", "owned": true}], [{"name": "Unbound Knight Arowell", "owned": false}, {"name": "Vildred", "owned": true}, {"name": "Iseria", "owned": true}, {"name": "Tamarinne", "owned": true}]]}, {"title": "Hunt 13 Auto Teams - Setting Up Your First Wyvern 13 Auto Team | Epic7db.com", "tags": ["hunt", "wyvern"], "url": "https://epic7db.com/guides/setting-up-your-first-wyvern-13-auto-team", "teams": [[{"name": "Crozet", "owned": true}, {"name": "Furious", "owned": true}, {"name": "Sigret", "owned": true}, {"name": "Muwi", "owned": true}], [{"name": "Angelic Montmorancy", "owned": true}, {"name": "Furious", "owned": true}, {"name": "Sigret", "owned": true}, {"name": "Muwi", "owned": true}]]}]}</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const fmt=n=>n==null?'—':n.toLocaleString();
+const el=(h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild};
+
+// theme toggle (cycles system -> dark -> light)
+const root=document.documentElement, tb=document.getElementById('themeBtn');
+tb.onclick=()=>{const c=root.getAttribute('data-theme');
+  root.setAttribute('data-theme', c==='dark'?'light':(c==='light'?'':'dark'));
+  if(!root.getAttribute('data-theme'))root.removeAttribute('data-theme');};
+
+// --- Overview ---
+function overview(){
+  const r=D.resources;
+  const resRows=Object.entries(r).map(([k,v])=>`<tr><td>${k}</td><td class="num">${fmt(v)}</td></tr>`).join('');
+  const roles=Object.entries(D.role_counts).map(([k,v])=>`<span class="pill mut">${k} ${v}</span>`).join(' ');
+  const noset=D.no_set.map(n=>`<span class="pill warn">${n}</span>`).join(' ')||'<span class="pill good">none</span>';
+  return `
+  <div class="cards">
+    <div class="card"><div class="k">Roster</div><div class="v">${D.roster}</div></div>
+    <div class="card"><div class="k">Built (6 gear)</div><div class="v">${D.built}</div></div>
+    <div class="card"><div class="k">Gear pieces</div><div class="v">${fmt(D.gear)}</div></div>
+    <div class="card"><div class="k">Reforge-pending</div><div class="v">${D.reforge_pending} <small>+${D.reforge_gain} WSS</small></div></div>
+  </div>
+  <div class="grid2">
+    <div class="block"><h2>Highest-value fixes</h2>
+      <p style="margin:.2em 0 .6em">These help in every mode, no new data needed:</p>
+      <p><b>Reforge ${D.reforge_pending} lv85 pieces</b> — ~+${D.reforge_gain} WSS total, gold only.</p>
+      <p><b>No active set bonus:</b> ${noset}<br><span class="note">Run <code>scripts/allocate.py "&lt;hero&gt;"</code> to re-slot from spare gear.</span></p>
+    </div>
+    <div class="block"><h2>Resources on hand</h2>
+      <div class="scroll"><table><tbody>${resRows}</tbody></table></div>
+    </div>
+  </div>
+  <div class="block"><h2>Role coverage (built heroes)</h2><div>${roles}</div>
+    <p class="note">All-mode readiness: each role has options. Targeting per-PvE-mode needs comp thresholds (prose-only on epic7db) — team comps are in the PvE tab.</p>
+  </div>`;
+}
+
+// --- Heroes (sortable/searchable) ---
+let hSort={k:'wss',dir:-1};
+function heroesPanel(){
+  const p=document.getElementById('heroes');
+  p.innerHTML=`<div class="block"><div class="tools">
+    <input type="search" id="hq" placeholder="Search hero or set…">
+    <select id="hrole"><option value="">All roles</option></select>
+    <select id="hfilter"><option value="">All</option><option value="noset">No set bonus</option>
+      <option value="meta">In RTA meta</option><option value="misaligned">Meta set mismatch</option></select>
+    <span class="pill mut" id="hcount"></span></div>
+    <div class="scroll"><table id="htab"><thead><tr>
+      <th data-k="name">Hero</th><th data-k="role">Role</th><th class="num" data-k="wss">WSS</th>
+      <th class="num" data-k="spd">Spd</th><th class="num" data-k="cr">CR</th><th class="num" data-k="cd">CD</th>
+      <th data-k="sets">Sets</th><th class="num" data-k="meta_wr">RTA WR</th><th data-k="meta_build">Meta build</th>
+    </tr></thead><tbody></tbody></table></div>
+    <p class="note">WSS = total reforge-projected weighted substat score across 6 pieces. RTA WR only exists for meta heroes; "gap" is set-vs-meta, not stat-vs-target (no stat targets in data yet).</p></div>`;
+  const roleSel=p.querySelector('#hrole');
+  [...new Set(D.heroes.map(h=>h.role))].filter(Boolean).sort().forEach(r=>roleSel.append(el(`<option>${r}</option>`)));
+  const draw=()=>{
+    const q=p.querySelector('#hq').value.toLowerCase(), role=roleSel.value, f=p.querySelector('#hfilter').value;
+    let rows=D.heroes.filter(h=>{
+      if(role&&h.role!==role)return false;
+      if(q&&!(h.name.toLowerCase().includes(q)||h.sets.toLowerCase().includes(q)))return false;
+      if(f==='noset'&&!h.no_set)return false;
+      if(f==='meta'&&h.meta_wr==null)return false;
+      if(f==='misaligned'&&!(h.meta_build&&!h.aligned))return false;
+      return true;});
+    rows.sort((a,b)=>{const k=hSort.k;let x=a[k],y=b[k];
+      if(x==null)x=-Infinity;if(y==null)y=-Infinity;
+      return (x<y?-1:x>y?1:0)*hSort.dir;});
+    const maxw=Math.max(...D.heroes.map(h=>h.wss));
+    p.querySelector('#hcount').textContent=rows.length+' heroes';
+    p.querySelector('tbody').innerHTML=rows.map(h=>{
+      const wr=h.meta_wr!=null?(h.meta_wr*100).toFixed(1)+'%':'—';
+      const al=h.aligned?'<span class="pill good">✓</span>':(h.meta_build?'<span class="pill warn">≠</span>':'');
+      const setc=h.no_set?`<span class="pill warn">${h.sets}</span>`:h.sets;
+      return `<tr><td>${h.name}</td><td>${h.role||'?'}</td>
+        <td class="num"><div style="display:flex;gap:8px;align-items:center;justify-content:flex-end">${h.wss.toFixed(0)}<span class="bar" style="width:52px"><i style="width:${h.wss/maxw*100}%"></i></span></div></td>
+        <td class="num">${h.spd}</td><td class="num">${h.cr}</td><td class="num">${h.cd}</td>
+        <td>${setc}</td><td class="num">${wr}</td><td>${h.meta_build?h.meta_build+' '+al:'—'}</td></tr>`;
+    }).join('');
+  };
+  p.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{
+    const k=th.dataset.k; hSort.dir=(hSort.k===k)?-hSort.dir:(['name','role','sets','meta_build'].includes(k)?1:-1);
+    hSort.k=k; draw();});
+  p.querySelector('#hq').oninput=draw; roleSel.onchange=draw; p.querySelector('#hfilter').onchange=draw;
+  draw();
+}
+
+// --- Gear ---
+function gearPanel(){
+  const rows=D.top_gear.map(g=>`<tr><td class="num">${g.wss.toFixed(1)}</td><td>${g.gear}</td>
+    <td>${g.set}</td><td>${g.main}</td><td class="num">+${g.enh}</td>
+    <td>${g.by==='spare'?'<span class="pill mut">spare</span>':g.by}</td></tr>`).join('');
+  document.getElementById('gear').innerHTML=`
+  <div class="cards">
+    <div class="card"><div class="k">Reforge-pending</div><div class="v">${D.reforge_pending}</div></div>
+    <div class="card"><div class="k">Potential gain</div><div class="v">+${D.reforge_gain} <small>WSS</small></div></div>
+    <div class="card"><div class="k">Total pieces</div><div class="v">${fmt(D.gear)}</div></div>
+  </div>
+  <div class="block"><h2>Top 25 pieces (reforge-projected WSS)</h2>
+   <div class="scroll"><table><thead><tr><th class="num">WSS</th><th>Slot</th><th>Set</th><th>Main</th><th class="num">+</th><th>Equipped by</th></tr></thead>
+   <tbody>${rows}</tbody></table></div></div>`;
+}
+
+// --- PvE ---
+function pvePanel(){
+  const cards=D.comps.map(c=>{
+    const tags=(c.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+    const teams=c.teams.map(t=>`<div class="team">${t.map(h=>`<span class="hchip${h.owned?' owned':''}">${h.name}</span>`).join('')}</div>`).join('');
+    return `<div class="block"><h2>${c.title} ${tags}</h2>
+      <div class="note" style="margin:0 0 4px">${c.teams.length} team(s) · <a href="${c.url}" target="_blank" rel="noopener">source</a> · green = you own the hero</div>
+      ${teams}</div>`;
+  }).join('');
+  document.getElementById('pve').innerHTML=`
+  <div class="block" style="background:var(--accent-soft);border-color:var(--accent)">
+    <b>Hunt & endgame comps</b> harvested from epic7db guides. Team lists only — per-slot stat thresholds are prose on the source and aren't captured yet. Heroes you own are highlighted green.
+  </div>${cards||'<div class="block">No comps harvested.</div>'}`;
+}
+
+// tabs
+const panels={overview,heroes:heroesPanel,gear:gearPanel,pve:pvePanel};
+document.getElementById('overview').innerHTML=overview();
+let drawn={overview:1};
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('on'));
+  t.setAttribute('aria-selected','true');
+  const id=t.dataset.p; document.getElementById(id).classList.add('on');
+  if(!drawn[id]){panels[id]();drawn[id]=1;}
+});
+</script>
+</body>
+</html>

@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import gzip
 import hashlib
+import html
 import io
 import json
 import re
@@ -108,10 +109,13 @@ def classify(text: str) -> list[str]:
     return sorted({tag for kw, tag in CONTENT_TAGS if kw in t})
 
 
-def parse_guide(html: str, url: str, smap: dict) -> dict | None:
-    title = (_TITLE_RE.search(html) or [None, ""])[1].strip()
+def parse_guide(page: str, url: str, smap: dict) -> dict | None:
+    m0 = _TITLE_RE.search(page)
+    title = html.unescape(m0.group(1).strip()) if m0 else ""
+    # drop the site suffix "... | Epic7db.com"
+    title = re.sub(r"\s*\|\s*Epic7db\.com\s*$", "", title, flags=re.I)
     teams = []
-    for m in _TEAM_RE.finditer(html):
+    for m in _TEAM_RE.finditer(page):
         slugs = list(dict.fromkeys(_HERO_RE.findall(m.group(0))))
         team = []
         for s in slugs:
@@ -123,8 +127,12 @@ def parse_guide(html: str, url: str, smap: dict) -> dict | None:
             teams.append(team)
     if not teams:
         return None
+    # single-hero "teams" across a Specialty-Change guide aren't real comps
+    kind = "specialty_change" if title.lower().startswith("specialty change") \
+        else "comp"
     return {
-        "title": title, "source_url": url, "content_tags": classify(title + " " + url),
+        "title": title, "kind": kind, "source_url": url,
+        "content_tags": classify(title + " " + url),
         "teams": teams, "scraped_at": utc(),
     }
 
