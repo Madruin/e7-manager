@@ -1,0 +1,248 @@
+{
+  "hero": "Aki",
+  "hero_slug": "aki",
+  "hero_code": "c1179",
+  "element": "fire",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 3617,
+      "total_wins": 1717,
+      "total_losses": 1900,
+      "total_bans": 1485,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 3617,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 2115,
+      "total_wins": 999,
+      "total_losses": 1116,
+      "derived_win_rate": 0.4723,
+      "derived_usage_share": 0.6753
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 391,
+      "total_wins": 187,
+      "total_losses": 204,
+      "derived_win_rate": 0.4783,
+      "derived_usage_share": 0.1248
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 200,
+      "total_wins": 84,
+      "total_losses": 116,
+      "derived_win_rate": 0.42,
+      "derived_usage_share": 0.0639
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 189,
+      "total_wins": 72,
+      "total_losses": 117,
+      "derived_win_rate": 0.381,
+      "derived_usage_share": 0.0603
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 65,
+      "total_wins": 23,
+      "total_losses": 42,
+      "derived_win_rate": 0.3538,
+      "derived_usage_share": 0.0208
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 61,
+      "total_wins": 26,
+      "total_losses": 35,
+      "derived_win_rate": 0.4262,
+      "derived_usage_share": 0.0195
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 50,
+      "total_wins": 17,
+      "total_losses": 33,
+      "derived_win_rate": 0.34,
+      "derived_usage_share": 0.016
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 31,
+      "total_wins": 7,
+      "total_losses": 24,
+      "derived_win_rate": 0.2258,
+      "derived_usage_share": 0.0099
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw40",
+      "artifact_name": "Ritual of Sealing Flames",
+      "total_games": 2022,
+      "total_wins": 972,
+      "total_losses": 1050,
+      "derived_win_rate": 0.4807,
+      "derived_usage_share": 0.9484
+    },
+    {
+      "artifact_code": "ef433",
+      "artifact_name": "VI. The Lovers",
+      "total_games": 24,
+      "total_wins": 6,
+      "total_losses": 18,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0113
+    },
+    {
+      "artifact_code": "efw26",
+      "artifact_name": "Indestructible Gaiters",
+      "total_games": 23,
+      "total_wins": 8,
+      "total_losses": 15,
+      "derived_win_rate": 0.3478,
+      "derived_usage_share": 0.0108
+    },
+    {
+      "artifact_code": "efw03",
+      "artifact_name": "El's Fist",
+      "total_games": 12,
+      "total_wins": 3,
+      "total_losses": 9,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0056
+    },
+    {
+      "artifact_code": "efw30",
+      "artifact_name": "Benimaru's Tachi",
+      "total_games": 12,
+      "total_wins": 5,
+      "total_losses": 7,
+      "derived_win_rate": 0.4167,
+      "derived_usage_share": 0.0056
+    },
+    {
+      "artifact_code": "ef506",
+      "artifact_name": "Guide to a Decision",
+      "total_games": 12,
+      "total_wins": 4,
+      "total_losses": 8,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0056
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 1132,
+      "total_wins": 580,
+      "total_losses": 552,
+      "derived_win_rate": 0.5124
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efw40",
+      "artifact_name": "Ritual of Sealing Flames",
+      "total_games": 1103,
+      "total_wins": 572,
+      "total_losses": 531,
+      "derived_win_rate": 0.5186
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 382,
+      "total_wins": 186,
+      "total_losses": 196,
+      "derived_win_rate": 0.4869
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efw40",
+      "artifact_name": "Ritual of Sealing Flames",
+      "total_games": 373,
+      "total_wins": 182,
+      "total_losses": 191,
+      "derived_win_rate": 0.4879
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 197,
+      "total_wins": 84,
+      "total_losses": 113,
+      "derived_win_rate": 0.4264
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 183,
+      "total_wins": 69,
+      "total_losses": 114,
+      "derived_win_rate": 0.377
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efw40",
+      "artifact_name": "Ritual of Sealing Flames",
+      "total_games": 174,
+      "total_wins": 77,
+      "total_losses": 97,
+      "derived_win_rate": 0.4425
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efw40",
+      "artifact_name": "Ritual of Sealing Flames",
+      "total_games": 166,
+      "total_wins": 65,
+      "total_losses": 101,
+      "derived_win_rate": 0.3916
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efw40",
+      "artifact_name": "Ritual of Sealing Flames",
+      "total_games": 64,
+      "total_wins": 23,
+      "total_losses": 41,
+      "derived_win_rate": 0.3594
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 64,
+      "total_wins": 23,
+      "total_losses": 41,
+      "derived_win_rate": 0.3594
+    }
+  ],
+  "total_set_stats_games": 3132,
+  "total_artifact_stats_games": 2132,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4747,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1179?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:58Z"
+}

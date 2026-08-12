@@ -1,0 +1,252 @@
+{
+  "hero": "Hellion Lua",
+  "hero_slug": "hellion-lua",
+  "hero_code": "c2126",
+  "element": "dark",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1060,
+      "total_wins": 523,
+      "total_losses": 536,
+      "total_bans": 108,
+      "total_prebans": 1
+    }
+  ],
+  "sample_size": 1060,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 937,
+      "total_wins": 454,
+      "total_losses": 483,
+      "derived_win_rate": 0.4845,
+      "derived_usage_share": 0.5628
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 436,
+      "total_wins": 216,
+      "total_losses": 220,
+      "derived_win_rate": 0.4954,
+      "derived_usage_share": 0.2619
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 246,
+      "total_wins": 122,
+      "total_losses": 124,
+      "derived_win_rate": 0.4959,
+      "derived_usage_share": 0.1477
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 25,
+      "total_wins": 10,
+      "total_losses": 15,
+      "derived_win_rate": 0.4,
+      "derived_usage_share": 0.015
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 641,
+      "total_wins": 322,
+      "total_losses": 319,
+      "derived_win_rate": 0.5023,
+      "derived_usage_share": 0.674
+    },
+    {
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 72,
+      "total_wins": 37,
+      "total_losses": 35,
+      "derived_win_rate": 0.5139,
+      "derived_usage_share": 0.0757
+    },
+    {
+      "artifact_code": "efr16",
+      "artifact_name": "Unseen Observer",
+      "total_games": 52,
+      "total_wins": 27,
+      "total_losses": 25,
+      "derived_win_rate": 0.5192,
+      "derived_usage_share": 0.0547
+    },
+    {
+      "artifact_code": "efr21",
+      "artifact_name": "Spatiotemporal Fan",
+      "total_games": 40,
+      "total_wins": 19,
+      "total_losses": 21,
+      "derived_win_rate": 0.475,
+      "derived_usage_share": 0.0421
+    },
+    {
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 37,
+      "total_wins": 15,
+      "total_losses": 22,
+      "derived_win_rate": 0.4054,
+      "derived_usage_share": 0.0389
+    },
+    {
+      "artifact_code": "efr19",
+      "artifact_name": "Glo-Wings 21",
+      "total_games": 35,
+      "total_wins": 13,
+      "total_losses": 22,
+      "derived_win_rate": 0.3714,
+      "derived_usage_share": 0.0368
+    },
+    {
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 32,
+      "total_wins": 13,
+      "total_losses": 19,
+      "derived_win_rate": 0.4062,
+      "derived_usage_share": 0.0336
+    },
+    {
+      "artifact_code": "efr33",
+      "artifact_name": "Intoxicating Indulgence",
+      "total_games": 16,
+      "total_wins": 5,
+      "total_losses": 11,
+      "derived_win_rate": 0.3125,
+      "derived_usage_share": 0.0168
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 11,
+      "total_wins": 5,
+      "total_losses": 6,
+      "derived_win_rate": 0.4545,
+      "derived_usage_share": 0.0116
+    },
+    {
+      "artifact_code": "efr30",
+      "artifact_name": "Awakened Leaf",
+      "total_games": 6,
+      "total_wins": 3,
+      "total_losses": 3,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0063
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 425,
+      "total_wins": 211,
+      "total_losses": 214,
+      "derived_win_rate": 0.4965
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 321,
+      "total_wins": 161,
+      "total_losses": 160,
+      "derived_win_rate": 0.5016
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 241,
+      "total_wins": 112,
+      "total_losses": 129,
+      "derived_win_rate": 0.4647
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 240,
+      "total_wins": 120,
+      "total_losses": 120,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 200,
+      "total_wins": 104,
+      "total_losses": 96,
+      "derived_win_rate": 0.52
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 107,
+      "total_wins": 51,
+      "total_losses": 56,
+      "derived_win_rate": 0.4766
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 67,
+      "total_wins": 32,
+      "total_losses": 35,
+      "derived_win_rate": 0.4776
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr16",
+      "artifact_name": "Unseen Observer",
+      "total_games": 50,
+      "total_wins": 26,
+      "total_losses": 24,
+      "derived_win_rate": 0.52
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 37,
+      "total_wins": 15,
+      "total_losses": 22,
+      "derived_win_rate": 0.4054
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 27,
+      "total_wins": 11,
+      "total_losses": 16,
+      "derived_win_rate": 0.4074
+    }
+  ],
+  "total_set_stats_games": 1665,
+  "total_artifact_stats_games": 951,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4939,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2126?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:38Z"
+}

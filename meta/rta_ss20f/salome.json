@@ -1,0 +1,248 @@
+{
+  "hero": "Salome",
+  "hero_slug": "salome",
+  "hero_code": "c2184",
+  "element": "dark",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 31133,
+      "total_wins": 10589,
+      "total_losses": 11243,
+      "total_bans": 3713,
+      "total_prebans": 9418
+    }
+  ],
+  "sample_size": 31133,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 17595,
+      "total_wins": 8144,
+      "total_losses": 9451,
+      "derived_win_rate": 0.4629,
+      "derived_usage_share": 0.5993
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 5322,
+      "total_wins": 2518,
+      "total_losses": 2804,
+      "derived_win_rate": 0.4731,
+      "derived_usage_share": 0.1813
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 2518,
+      "total_wins": 1146,
+      "total_losses": 1372,
+      "derived_win_rate": 0.4551,
+      "derived_usage_share": 0.0858
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 1818,
+      "total_wins": 828,
+      "total_losses": 990,
+      "derived_win_rate": 0.4554,
+      "derived_usage_share": 0.0619
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 840,
+      "total_wins": 369,
+      "total_losses": 471,
+      "derived_win_rate": 0.4393,
+      "derived_usage_share": 0.0286
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 559,
+      "total_wins": 272,
+      "total_losses": 287,
+      "derived_win_rate": 0.4866,
+      "derived_usage_share": 0.019
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 331,
+      "total_wins": 139,
+      "total_losses": 192,
+      "derived_win_rate": 0.4199,
+      "derived_usage_share": 0.0113
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 312,
+      "total_wins": 140,
+      "total_losses": 172,
+      "derived_win_rate": 0.4487,
+      "derived_usage_share": 0.0106
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 15569,
+      "total_wins": 7277,
+      "total_losses": 8292,
+      "derived_win_rate": 0.4674,
+      "derived_usage_share": 0.8593
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 648,
+      "total_wins": 294,
+      "total_losses": 354,
+      "derived_win_rate": 0.4537,
+      "derived_usage_share": 0.0358
+    },
+    {
+      "artifact_code": "efw24",
+      "artifact_name": "Pure White Trust",
+      "total_games": 519,
+      "total_wins": 220,
+      "total_losses": 299,
+      "derived_win_rate": 0.4239,
+      "derived_usage_share": 0.0286
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 508,
+      "total_wins": 449,
+      "total_losses": 59,
+      "derived_win_rate": 0.8839,
+      "derived_usage_share": 0.028
+    },
+    {
+      "artifact_code": "efw09",
+      "artifact_name": "Creation & Destruction",
+      "total_games": 384,
+      "total_wins": 146,
+      "total_losses": 238,
+      "derived_win_rate": 0.3802,
+      "derived_usage_share": 0.0212
+    },
+    {
+      "artifact_code": "ef505",
+      "artifact_name": "War Horn",
+      "total_games": 150,
+      "total_wins": 78,
+      "total_losses": 72,
+      "derived_win_rate": 0.52,
+      "derived_usage_share": 0.0083
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 5865,
+      "total_wins": 2715,
+      "total_losses": 3150,
+      "derived_win_rate": 0.4629
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 5295,
+      "total_wins": 2510,
+      "total_losses": 2785,
+      "derived_win_rate": 0.474
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 5061,
+      "total_wins": 2322,
+      "total_losses": 2739,
+      "derived_win_rate": 0.4588
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 4961,
+      "total_wins": 2381,
+      "total_losses": 2580,
+      "derived_win_rate": 0.4799
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 2515,
+      "total_wins": 1145,
+      "total_losses": 1370,
+      "derived_win_rate": 0.4553
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 2141,
+      "total_wins": 990,
+      "total_losses": 1151,
+      "derived_win_rate": 0.4624
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 1818,
+      "total_wins": 828,
+      "total_losses": 990,
+      "derived_win_rate": 0.4554
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 1659,
+      "total_wins": 770,
+      "total_losses": 889,
+      "derived_win_rate": 0.4641
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 840,
+      "total_wins": 369,
+      "total_losses": 471,
+      "derived_win_rate": 0.4393
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 771,
+      "total_wins": 348,
+      "total_losses": 423,
+      "derived_win_rate": 0.4514
+    }
+  ],
+  "total_set_stats_games": 29361,
+  "total_artifact_stats_games": 18119,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.485,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2184?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:55Z"
+}

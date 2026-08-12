@@ -1,0 +1,232 @@
+{
+  "hero": "Rinak",
+  "hero_slug": "rinak",
+  "hero_code": "c1168",
+  "element": "wind",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 36577,
+      "total_wins": 16056,
+      "total_losses": 17142,
+      "total_bans": 6088,
+      "total_prebans": 3393
+    }
+  ],
+  "sample_size": 36577,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 26992,
+      "total_wins": 12979,
+      "total_losses": 14013,
+      "derived_win_rate": 0.4808,
+      "derived_usage_share": 0.6074
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 13547,
+      "total_wins": 6461,
+      "total_losses": 7086,
+      "derived_win_rate": 0.4769,
+      "derived_usage_share": 0.3049
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 1750,
+      "total_wins": 886,
+      "total_losses": 864,
+      "derived_win_rate": 0.5063,
+      "derived_usage_share": 0.0394
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 910,
+      "total_wins": 401,
+      "total_losses": 509,
+      "derived_win_rate": 0.4407,
+      "derived_usage_share": 0.0205
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 309,
+      "total_wins": 133,
+      "total_losses": 176,
+      "derived_win_rate": 0.4304,
+      "derived_usage_share": 0.007
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 235,
+      "total_wins": 100,
+      "total_losses": 135,
+      "derived_win_rate": 0.4255,
+      "derived_usage_share": 0.0053
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 224,
+      "total_wins": 97,
+      "total_losses": 127,
+      "derived_win_rate": 0.433,
+      "derived_usage_share": 0.005
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 23612,
+      "total_wins": 11175,
+      "total_losses": 12437,
+      "derived_win_rate": 0.4733,
+      "derived_usage_share": 0.871
+    },
+    {
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 2185,
+      "total_wins": 1255,
+      "total_losses": 930,
+      "derived_win_rate": 0.5744,
+      "derived_usage_share": 0.0806
+    },
+    {
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 193,
+      "total_wins": 102,
+      "total_losses": 91,
+      "derived_win_rate": 0.5285,
+      "derived_usage_share": 0.0071
+    },
+    {
+      "artifact_code": "efa33",
+      "artifact_name": "Butterfly's Baptism",
+      "total_games": 160,
+      "total_wins": 79,
+      "total_losses": 81,
+      "derived_win_rate": 0.4938,
+      "derived_usage_share": 0.0059
+    },
+    {
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 158,
+      "total_wins": 62,
+      "total_losses": 96,
+      "derived_win_rate": 0.3924,
+      "derived_usage_share": 0.0058
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 13451,
+      "total_wins": 6407,
+      "total_losses": 7044,
+      "derived_win_rate": 0.4763
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 12243,
+      "total_wins": 5784,
+      "total_losses": 6459,
+      "derived_win_rate": 0.4724
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 9815,
+      "total_wins": 4814,
+      "total_losses": 5001,
+      "derived_win_rate": 0.4905
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 8237,
+      "total_wins": 3972,
+      "total_losses": 4265,
+      "derived_win_rate": 0.4822
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 1747,
+      "total_wins": 886,
+      "total_losses": 861,
+      "derived_win_rate": 0.5072
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 1249,
+      "total_wins": 588,
+      "total_losses": 661,
+      "derived_win_rate": 0.4708
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 1097,
+      "total_wins": 618,
+      "total_losses": 479,
+      "derived_win_rate": 0.5634
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 907,
+      "total_wins": 399,
+      "total_losses": 508,
+      "derived_win_rate": 0.4399
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 887,
+      "total_wins": 390,
+      "total_losses": 497,
+      "derived_win_rate": 0.4397
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 576,
+      "total_wins": 337,
+      "total_losses": 239,
+      "derived_win_rate": 0.5851
+    }
+  ],
+  "total_set_stats_games": 44437,
+  "total_artifact_stats_games": 27110,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4836,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1168?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:52Z"
+}

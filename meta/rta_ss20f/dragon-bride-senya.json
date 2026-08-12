@@ -1,0 +1,273 @@
+{
+  "hero": "Dragon Bride Senya",
+  "hero_slug": "dragon-bride-senya",
+  "hero_code": "c2106",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1594,
+      "total_wins": 657,
+      "total_losses": 809,
+      "total_bans": 238,
+      "total_prebans": 128
+    }
+  ],
+  "sample_size": 1594,
+  "top_sets": [
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 1283,
+      "total_wins": 573,
+      "total_losses": 710,
+      "derived_win_rate": 0.4466,
+      "derived_usage_share": 0.4618
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 700,
+      "total_wins": 317,
+      "total_losses": 383,
+      "derived_win_rate": 0.4529,
+      "derived_usage_share": 0.252
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 296,
+      "total_wins": 129,
+      "total_losses": 167,
+      "derived_win_rate": 0.4358,
+      "derived_usage_share": 0.1066
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 267,
+      "total_wins": 124,
+      "total_losses": 143,
+      "derived_win_rate": 0.4644,
+      "derived_usage_share": 0.0961
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 85,
+      "total_wins": 42,
+      "total_losses": 43,
+      "derived_win_rate": 0.4941,
+      "derived_usage_share": 0.0306
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 81,
+      "total_wins": 33,
+      "total_losses": 48,
+      "derived_win_rate": 0.4074,
+      "derived_usage_share": 0.0292
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 53,
+      "total_wins": 24,
+      "total_losses": 29,
+      "derived_win_rate": 0.4528,
+      "derived_usage_share": 0.0191
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 355,
+      "total_wins": 173,
+      "total_losses": 182,
+      "derived_win_rate": 0.4873,
+      "derived_usage_share": 0.2891
+    },
+    {
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 314,
+      "total_wins": 129,
+      "total_losses": 185,
+      "derived_win_rate": 0.4108,
+      "derived_usage_share": 0.2557
+    },
+    {
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 255,
+      "total_wins": 101,
+      "total_losses": 154,
+      "derived_win_rate": 0.3961,
+      "derived_usage_share": 0.2077
+    },
+    {
+      "artifact_code": "efk06",
+      "artifact_name": "Noble Oath",
+      "total_games": 77,
+      "total_wins": 40,
+      "total_losses": 37,
+      "derived_win_rate": 0.5195,
+      "derived_usage_share": 0.0627
+    },
+    {
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 69,
+      "total_wins": 32,
+      "total_losses": 37,
+      "derived_win_rate": 0.4638,
+      "derived_usage_share": 0.0562
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 43,
+      "total_wins": 18,
+      "total_losses": 25,
+      "derived_win_rate": 0.4186,
+      "derived_usage_share": 0.035
+    },
+    {
+      "artifact_code": "efk13",
+      "artifact_name": "Crown of Glory",
+      "total_games": 19,
+      "total_wins": 13,
+      "total_losses": 6,
+      "derived_win_rate": 0.6842,
+      "derived_usage_share": 0.0155
+    },
+    {
+      "artifact_code": "efk23",
+      "artifact_name": "A Precious Connection",
+      "total_games": 18,
+      "total_wins": 6,
+      "total_losses": 12,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0147
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 18,
+      "total_wins": 6,
+      "total_losses": 12,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0147
+    },
+    {
+      "artifact_code": "efk04",
+      "artifact_name": "Adamant Shield",
+      "total_games": 14,
+      "total_wins": 9,
+      "total_losses": 5,
+      "derived_win_rate": 0.6429,
+      "derived_usage_share": 0.0114
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 488,
+      "total_wins": 228,
+      "total_losses": 260,
+      "derived_win_rate": 0.4672
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 135,
+      "total_wins": 66,
+      "total_losses": 69,
+      "derived_win_rate": 0.4889
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 127,
+      "total_wins": 60,
+      "total_losses": 67,
+      "derived_win_rate": 0.4724
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 115,
+      "total_wins": 51,
+      "total_losses": 64,
+      "derived_win_rate": 0.4435
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 113,
+      "total_wins": 57,
+      "total_losses": 56,
+      "derived_win_rate": 0.5044
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_immune",
+      "total_games": 95,
+      "total_wins": 45,
+      "total_losses": 50,
+      "derived_win_rate": 0.4737
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_max_hp",
+      "total_games": 90,
+      "total_wins": 35,
+      "total_losses": 55,
+      "derived_win_rate": 0.3889
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_immune",
+      "artifact_code": "efk06",
+      "artifact_name": "Noble Oath",
+      "total_games": 62,
+      "total_wins": 34,
+      "total_losses": 28,
+      "derived_win_rate": 0.5484
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_chase",
+      "total_games": 60,
+      "total_wins": 31,
+      "total_losses": 29,
+      "derived_win_rate": 0.5167
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 60,
+      "total_wins": 20,
+      "total_losses": 40,
+      "derived_win_rate": 0.3333
+    }
+  ],
+  "total_set_stats_games": 2778,
+  "total_artifact_stats_games": 1228,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4482,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2106?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:29Z"
+}

@@ -1,0 +1,270 @@
+{
+  "hero": "Ran",
+  "hero_slug": "ran",
+  "hero_code": "c1118",
+  "element": "ice",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1057,
+      "total_wins": 484,
+      "total_losses": 572,
+      "total_bans": 34,
+      "total_prebans": 1
+    }
+  ],
+  "sample_size": 1057,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1017,
+      "total_wins": 471,
+      "total_losses": 546,
+      "derived_win_rate": 0.4631,
+      "derived_usage_share": 0.5848
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 552,
+      "total_wins": 257,
+      "total_losses": 295,
+      "derived_win_rate": 0.4656,
+      "derived_usage_share": 0.3174
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 118,
+      "total_wins": 67,
+      "total_losses": 51,
+      "derived_win_rate": 0.5678,
+      "derived_usage_share": 0.0679
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 21,
+      "total_wins": 11,
+      "total_losses": 10,
+      "derived_win_rate": 0.5238,
+      "derived_usage_share": 0.0121
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 14,
+      "total_wins": 6,
+      "total_losses": 8,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0081
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 14,
+      "total_wins": 3,
+      "total_losses": 11,
+      "derived_win_rate": 0.2143,
+      "derived_usage_share": 0.0081
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa18",
+      "artifact_name": "Sword of Winter Shadow",
+      "total_games": 279,
+      "total_wins": 118,
+      "total_losses": 161,
+      "derived_win_rate": 0.4229,
+      "derived_usage_share": 0.273
+    },
+    {
+      "artifact_code": "efa32",
+      "artifact_name": "Shadow Winds 7",
+      "total_games": 168,
+      "total_wins": 78,
+      "total_losses": 90,
+      "derived_win_rate": 0.4643,
+      "derived_usage_share": 0.1644
+    },
+    {
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 168,
+      "total_wins": 84,
+      "total_losses": 84,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.1644
+    },
+    {
+      "artifact_code": "efa13",
+      "artifact_name": "Manica of Control",
+      "total_games": 134,
+      "total_wins": 66,
+      "total_losses": 68,
+      "derived_win_rate": 0.4925,
+      "derived_usage_share": 0.1311
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 98,
+      "total_wins": 44,
+      "total_losses": 54,
+      "derived_win_rate": 0.449,
+      "derived_usage_share": 0.0959
+    },
+    {
+      "artifact_code": "efa11",
+      "artifact_name": "Silver Rain",
+      "total_games": 84,
+      "total_wins": 47,
+      "total_losses": 37,
+      "derived_win_rate": 0.5595,
+      "derived_usage_share": 0.0822
+    },
+    {
+      "artifact_code": "efa01",
+      "artifact_name": "Rhianna & Luciella",
+      "total_games": 33,
+      "total_wins": 16,
+      "total_losses": 17,
+      "derived_win_rate": 0.4848,
+      "derived_usage_share": 0.0323
+    },
+    {
+      "artifact_code": "ef442",
+      "artifact_name": "XII. The Hanged Man",
+      "total_games": 28,
+      "total_wins": 7,
+      "total_losses": 21,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0274
+    },
+    {
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 10,
+      "total_wins": 5,
+      "total_losses": 5,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0098
+    },
+    {
+      "artifact_code": "ef322",
+      "artifact_name": "Oath Key",
+      "total_games": 6,
+      "total_wins": 0,
+      "total_losses": 6,
+      "derived_win_rate": 0.0,
+      "derived_usage_share": 0.0059
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 551,
+      "total_wins": 257,
+      "total_losses": 294,
+      "derived_win_rate": 0.4664
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 302,
+      "total_wins": 127,
+      "total_losses": 175,
+      "derived_win_rate": 0.4205
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efa18",
+      "artifact_name": "Sword of Winter Shadow",
+      "total_games": 226,
+      "total_wins": 96,
+      "total_losses": 130,
+      "derived_win_rate": 0.4248
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efa32",
+      "artifact_name": "Shadow Winds 7",
+      "total_games": 157,
+      "total_wins": 76,
+      "total_losses": 81,
+      "derived_win_rate": 0.4841
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 117,
+      "total_wins": 67,
+      "total_losses": 50,
+      "derived_win_rate": 0.5726
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 99,
+      "total_wins": 55,
+      "total_losses": 44,
+      "derived_win_rate": 0.5556
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efa13",
+      "artifact_name": "Manica of Control",
+      "total_games": 93,
+      "total_wins": 53,
+      "total_losses": 40,
+      "derived_win_rate": 0.5699
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 69,
+      "total_wins": 33,
+      "total_losses": 36,
+      "derived_win_rate": 0.4783
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 54,
+      "total_wins": 24,
+      "total_losses": 30,
+      "derived_win_rate": 0.4444
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa11",
+      "artifact_name": "Silver Rain",
+      "total_games": 51,
+      "total_wins": 25,
+      "total_losses": 26,
+      "derived_win_rate": 0.4902
+    }
+  ],
+  "total_set_stats_games": 1739,
+  "total_artifact_stats_games": 1022,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4583,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1118?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:40Z"
+}

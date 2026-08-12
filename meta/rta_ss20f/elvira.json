@@ -1,0 +1,277 @@
+{
+  "hero": "Elvira",
+  "hero_slug": "elvira",
+  "hero_code": "c1148",
+  "element": "ice",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1961,
+      "total_wins": 958,
+      "total_losses": 1001,
+      "total_bans": 985,
+      "total_prebans": 2
+    }
+  ],
+  "sample_size": 1961,
+  "top_sets": [
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 838,
+      "total_wins": 394,
+      "total_losses": 444,
+      "derived_win_rate": 0.4702,
+      "derived_usage_share": 0.4222
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 623,
+      "total_wins": 282,
+      "total_losses": 341,
+      "derived_win_rate": 0.4526,
+      "derived_usage_share": 0.3139
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 206,
+      "total_wins": 97,
+      "total_losses": 109,
+      "derived_win_rate": 0.4709,
+      "derived_usage_share": 0.1038
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 113,
+      "total_wins": 59,
+      "total_losses": 54,
+      "derived_win_rate": 0.5221,
+      "derived_usage_share": 0.0569
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 110,
+      "total_wins": 65,
+      "total_losses": 45,
+      "derived_win_rate": 0.5909,
+      "derived_usage_share": 0.0554
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 44,
+      "total_wins": 28,
+      "total_losses": 16,
+      "derived_win_rate": 0.6364,
+      "derived_usage_share": 0.0222
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 21,
+      "total_wins": 12,
+      "total_losses": 9,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.0106
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa24",
+      "artifact_name": "Beguiling Wings",
+      "total_games": 685,
+      "total_wins": 322,
+      "total_losses": 363,
+      "derived_win_rate": 0.4701,
+      "derived_usage_share": 0.7033
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 71,
+      "total_wins": 33,
+      "total_losses": 38,
+      "derived_win_rate": 0.4648,
+      "derived_usage_share": 0.0729
+    },
+    {
+      "artifact_code": "efa12",
+      "artifact_name": "Alabastron",
+      "total_games": 63,
+      "total_wins": 36,
+      "total_losses": 27,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.0647
+    },
+    {
+      "artifact_code": "efa22",
+      "artifact_name": "Hostess of the Banquet",
+      "total_games": 43,
+      "total_wins": 16,
+      "total_losses": 27,
+      "derived_win_rate": 0.3721,
+      "derived_usage_share": 0.0441
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 30,
+      "total_wins": 15,
+      "total_losses": 15,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0308
+    },
+    {
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 9,
+      "total_wins": 4,
+      "total_losses": 5,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0092
+    },
+    {
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 8,
+      "total_wins": 4,
+      "total_losses": 4,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0082
+    },
+    {
+      "artifact_code": "efa05",
+      "artifact_name": "Dust Devil",
+      "total_games": 7,
+      "total_wins": 3,
+      "total_losses": 4,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0072
+    },
+    {
+      "artifact_code": "efa03",
+      "artifact_name": "Moonlight Dreamblade",
+      "total_games": 6,
+      "total_wins": 5,
+      "total_losses": 1,
+      "derived_win_rate": 0.8333,
+      "derived_usage_share": 0.0062
+    },
+    {
+      "artifact_code": "efa14",
+      "artifact_name": "Secret Art - Storm Sword",
+      "total_games": 6,
+      "total_wins": 4,
+      "total_losses": 2,
+      "derived_win_rate": 0.6667,
+      "derived_usage_share": 0.0062
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 512,
+      "total_wins": 227,
+      "total_losses": 285,
+      "derived_win_rate": 0.4434
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efa24",
+      "artifact_name": "Beguiling Wings",
+      "total_games": 372,
+      "total_wins": 164,
+      "total_losses": 208,
+      "derived_win_rate": 0.4409
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "total_games": 84,
+      "total_wins": 50,
+      "total_losses": 34,
+      "derived_win_rate": 0.5952
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "artifact_code": "efa24",
+      "artifact_name": "Beguiling Wings",
+      "total_games": 51,
+      "total_wins": 32,
+      "total_losses": 19,
+      "derived_win_rate": 0.6275
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 47,
+      "total_wins": 23,
+      "total_losses": 24,
+      "derived_win_rate": 0.4894
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efa24",
+      "artifact_name": "Beguiling Wings",
+      "total_games": 36,
+      "total_wins": 19,
+      "total_losses": 17,
+      "derived_win_rate": 0.5278
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efa12",
+      "artifact_name": "Alabastron",
+      "total_games": 32,
+      "total_wins": 18,
+      "total_losses": 14,
+      "derived_win_rate": 0.5625
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 30,
+      "total_wins": 13,
+      "total_losses": 17,
+      "derived_win_rate": 0.4333
+    },
+    {
+      "set_agg_code": "set_res+set_res+set_max_hp",
+      "total_games": 30,
+      "total_wins": 11,
+      "total_losses": 19,
+      "derived_win_rate": 0.3667
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efa22",
+      "artifact_name": "Hostess of the Banquet",
+      "total_games": 25,
+      "total_wins": 9,
+      "total_losses": 16,
+      "derived_win_rate": 0.36
+    }
+  ],
+  "total_set_stats_games": 1985,
+  "total_artifact_stats_games": 974,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.489,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1148?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:16Z"
+}

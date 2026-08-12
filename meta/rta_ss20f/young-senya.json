@@ -1,0 +1,239 @@
+{
+  "hero": "Young Senya",
+  "hero_slug": "young-senya",
+  "hero_code": "c1162",
+  "element": "wind",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 6379,
+      "total_wins": 3102,
+      "total_losses": 3087,
+      "total_bans": 2003,
+      "total_prebans": 190
+    }
+  ],
+  "sample_size": 6379,
+  "top_sets": [
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 4551,
+      "total_wins": 2281,
+      "total_losses": 2270,
+      "derived_win_rate": 0.5012,
+      "derived_usage_share": 0.443
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 1803,
+      "total_wins": 951,
+      "total_losses": 852,
+      "derived_win_rate": 0.5275,
+      "derived_usage_share": 0.1755
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1425,
+      "total_wins": 742,
+      "total_losses": 683,
+      "derived_win_rate": 0.5207,
+      "derived_usage_share": 0.1387
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1211,
+      "total_wins": 571,
+      "total_losses": 640,
+      "derived_win_rate": 0.4715,
+      "derived_usage_share": 0.1179
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 777,
+      "total_wins": 433,
+      "total_losses": 344,
+      "derived_win_rate": 0.5573,
+      "derived_usage_share": 0.0756
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 353,
+      "total_wins": 157,
+      "total_losses": 196,
+      "derived_win_rate": 0.4448,
+      "derived_usage_share": 0.0344
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 124,
+      "total_wins": 63,
+      "total_losses": 61,
+      "derived_win_rate": 0.5081,
+      "derived_usage_share": 0.0121
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 3739,
+      "total_wins": 1913,
+      "total_losses": 1826,
+      "derived_win_rate": 0.5116,
+      "derived_usage_share": 0.8932
+    },
+    {
+      "artifact_code": "efh03",
+      "artifact_name": "Water's Origin",
+      "total_games": 89,
+      "total_wins": 34,
+      "total_losses": 55,
+      "derived_win_rate": 0.382,
+      "derived_usage_share": 0.0213
+    },
+    {
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 88,
+      "total_wins": 51,
+      "total_losses": 37,
+      "derived_win_rate": 0.5795,
+      "derived_usage_share": 0.021
+    },
+    {
+      "artifact_code": "efh20",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 73,
+      "total_wins": 25,
+      "total_losses": 48,
+      "derived_win_rate": 0.3425,
+      "derived_usage_share": 0.0174
+    },
+    {
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 29,
+      "total_wins": 14,
+      "total_losses": 15,
+      "derived_win_rate": 0.4828,
+      "derived_usage_share": 0.0069
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 28,
+      "total_wins": 13,
+      "total_losses": 15,
+      "derived_win_rate": 0.4643,
+      "derived_usage_share": 0.0067
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 669,
+      "total_wins": 297,
+      "total_losses": 372,
+      "derived_win_rate": 0.4439
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_chase",
+      "total_games": 619,
+      "total_wins": 319,
+      "total_losses": 300,
+      "derived_win_rate": 0.5153
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 615,
+      "total_wins": 272,
+      "total_losses": 343,
+      "derived_win_rate": 0.4423
+    },
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "total_games": 543,
+      "total_wins": 292,
+      "total_losses": 251,
+      "derived_win_rate": 0.5378
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_chase",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 521,
+      "total_wins": 278,
+      "total_losses": 243,
+      "derived_win_rate": 0.5336
+    },
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 497,
+      "total_wins": 268,
+      "total_losses": 229,
+      "derived_win_rate": 0.5392
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 350,
+      "total_wins": 191,
+      "total_losses": 159,
+      "derived_win_rate": 0.5457
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_max_hp",
+      "total_games": 344,
+      "total_wins": 177,
+      "total_losses": 167,
+      "derived_win_rate": 0.5145
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 342,
+      "total_wins": 188,
+      "total_losses": 154,
+      "derived_win_rate": 0.5497
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_max_hp",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 304,
+      "total_wins": 155,
+      "total_losses": 149,
+      "derived_win_rate": 0.5099
+    }
+  ],
+  "total_set_stats_games": 10274,
+  "total_artifact_stats_games": 4186,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5012,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1162?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:41Z"
+}

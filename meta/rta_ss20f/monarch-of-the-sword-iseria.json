@@ -1,0 +1,151 @@
+{
+  "hero": "Monarch of the Sword Iseria",
+  "hero_slug": "monarch-of-the-sword-iseria",
+  "hero_code": "c6024",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 9161,
+      "total_wins": 4467,
+      "total_losses": 3950,
+      "total_bans": 2628,
+      "total_prebans": 744
+    }
+  ],
+  "sample_size": 9161,
+  "top_sets": [
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 5698,
+      "total_wins": 3029,
+      "total_losses": 2669,
+      "derived_win_rate": 0.5316,
+      "derived_usage_share": 0.4931
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 3001,
+      "total_wins": 1574,
+      "total_losses": 1427,
+      "derived_win_rate": 0.5245,
+      "derived_usage_share": 0.2597
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 2656,
+      "total_wins": 1428,
+      "total_losses": 1228,
+      "derived_win_rate": 0.5377,
+      "derived_usage_share": 0.2298
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 124,
+      "total_wins": 63,
+      "total_losses": 61,
+      "derived_win_rate": 0.5081,
+      "derived_usage_share": 0.0107
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 5761,
+      "total_wins": 3059,
+      "total_losses": 2702,
+      "derived_win_rate": 0.531,
+      "derived_usage_share": 0.9952
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 2912,
+      "total_wins": 1534,
+      "total_losses": 1378,
+      "derived_win_rate": 0.5268
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 2910,
+      "total_wins": 1533,
+      "total_losses": 1377,
+      "derived_win_rate": 0.5268
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 2654,
+      "total_wins": 1426,
+      "total_losses": 1228,
+      "derived_win_rate": 0.5373
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 2649,
+      "total_wins": 1424,
+      "total_losses": 1225,
+      "derived_win_rate": 0.5376
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "total_games": 98,
+      "total_wins": 54,
+      "total_losses": 44,
+      "derived_win_rate": 0.551
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 96,
+      "total_wins": 54,
+      "total_losses": 42,
+      "derived_win_rate": 0.5625
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 55,
+      "total_wins": 27,
+      "total_losses": 28,
+      "derived_win_rate": 0.4909
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 36,
+      "total_wins": 18,
+      "total_losses": 18,
+      "derived_win_rate": 0.5
+    }
+  ],
+  "total_set_stats_games": 11556,
+  "total_artifact_stats_games": 5789,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5307,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c6024?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:28Z"
+}

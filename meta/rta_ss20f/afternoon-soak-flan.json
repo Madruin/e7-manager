@@ -1,0 +1,221 @@
+{
+  "hero": "Afternoon Soak Flan",
+  "hero_slug": "afternoon-soak-flan",
+  "hero_code": "c5110",
+  "element": "fire",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 6484,
+      "total_wins": 3152,
+      "total_losses": 3331,
+      "total_bans": 2204,
+      "total_prebans": 1
+    }
+  ],
+  "sample_size": 6484,
+  "top_sets": [
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 3611,
+      "total_wins": 1713,
+      "total_losses": 1898,
+      "derived_win_rate": 0.4744,
+      "derived_usage_share": 0.425
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 1561,
+      "total_wins": 764,
+      "total_losses": 797,
+      "derived_win_rate": 0.4894,
+      "derived_usage_share": 0.1837
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1177,
+      "total_wins": 547,
+      "total_losses": 630,
+      "derived_win_rate": 0.4647,
+      "derived_usage_share": 0.1385
+    },
+    {
+      "set_code": "set_riposte",
+      "set_name": "Riposte",
+      "total_games": 1030,
+      "total_wins": 489,
+      "total_losses": 541,
+      "derived_win_rate": 0.4748,
+      "derived_usage_share": 0.1212
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 350,
+      "total_wins": 165,
+      "total_losses": 185,
+      "derived_win_rate": 0.4714,
+      "derived_usage_share": 0.0412
+    },
+    {
+      "set_code": "set_vampire",
+      "set_name": "Lifesteal",
+      "total_games": 345,
+      "total_wins": 166,
+      "total_losses": 179,
+      "derived_win_rate": 0.4812,
+      "derived_usage_share": 0.0406
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 296,
+      "total_wins": 153,
+      "total_losses": 143,
+      "derived_win_rate": 0.5169,
+      "derived_usage_share": 0.0348
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 54,
+      "total_wins": 24,
+      "total_losses": 30,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0064
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr27",
+      "artifact_name": "Dreamlike Holiday",
+      "total_games": 3858,
+      "total_wins": 1848,
+      "total_losses": 2010,
+      "derived_win_rate": 0.479,
+      "derived_usage_share": 0.9016
+    },
+    {
+      "artifact_code": "efr01",
+      "artifact_name": "Bloodstone",
+      "total_games": 289,
+      "total_wins": 120,
+      "total_losses": 169,
+      "derived_win_rate": 0.4152,
+      "derived_usage_share": 0.0675
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 50,
+      "total_wins": 28,
+      "total_losses": 22,
+      "derived_win_rate": 0.56,
+      "derived_usage_share": 0.0117
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 1409,
+      "total_wins": 690,
+      "total_losses": 719,
+      "derived_win_rate": 0.4897
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efr27",
+      "artifact_name": "Dreamlike Holiday",
+      "total_games": 1360,
+      "total_wins": 671,
+      "total_losses": 689,
+      "derived_win_rate": 0.4934
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 1078,
+      "total_wins": 506,
+      "total_losses": 572,
+      "derived_win_rate": 0.4694
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efr27",
+      "artifact_name": "Dreamlike Holiday",
+      "total_games": 1051,
+      "total_wins": 490,
+      "total_losses": 561,
+      "derived_win_rate": 0.4662
+    },
+    {
+      "set_agg_code": "set_riposte+set_penetrate",
+      "total_games": 731,
+      "total_wins": 343,
+      "total_losses": 388,
+      "derived_win_rate": 0.4692
+    },
+    {
+      "set_agg_code": "set_riposte+set_penetrate",
+      "artifact_code": "efr27",
+      "artifact_name": "Dreamlike Holiday",
+      "total_games": 532,
+      "total_wins": 255,
+      "total_losses": 277,
+      "derived_win_rate": 0.4793
+    },
+    {
+      "set_agg_code": "set_vampire+set_penetrate",
+      "total_games": 244,
+      "total_wins": 110,
+      "total_losses": 134,
+      "derived_win_rate": 0.4508
+    },
+    {
+      "set_agg_code": "set_vampire+set_penetrate",
+      "artifact_code": "efr27",
+      "artifact_name": "Dreamlike Holiday",
+      "total_games": 242,
+      "total_wins": 108,
+      "total_losses": 134,
+      "derived_win_rate": 0.4463
+    },
+    {
+      "set_agg_code": "set_riposte+set_penetrate",
+      "artifact_code": "efr01",
+      "artifact_name": "Bloodstone",
+      "total_games": 191,
+      "total_wins": 87,
+      "total_losses": 104,
+      "derived_win_rate": 0.4555
+    },
+    {
+      "set_agg_code": "set_riposte+set_immune",
+      "total_games": 165,
+      "total_wins": 83,
+      "total_losses": 82,
+      "derived_win_rate": 0.503
+    }
+  ],
+  "total_set_stats_games": 8497,
+  "total_artifact_stats_games": 4279,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4862,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c5110?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:40Z"
+}

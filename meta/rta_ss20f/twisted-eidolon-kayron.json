@@ -1,0 +1,271 @@
+{
+  "hero": "Twisted Eidolon Kayron",
+  "hero_slug": "twisted-eidolon-kayron",
+  "hero_code": "c2023",
+  "element": "light",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1743,
+      "total_wins": 837,
+      "total_losses": 906,
+      "total_bans": 469,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1743,
+  "top_sets": [
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 821,
+      "total_wins": 395,
+      "total_losses": 426,
+      "derived_win_rate": 0.4811,
+      "derived_usage_share": 0.2447
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 760,
+      "total_wins": 373,
+      "total_losses": 387,
+      "derived_win_rate": 0.4908,
+      "derived_usage_share": 0.2265
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 605,
+      "total_wins": 304,
+      "total_losses": 301,
+      "derived_win_rate": 0.5025,
+      "derived_usage_share": 0.1803
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 598,
+      "total_wins": 275,
+      "total_losses": 323,
+      "derived_win_rate": 0.4599,
+      "derived_usage_share": 0.1782
+    },
+    {
+      "set_code": "set_vampire",
+      "set_name": "Lifesteal",
+      "total_games": 359,
+      "total_wins": 145,
+      "total_losses": 214,
+      "derived_win_rate": 0.4039,
+      "derived_usage_share": 0.107
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 135,
+      "total_wins": 75,
+      "total_losses": 60,
+      "derived_win_rate": 0.5556,
+      "derived_usage_share": 0.0402
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 28,
+      "total_wins": 13,
+      "total_losses": 15,
+      "derived_win_rate": 0.4643,
+      "derived_usage_share": 0.0083
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 18,
+      "total_wins": 8,
+      "total_losses": 10,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0054
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa10",
+      "artifact_name": "Shepherds of Chaos",
+      "total_games": 693,
+      "total_wins": 338,
+      "total_losses": 355,
+      "derived_win_rate": 0.4877,
+      "derived_usage_share": 0.544
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 216,
+      "total_wins": 108,
+      "total_losses": 108,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.1695
+    },
+    {
+      "artifact_code": "efa22",
+      "artifact_name": "Hostess of the Banquet",
+      "total_games": 207,
+      "total_wins": 86,
+      "total_losses": 121,
+      "derived_win_rate": 0.4155,
+      "derived_usage_share": 0.1625
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 34,
+      "total_wins": 17,
+      "total_losses": 17,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0267
+    },
+    {
+      "artifact_code": "efa15",
+      "artifact_name": "Shepherd of the Hollow",
+      "total_games": 34,
+      "total_wins": 10,
+      "total_losses": 24,
+      "derived_win_rate": 0.2941,
+      "derived_usage_share": 0.0267
+    },
+    {
+      "artifact_code": "efa03",
+      "artifact_name": "Moonlight Dreamblade",
+      "total_games": 29,
+      "total_wins": 14,
+      "total_losses": 15,
+      "derived_win_rate": 0.4828,
+      "derived_usage_share": 0.0228
+    },
+    {
+      "artifact_code": "efa30",
+      "artifact_name": "Master of the Nightmare",
+      "total_games": 19,
+      "total_wins": 6,
+      "total_losses": 13,
+      "derived_win_rate": 0.3158,
+      "derived_usage_share": 0.0149
+    },
+    {
+      "artifact_code": "efa24",
+      "artifact_name": "Beguiling Wings",
+      "total_games": 11,
+      "total_wins": 6,
+      "total_losses": 5,
+      "derived_win_rate": 0.5455,
+      "derived_usage_share": 0.0086
+    },
+    {
+      "artifact_code": "efa29",
+      "artifact_name": "Lethal Whispers",
+      "total_games": 9,
+      "total_wins": 4,
+      "total_losses": 5,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0071
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "total_games": 263,
+      "total_wins": 137,
+      "total_losses": 126,
+      "derived_win_rate": 0.5209
+    },
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "artifact_code": "efa10",
+      "artifact_name": "Shepherds of Chaos",
+      "total_games": 231,
+      "total_wins": 121,
+      "total_losses": 110,
+      "derived_win_rate": 0.5238
+    },
+    {
+      "set_agg_code": "set_vampire+set_res",
+      "total_games": 137,
+      "total_wins": 57,
+      "total_losses": 80,
+      "derived_win_rate": 0.4161
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_chase",
+      "total_games": 110,
+      "total_wins": 56,
+      "total_losses": 54,
+      "derived_win_rate": 0.5091
+    },
+    {
+      "set_agg_code": "set_vampire+set_immune",
+      "total_games": 107,
+      "total_wins": 45,
+      "total_losses": 62,
+      "derived_win_rate": 0.4206
+    },
+    {
+      "set_agg_code": "set_vampire+set_chase",
+      "total_games": 104,
+      "total_wins": 40,
+      "total_losses": 64,
+      "derived_win_rate": 0.3846
+    },
+    {
+      "set_agg_code": "set_res+set_immune+set_chase",
+      "total_games": 97,
+      "total_wins": 50,
+      "total_losses": 47,
+      "derived_win_rate": 0.5155
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_chase",
+      "artifact_code": "efa10",
+      "artifact_name": "Shepherds of Chaos",
+      "total_games": 88,
+      "total_wins": 44,
+      "total_losses": 44,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_vampire+set_res",
+      "artifact_code": "efa22",
+      "artifact_name": "Hostess of the Banquet",
+      "total_games": 70,
+      "total_wins": 32,
+      "total_losses": 38,
+      "derived_win_rate": 0.4571
+    },
+    {
+      "set_agg_code": "set_def+set_res+set_chase",
+      "total_games": 70,
+      "total_wins": 39,
+      "total_losses": 31,
+      "derived_win_rate": 0.5571
+    }
+  ],
+  "total_set_stats_games": 3355,
+  "total_artifact_stats_games": 1274,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4802,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2023?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:22Z"
+}

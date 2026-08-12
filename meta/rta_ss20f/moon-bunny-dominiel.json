@@ -1,0 +1,259 @@
+{
+  "hero": "Moon Bunny Dominiel",
+  "hero_slug": "moon-bunny-dominiel",
+  "hero_code": "c6037",
+  "element": "light",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 32989,
+      "total_wins": 16692,
+      "total_losses": 15148,
+      "total_bans": 6847,
+      "total_prebans": 1152
+    }
+  ],
+  "sample_size": 32989,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 24272,
+      "total_wins": 12722,
+      "total_losses": 11550,
+      "derived_win_rate": 0.5241,
+      "derived_usage_share": 0.5103
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 11651,
+      "total_wins": 6201,
+      "total_losses": 5450,
+      "derived_win_rate": 0.5322,
+      "derived_usage_share": 0.245
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 9252,
+      "total_wins": 4865,
+      "total_losses": 4387,
+      "derived_win_rate": 0.5258,
+      "derived_usage_share": 0.1945
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 1646,
+      "total_wins": 786,
+      "total_losses": 860,
+      "derived_win_rate": 0.4775,
+      "derived_usage_share": 0.0346
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 251,
+      "total_wins": 143,
+      "total_losses": 108,
+      "derived_win_rate": 0.5697,
+      "derived_usage_share": 0.0053
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 12840,
+      "total_wins": 7137,
+      "total_losses": 5703,
+      "derived_win_rate": 0.5558,
+      "derived_usage_share": 0.5137
+    },
+    {
+      "artifact_code": "efh12",
+      "artifact_name": "Doctor's Bag",
+      "total_games": 7977,
+      "total_wins": 3952,
+      "total_losses": 4025,
+      "derived_win_rate": 0.4954,
+      "derived_usage_share": 0.3192
+    },
+    {
+      "artifact_code": "efh19",
+      "artifact_name": "Sole Consolation",
+      "total_games": 886,
+      "total_wins": 448,
+      "total_losses": 438,
+      "derived_win_rate": 0.5056,
+      "derived_usage_share": 0.0354
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 502,
+      "total_wins": 246,
+      "total_losses": 256,
+      "derived_win_rate": 0.49,
+      "derived_usage_share": 0.0201
+    },
+    {
+      "artifact_code": "efh03",
+      "artifact_name": "Water's Origin",
+      "total_games": 425,
+      "total_wins": 220,
+      "total_losses": 205,
+      "derived_win_rate": 0.5176,
+      "derived_usage_share": 0.017
+    },
+    {
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 356,
+      "total_wins": 203,
+      "total_losses": 153,
+      "derived_win_rate": 0.5702,
+      "derived_usage_share": 0.0142
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 353,
+      "total_wins": 162,
+      "total_losses": 191,
+      "derived_win_rate": 0.4589,
+      "derived_usage_share": 0.0141
+    },
+    {
+      "artifact_code": "efh20",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 317,
+      "total_wins": 160,
+      "total_losses": 157,
+      "derived_win_rate": 0.5047,
+      "derived_usage_share": 0.0127
+    },
+    {
+      "artifact_code": "efh07",
+      "artifact_name": "Idol's Cheer",
+      "total_games": 311,
+      "total_wins": 160,
+      "total_losses": 151,
+      "derived_win_rate": 0.5145,
+      "derived_usage_share": 0.0124
+    },
+    {
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 257,
+      "total_wins": 117,
+      "total_losses": 140,
+      "derived_win_rate": 0.4553,
+      "derived_usage_share": 0.0103
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 11316,
+      "total_wins": 6022,
+      "total_losses": 5294,
+      "derived_win_rate": 0.5322
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 8939,
+      "total_wins": 4702,
+      "total_losses": 4237,
+      "derived_win_rate": 0.526
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 5784,
+      "total_wins": 3276,
+      "total_losses": 2508,
+      "derived_win_rate": 0.5664
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 4909,
+      "total_wins": 2727,
+      "total_losses": 2182,
+      "derived_win_rate": 0.5555
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh12",
+      "artifact_name": "Doctor's Bag",
+      "total_games": 3416,
+      "total_wins": 1665,
+      "total_losses": 1751,
+      "derived_win_rate": 0.4874
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh12",
+      "artifact_name": "Doctor's Bag",
+      "total_games": 3094,
+      "total_wins": 1517,
+      "total_losses": 1577,
+      "derived_win_rate": 0.4903
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 2364,
+      "total_wins": 1204,
+      "total_losses": 1160,
+      "derived_win_rate": 0.5093
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 1395,
+      "total_wins": 729,
+      "total_losses": 666,
+      "derived_win_rate": 0.5226
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 1259,
+      "total_wins": 582,
+      "total_losses": 677,
+      "derived_win_rate": 0.4623
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh12",
+      "artifact_name": "Doctor's Bag",
+      "total_games": 556,
+      "total_wins": 273,
+      "total_losses": 283,
+      "derived_win_rate": 0.491
+    }
+  ],
+  "total_set_stats_games": 47561,
+  "total_artifact_stats_games": 24993,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5242,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c6037?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:53Z"
+}

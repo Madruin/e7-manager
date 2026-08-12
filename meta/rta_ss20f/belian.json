@@ -1,0 +1,230 @@
+{
+  "hero": "Belian",
+  "hero_slug": "belian",
+  "hero_code": "c1117",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 61570,
+      "total_wins": 24459,
+      "total_losses": 22378,
+      "total_bans": 10763,
+      "total_prebans": 15116
+    }
+  ],
+  "sample_size": 61570,
+  "top_sets": [
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 17410,
+      "total_wins": 9030,
+      "total_losses": 8380,
+      "derived_win_rate": 0.5187,
+      "derived_usage_share": 0.2376
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 15225,
+      "total_wins": 7980,
+      "total_losses": 7245,
+      "derived_win_rate": 0.5241,
+      "derived_usage_share": 0.2078
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 13281,
+      "total_wins": 7196,
+      "total_losses": 6085,
+      "derived_win_rate": 0.5418,
+      "derived_usage_share": 0.1813
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 10676,
+      "total_wins": 5644,
+      "total_losses": 5032,
+      "derived_win_rate": 0.5287,
+      "derived_usage_share": 0.1457
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 8493,
+      "total_wins": 4417,
+      "total_losses": 4076,
+      "derived_win_rate": 0.5201,
+      "derived_usage_share": 0.1159
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 5676,
+      "total_wins": 3067,
+      "total_losses": 2609,
+      "derived_win_rate": 0.5403,
+      "derived_usage_share": 0.0775
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 1503,
+      "total_wins": 809,
+      "total_losses": 694,
+      "derived_win_rate": 0.5383,
+      "derived_usage_share": 0.0205
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 21727,
+      "total_wins": 11722,
+      "total_losses": 10005,
+      "derived_win_rate": 0.5395,
+      "derived_usage_share": 0.6023
+    },
+    {
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 8105,
+      "total_wins": 4095,
+      "total_losses": 4010,
+      "derived_win_rate": 0.5052,
+      "derived_usage_share": 0.2247
+    },
+    {
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 4573,
+      "total_wins": 2443,
+      "total_losses": 2130,
+      "derived_win_rate": 0.5342,
+      "derived_usage_share": 0.1268
+    },
+    {
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 832,
+      "total_wins": 341,
+      "total_losses": 491,
+      "derived_win_rate": 0.4099,
+      "derived_usage_share": 0.0231
+    },
+    {
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 385,
+      "total_wins": 216,
+      "total_losses": 169,
+      "derived_win_rate": 0.561,
+      "derived_usage_share": 0.0107
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 9011,
+      "total_wins": 4654,
+      "total_losses": 4357,
+      "derived_win_rate": 0.5165
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 6364,
+      "total_wins": 3437,
+      "total_losses": 2927,
+      "derived_win_rate": 0.5401
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 6303,
+      "total_wins": 3379,
+      "total_losses": 2924,
+      "derived_win_rate": 0.5361
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 4988,
+      "total_wins": 2627,
+      "total_losses": 2361,
+      "derived_win_rate": 0.5267
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 4534,
+      "total_wins": 2521,
+      "total_losses": 2013,
+      "derived_win_rate": 0.556
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 3747,
+      "total_wins": 2019,
+      "total_losses": 1728,
+      "derived_win_rate": 0.5388
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 3677,
+      "total_wins": 1968,
+      "total_losses": 1709,
+      "derived_win_rate": 0.5352
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 3478,
+      "total_wins": 1870,
+      "total_losses": 1608,
+      "derived_win_rate": 0.5377
+    },
+    {
+      "set_agg_code": "set_counter+set_max_hp",
+      "total_games": 2675,
+      "total_wins": 1367,
+      "total_losses": 1308,
+      "derived_win_rate": 0.511
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 2249,
+      "total_wins": 1100,
+      "total_losses": 1149,
+      "derived_win_rate": 0.4891
+    }
+  ],
+  "total_set_stats_games": 73264,
+  "total_artifact_stats_games": 36074,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5222,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1117?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:44Z"
+}

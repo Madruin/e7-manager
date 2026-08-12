@@ -1,0 +1,250 @@
+{
+  "hero": "Architect Laika",
+  "hero_slug": "architect-laika",
+  "hero_code": "c2099",
+  "element": "light",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1067,
+      "total_wins": 466,
+      "total_losses": 601,
+      "total_bans": 376,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1067,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 593,
+      "total_wins": 246,
+      "total_losses": 347,
+      "derived_win_rate": 0.4148,
+      "derived_usage_share": 0.4291
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 257,
+      "total_wins": 110,
+      "total_losses": 147,
+      "derived_win_rate": 0.428,
+      "derived_usage_share": 0.186
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 245,
+      "total_wins": 109,
+      "total_losses": 136,
+      "derived_win_rate": 0.4449,
+      "derived_usage_share": 0.1773
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 187,
+      "total_wins": 70,
+      "total_losses": 117,
+      "derived_win_rate": 0.3743,
+      "derived_usage_share": 0.1353
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 79,
+      "total_wins": 33,
+      "total_losses": 46,
+      "derived_win_rate": 0.4177,
+      "derived_usage_share": 0.0572
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 8,
+      "total_wins": 2,
+      "total_losses": 6,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0058
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 8,
+      "total_wins": 3,
+      "total_losses": 5,
+      "derived_win_rate": 0.375,
+      "derived_usage_share": 0.0058
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 414,
+      "total_wins": 168,
+      "total_losses": 246,
+      "derived_win_rate": 0.4058,
+      "derived_usage_share": 0.5991
+    },
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 121,
+      "total_wins": 46,
+      "total_losses": 75,
+      "derived_win_rate": 0.3802,
+      "derived_usage_share": 0.1751
+    },
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 65,
+      "total_wins": 34,
+      "total_losses": 31,
+      "derived_win_rate": 0.5231,
+      "derived_usage_share": 0.0941
+    },
+    {
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 56,
+      "total_wins": 26,
+      "total_losses": 30,
+      "derived_win_rate": 0.4643,
+      "derived_usage_share": 0.081
+    },
+    {
+      "artifact_code": "efm16",
+      "artifact_name": "Black Hand of the Goddess",
+      "total_games": 14,
+      "total_wins": 6,
+      "total_losses": 8,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0203
+    },
+    {
+      "artifact_code": "efm04",
+      "artifact_name": "Kal'adra",
+      "total_games": 9,
+      "total_wins": 2,
+      "total_losses": 7,
+      "derived_win_rate": 0.2222,
+      "derived_usage_share": 0.013
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 8,
+      "total_wins": 5,
+      "total_losses": 3,
+      "derived_win_rate": 0.625,
+      "derived_usage_share": 0.0116
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_might",
+      "total_games": 241,
+      "total_wins": 106,
+      "total_losses": 135,
+      "derived_win_rate": 0.4398
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 174,
+      "total_wins": 66,
+      "total_losses": 108,
+      "derived_win_rate": 0.3793
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 161,
+      "total_wins": 69,
+      "total_losses": 92,
+      "derived_win_rate": 0.4286
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 139,
+      "total_wins": 54,
+      "total_losses": 85,
+      "derived_win_rate": 0.3885
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 119,
+      "total_wins": 51,
+      "total_losses": 68,
+      "derived_win_rate": 0.4286
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 114,
+      "total_wins": 50,
+      "total_losses": 64,
+      "derived_win_rate": 0.4386
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 91,
+      "total_wins": 35,
+      "total_losses": 56,
+      "derived_win_rate": 0.3846
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "total_games": 75,
+      "total_wins": 30,
+      "total_losses": 45,
+      "derived_win_rate": 0.4
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 53,
+      "total_wins": 24,
+      "total_losses": 29,
+      "derived_win_rate": 0.4528
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 24,
+      "total_wins": 18,
+      "total_losses": 6,
+      "derived_win_rate": 0.75
+    }
+  ],
+  "total_set_stats_games": 1382,
+  "total_artifact_stats_games": 691,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4367,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2099?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:36Z"
+}

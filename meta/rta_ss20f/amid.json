@@ -1,0 +1,250 @@
+{
+  "hero": "Amid",
+  "hero_slug": "amid",
+  "hero_code": "c1143",
+  "element": "ice",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 4648,
+      "total_wins": 2190,
+      "total_losses": 2423,
+      "total_bans": 700,
+      "total_prebans": 35
+    }
+  ],
+  "sample_size": 4648,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 3907,
+      "total_wins": 1822,
+      "total_losses": 2085,
+      "derived_win_rate": 0.4663,
+      "derived_usage_share": 0.8329
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 328,
+      "total_wins": 167,
+      "total_losses": 161,
+      "derived_win_rate": 0.5091,
+      "derived_usage_share": 0.0699
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 191,
+      "total_wins": 82,
+      "total_losses": 109,
+      "derived_win_rate": 0.4293,
+      "derived_usage_share": 0.0407
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 135,
+      "total_wins": 56,
+      "total_losses": 79,
+      "derived_win_rate": 0.4148,
+      "derived_usage_share": 0.0288
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 44,
+      "total_wins": 17,
+      "total_losses": 27,
+      "derived_win_rate": 0.3864,
+      "derived_usage_share": 0.0094
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 42,
+      "total_wins": 22,
+      "total_losses": 20,
+      "derived_win_rate": 0.5238,
+      "derived_usage_share": 0.009
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 37,
+      "total_wins": 23,
+      "total_losses": 14,
+      "derived_win_rate": 0.6216,
+      "derived_usage_share": 0.0079
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh18",
+      "artifact_name": "Fan of Light and Dark",
+      "total_games": 3197,
+      "total_wins": 1488,
+      "total_losses": 1709,
+      "derived_win_rate": 0.4654,
+      "derived_usage_share": 0.817
+    },
+    {
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 187,
+      "total_wins": 88,
+      "total_losses": 99,
+      "derived_win_rate": 0.4706,
+      "derived_usage_share": 0.0478
+    },
+    {
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 144,
+      "total_wins": 73,
+      "total_losses": 71,
+      "derived_win_rate": 0.5069,
+      "derived_usage_share": 0.0368
+    },
+    {
+      "artifact_code": "efh20",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 139,
+      "total_wins": 57,
+      "total_losses": 82,
+      "derived_win_rate": 0.4101,
+      "derived_usage_share": 0.0355
+    },
+    {
+      "artifact_code": "efh26",
+      "artifact_name": "Queen’s Whistle",
+      "total_games": 110,
+      "total_wins": 50,
+      "total_losses": 60,
+      "derived_win_rate": 0.4545,
+      "derived_usage_share": 0.0281
+    },
+    {
+      "artifact_code": "efh17",
+      "artifact_name": "EXIF Detective (E.d.) Gadget",
+      "total_games": 73,
+      "total_wins": 41,
+      "total_losses": 32,
+      "derived_win_rate": 0.5616,
+      "derived_usage_share": 0.0187
+    },
+    {
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 30,
+      "total_wins": 13,
+      "total_losses": 17,
+      "derived_win_rate": 0.4333,
+      "derived_usage_share": 0.0077
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 3124,
+      "total_wins": 1452,
+      "total_losses": 1672,
+      "derived_win_rate": 0.4648
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh18",
+      "artifact_name": "Fan of Light and Dark",
+      "total_games": 2632,
+      "total_wins": 1230,
+      "total_losses": 1402,
+      "derived_win_rate": 0.4673
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 328,
+      "total_wins": 167,
+      "total_losses": 161,
+      "derived_win_rate": 0.5091
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efh18",
+      "artifact_name": "Fan of Light and Dark",
+      "total_games": 246,
+      "total_wins": 123,
+      "total_losses": 123,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 190,
+      "total_wins": 82,
+      "total_losses": 108,
+      "derived_win_rate": 0.4316
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 143,
+      "total_wins": 63,
+      "total_losses": 80,
+      "derived_win_rate": 0.4406
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 135,
+      "total_wins": 56,
+      "total_losses": 79,
+      "derived_win_rate": 0.4148
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efh18",
+      "artifact_name": "Fan of Light and Dark",
+      "total_games": 118,
+      "total_wins": 48,
+      "total_losses": 70,
+      "derived_win_rate": 0.4068
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh20",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 114,
+      "total_wins": 45,
+      "total_losses": 69,
+      "derived_win_rate": 0.3947
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh18",
+      "artifact_name": "Fan of Light and Dark",
+      "total_games": 103,
+      "total_wins": 41,
+      "total_losses": 62,
+      "derived_win_rate": 0.3981
+    }
+  ],
+  "total_set_stats_games": 4691,
+  "total_artifact_stats_games": 3913,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4747,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1143?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:50Z"
+}

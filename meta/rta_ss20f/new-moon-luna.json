@@ -1,0 +1,221 @@
+{
+  "hero": "New Moon Luna",
+  "hero_slug": "new-moon-luna",
+  "hero_code": "c2066",
+  "element": "light",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 28755,
+      "total_wins": 13375,
+      "total_losses": 12080,
+      "total_bans": 7121,
+      "total_prebans": 3316
+    }
+  ],
+  "sample_size": 28755,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 17960,
+      "total_wins": 9357,
+      "total_losses": 8603,
+      "derived_win_rate": 0.521,
+      "derived_usage_share": 0.5313
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 12141,
+      "total_wins": 6495,
+      "total_losses": 5646,
+      "derived_win_rate": 0.535,
+      "derived_usage_share": 0.3592
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 1585,
+      "total_wins": 777,
+      "total_losses": 808,
+      "derived_win_rate": 0.4902,
+      "derived_usage_share": 0.0469
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 726,
+      "total_wins": 380,
+      "total_losses": 346,
+      "derived_win_rate": 0.5234,
+      "derived_usage_share": 0.0215
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 651,
+      "total_wins": 326,
+      "total_losses": 325,
+      "derived_win_rate": 0.5008,
+      "derived_usage_share": 0.0193
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 359,
+      "total_wins": 191,
+      "total_losses": 168,
+      "derived_win_rate": 0.532,
+      "derived_usage_share": 0.0106
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 215,
+      "total_wins": 115,
+      "total_losses": 100,
+      "derived_win_rate": 0.5349,
+      "derived_usage_share": 0.0064
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 16195,
+      "total_wins": 8458,
+      "total_losses": 7737,
+      "derived_win_rate": 0.5223,
+      "derived_usage_share": 0.8833
+    },
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 1201,
+      "total_wins": 646,
+      "total_losses": 555,
+      "derived_win_rate": 0.5379,
+      "derived_usage_share": 0.0655
+    },
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 415,
+      "total_wins": 192,
+      "total_losses": 223,
+      "derived_win_rate": 0.4627,
+      "derived_usage_share": 0.0226
+    },
+    {
+      "artifact_code": "efm02",
+      "artifact_name": "Etica's Scepter",
+      "total_games": 348,
+      "total_wins": 171,
+      "total_losses": 177,
+      "derived_win_rate": 0.4914,
+      "derived_usage_share": 0.019
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 11824,
+      "total_wins": 6318,
+      "total_losses": 5506,
+      "derived_win_rate": 0.5343
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 10908,
+      "total_wins": 5861,
+      "total_losses": 5047,
+      "derived_win_rate": 0.5373
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 3154,
+      "total_wins": 1555,
+      "total_losses": 1599,
+      "derived_win_rate": 0.493
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 2804,
+      "total_wins": 1375,
+      "total_losses": 1429,
+      "derived_win_rate": 0.4904
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 1570,
+      "total_wins": 769,
+      "total_losses": 801,
+      "derived_win_rate": 0.4898
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 1282,
+      "total_wins": 621,
+      "total_losses": 661,
+      "derived_win_rate": 0.4844
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 651,
+      "total_wins": 326,
+      "total_losses": 325,
+      "derived_win_rate": 0.5008
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 463,
+      "total_wins": 242,
+      "total_losses": 221,
+      "derived_win_rate": 0.5227
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 459,
+      "total_wins": 214,
+      "total_losses": 245,
+      "derived_win_rate": 0.4662
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 435,
+      "total_wins": 221,
+      "total_losses": 214,
+      "derived_win_rate": 0.508
+    }
+  ],
+  "total_set_stats_games": 33802,
+  "total_artifact_stats_games": 18334,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5254,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2066?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:57Z"
+}

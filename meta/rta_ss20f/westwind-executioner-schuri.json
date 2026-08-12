@@ -1,0 +1,263 @@
+{
+  "hero": "Westwind Executioner Schuri",
+  "hero_slug": "westwind-executioner-schuri",
+  "hero_code": "c6020",
+  "element": "dark",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1775,
+      "total_wins": 861,
+      "total_losses": 913,
+      "total_bans": 277,
+      "total_prebans": 1
+    }
+  ],
+  "sample_size": 1775,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1447,
+      "total_wins": 691,
+      "total_losses": 756,
+      "derived_win_rate": 0.4775,
+      "derived_usage_share": 0.5697
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 1039,
+      "total_wins": 490,
+      "total_losses": 549,
+      "derived_win_rate": 0.4716,
+      "derived_usage_share": 0.4091
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 21,
+      "total_wins": 12,
+      "total_losses": 9,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.0083
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 14,
+      "total_wins": 6,
+      "total_losses": 8,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0055
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 13,
+      "total_wins": 9,
+      "total_losses": 4,
+      "derived_win_rate": 0.6923,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 633,
+      "total_wins": 320,
+      "total_losses": 313,
+      "derived_win_rate": 0.5055,
+      "derived_usage_share": 0.4228
+    },
+    {
+      "artifact_code": "efr29",
+      "artifact_name": "An Assassin’s Pledge",
+      "total_games": 331,
+      "total_wins": 140,
+      "total_losses": 191,
+      "derived_win_rate": 0.423,
+      "derived_usage_share": 0.2211
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 179,
+      "total_wins": 88,
+      "total_losses": 91,
+      "derived_win_rate": 0.4916,
+      "derived_usage_share": 0.1196
+    },
+    {
+      "artifact_code": "efr11",
+      "artifact_name": "Andre's Crossbow",
+      "total_games": 130,
+      "total_wins": 72,
+      "total_losses": 58,
+      "derived_win_rate": 0.5538,
+      "derived_usage_share": 0.0868
+    },
+    {
+      "artifact_code": "efr25",
+      "artifact_name": "Elegiac Candle",
+      "total_games": 77,
+      "total_wins": 30,
+      "total_losses": 47,
+      "derived_win_rate": 0.3896,
+      "derived_usage_share": 0.0514
+    },
+    {
+      "artifact_code": "efr22",
+      "artifact_name": "Seal of Capture",
+      "total_games": 39,
+      "total_wins": 19,
+      "total_losses": 20,
+      "derived_win_rate": 0.4872,
+      "derived_usage_share": 0.0261
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 27,
+      "total_wins": 8,
+      "total_losses": 19,
+      "derived_win_rate": 0.2963,
+      "derived_usage_share": 0.018
+    },
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 24,
+      "total_wins": 6,
+      "total_losses": 18,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.016
+    },
+    {
+      "artifact_code": "efr10",
+      "artifact_name": "Reingar's Special Drink",
+      "total_games": 15,
+      "total_wins": 10,
+      "total_losses": 5,
+      "derived_win_rate": 0.6667,
+      "derived_usage_share": 0.01
+    },
+    {
+      "artifact_code": "efr12",
+      "artifact_name": "Dux Noctis",
+      "total_games": 12,
+      "total_wins": 6,
+      "total_losses": 6,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.008
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 1017,
+      "total_wins": 483,
+      "total_losses": 534,
+      "derived_win_rate": 0.4749
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 382,
+      "total_wins": 182,
+      "total_losses": 200,
+      "derived_win_rate": 0.4764
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 329,
+      "total_wins": 180,
+      "total_losses": 149,
+      "derived_win_rate": 0.5471
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 274,
+      "total_wins": 125,
+      "total_losses": 149,
+      "derived_win_rate": 0.4562
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr29",
+      "artifact_name": "An Assassin’s Pledge",
+      "total_games": 251,
+      "total_wins": 102,
+      "total_losses": 149,
+      "derived_win_rate": 0.4064
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 156,
+      "total_wins": 73,
+      "total_losses": 83,
+      "derived_win_rate": 0.4679
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr11",
+      "artifact_name": "Andre's Crossbow",
+      "total_games": 123,
+      "total_wins": 69,
+      "total_losses": 54,
+      "derived_win_rate": 0.561
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr25",
+      "artifact_name": "Elegiac Candle",
+      "total_games": 68,
+      "total_wins": 24,
+      "total_losses": 44,
+      "derived_win_rate": 0.3529
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr29",
+      "artifact_name": "An Assassin’s Pledge",
+      "total_games": 61,
+      "total_wins": 31,
+      "total_losses": 30,
+      "derived_win_rate": 0.5082
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr22",
+      "artifact_name": "Seal of Capture",
+      "total_games": 27,
+      "total_wins": 13,
+      "total_losses": 14,
+      "derived_win_rate": 0.4815
+    }
+  ],
+  "total_set_stats_games": 2540,
+  "total_artifact_stats_games": 1497,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4853,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c6020?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:20Z"
+}

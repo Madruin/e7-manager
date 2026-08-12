@@ -1,0 +1,250 @@
+{
+  "hero": "Ivana",
+  "hero_slug": "ivana",
+  "hero_code": "c1182",
+  "element": "fire",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 12994,
+      "total_wins": 5408,
+      "total_losses": 6369,
+      "total_bans": 4769,
+      "total_prebans": 1219
+    }
+  ],
+  "sample_size": 12994,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 6836,
+      "total_wins": 3248,
+      "total_losses": 3588,
+      "derived_win_rate": 0.4751,
+      "derived_usage_share": 0.5263
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 3797,
+      "total_wins": 1787,
+      "total_losses": 2010,
+      "derived_win_rate": 0.4706,
+      "derived_usage_share": 0.2923
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 1789,
+      "total_wins": 831,
+      "total_losses": 958,
+      "derived_win_rate": 0.4645,
+      "derived_usage_share": 0.1377
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 389,
+      "total_wins": 185,
+      "total_losses": 204,
+      "derived_win_rate": 0.4756,
+      "derived_usage_share": 0.0299
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 5329,
+      "total_wins": 2535,
+      "total_losses": 2794,
+      "derived_win_rate": 0.4757,
+      "derived_usage_share": 0.7604
+    },
+    {
+      "artifact_code": "efh19",
+      "artifact_name": "Sole Consolation",
+      "total_games": 532,
+      "total_wins": 265,
+      "total_losses": 267,
+      "derived_win_rate": 0.4981,
+      "derived_usage_share": 0.0759
+    },
+    {
+      "artifact_code": "efh08",
+      "artifact_name": "Eternus",
+      "total_games": 232,
+      "total_wins": 107,
+      "total_losses": 125,
+      "derived_win_rate": 0.4612,
+      "derived_usage_share": 0.0331
+    },
+    {
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 106,
+      "total_wins": 54,
+      "total_losses": 52,
+      "derived_win_rate": 0.5094,
+      "derived_usage_share": 0.0151
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 83,
+      "total_wins": 43,
+      "total_losses": 40,
+      "derived_win_rate": 0.5181,
+      "derived_usage_share": 0.0118
+    },
+    {
+      "artifact_code": "efh03",
+      "artifact_name": "Water's Origin",
+      "total_games": 81,
+      "total_wins": 37,
+      "total_losses": 44,
+      "derived_win_rate": 0.4568,
+      "derived_usage_share": 0.0116
+    },
+    {
+      "artifact_code": "efh20",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 80,
+      "total_wins": 33,
+      "total_losses": 47,
+      "derived_win_rate": 0.4125,
+      "derived_usage_share": 0.0114
+    },
+    {
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 77,
+      "total_wins": 41,
+      "total_losses": 36,
+      "derived_win_rate": 0.5325,
+      "derived_usage_share": 0.011
+    },
+    {
+      "artifact_code": "efh04",
+      "artifact_name": "Wondrous Potion Vial",
+      "total_games": 74,
+      "total_wins": 30,
+      "total_losses": 44,
+      "derived_win_rate": 0.4054,
+      "derived_usage_share": 0.0106
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 58,
+      "total_wins": 23,
+      "total_losses": 35,
+      "derived_win_rate": 0.3966,
+      "derived_usage_share": 0.0083
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 3669,
+      "total_wins": 1730,
+      "total_losses": 1939,
+      "derived_win_rate": 0.4715
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 2720,
+      "total_wins": 1271,
+      "total_losses": 1449,
+      "derived_win_rate": 0.4673
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 1699,
+      "total_wins": 797,
+      "total_losses": 902,
+      "derived_win_rate": 0.4691
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 1412,
+      "total_wins": 665,
+      "total_losses": 747,
+      "derived_win_rate": 0.471
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 1061,
+      "total_wins": 519,
+      "total_losses": 542,
+      "derived_win_rate": 0.4892
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 802,
+      "total_wins": 406,
+      "total_losses": 396,
+      "derived_win_rate": 0.5062
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh19",
+      "artifact_name": "Sole Consolation",
+      "total_games": 334,
+      "total_wins": 172,
+      "total_losses": 162,
+      "derived_win_rate": 0.515
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 295,
+      "total_wins": 146,
+      "total_losses": 149,
+      "derived_win_rate": 0.4949
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 219,
+      "total_wins": 107,
+      "total_losses": 112,
+      "derived_win_rate": 0.4886
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh08",
+      "artifact_name": "Eternus",
+      "total_games": 142,
+      "total_wins": 70,
+      "total_losses": 72,
+      "derived_win_rate": 0.493
+    }
+  ],
+  "total_set_stats_games": 12990,
+  "total_artifact_stats_games": 7008,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4592,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1182?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:18Z"
+}

@@ -1,0 +1,201 @@
+{
+  "hero": "Charlotte",
+  "hero_slug": "charlotte",
+  "hero_code": "c1009",
+  "element": "fire",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 932,
+      "total_wins": 450,
+      "total_losses": 481,
+      "total_bans": 91,
+      "total_prebans": 1
+    }
+  ],
+  "sample_size": 932,
+  "top_sets": [
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 779,
+      "total_wins": 381,
+      "total_losses": 398,
+      "derived_win_rate": 0.4891,
+      "derived_usage_share": 0.4733
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 689,
+      "total_wins": 323,
+      "total_losses": 366,
+      "derived_win_rate": 0.4688,
+      "derived_usage_share": 0.4186
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 83,
+      "total_wins": 46,
+      "total_losses": 37,
+      "derived_win_rate": 0.5542,
+      "derived_usage_share": 0.0504
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 28,
+      "total_wins": 15,
+      "total_losses": 13,
+      "derived_win_rate": 0.5357,
+      "derived_usage_share": 0.017
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 24,
+      "total_wins": 10,
+      "total_losses": 14,
+      "derived_win_rate": 0.4167,
+      "derived_usage_share": 0.0146
+    },
+    {
+      "set_code": "set_vampire",
+      "set_name": "Lifesteal",
+      "total_games": 18,
+      "total_wins": 8,
+      "total_losses": 10,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0109
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 12,
+      "total_wins": 8,
+      "total_losses": 4,
+      "derived_win_rate": 0.6667,
+      "derived_usage_share": 0.0073
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 774,
+      "total_wins": 380,
+      "total_losses": 394,
+      "derived_win_rate": 0.491,
+      "derived_usage_share": 0.9214
+    },
+    {
+      "artifact_code": "efk07",
+      "artifact_name": "Justice for All",
+      "total_games": 46,
+      "total_wins": 20,
+      "total_losses": 26,
+      "derived_win_rate": 0.4348,
+      "derived_usage_share": 0.0548
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 663,
+      "total_wins": 313,
+      "total_losses": 350,
+      "derived_win_rate": 0.4721
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 620,
+      "total_wins": 295,
+      "total_losses": 325,
+      "derived_win_rate": 0.4758
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 72,
+      "total_wins": 42,
+      "total_losses": 30,
+      "derived_win_rate": 0.5833
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "total_games": 72,
+      "total_wins": 42,
+      "total_losses": 30,
+      "derived_win_rate": 0.5833
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk07",
+      "artifact_name": "Justice for All",
+      "total_games": 40,
+      "total_wins": 17,
+      "total_losses": 23,
+      "derived_win_rate": 0.425
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "total_games": 15,
+      "total_wins": 6,
+      "total_losses": 9,
+      "derived_win_rate": 0.4
+    },
+    {
+      "set_agg_code": "set_counter",
+      "total_games": 14,
+      "total_wins": 5,
+      "total_losses": 9,
+      "derived_win_rate": 0.3571
+    },
+    {
+      "set_agg_code": "set_vampire+set_immune",
+      "total_games": 14,
+      "total_wins": 6,
+      "total_losses": 8,
+      "derived_win_rate": 0.4286
+    },
+    {
+      "set_agg_code": "set_counter",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 13,
+      "total_wins": 4,
+      "total_losses": 9,
+      "derived_win_rate": 0.3077
+    },
+    {
+      "set_agg_code": "set_counter+set_torrent",
+      "total_games": 13,
+      "total_wins": 9,
+      "total_losses": 4,
+      "derived_win_rate": 0.6923
+    }
+  ],
+  "total_set_stats_games": 1646,
+  "total_artifact_stats_games": 840,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4834,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1009?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:42Z"
+}

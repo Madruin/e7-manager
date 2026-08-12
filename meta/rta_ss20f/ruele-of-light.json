@@ -1,0 +1,230 @@
+{
+  "hero": "Ruele of Light",
+  "hero_slug": "ruele-of-light",
+  "hero_code": "c1022",
+  "element": "light",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 17685,
+      "total_wins": 8842,
+      "total_losses": 8076,
+      "total_bans": 5637,
+      "total_prebans": 767
+    }
+  ],
+  "sample_size": 17685,
+  "top_sets": [
+    {
+      "set_code": "set_revenant",
+      "set_name": "Reversal",
+      "total_games": 5688,
+      "total_wins": 3148,
+      "total_losses": 2540,
+      "derived_win_rate": 0.5534,
+      "derived_usage_share": 0.2456
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 5560,
+      "total_wins": 2755,
+      "total_losses": 2805,
+      "derived_win_rate": 0.4955,
+      "derived_usage_share": 0.24
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 4679,
+      "total_wins": 2630,
+      "total_losses": 2049,
+      "derived_win_rate": 0.5621,
+      "derived_usage_share": 0.202
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 4638,
+      "total_wins": 2398,
+      "total_losses": 2240,
+      "derived_win_rate": 0.517,
+      "derived_usage_share": 0.2002
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 2170,
+      "total_wins": 1090,
+      "total_losses": 1080,
+      "derived_win_rate": 0.5023,
+      "derived_usage_share": 0.0937
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 292,
+      "total_wins": 162,
+      "total_losses": 130,
+      "derived_win_rate": 0.5548,
+      "derived_usage_share": 0.0126
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 5543,
+      "total_wins": 2802,
+      "total_losses": 2741,
+      "derived_win_rate": 0.5055,
+      "derived_usage_share": 0.4914
+    },
+    {
+      "artifact_code": "efh07",
+      "artifact_name": "Idol's Cheer",
+      "total_games": 4807,
+      "total_wins": 2749,
+      "total_losses": 2058,
+      "derived_win_rate": 0.5719,
+      "derived_usage_share": 0.4261
+    },
+    {
+      "artifact_code": "efh03",
+      "artifact_name": "Water's Origin",
+      "total_games": 446,
+      "total_wins": 186,
+      "total_losses": 260,
+      "derived_win_rate": 0.417,
+      "derived_usage_share": 0.0395
+    },
+    {
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 117,
+      "total_wins": 58,
+      "total_losses": 59,
+      "derived_win_rate": 0.4957,
+      "derived_usage_share": 0.0104
+    },
+    {
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 74,
+      "total_wins": 38,
+      "total_losses": 36,
+      "derived_win_rate": 0.5135,
+      "derived_usage_share": 0.0066
+    },
+    {
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 60,
+      "total_wins": 28,
+      "total_losses": 32,
+      "derived_win_rate": 0.4667,
+      "derived_usage_share": 0.0053
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_revenant+set_immune",
+      "total_games": 2867,
+      "total_wins": 1686,
+      "total_losses": 1181,
+      "derived_win_rate": 0.5881
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 2158,
+      "total_wins": 1075,
+      "total_losses": 1083,
+      "derived_win_rate": 0.4981
+    },
+    {
+      "set_agg_code": "set_revenant+set_max_hp",
+      "total_games": 1958,
+      "total_wins": 1030,
+      "total_losses": 928,
+      "derived_win_rate": 0.526
+    },
+    {
+      "set_agg_code": "set_revenant+set_immune",
+      "artifact_code": "efh07",
+      "artifact_name": "Idol's Cheer",
+      "total_games": 1681,
+      "total_wins": 1013,
+      "total_losses": 668,
+      "derived_win_rate": 0.6026
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 1426,
+      "total_wins": 765,
+      "total_losses": 661,
+      "derived_win_rate": 0.5365
+    },
+    {
+      "set_agg_code": "set_revenant+set_max_hp",
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 1151,
+      "total_wins": 561,
+      "total_losses": 590,
+      "derived_win_rate": 0.4874
+    },
+    {
+      "set_agg_code": "set_revenant+set_immune",
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 1137,
+      "total_wins": 648,
+      "total_losses": 489,
+      "derived_win_rate": 0.5699
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 940,
+      "total_wins": 444,
+      "total_losses": 496,
+      "derived_win_rate": 0.4723
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 910,
+      "total_wins": 481,
+      "total_losses": 429,
+      "derived_win_rate": 0.5286
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh07",
+      "artifact_name": "Idol's Cheer",
+      "total_games": 846,
+      "total_wins": 466,
+      "total_losses": 380,
+      "derived_win_rate": 0.5508
+    }
+  ],
+  "total_set_stats_games": 23162,
+  "total_artifact_stats_games": 11281,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5226,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1022?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:10Z"
+}

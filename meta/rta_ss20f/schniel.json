@@ -1,0 +1,277 @@
+{
+  "hero": "Schniel",
+  "hero_slug": "schniel",
+  "hero_code": "c1060",
+  "element": "wind",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 12766,
+      "total_wins": 5567,
+      "total_losses": 7176,
+      "total_bans": 967,
+      "total_prebans": 23
+    }
+  ],
+  "sample_size": 12766,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 9678,
+      "total_wins": 4183,
+      "total_losses": 5495,
+      "derived_win_rate": 0.4322,
+      "derived_usage_share": 0.3923
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 7175,
+      "total_wins": 3250,
+      "total_losses": 3925,
+      "derived_win_rate": 0.453,
+      "derived_usage_share": 0.2909
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 4227,
+      "total_wins": 1743,
+      "total_losses": 2484,
+      "derived_win_rate": 0.4123,
+      "derived_usage_share": 0.1713
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1977,
+      "total_wins": 897,
+      "total_losses": 1080,
+      "derived_win_rate": 0.4537,
+      "derived_usage_share": 0.0801
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 922,
+      "total_wins": 419,
+      "total_losses": 503,
+      "derived_win_rate": 0.4544,
+      "derived_usage_share": 0.0374
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 447,
+      "total_wins": 198,
+      "total_losses": 249,
+      "derived_win_rate": 0.443,
+      "derived_usage_share": 0.0181
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 138,
+      "total_wins": 55,
+      "total_losses": 83,
+      "derived_win_rate": 0.3986,
+      "derived_usage_share": 0.0056
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 2477,
+      "total_wins": 1133,
+      "total_losses": 1344,
+      "derived_win_rate": 0.4574,
+      "derived_usage_share": 0.2103
+    },
+    {
+      "artifact_code": "efh22",
+      "artifact_name": "Homage to Tarman",
+      "total_games": 2203,
+      "total_wins": 900,
+      "total_losses": 1303,
+      "derived_win_rate": 0.4085,
+      "derived_usage_share": 0.1871
+    },
+    {
+      "artifact_code": "efh06",
+      "artifact_name": "Celestine",
+      "total_games": 1855,
+      "total_wins": 808,
+      "total_losses": 1047,
+      "derived_win_rate": 0.4356,
+      "derived_usage_share": 0.1575
+    },
+    {
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 1333,
+      "total_wins": 627,
+      "total_losses": 706,
+      "derived_win_rate": 0.4704,
+      "derived_usage_share": 0.1132
+    },
+    {
+      "artifact_code": "efh11",
+      "artifact_name": "Touch of Rekos",
+      "total_games": 1007,
+      "total_wins": 435,
+      "total_losses": 572,
+      "derived_win_rate": 0.432,
+      "derived_usage_share": 0.0855
+    },
+    {
+      "artifact_code": "efh03",
+      "artifact_name": "Water's Origin",
+      "total_games": 395,
+      "total_wins": 156,
+      "total_losses": 239,
+      "derived_win_rate": 0.3949,
+      "derived_usage_share": 0.0335
+    },
+    {
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 299,
+      "total_wins": 134,
+      "total_losses": 165,
+      "derived_win_rate": 0.4482,
+      "derived_usage_share": 0.0254
+    },
+    {
+      "artifact_code": "efh10",
+      "artifact_name": "Unfading Memories",
+      "total_games": 286,
+      "total_wins": 131,
+      "total_losses": 155,
+      "derived_win_rate": 0.458,
+      "derived_usage_share": 0.0243
+    },
+    {
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 204,
+      "total_wins": 94,
+      "total_losses": 110,
+      "derived_win_rate": 0.4608,
+      "derived_usage_share": 0.0173
+    },
+    {
+      "artifact_code": "efh04",
+      "artifact_name": "Wondrous Potion Vial",
+      "total_games": 175,
+      "total_wins": 59,
+      "total_losses": 116,
+      "derived_win_rate": 0.3371,
+      "derived_usage_share": 0.0149
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 5524,
+      "total_wins": 2497,
+      "total_losses": 3027,
+      "derived_win_rate": 0.452
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 2549,
+      "total_wins": 1004,
+      "total_losses": 1545,
+      "derived_win_rate": 0.3939
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 1339,
+      "total_wins": 636,
+      "total_losses": 703,
+      "derived_win_rate": 0.475
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 986,
+      "total_wins": 432,
+      "total_losses": 554,
+      "derived_win_rate": 0.4381
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efh22",
+      "artifact_name": "Homage to Tarman",
+      "total_games": 810,
+      "total_wins": 329,
+      "total_losses": 481,
+      "derived_win_rate": 0.4062
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efh06",
+      "artifact_name": "Celestine",
+      "total_games": 794,
+      "total_wins": 352,
+      "total_losses": 442,
+      "derived_win_rate": 0.4433
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 728,
+      "total_wins": 348,
+      "total_losses": 380,
+      "derived_win_rate": 0.478
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh22",
+      "artifact_name": "Homage to Tarman",
+      "total_games": 722,
+      "total_wins": 279,
+      "total_losses": 443,
+      "derived_win_rate": 0.3864
+    },
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "total_games": 627,
+      "total_wins": 292,
+      "total_losses": 335,
+      "derived_win_rate": 0.4657
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh06",
+      "artifact_name": "Celestine",
+      "total_games": 489,
+      "total_wins": 209,
+      "total_losses": 280,
+      "derived_win_rate": 0.4274
+    }
+  ],
+  "total_set_stats_games": 24669,
+  "total_artifact_stats_games": 11776,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4369,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1060?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:19Z"
+}

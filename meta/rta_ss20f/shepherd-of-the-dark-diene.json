@@ -1,0 +1,212 @@
+{
+  "hero": "Shepherd of the Dark Diene",
+  "hero_slug": "shepherd-of-the-dark-diene",
+  "hero_code": "c2076",
+  "element": "dark",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 45055,
+      "total_wins": 18899,
+      "total_losses": 14822,
+      "total_bans": 15461,
+      "total_prebans": 11509
+    }
+  ],
+  "sample_size": 45055,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 11084,
+      "total_wins": 6511,
+      "total_losses": 4573,
+      "derived_win_rate": 0.5874,
+      "derived_usage_share": 0.3114
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 8034,
+      "total_wins": 4754,
+      "total_losses": 3280,
+      "derived_win_rate": 0.5917,
+      "derived_usage_share": 0.2257
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 6381,
+      "total_wins": 3763,
+      "total_losses": 2618,
+      "derived_win_rate": 0.5897,
+      "derived_usage_share": 0.1793
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 5852,
+      "total_wins": 3402,
+      "total_losses": 2450,
+      "derived_win_rate": 0.5813,
+      "derived_usage_share": 0.1644
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1738,
+      "total_wins": 982,
+      "total_losses": 756,
+      "derived_win_rate": 0.565,
+      "derived_usage_share": 0.0488
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 980,
+      "total_wins": 628,
+      "total_losses": 352,
+      "derived_win_rate": 0.6408,
+      "derived_usage_share": 0.0275
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 683,
+      "total_wins": 397,
+      "total_losses": 286,
+      "derived_win_rate": 0.5813,
+      "derived_usage_share": 0.0192
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 528,
+      "total_wins": 306,
+      "total_losses": 222,
+      "derived_win_rate": 0.5795,
+      "derived_usage_share": 0.0148
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 16007,
+      "total_wins": 9371,
+      "total_losses": 6636,
+      "derived_win_rate": 0.5854,
+      "derived_usage_share": 0.8766
+    },
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 2030,
+      "total_wins": 1245,
+      "total_losses": 785,
+      "derived_win_rate": 0.6133,
+      "derived_usage_share": 0.1112
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 5684,
+      "total_wins": 3347,
+      "total_losses": 2337,
+      "derived_win_rate": 0.5888
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 5129,
+      "total_wins": 3003,
+      "total_losses": 2126,
+      "derived_win_rate": 0.5855
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 3253,
+      "total_wins": 1879,
+      "total_losses": 1374,
+      "derived_win_rate": 0.5776
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 2708,
+      "total_wins": 1567,
+      "total_losses": 1141,
+      "derived_win_rate": 0.5787
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_acc",
+      "total_games": 2256,
+      "total_wins": 1349,
+      "total_losses": 907,
+      "derived_win_rate": 0.598
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 2069,
+      "total_wins": 1237,
+      "total_losses": 832,
+      "derived_win_rate": 0.5979
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "total_games": 2014,
+      "total_wins": 1194,
+      "total_losses": 820,
+      "derived_win_rate": 0.5929
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 1760,
+      "total_wins": 1018,
+      "total_losses": 742,
+      "derived_win_rate": 0.5784
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 1015,
+      "total_wins": 569,
+      "total_losses": 446,
+      "derived_win_rate": 0.5606
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 906,
+      "total_wins": 505,
+      "total_losses": 401,
+      "derived_win_rate": 0.5574
+    }
+  ],
+  "total_set_stats_games": 35590,
+  "total_artifact_stats_games": 18260,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5605,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2076?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:49Z"
+}

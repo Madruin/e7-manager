@@ -1,0 +1,214 @@
+{
+  "hero": "Bystander Hwayoung",
+  "hero_slug": "bystander-hwayoung",
+  "hero_code": "c2128",
+  "element": "dark",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 6015,
+      "total_wins": 2687,
+      "total_losses": 3277,
+      "total_bans": 1659,
+      "total_prebans": 51
+    }
+  ],
+  "sample_size": 6015,
+  "top_sets": [
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 4150,
+      "total_wins": 1836,
+      "total_losses": 2314,
+      "derived_win_rate": 0.4424,
+      "derived_usage_share": 0.4848
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 3720,
+      "total_wins": 1639,
+      "total_losses": 2081,
+      "derived_win_rate": 0.4406,
+      "derived_usage_share": 0.4345
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 426,
+      "total_wins": 188,
+      "total_losses": 238,
+      "derived_win_rate": 0.4413,
+      "derived_usage_share": 0.0498
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 125,
+      "total_wins": 54,
+      "total_losses": 71,
+      "derived_win_rate": 0.432,
+      "derived_usage_share": 0.0146
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 92,
+      "total_wins": 40,
+      "total_losses": 52,
+      "derived_win_rate": 0.4348,
+      "derived_usage_share": 0.0107
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 3891,
+      "total_wins": 1737,
+      "total_losses": 2154,
+      "derived_win_rate": 0.4464,
+      "derived_usage_share": 0.9038
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 123,
+      "total_wins": 54,
+      "total_losses": 69,
+      "derived_win_rate": 0.439,
+      "derived_usage_share": 0.0286
+    },
+    {
+      "artifact_code": "efw34",
+      "artifact_name": "Pipette Lance",
+      "total_games": 103,
+      "total_wins": 45,
+      "total_losses": 58,
+      "derived_win_rate": 0.4369,
+      "derived_usage_share": 0.0239
+    },
+    {
+      "artifact_code": "efw31",
+      "artifact_name": "Golden Rose",
+      "total_games": 72,
+      "total_wins": 21,
+      "total_losses": 51,
+      "derived_win_rate": 0.2917,
+      "derived_usage_share": 0.0167
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 38,
+      "total_wins": 9,
+      "total_losses": 29,
+      "derived_win_rate": 0.2368,
+      "derived_usage_share": 0.0088
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "total_games": 3629,
+      "total_wins": 1601,
+      "total_losses": 2028,
+      "derived_win_rate": 0.4412
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 3434,
+      "total_wins": 1532,
+      "total_losses": 1902,
+      "derived_win_rate": 0.4461
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 372,
+      "total_wins": 170,
+      "total_losses": 202,
+      "derived_win_rate": 0.457
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 279,
+      "total_wins": 130,
+      "total_losses": 149,
+      "derived_win_rate": 0.4659
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 124,
+      "total_wins": 54,
+      "total_losses": 70,
+      "derived_win_rate": 0.4355
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "artifact_code": "efw34",
+      "artifact_name": "Pipette Lance",
+      "total_games": 72,
+      "total_wins": 31,
+      "total_losses": 41,
+      "derived_win_rate": 0.4306
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 63,
+      "total_wins": 25,
+      "total_losses": 38,
+      "derived_win_rate": 0.3968
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "artifact_code": "efw31",
+      "artifact_name": "Golden Rose",
+      "total_games": 59,
+      "total_wins": 16,
+      "total_losses": 43,
+      "derived_win_rate": 0.2712
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 49,
+      "total_wins": 26,
+      "total_losses": 23,
+      "derived_win_rate": 0.5306
+    },
+    {
+      "set_agg_code": "set_counter+set_cri",
+      "total_games": 47,
+      "total_wins": 23,
+      "total_losses": 24,
+      "derived_win_rate": 0.4894
+    }
+  ],
+  "total_set_stats_games": 8561,
+  "total_artifact_stats_games": 4305,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4505,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2128?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:43Z"
+}

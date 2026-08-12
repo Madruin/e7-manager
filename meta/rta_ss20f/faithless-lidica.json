@@ -1,0 +1,252 @@
+{
+  "hero": "Faithless Lidica",
+  "hero_slug": "faithless-lidica",
+  "hero_code": "c2046",
+  "element": "light",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 6819,
+      "total_wins": 3320,
+      "total_losses": 3375,
+      "total_bans": 840,
+      "total_prebans": 124
+    }
+  ],
+  "sample_size": 6819,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 5839,
+      "total_wins": 2921,
+      "total_losses": 2918,
+      "derived_win_rate": 0.5003,
+      "derived_usage_share": 0.7103
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 1680,
+      "total_wins": 831,
+      "total_losses": 849,
+      "derived_win_rate": 0.4946,
+      "derived_usage_share": 0.2044
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 379,
+      "total_wins": 189,
+      "total_losses": 190,
+      "derived_win_rate": 0.4987,
+      "derived_usage_share": 0.0461
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 207,
+      "total_wins": 98,
+      "total_losses": 109,
+      "derived_win_rate": 0.4734,
+      "derived_usage_share": 0.0252
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 49,
+      "total_wins": 21,
+      "total_losses": 28,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.006
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 2843,
+      "total_wins": 1402,
+      "total_losses": 1441,
+      "derived_win_rate": 0.4931,
+      "derived_usage_share": 0.4856
+    },
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 951,
+      "total_wins": 494,
+      "total_losses": 457,
+      "derived_win_rate": 0.5195,
+      "derived_usage_share": 0.1624
+    },
+    {
+      "artifact_code": "efr25",
+      "artifact_name": "Elegiac Candle",
+      "total_games": 772,
+      "total_wins": 401,
+      "total_losses": 371,
+      "derived_win_rate": 0.5194,
+      "derived_usage_share": 0.1319
+    },
+    {
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 552,
+      "total_wins": 276,
+      "total_losses": 276,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0943
+    },
+    {
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 423,
+      "total_wins": 210,
+      "total_losses": 213,
+      "derived_win_rate": 0.4965,
+      "derived_usage_share": 0.0722
+    },
+    {
+      "artifact_code": "efr29",
+      "artifact_name": "An Assassin’s Pledge",
+      "total_games": 103,
+      "total_wins": 39,
+      "total_losses": 64,
+      "derived_win_rate": 0.3786,
+      "derived_usage_share": 0.0176
+    },
+    {
+      "artifact_code": "efr11",
+      "artifact_name": "Andre's Crossbow",
+      "total_games": 67,
+      "total_wins": 33,
+      "total_losses": 34,
+      "derived_win_rate": 0.4925,
+      "derived_usage_share": 0.0114
+    },
+    {
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 50,
+      "total_wins": 24,
+      "total_losses": 26,
+      "derived_win_rate": 0.48,
+      "derived_usage_share": 0.0085
+    },
+    {
+      "artifact_code": "efr26",
+      "artifact_name": "Old Gardening Shears",
+      "total_games": 43,
+      "total_wins": 18,
+      "total_losses": 25,
+      "derived_win_rate": 0.4186,
+      "derived_usage_share": 0.0073
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 3468,
+      "total_wins": 1755,
+      "total_losses": 1713,
+      "derived_win_rate": 0.5061
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 1679,
+      "total_wins": 831,
+      "total_losses": 848,
+      "derived_win_rate": 0.4949
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 1645,
+      "total_wins": 830,
+      "total_losses": 815,
+      "derived_win_rate": 0.5046
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 801,
+      "total_wins": 372,
+      "total_losses": 429,
+      "derived_win_rate": 0.4644
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 584,
+      "total_wins": 303,
+      "total_losses": 281,
+      "derived_win_rate": 0.5188
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr25",
+      "artifact_name": "Elegiac Candle",
+      "total_games": 458,
+      "total_wins": 242,
+      "total_losses": 216,
+      "derived_win_rate": 0.5284
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 378,
+      "total_wins": 189,
+      "total_losses": 189,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 314,
+      "total_wins": 158,
+      "total_losses": 156,
+      "derived_win_rate": 0.5032
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 306,
+      "total_wins": 166,
+      "total_losses": 140,
+      "derived_win_rate": 0.5425
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 302,
+      "total_wins": 149,
+      "total_losses": 153,
+      "derived_win_rate": 0.4934
+    }
+  ],
+  "total_set_stats_games": 8220,
+  "total_artifact_stats_games": 5855,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4959,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2046?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:36Z"
+}

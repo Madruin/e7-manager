@@ -1,0 +1,286 @@
+{
+  "hero": "Veronica",
+  "hero_slug": "veronica",
+  "hero_code": "c1150",
+  "element": "fire",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 2037,
+      "total_wins": 936,
+      "total_losses": 1054,
+      "total_bans": 497,
+      "total_prebans": 47
+    }
+  ],
+  "sample_size": 2037,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1386,
+      "total_wins": 666,
+      "total_losses": 720,
+      "derived_win_rate": 0.4805,
+      "derived_usage_share": 0.5064
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 858,
+      "total_wins": 395,
+      "total_losses": 463,
+      "derived_win_rate": 0.4604,
+      "derived_usage_share": 0.3135
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 262,
+      "total_wins": 130,
+      "total_losses": 132,
+      "derived_win_rate": 0.4962,
+      "derived_usage_share": 0.0957
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 136,
+      "total_wins": 67,
+      "total_losses": 69,
+      "derived_win_rate": 0.4926,
+      "derived_usage_share": 0.0497
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 25,
+      "total_wins": 8,
+      "total_losses": 17,
+      "derived_win_rate": 0.32,
+      "derived_usage_share": 0.0091
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 20,
+      "total_wins": 8,
+      "total_losses": 12,
+      "derived_win_rate": 0.4,
+      "derived_usage_share": 0.0073
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 18,
+      "total_wins": 7,
+      "total_losses": 11,
+      "derived_win_rate": 0.3889,
+      "derived_usage_share": 0.0066
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 18,
+      "total_wins": 9,
+      "total_losses": 9,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0066
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 959,
+      "total_wins": 449,
+      "total_losses": 510,
+      "derived_win_rate": 0.4682,
+      "derived_usage_share": 0.6423
+    },
+    {
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 181,
+      "total_wins": 82,
+      "total_losses": 99,
+      "derived_win_rate": 0.453,
+      "derived_usage_share": 0.1212
+    },
+    {
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 126,
+      "total_wins": 71,
+      "total_losses": 55,
+      "derived_win_rate": 0.5635,
+      "derived_usage_share": 0.0844
+    },
+    {
+      "artifact_code": "efr11",
+      "artifact_name": "Andre's Crossbow",
+      "total_games": 99,
+      "total_wins": 39,
+      "total_losses": 60,
+      "derived_win_rate": 0.3939,
+      "derived_usage_share": 0.0663
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 25,
+      "total_wins": 11,
+      "total_losses": 14,
+      "derived_win_rate": 0.44,
+      "derived_usage_share": 0.0167
+    },
+    {
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 24,
+      "total_wins": 9,
+      "total_losses": 15,
+      "derived_win_rate": 0.375,
+      "derived_usage_share": 0.0161
+    },
+    {
+      "artifact_code": "ef439",
+      "artifact_name": "Midnight Pizza Delivery",
+      "total_games": 23,
+      "total_wins": 12,
+      "total_losses": 11,
+      "derived_win_rate": 0.5217,
+      "derived_usage_share": 0.0154
+    },
+    {
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 22,
+      "total_wins": 14,
+      "total_losses": 8,
+      "derived_win_rate": 0.6364,
+      "derived_usage_share": 0.0147
+    },
+    {
+      "artifact_code": "efr02",
+      "artifact_name": "Song of Stars",
+      "total_games": 11,
+      "total_wins": 3,
+      "total_losses": 8,
+      "derived_win_rate": 0.2727,
+      "derived_usage_share": 0.0074
+    },
+    {
+      "artifact_code": "efr14",
+      "artifact_name": "Ms. Confille",
+      "total_games": 8,
+      "total_wins": 7,
+      "total_losses": 1,
+      "derived_win_rate": 0.875,
+      "derived_usage_share": 0.0054
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 808,
+      "total_wins": 381,
+      "total_losses": 427,
+      "derived_win_rate": 0.4715
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 461,
+      "total_wins": 216,
+      "total_losses": 245,
+      "derived_win_rate": 0.4685
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 230,
+      "total_wins": 117,
+      "total_losses": 113,
+      "derived_win_rate": 0.5087
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 202,
+      "total_wins": 96,
+      "total_losses": 106,
+      "derived_win_rate": 0.4752
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 164,
+      "total_wins": 79,
+      "total_losses": 85,
+      "derived_win_rate": 0.4817
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 162,
+      "total_wins": 75,
+      "total_losses": 87,
+      "derived_win_rate": 0.463
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 153,
+      "total_wins": 70,
+      "total_losses": 83,
+      "derived_win_rate": 0.4575
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 107,
+      "total_wins": 55,
+      "total_losses": 52,
+      "derived_win_rate": 0.514
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 85,
+      "total_wins": 46,
+      "total_losses": 39,
+      "derived_win_rate": 0.5412
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 80,
+      "total_wins": 44,
+      "total_losses": 36,
+      "derived_win_rate": 0.55
+    }
+  ],
+  "total_set_stats_games": 2737,
+  "total_artifact_stats_games": 1493,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4704,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1150?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:15Z"
+}

@@ -189,6 +189,6 @@
       "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
     }
   },
-  "source_url": "https://www.epic7rtastats.com/heroes/c1172",
-  "scraped_at": "2026-08-10T10:38:40Z"
+  "source_url": "https://www.epic7rtastats.com/heroes/c1172?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:56Z"
 }

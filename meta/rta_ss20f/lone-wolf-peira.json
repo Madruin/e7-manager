@@ -1,0 +1,291 @@
+{
+  "hero": "Lone Wolf Peira",
+  "hero_slug": "lone-wolf-peira",
+  "hero_code": "c2125",
+  "element": "dark",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 1125,
+      "total_wins": 462,
+      "total_losses": 663,
+      "total_bans": 151,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1125,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 935,
+      "total_wins": 384,
+      "total_losses": 551,
+      "derived_win_rate": 0.4107,
+      "derived_usage_share": 0.6024
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 209,
+      "total_wins": 82,
+      "total_losses": 127,
+      "derived_win_rate": 0.3923,
+      "derived_usage_share": 0.1347
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 156,
+      "total_wins": 60,
+      "total_losses": 96,
+      "derived_win_rate": 0.3846,
+      "derived_usage_share": 0.1005
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 75,
+      "total_wins": 31,
+      "total_losses": 44,
+      "derived_win_rate": 0.4133,
+      "derived_usage_share": 0.0483
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 51,
+      "total_wins": 17,
+      "total_losses": 34,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0329
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 43,
+      "total_wins": 14,
+      "total_losses": 29,
+      "derived_win_rate": 0.3256,
+      "derived_usage_share": 0.0277
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 39,
+      "total_wins": 21,
+      "total_losses": 18,
+      "derived_win_rate": 0.5385,
+      "derived_usage_share": 0.0251
+    },
+    {
+      "set_code": "set_riposte",
+      "set_name": "Riposte",
+      "total_games": 21,
+      "total_wins": 9,
+      "total_losses": 12,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0135
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 9,
+      "total_wins": 4,
+      "total_losses": 5,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0058
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 467,
+      "total_wins": 203,
+      "total_losses": 264,
+      "derived_win_rate": 0.4347,
+      "derived_usage_share": 0.4795
+    },
+    {
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 240,
+      "total_wins": 90,
+      "total_losses": 150,
+      "derived_win_rate": 0.375,
+      "derived_usage_share": 0.2464
+    },
+    {
+      "artifact_code": "efw27",
+      "artifact_name": "Spear of Purification",
+      "total_games": 124,
+      "total_wins": 43,
+      "total_losses": 81,
+      "derived_win_rate": 0.3468,
+      "derived_usage_share": 0.1273
+    },
+    {
+      "artifact_code": "efw19",
+      "artifact_name": "Snow Crystal",
+      "total_games": 24,
+      "total_wins": 11,
+      "total_losses": 13,
+      "derived_win_rate": 0.4583,
+      "derived_usage_share": 0.0246
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 20,
+      "total_wins": 13,
+      "total_losses": 7,
+      "derived_win_rate": 0.65,
+      "derived_usage_share": 0.0205
+    },
+    {
+      "artifact_code": "efw18",
+      "artifact_name": "Champion's Trophy",
+      "total_games": 20,
+      "total_wins": 10,
+      "total_losses": 10,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0205
+    },
+    {
+      "artifact_code": "efw07",
+      "artifact_name": "Border Coin",
+      "total_games": 14,
+      "total_wins": 10,
+      "total_losses": 4,
+      "derived_win_rate": 0.7143,
+      "derived_usage_share": 0.0144
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 13,
+      "total_wins": 2,
+      "total_losses": 11,
+      "derived_win_rate": 0.1538,
+      "derived_usage_share": 0.0133
+    },
+    {
+      "artifact_code": "efw03",
+      "artifact_name": "El's Fist",
+      "total_games": 8,
+      "total_wins": 4,
+      "total_losses": 4,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0082
+    },
+    {
+      "artifact_code": "efw24",
+      "artifact_name": "Pure White Trust",
+      "total_games": 7,
+      "total_wins": 3,
+      "total_losses": 4,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0072
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 384,
+      "total_wins": 167,
+      "total_losses": 217,
+      "derived_win_rate": 0.4349
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 186,
+      "total_wins": 72,
+      "total_losses": 114,
+      "derived_win_rate": 0.3871
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 155,
+      "total_wins": 58,
+      "total_losses": 97,
+      "derived_win_rate": 0.3742
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 154,
+      "total_wins": 75,
+      "total_losses": 79,
+      "derived_win_rate": 0.487
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 154,
+      "total_wins": 60,
+      "total_losses": 94,
+      "derived_win_rate": 0.3896
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 105,
+      "total_wins": 43,
+      "total_losses": 62,
+      "derived_win_rate": 0.4095
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 86,
+      "total_wins": 35,
+      "total_losses": 51,
+      "derived_win_rate": 0.407
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 68,
+      "total_wins": 29,
+      "total_losses": 39,
+      "derived_win_rate": 0.4265
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 51,
+      "total_wins": 17,
+      "total_losses": 34,
+      "derived_win_rate": 0.3333
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 43,
+      "total_wins": 14,
+      "total_losses": 29,
+      "derived_win_rate": 0.3256
+    }
+  ],
+  "total_set_stats_games": 1552,
+  "total_artifact_stats_games": 974,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4107,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2125?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:34Z"
+}

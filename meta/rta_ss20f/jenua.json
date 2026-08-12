@@ -1,0 +1,295 @@
+{
+  "hero": "Jenua",
+  "hero_slug": "jenua",
+  "hero_code": "c1055",
+  "element": "fire",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 3214,
+      "total_wins": 1361,
+      "total_losses": 1849,
+      "total_bans": 726,
+      "total_prebans": 4
+    }
+  ],
+  "sample_size": 3214,
+  "top_sets": [
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 1997,
+      "total_wins": 827,
+      "total_losses": 1170,
+      "derived_win_rate": 0.4141,
+      "derived_usage_share": 0.398
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1170,
+      "total_wins": 491,
+      "total_losses": 679,
+      "derived_win_rate": 0.4197,
+      "derived_usage_share": 0.2332
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 1151,
+      "total_wins": 478,
+      "total_losses": 673,
+      "derived_win_rate": 0.4153,
+      "derived_usage_share": 0.2294
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 197,
+      "total_wins": 75,
+      "total_losses": 122,
+      "derived_win_rate": 0.3807,
+      "derived_usage_share": 0.0393
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 161,
+      "total_wins": 64,
+      "total_losses": 97,
+      "derived_win_rate": 0.3975,
+      "derived_usage_share": 0.0321
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 125,
+      "total_wins": 44,
+      "total_losses": 81,
+      "derived_win_rate": 0.352,
+      "derived_usage_share": 0.0249
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 97,
+      "total_wins": 36,
+      "total_losses": 61,
+      "derived_win_rate": 0.3711,
+      "derived_usage_share": 0.0193
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 56,
+      "total_wins": 18,
+      "total_losses": 38,
+      "derived_win_rate": 0.3214,
+      "derived_usage_share": 0.0112
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 54,
+      "total_wins": 18,
+      "total_losses": 36,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0108
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 1483,
+      "total_wins": 609,
+      "total_losses": 874,
+      "derived_win_rate": 0.4107,
+      "derived_usage_share": 0.597
+    },
+    {
+      "artifact_code": "efa30",
+      "artifact_name": "Master of the Nightmare",
+      "total_games": 376,
+      "total_wins": 178,
+      "total_losses": 198,
+      "derived_win_rate": 0.4734,
+      "derived_usage_share": 0.1514
+    },
+    {
+      "artifact_code": "efa25",
+      "artifact_name": "Dark Blood Keeper",
+      "total_games": 230,
+      "total_wins": 79,
+      "total_losses": 151,
+      "derived_win_rate": 0.3435,
+      "derived_usage_share": 0.0926
+    },
+    {
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 118,
+      "total_wins": 57,
+      "total_losses": 61,
+      "derived_win_rate": 0.4831,
+      "derived_usage_share": 0.0475
+    },
+    {
+      "artifact_code": "efa01",
+      "artifact_name": "Rhianna & Luciella",
+      "total_games": 68,
+      "total_wins": 24,
+      "total_losses": 44,
+      "derived_win_rate": 0.3529,
+      "derived_usage_share": 0.0274
+    },
+    {
+      "artifact_code": "efa22",
+      "artifact_name": "Hostess of the Banquet",
+      "total_games": 44,
+      "total_wins": 18,
+      "total_losses": 26,
+      "derived_win_rate": 0.4091,
+      "derived_usage_share": 0.0177
+    },
+    {
+      "artifact_code": "efa32",
+      "artifact_name": "Shadow Winds 7",
+      "total_games": 22,
+      "total_wins": 9,
+      "total_losses": 13,
+      "derived_win_rate": 0.4091,
+      "derived_usage_share": 0.0089
+    },
+    {
+      "artifact_code": "efa15",
+      "artifact_name": "Shepherd of the Hollow",
+      "total_games": 20,
+      "total_wins": 3,
+      "total_losses": 17,
+      "derived_win_rate": 0.15,
+      "derived_usage_share": 0.0081
+    },
+    {
+      "artifact_code": "efa05",
+      "artifact_name": "Dust Devil",
+      "total_games": 20,
+      "total_wins": 5,
+      "total_losses": 15,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0081
+    },
+    {
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 19,
+      "total_wins": 7,
+      "total_losses": 12,
+      "derived_win_rate": 0.3684,
+      "derived_usage_share": 0.0076
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 986,
+      "total_wins": 419,
+      "total_losses": 567,
+      "derived_win_rate": 0.4249
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "total_games": 843,
+      "total_wins": 361,
+      "total_losses": 482,
+      "derived_win_rate": 0.4282
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 676,
+      "total_wins": 291,
+      "total_losses": 385,
+      "derived_win_rate": 0.4305
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 393,
+      "total_wins": 163,
+      "total_losses": 230,
+      "derived_win_rate": 0.4148
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efa30",
+      "artifact_name": "Master of the Nightmare",
+      "total_games": 213,
+      "total_wins": 105,
+      "total_losses": 108,
+      "derived_win_rate": 0.493
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efa30",
+      "artifact_name": "Master of the Nightmare",
+      "total_games": 122,
+      "total_wins": 56,
+      "total_losses": 66,
+      "derived_win_rate": 0.459
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 96,
+      "total_wins": 32,
+      "total_losses": 64,
+      "derived_win_rate": 0.3333
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 85,
+      "total_wins": 37,
+      "total_losses": 48,
+      "derived_win_rate": 0.4353
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 76,
+      "total_wins": 35,
+      "total_losses": 41,
+      "derived_win_rate": 0.4605
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efa25",
+      "artifact_name": "Dark Blood Keeper",
+      "total_games": 69,
+      "total_wins": 23,
+      "total_losses": 46,
+      "derived_win_rate": 0.3333
+    }
+  ],
+  "total_set_stats_games": 5018,
+  "total_artifact_stats_games": 2484,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.424,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1055?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:11:02Z"
+}

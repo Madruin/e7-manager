@@ -1,0 +1,216 @@
+{
+  "hero": "Witch of the Mere Tenebria",
+  "hero_slug": "witch-of-the-mere-tenebria",
+  "hero_code": "c6050",
+  "element": "light",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 13855,
+      "total_wins": 6245,
+      "total_losses": 7065,
+      "total_bans": 3638,
+      "total_prebans": 545
+    }
+  ],
+  "sample_size": 13855,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 9653,
+      "total_wins": 4529,
+      "total_losses": 5124,
+      "derived_win_rate": 0.4692,
+      "derived_usage_share": 0.5139
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 8755,
+      "total_wins": 4105,
+      "total_losses": 4650,
+      "derived_win_rate": 0.4689,
+      "derived_usage_share": 0.4661
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 230,
+      "total_wins": 112,
+      "total_losses": 118,
+      "derived_win_rate": 0.487,
+      "derived_usage_share": 0.0122
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 5136,
+      "total_wins": 2491,
+      "total_losses": 2645,
+      "derived_win_rate": 0.485,
+      "derived_usage_share": 0.531
+    },
+    {
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 2321,
+      "total_wins": 1047,
+      "total_losses": 1274,
+      "derived_win_rate": 0.4511,
+      "derived_usage_share": 0.24
+    },
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 892,
+      "total_wins": 408,
+      "total_losses": 484,
+      "derived_win_rate": 0.4574,
+      "derived_usage_share": 0.0922
+    },
+    {
+      "artifact_code": "efm31",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 860,
+      "total_wins": 397,
+      "total_losses": 463,
+      "derived_win_rate": 0.4616,
+      "derived_usage_share": 0.0889
+    },
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 187,
+      "total_wins": 78,
+      "total_losses": 109,
+      "derived_win_rate": 0.4171,
+      "derived_usage_share": 0.0193
+    },
+    {
+      "artifact_code": "efm01",
+      "artifact_name": "Abyssal Crown",
+      "total_games": 58,
+      "total_wins": 24,
+      "total_losses": 34,
+      "derived_win_rate": 0.4138,
+      "derived_usage_share": 0.006
+    },
+    {
+      "artifact_code": "efm02",
+      "artifact_name": "Etica's Scepter",
+      "total_games": 48,
+      "total_wins": 22,
+      "total_losses": 26,
+      "derived_win_rate": 0.4583,
+      "derived_usage_share": 0.005
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 8735,
+      "total_wins": 4093,
+      "total_losses": 4642,
+      "derived_win_rate": 0.4686
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 4818,
+      "total_wins": 2336,
+      "total_losses": 2482,
+      "derived_win_rate": 0.4848
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 2017,
+      "total_wins": 915,
+      "total_losses": 1102,
+      "derived_win_rate": 0.4536
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm31",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 791,
+      "total_wins": 361,
+      "total_losses": 430,
+      "derived_win_rate": 0.4564
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 715,
+      "total_wins": 316,
+      "total_losses": 399,
+      "derived_win_rate": 0.442
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 548,
+      "total_wins": 262,
+      "total_losses": 286,
+      "derived_win_rate": 0.4781
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 228,
+      "total_wins": 110,
+      "total_losses": 118,
+      "derived_win_rate": 0.4825
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 186,
+      "total_wins": 91,
+      "total_losses": 95,
+      "derived_win_rate": 0.4892
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 185,
+      "total_wins": 76,
+      "total_losses": 109,
+      "derived_win_rate": 0.4108
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 180,
+      "total_wins": 72,
+      "total_losses": 108,
+      "derived_win_rate": 0.4
+    }
+  ],
+  "total_set_stats_games": 18784,
+  "total_artifact_stats_games": 9672,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4692,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c6050?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:15Z"
+}

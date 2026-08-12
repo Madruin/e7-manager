@@ -1,0 +1,230 @@
+{
+  "hero": "Silvertide Christy",
+  "hero_slug": "silvertide-christy",
+  "hero_code": "c4123",
+  "element": "wind",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 20279,
+      "total_wins": 10690,
+      "total_losses": 9454,
+      "total_bans": 3466,
+      "total_prebans": 135
+    }
+  ],
+  "sample_size": 20279,
+  "top_sets": [
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 35111,
+      "total_wins": 18360,
+      "total_losses": 16751,
+      "derived_win_rate": 0.5229,
+      "derived_usage_share": 0.8465
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 3115,
+      "total_wins": 1602,
+      "total_losses": 1513,
+      "derived_win_rate": 0.5143,
+      "derived_usage_share": 0.0751
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1559,
+      "total_wins": 815,
+      "total_losses": 744,
+      "derived_win_rate": 0.5228,
+      "derived_usage_share": 0.0376
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 609,
+      "total_wins": 325,
+      "total_losses": 284,
+      "derived_win_rate": 0.5337,
+      "derived_usage_share": 0.0147
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 410,
+      "total_wins": 218,
+      "total_losses": 192,
+      "derived_win_rate": 0.5317,
+      "derived_usage_share": 0.0099
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 235,
+      "total_wins": 119,
+      "total_losses": 116,
+      "derived_win_rate": 0.5064,
+      "derived_usage_share": 0.0057
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 218,
+      "total_wins": 116,
+      "total_losses": 102,
+      "derived_win_rate": 0.5321,
+      "derived_usage_share": 0.0053
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 14297,
+      "total_wins": 7669,
+      "total_losses": 6628,
+      "derived_win_rate": 0.5364,
+      "derived_usage_share": 0.8572
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 1741,
+      "total_wins": 783,
+      "total_losses": 958,
+      "derived_win_rate": 0.4497,
+      "derived_usage_share": 0.1044
+    },
+    {
+      "artifact_code": "efk04",
+      "artifact_name": "Adamant Shield",
+      "total_games": 261,
+      "total_wins": 127,
+      "total_losses": 134,
+      "derived_win_rate": 0.4866,
+      "derived_usage_share": 0.0156
+    },
+    {
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 144,
+      "total_wins": 78,
+      "total_losses": 66,
+      "derived_win_rate": 0.5417,
+      "derived_usage_share": 0.0086
+    },
+    {
+      "artifact_code": "efk14",
+      "artifact_name": "Ancient Dragon's Legacy",
+      "total_games": 113,
+      "total_wins": 56,
+      "total_losses": 57,
+      "derived_win_rate": 0.4956,
+      "derived_usage_share": 0.0068
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_res+set_res+set_res",
+      "total_games": 6935,
+      "total_wins": 3593,
+      "total_losses": 3342,
+      "derived_win_rate": 0.5181
+    },
+    {
+      "set_agg_code": "set_res+set_res+set_res",
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 5879,
+      "total_wins": 3105,
+      "total_losses": 2774,
+      "derived_win_rate": 0.5282
+    },
+    {
+      "set_agg_code": "set_res+set_res",
+      "total_games": 2223,
+      "total_wins": 1178,
+      "total_losses": 1045,
+      "derived_win_rate": 0.5299
+    },
+    {
+      "set_agg_code": "set_res+set_res",
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 2070,
+      "total_wins": 1114,
+      "total_losses": 956,
+      "derived_win_rate": 0.5382
+    },
+    {
+      "set_agg_code": "set_res+set_res+set_max_hp",
+      "total_games": 1935,
+      "total_wins": 998,
+      "total_losses": 937,
+      "derived_win_rate": 0.5158
+    },
+    {
+      "set_agg_code": "set_res+set_res+set_max_hp",
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 1677,
+      "total_wins": 894,
+      "total_losses": 783,
+      "derived_win_rate": 0.5331
+    },
+    {
+      "set_agg_code": "set_res",
+      "total_games": 1543,
+      "total_wins": 883,
+      "total_losses": 660,
+      "derived_win_rate": 0.5723
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 1469,
+      "total_wins": 770,
+      "total_losses": 699,
+      "derived_win_rate": 0.5242
+    },
+    {
+      "set_agg_code": "set_res",
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 1428,
+      "total_wins": 826,
+      "total_losses": 602,
+      "derived_win_rate": 0.5784
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 1108,
+      "total_wins": 593,
+      "total_losses": 515,
+      "derived_win_rate": 0.5352
+    }
+  ],
+  "total_set_stats_games": 41479,
+  "total_artifact_stats_games": 16678,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5307,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c4123?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:03Z"
+}

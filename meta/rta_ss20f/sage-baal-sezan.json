@@ -1,0 +1,228 @@
+{
+  "hero": "Sage Baal & Sezan",
+  "hero_slug": "sage-baal-sezan",
+  "hero_code": "c2015",
+  "element": "light",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 3722,
+      "total_wins": 2015,
+      "total_losses": 1707,
+      "total_bans": 951,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 3722,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 2708,
+      "total_wins": 1459,
+      "total_losses": 1249,
+      "derived_win_rate": 0.5388,
+      "derived_usage_share": 0.5333
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 807,
+      "total_wins": 436,
+      "total_losses": 371,
+      "derived_win_rate": 0.5403,
+      "derived_usage_share": 0.1589
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 780,
+      "total_wins": 416,
+      "total_losses": 364,
+      "derived_win_rate": 0.5333,
+      "derived_usage_share": 0.1536
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 341,
+      "total_wins": 177,
+      "total_losses": 164,
+      "derived_win_rate": 0.5191,
+      "derived_usage_share": 0.0672
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 203,
+      "total_wins": 104,
+      "total_losses": 99,
+      "derived_win_rate": 0.5123,
+      "derived_usage_share": 0.04
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 167,
+      "total_wins": 88,
+      "total_losses": 79,
+      "derived_win_rate": 0.5269,
+      "derived_usage_share": 0.0329
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 45,
+      "total_wins": 16,
+      "total_losses": 29,
+      "derived_win_rate": 0.3556,
+      "derived_usage_share": 0.0089
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 2507,
+      "total_wins": 1372,
+      "total_losses": 1135,
+      "derived_win_rate": 0.5473,
+      "derived_usage_share": 0.9047
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 78,
+      "total_wins": 31,
+      "total_losses": 47,
+      "derived_win_rate": 0.3974,
+      "derived_usage_share": 0.0281
+    },
+    {
+      "artifact_code": "efm30",
+      "artifact_name": "Staff of Ainz Ooal Gown",
+      "total_games": 70,
+      "total_wins": 35,
+      "total_losses": 35,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0253
+    },
+    {
+      "artifact_code": "efm01",
+      "artifact_name": "Abyssal Crown",
+      "total_games": 33,
+      "total_wins": 11,
+      "total_losses": 22,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0119
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 14,
+      "total_wins": 8,
+      "total_losses": 6,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 805,
+      "total_wins": 436,
+      "total_losses": 369,
+      "derived_win_rate": 0.5416
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 753,
+      "total_wins": 416,
+      "total_losses": 337,
+      "derived_win_rate": 0.5525
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 716,
+      "total_wins": 385,
+      "total_losses": 331,
+      "derived_win_rate": 0.5377
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 642,
+      "total_wins": 357,
+      "total_losses": 285,
+      "derived_win_rate": 0.5561
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 486,
+      "total_wins": 279,
+      "total_losses": 207,
+      "derived_win_rate": 0.5741
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 471,
+      "total_wins": 271,
+      "total_losses": 200,
+      "derived_win_rate": 0.5754
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "total_games": 310,
+      "total_wins": 164,
+      "total_losses": 146,
+      "derived_win_rate": 0.529
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 302,
+      "total_wins": 161,
+      "total_losses": 141,
+      "derived_win_rate": 0.5331
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 168,
+      "total_wins": 87,
+      "total_losses": 81,
+      "derived_win_rate": 0.5179
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 162,
+      "total_wins": 86,
+      "total_losses": 76,
+      "derived_win_rate": 0.5309
+    }
+  ],
+  "total_set_stats_games": 5078,
+  "total_artifact_stats_games": 2771,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5414,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2015?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:56Z"
+}

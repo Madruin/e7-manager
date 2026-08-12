@@ -1,0 +1,257 @@
+{
+  "hero": "Successor Taeyou",
+  "hero_slug": "successor-taeyou",
+  "hero_code": "c2127",
+  "element": "light",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 10621,
+      "total_wins": 4711,
+      "total_losses": 5657,
+      "total_bans": 4585,
+      "total_prebans": 253
+    }
+  ],
+  "sample_size": 10621,
+  "top_sets": [
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 5048,
+      "total_wins": 2207,
+      "total_losses": 2841,
+      "derived_win_rate": 0.4372,
+      "derived_usage_share": 0.3961
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 3999,
+      "total_wins": 1751,
+      "total_losses": 2248,
+      "derived_win_rate": 0.4379,
+      "derived_usage_share": 0.3138
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 1736,
+      "total_wins": 805,
+      "total_losses": 931,
+      "derived_win_rate": 0.4637,
+      "derived_usage_share": 0.1362
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 854,
+      "total_wins": 363,
+      "total_losses": 491,
+      "derived_win_rate": 0.4251,
+      "derived_usage_share": 0.067
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 618,
+      "total_wins": 271,
+      "total_losses": 347,
+      "derived_win_rate": 0.4385,
+      "derived_usage_share": 0.0485
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 231,
+      "total_wins": 98,
+      "total_losses": 133,
+      "derived_win_rate": 0.4242,
+      "derived_usage_share": 0.0181
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 81,
+      "total_wins": 33,
+      "total_losses": 48,
+      "derived_win_rate": 0.4074,
+      "derived_usage_share": 0.0064
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 5064,
+      "total_wins": 2247,
+      "total_losses": 2817,
+      "derived_win_rate": 0.4437,
+      "derived_usage_share": 0.8757
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 205,
+      "total_wins": 79,
+      "total_losses": 126,
+      "derived_win_rate": 0.3854,
+      "derived_usage_share": 0.0354
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 132,
+      "total_wins": 52,
+      "total_losses": 80,
+      "derived_win_rate": 0.3939,
+      "derived_usage_share": 0.0228
+    },
+    {
+      "artifact_code": "efw24",
+      "artifact_name": "Pure White Trust",
+      "total_games": 83,
+      "total_wins": 32,
+      "total_losses": 51,
+      "derived_win_rate": 0.3855,
+      "derived_usage_share": 0.0144
+    },
+    {
+      "artifact_code": "efw39",
+      "artifact_name": "Jumbo Berry Special",
+      "total_games": 66,
+      "total_wins": 28,
+      "total_losses": 38,
+      "derived_win_rate": 0.4242,
+      "derived_usage_share": 0.0114
+    },
+    {
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 46,
+      "total_wins": 13,
+      "total_losses": 33,
+      "derived_win_rate": 0.2826,
+      "derived_usage_share": 0.008
+    },
+    {
+      "artifact_code": "efw34",
+      "artifact_name": "Pipette Lance",
+      "total_games": 31,
+      "total_wins": 15,
+      "total_losses": 16,
+      "derived_win_rate": 0.4839,
+      "derived_usage_share": 0.0054
+    },
+    {
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 29,
+      "total_wins": 15,
+      "total_losses": 14,
+      "derived_win_rate": 0.5172,
+      "derived_usage_share": 0.005
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 3425,
+      "total_wins": 1501,
+      "total_losses": 1924,
+      "derived_win_rate": 0.4382
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 3063,
+      "total_wins": 1360,
+      "total_losses": 1703,
+      "derived_win_rate": 0.444
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_might",
+      "total_games": 508,
+      "total_wins": 214,
+      "total_losses": 294,
+      "derived_win_rate": 0.4213
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_might",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 433,
+      "total_wins": 186,
+      "total_losses": 247,
+      "derived_win_rate": 0.4296
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
+      "total_games": 409,
+      "total_wins": 201,
+      "total_losses": 208,
+      "derived_win_rate": 0.4914
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 387,
+      "total_wins": 187,
+      "total_losses": 200,
+      "derived_win_rate": 0.4832
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_acc",
+      "total_games": 201,
+      "total_wins": 84,
+      "total_losses": 117,
+      "derived_win_rate": 0.4179
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 193,
+      "total_wins": 80,
+      "total_losses": 113,
+      "derived_win_rate": 0.4145
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_acc",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 184,
+      "total_wins": 73,
+      "total_losses": 111,
+      "derived_win_rate": 0.3967
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 153,
+      "total_wins": 64,
+      "total_losses": 89,
+      "derived_win_rate": 0.4183
+    }
+  ],
+  "total_set_stats_games": 12745,
+  "total_artifact_stats_games": 5783,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.4544,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2127?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:24Z"
+}

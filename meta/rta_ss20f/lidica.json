@@ -1,0 +1,198 @@
+{
+  "hero": "Lidica",
+  "hero_slug": "lidica",
+  "hero_code": "c1046",
+  "element": "fire",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 8700,
+      "total_wins": 4316,
+      "total_losses": 3927,
+      "total_bans": 694,
+      "total_prebans": 457
+    }
+  ],
+  "sample_size": 8700,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 7541,
+      "total_wins": 3970,
+      "total_losses": 3571,
+      "derived_win_rate": 0.5265,
+      "derived_usage_share": 0.7841
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 1208,
+      "total_wins": 610,
+      "total_losses": 598,
+      "derived_win_rate": 0.505,
+      "derived_usage_share": 0.1256
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 641,
+      "total_wins": 308,
+      "total_losses": 333,
+      "derived_win_rate": 0.4805,
+      "derived_usage_share": 0.0667
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 153,
+      "total_wins": 81,
+      "total_losses": 72,
+      "derived_win_rate": 0.5294,
+      "derived_usage_share": 0.0159
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 3708,
+      "total_wins": 1998,
+      "total_losses": 1710,
+      "derived_win_rate": 0.5388,
+      "derived_usage_share": 0.4912
+    },
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 3053,
+      "total_wins": 1652,
+      "total_losses": 1401,
+      "derived_win_rate": 0.5411,
+      "derived_usage_share": 0.4044
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 629,
+      "total_wins": 249,
+      "total_losses": 380,
+      "derived_win_rate": 0.3959,
+      "derived_usage_share": 0.0833
+    },
+    {
+      "artifact_code": "efr25",
+      "artifact_name": "Elegiac Candle",
+      "total_games": 81,
+      "total_wins": 36,
+      "total_losses": 45,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0107
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 5471,
+      "total_wins": 2932,
+      "total_losses": 2539,
+      "derived_win_rate": 0.5359
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 2940,
+      "total_wins": 1630,
+      "total_losses": 1310,
+      "derived_win_rate": 0.5544
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 2031,
+      "total_wins": 1096,
+      "total_losses": 935,
+      "derived_win_rate": 0.5396
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 1205,
+      "total_wins": 608,
+      "total_losses": 597,
+      "derived_win_rate": 0.5046
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 639,
+      "total_wins": 307,
+      "total_losses": 332,
+      "derived_win_rate": 0.4804
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 634,
+      "total_wins": 362,
+      "total_losses": 272,
+      "derived_win_rate": 0.571
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 364,
+      "total_wins": 144,
+      "total_losses": 220,
+      "derived_win_rate": 0.3956
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 353,
+      "total_wins": 166,
+      "total_losses": 187,
+      "derived_win_rate": 0.4703
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 331,
+      "total_wins": 160,
+      "total_losses": 171,
+      "derived_win_rate": 0.4834
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 267,
+      "total_wins": 125,
+      "total_losses": 142,
+      "derived_win_rate": 0.4682
+    }
+  ],
+  "total_set_stats_games": 9617,
+  "total_artifact_stats_games": 7549,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5236,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1046?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:10:29Z"
+}

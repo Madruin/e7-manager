@@ -1,0 +1,264 @@
+{
+  "hero": "Boss Arunka",
+  "hero_slug": "boss-arunka",
+  "hero_code": "c2124",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss20f",
+      "total_games": 101090,
+      "total_wins": 37661,
+      "total_losses": 36846,
+      "total_bans": 9422,
+      "total_prebans": 27838
+    }
+  ],
+  "sample_size": 101090,
+  "top_sets": [
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 49435,
+      "total_wins": 24640,
+      "total_losses": 24795,
+      "derived_win_rate": 0.4984,
+      "derived_usage_share": 0.345
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 31855,
+      "total_wins": 16765,
+      "total_losses": 15090,
+      "derived_win_rate": 0.5263,
+      "derived_usage_share": 0.2223
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 22012,
+      "total_wins": 10497,
+      "total_losses": 11515,
+      "derived_win_rate": 0.4769,
+      "derived_usage_share": 0.1536
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 17675,
+      "total_wins": 8369,
+      "total_losses": 9306,
+      "derived_win_rate": 0.4735,
+      "derived_usage_share": 0.1234
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 12379,
+      "total_wins": 6514,
+      "total_losses": 5865,
+      "derived_win_rate": 0.5262,
+      "derived_usage_share": 0.0864
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 7679,
+      "total_wins": 3489,
+      "total_losses": 4190,
+      "derived_win_rate": 0.4544,
+      "derived_usage_share": 0.0536
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 1299,
+      "total_wins": 654,
+      "total_losses": 645,
+      "derived_win_rate": 0.5035,
+      "derived_usage_share": 0.0091
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk13",
+      "artifact_name": "Crown of Glory",
+      "total_games": 22820,
+      "total_wins": 12044,
+      "total_losses": 10776,
+      "derived_win_rate": 0.5278,
+      "derived_usage_share": 0.3506
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 15352,
+      "total_wins": 7252,
+      "total_losses": 8100,
+      "derived_win_rate": 0.4724,
+      "derived_usage_share": 0.2359
+    },
+    {
+      "artifact_code": "efk19",
+      "artifact_name": "Rocket Punch Gauntlet",
+      "total_games": 10296,
+      "total_wins": 4960,
+      "total_losses": 5336,
+      "derived_win_rate": 0.4817,
+      "derived_usage_share": 0.1582
+    },
+    {
+      "artifact_code": "efk22",
+      "artifact_name": "M.O.A.S",
+      "total_games": 5665,
+      "total_wins": 2645,
+      "total_losses": 3020,
+      "derived_win_rate": 0.4669,
+      "derived_usage_share": 0.087
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 4597,
+      "total_wins": 2432,
+      "total_losses": 2165,
+      "derived_win_rate": 0.529,
+      "derived_usage_share": 0.0706
+    },
+    {
+      "artifact_code": "efk06",
+      "artifact_name": "Noble Oath",
+      "total_games": 2865,
+      "total_wins": 1392,
+      "total_losses": 1473,
+      "derived_win_rate": 0.4859,
+      "derived_usage_share": 0.044
+    },
+    {
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 1514,
+      "total_wins": 812,
+      "total_losses": 702,
+      "derived_win_rate": 0.5363,
+      "derived_usage_share": 0.0233
+    },
+    {
+      "artifact_code": "efk23",
+      "artifact_name": "A Precious Connection",
+      "total_games": 662,
+      "total_wins": 342,
+      "total_losses": 320,
+      "derived_win_rate": 0.5166,
+      "derived_usage_share": 0.0102
+    },
+    {
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 447,
+      "total_wins": 240,
+      "total_losses": 207,
+      "derived_win_rate": 0.5369,
+      "derived_usage_share": 0.0069
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 26771,
+      "total_wins": 14008,
+      "total_losses": 12763,
+      "derived_win_rate": 0.5233
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efk13",
+      "artifact_name": "Crown of Glory",
+      "total_games": 16291,
+      "total_wins": 8650,
+      "total_losses": 7641,
+      "derived_win_rate": 0.531
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 12564,
+      "total_wins": 5931,
+      "total_losses": 6633,
+      "derived_win_rate": 0.4721
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 6510,
+      "total_wins": 3245,
+      "total_losses": 3265,
+      "derived_win_rate": 0.4985
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk19",
+      "artifact_name": "Rocket Punch Gauntlet",
+      "total_games": 6466,
+      "total_wins": 3139,
+      "total_losses": 3327,
+      "derived_win_rate": 0.4855
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk22",
+      "artifact_name": "M.O.A.S",
+      "total_games": 3388,
+      "total_wins": 1564,
+      "total_losses": 1824,
+      "derived_win_rate": 0.4616
+    },
+    {
+      "set_agg_code": "set_max_hp+set_max_hp+set_immune",
+      "total_games": 2947,
+      "total_wins": 1314,
+      "total_losses": 1633,
+      "derived_win_rate": 0.4459
+    },
+    {
+      "set_agg_code": "set_shield+set_res",
+      "total_games": 2733,
+      "total_wins": 1496,
+      "total_losses": 1237,
+      "derived_win_rate": 0.5474
+    },
+    {
+      "set_agg_code": "set_res+set_max_hp+set_immune",
+      "total_games": 2477,
+      "total_wins": 1280,
+      "total_losses": 1197,
+      "derived_win_rate": 0.5168
+    },
+    {
+      "set_agg_code": "set_def+set_max_hp+set_immune",
+      "total_games": 2424,
+      "total_wins": 1107,
+      "total_losses": 1317,
+      "derived_win_rate": 0.4567
+    }
+  ],
+  "total_set_stats_games": 143271,
+  "total_artifact_stats_games": 65085,
+  "season": {
+    "code": "pvp_rta_ss20f",
+    "name": "Pre-Season (Post Summer 2026)",
+    "start_date": "2026-07-11T00:00:00.000Z",
+    "last_updated": "2026-08-09T01:46:22.222Z"
+  },
+  "derived": {
+    "win_rate": 0.5055,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2124?season=pvp_rta_ss20f",
+  "scraped_at": "2026-08-12T02:09:35Z"
+}
