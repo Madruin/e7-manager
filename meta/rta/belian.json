@@ -1,0 +1,221 @@
+{
+  "hero": "Belian",
+  "hero_slug": "belian",
+  "hero_code": "c1117",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 775,
+      "total_wins": 351,
+      "total_losses": 306,
+      "total_bans": 146,
+      "total_prebans": 118
+    }
+  ],
+  "sample_size": 775,
+  "top_sets": [
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 259,
+      "total_wins": 139,
+      "total_losses": 120,
+      "derived_win_rate": 0.5367,
+      "derived_usage_share": 0.2527
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 244,
+      "total_wins": 140,
+      "total_losses": 104,
+      "derived_win_rate": 0.5738,
+      "derived_usage_share": 0.238
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 187,
+      "total_wins": 97,
+      "total_losses": 90,
+      "derived_win_rate": 0.5187,
+      "derived_usage_share": 0.1824
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 152,
+      "total_wins": 84,
+      "total_losses": 68,
+      "derived_win_rate": 0.5526,
+      "derived_usage_share": 0.1483
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 90,
+      "total_wins": 47,
+      "total_losses": 43,
+      "derived_win_rate": 0.5222,
+      "derived_usage_share": 0.0878
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 69,
+      "total_wins": 36,
+      "total_losses": 33,
+      "derived_win_rate": 0.5217,
+      "derived_usage_share": 0.0673
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 18,
+      "total_wins": 7,
+      "total_losses": 11,
+      "derived_win_rate": 0.3889,
+      "derived_usage_share": 0.0176
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 358,
+      "total_wins": 199,
+      "total_losses": 159,
+      "derived_win_rate": 0.5559,
+      "derived_usage_share": 0.7006
+    },
+    {
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 81,
+      "total_wins": 42,
+      "total_losses": 39,
+      "derived_win_rate": 0.5185,
+      "derived_usage_share": 0.1585
+    },
+    {
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 58,
+      "total_wins": 31,
+      "total_losses": 27,
+      "derived_win_rate": 0.5345,
+      "derived_usage_share": 0.1135
+    },
+    {
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 14,
+      "total_wins": 4,
+      "total_losses": 10,
+      "derived_win_rate": 0.2857,
+      "derived_usage_share": 0.0274
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 142,
+      "total_wins": 76,
+      "total_losses": 66,
+      "derived_win_rate": 0.5352
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 109,
+      "total_wins": 64,
+      "total_losses": 45,
+      "derived_win_rate": 0.5872
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 106,
+      "total_wins": 64,
+      "total_losses": 42,
+      "derived_win_rate": 0.6038
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 105,
+      "total_wins": 58,
+      "total_losses": 47,
+      "derived_win_rate": 0.5524
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 97,
+      "total_wins": 56,
+      "total_losses": 41,
+      "derived_win_rate": 0.5773
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 65,
+      "total_wins": 36,
+      "total_losses": 29,
+      "derived_win_rate": 0.5538
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efk24",
+      "artifact_name": "Glorious Throne",
+      "total_games": 41,
+      "total_wins": 28,
+      "total_losses": 13,
+      "derived_win_rate": 0.6829
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 31,
+      "total_wins": 16,
+      "total_losses": 15,
+      "derived_win_rate": 0.5161
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 30,
+      "total_wins": 16,
+      "total_losses": 14,
+      "derived_win_rate": 0.5333
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 30,
+      "total_wins": 16,
+      "total_losses": 14,
+      "derived_win_rate": 0.5333
+    }
+  ],
+  "total_set_stats_games": 1025,
+  "total_artifact_stats_games": 511,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-11T05:08:21.663Z"
+  },
+  "derived": {
+    "win_rate": 0.5342,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1117",
+  "scraped_at": "2026-08-12T01:49:37Z"
+}
