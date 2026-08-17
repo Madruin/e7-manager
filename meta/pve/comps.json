@@ -5,7 +5,7 @@
     "site": "epic7db.com/guides",
     "note": "Team comps only; per-slot stat thresholds are prose on epic7db and are NOT captured. Hero names resolved to datamine roster; unresolved slugs kept with resolved=false."
   },
-  "scraped_at": "2026-08-12T05:50:14Z",
+  "scraped_at": "2026-08-17T10:07:43Z",
   "guide_count": 9,
   "comps": [
     {
@@ -109,9 +109,9 @@
           },
           {
             "slug": "summers-disciple-alexa",
-            "name": null,
-            "code": null,
-            "resolved": false
+            "name": "Summer's Disciple Alexa",
+            "code": "c4012",
+            "resolved": true
           }
         ],
         [
@@ -135,17 +135,17 @@
           },
           {
             "slug": "ainos-20",
-            "name": null,
-            "code": null,
-            "resolved": false
+            "name": "Ainos 2.0",
+            "code": "c4105",
+            "resolved": true
           }
         ],
         [
           {
             "slug": "ainos-20",
-            "name": null,
-            "code": null,
-            "resolved": false
+            "name": "Ainos 2.0",
+            "code": "c4105",
+            "resolved": true
           },
           {
             "slug": "camilla",
@@ -167,8 +167,8 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:49:52Z",
-      "resolved_heroes": 20,
+      "scraped_at": "2026-08-17T10:07:23Z",
+      "resolved_heroes": 23,
       "total_hero_slots": 23
     },
     {
@@ -192,7 +192,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:49:54Z",
+      "scraped_at": "2026-08-17T10:07:24Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
@@ -217,7 +217,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:49:55Z",
+      "scraped_at": "2026-08-17T10:07:25Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
@@ -242,7 +242,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:50:03Z",
+      "scraped_at": "2026-08-17T10:07:33Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
@@ -301,9 +301,9 @@
           },
           {
             "slug": "summers-disciple-alexa",
-            "name": null,
-            "code": null,
-            "resolved": false
+            "name": "Summer's Disciple Alexa",
+            "code": "c4012",
+            "resolved": true
           }
         ],
         [
@@ -385,9 +385,9 @@
           },
           {
             "slug": "summers-disciple-alexa",
-            "name": null,
-            "code": null,
-            "resolved": false
+            "name": "Summer's Disciple Alexa",
+            "code": "c4012",
+            "resolved": true
           }
         ],
         [
@@ -469,8 +469,8 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:50:08Z",
-      "resolved_heroes": 31,
+      "scraped_at": "2026-08-17T10:07:37Z",
+      "resolved_heroes": 33,
       "total_hero_slots": 33
     },
     {
@@ -636,7 +636,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:50:09Z",
+      "scraped_at": "2026-08-17T10:07:38Z",
       "resolved_heroes": 24,
       "total_hero_slots": 24
     },
@@ -808,7 +808,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:50:11Z",
+      "scraped_at": "2026-08-17T10:07:40Z",
       "resolved_heroes": 24,
       "total_hero_slots": 24
     },
@@ -874,7 +874,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:50:12Z",
+      "scraped_at": "2026-08-17T10:07:41Z",
       "resolved_heroes": 8,
       "total_hero_slots": 8
     },
@@ -899,7 +899,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-12T05:50:14Z",
+      "scraped_at": "2026-08-17T10:07:43Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     }
