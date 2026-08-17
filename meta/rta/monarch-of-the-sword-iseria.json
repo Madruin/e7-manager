@@ -1,0 +1,135 @@
+{
+  "hero": "Monarch of the Sword Iseria",
+  "hero_slug": "monarch-of-the-sword-iseria",
+  "hero_code": "c6024",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 1436,
+      "total_wins": 725,
+      "total_losses": 685,
+      "total_bans": 481,
+      "total_prebans": 26
+    }
+  ],
+  "sample_size": 1436,
+  "top_sets": [
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 927,
+      "total_wins": 485,
+      "total_losses": 442,
+      "derived_win_rate": 0.5232,
+      "derived_usage_share": 0.4992
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 490,
+      "total_wins": 249,
+      "total_losses": 241,
+      "derived_win_rate": 0.5082,
+      "derived_usage_share": 0.2639
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 427,
+      "total_wins": 230,
+      "total_losses": 197,
+      "derived_win_rate": 0.5386,
+      "derived_usage_share": 0.2299
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 11,
+      "total_wins": 7,
+      "total_losses": 4,
+      "derived_win_rate": 0.6364,
+      "derived_usage_share": 0.0059
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 929,
+      "total_wins": 486,
+      "total_losses": 443,
+      "derived_win_rate": 0.5231,
+      "derived_usage_share": 1.0
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 488,
+      "total_wins": 248,
+      "total_losses": 240,
+      "derived_win_rate": 0.5082
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 488,
+      "total_wins": 248,
+      "total_losses": 240,
+      "derived_win_rate": 0.5082
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 427,
+      "total_wins": 230,
+      "total_losses": 197,
+      "derived_win_rate": 0.5386
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 427,
+      "total_wins": 230,
+      "total_losses": 197,
+      "derived_win_rate": 0.5386
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 9,
+      "total_wins": 6,
+      "total_losses": 3,
+      "derived_win_rate": 0.6667
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "total_games": 9,
+      "total_wins": 6,
+      "total_losses": 3,
+      "derived_win_rate": 0.6667
+    }
+  ],
+  "total_set_stats_games": 1857,
+  "total_artifact_stats_games": 929,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5142,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c6024?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:21Z"
+}

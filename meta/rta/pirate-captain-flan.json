@@ -1,0 +1,198 @@
+{
+  "hero": "Pirate Captain Flan",
+  "hero_slug": "pirate-captain-flan",
+  "hero_code": "c2110",
+  "element": "dark",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 937,
+      "total_wins": 498,
+      "total_losses": 439,
+      "total_bans": 216,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 937,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 706,
+      "total_wins": 380,
+      "total_losses": 326,
+      "derived_win_rate": 0.5382,
+      "derived_usage_share": 0.5226
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 624,
+      "total_wins": 338,
+      "total_losses": 286,
+      "derived_win_rate": 0.5417,
+      "derived_usage_share": 0.4619
+    },
+    {
+      "set_code": "set_weak",
+      "set_name": "Weakening",
+      "total_games": 13,
+      "total_wins": 9,
+      "total_losses": 4,
+      "derived_win_rate": 0.6923,
+      "derived_usage_share": 0.0096
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 648,
+      "total_wins": 356,
+      "total_losses": 292,
+      "derived_win_rate": 0.5494,
+      "derived_usage_share": 0.8988
+    },
+    {
+      "artifact_code": "efr30",
+      "artifact_name": "Awakened Leaf",
+      "total_games": 35,
+      "total_wins": 17,
+      "total_losses": 18,
+      "derived_win_rate": 0.4857,
+      "derived_usage_share": 0.0485
+    },
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 21,
+      "total_wins": 9,
+      "total_losses": 12,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0291
+    },
+    {
+      "artifact_code": "efr26",
+      "artifact_name": "Old Gardening Shears",
+      "total_games": 7,
+      "total_wins": 5,
+      "total_losses": 2,
+      "derived_win_rate": 0.7143,
+      "derived_usage_share": 0.0097
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 7,
+      "total_wins": 2,
+      "total_losses": 5,
+      "derived_win_rate": 0.2857,
+      "derived_usage_share": 0.0097
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 609,
+      "total_wins": 328,
+      "total_losses": 281,
+      "derived_win_rate": 0.5386
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 544,
+      "total_wins": 296,
+      "total_losses": 248,
+      "derived_win_rate": 0.5441
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 89,
+      "total_wins": 48,
+      "total_losses": 41,
+      "derived_win_rate": 0.5393
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 83,
+      "total_wins": 47,
+      "total_losses": 36,
+      "derived_win_rate": 0.5663
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr30",
+      "artifact_name": "Awakened Leaf",
+      "total_games": 34,
+      "total_wins": 17,
+      "total_losses": 17,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 15,
+      "total_wins": 7,
+      "total_losses": 8,
+      "derived_win_rate": 0.4667
+    },
+    {
+      "set_agg_code": "set_weak+set_acc",
+      "artifact_code": "efr18",
+      "artifact_name": "Star of the Deep Sea",
+      "total_games": 13,
+      "total_wins": 9,
+      "total_losses": 4,
+      "derived_win_rate": 0.6923
+    },
+    {
+      "set_agg_code": "set_weak+set_acc",
+      "total_games": 13,
+      "total_wins": 9,
+      "total_losses": 4,
+      "derived_win_rate": 0.6923
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr26",
+      "artifact_name": "Old Gardening Shears",
+      "total_games": 7,
+      "total_wins": 5,
+      "total_losses": 2,
+      "derived_win_rate": 0.7143
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 7,
+      "total_wins": 2,
+      "total_losses": 5,
+      "derived_win_rate": 0.2857
+    }
+  ],
+  "total_set_stats_games": 1351,
+  "total_artifact_stats_games": 721,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5315,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2110?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:42Z"
+}

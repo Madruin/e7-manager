@@ -1,0 +1,223 @@
+{
+  "hero": "Wanderer Silk",
+  "hero_slug": "wanderer-silk",
+  "hero_code": "c2004",
+  "element": "light",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 1212,
+      "total_wins": 632,
+      "total_losses": 580,
+      "total_bans": 616,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1212,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 581,
+      "total_wins": 313,
+      "total_losses": 268,
+      "derived_win_rate": 0.5387,
+      "derived_usage_share": 0.5188
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 275,
+      "total_wins": 155,
+      "total_losses": 120,
+      "derived_win_rate": 0.5636,
+      "derived_usage_share": 0.2455
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 247,
+      "total_wins": 127,
+      "total_losses": 120,
+      "derived_win_rate": 0.5142,
+      "derived_usage_share": 0.2205
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 15,
+      "total_wins": 9,
+      "total_losses": 6,
+      "derived_win_rate": 0.6,
+      "derived_usage_share": 0.0134
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 444,
+      "total_wins": 239,
+      "total_losses": 205,
+      "derived_win_rate": 0.5383,
+      "derived_usage_share": 0.745
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 47,
+      "total_wins": 31,
+      "total_losses": 16,
+      "derived_win_rate": 0.6596,
+      "derived_usage_share": 0.0789
+    },
+    {
+      "artifact_code": "efr02",
+      "artifact_name": "Song of Stars",
+      "total_games": 33,
+      "total_wins": 13,
+      "total_losses": 20,
+      "derived_win_rate": 0.3939,
+      "derived_usage_share": 0.0554
+    },
+    {
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 33,
+      "total_wins": 17,
+      "total_losses": 16,
+      "derived_win_rate": 0.5152,
+      "derived_usage_share": 0.0554
+    },
+    {
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 17,
+      "total_wins": 8,
+      "total_losses": 9,
+      "derived_win_rate": 0.4706,
+      "derived_usage_share": 0.0285
+    },
+    {
+      "artifact_code": "efr11",
+      "artifact_name": "Andre's Crossbow",
+      "total_games": 12,
+      "total_wins": 5,
+      "total_losses": 7,
+      "derived_win_rate": 0.4167,
+      "derived_usage_share": 0.0201
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 4,
+      "total_wins": 3,
+      "total_losses": 1,
+      "derived_win_rate": 0.75,
+      "derived_usage_share": 0.0067
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 273,
+      "total_wins": 153,
+      "total_losses": 120,
+      "derived_win_rate": 0.5604
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 255,
+      "total_wins": 144,
+      "total_losses": 111,
+      "derived_win_rate": 0.5647
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 246,
+      "total_wins": 127,
+      "total_losses": 119,
+      "derived_win_rate": 0.5163
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 151,
+      "total_wins": 77,
+      "total_losses": 74,
+      "derived_win_rate": 0.5099
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 47,
+      "total_wins": 24,
+      "total_losses": 23,
+      "derived_win_rate": 0.5106
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 32,
+      "total_wins": 16,
+      "total_losses": 16,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr02",
+      "artifact_name": "Song of Stars",
+      "total_games": 28,
+      "total_wins": 11,
+      "total_losses": 17,
+      "derived_win_rate": 0.3929
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 25,
+      "total_wins": 17,
+      "total_losses": 8,
+      "derived_win_rate": 0.68
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 25,
+      "total_wins": 10,
+      "total_losses": 15,
+      "derived_win_rate": 0.4
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 15,
+      "total_wins": 9,
+      "total_losses": 6,
+      "derived_win_rate": 0.6
+    }
+  ],
+  "total_set_stats_games": 1120,
+  "total_artifact_stats_games": 596,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5215,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2004?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:24Z"
+}

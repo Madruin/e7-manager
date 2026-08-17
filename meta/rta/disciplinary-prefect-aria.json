@@ -1,0 +1,237 @@
+{
+  "hero": "Disciplinary Prefect Aria",
+  "hero_slug": "disciplinary-prefect-aria",
+  "hero_code": "c2129",
+  "element": "dark",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 4290,
+      "total_wins": 2270,
+      "total_losses": 1780,
+      "total_bans": 400,
+      "total_prebans": 241
+    }
+  ],
+  "sample_size": 4290,
+  "top_sets": [
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 2785,
+      "total_wins": 1581,
+      "total_losses": 1204,
+      "derived_win_rate": 0.5677,
+      "derived_usage_share": 0.3795
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 2552,
+      "total_wins": 1466,
+      "total_losses": 1086,
+      "derived_win_rate": 0.5745,
+      "derived_usage_share": 0.3477
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 928,
+      "total_wins": 500,
+      "total_losses": 428,
+      "derived_win_rate": 0.5388,
+      "derived_usage_share": 0.1264
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 434,
+      "total_wins": 237,
+      "total_losses": 197,
+      "derived_win_rate": 0.5461,
+      "derived_usage_share": 0.0591
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 382,
+      "total_wins": 211,
+      "total_losses": 171,
+      "derived_win_rate": 0.5524,
+      "derived_usage_share": 0.0521
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 180,
+      "total_wins": 104,
+      "total_losses": 76,
+      "derived_win_rate": 0.5778,
+      "derived_usage_share": 0.0245
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 69,
+      "total_wins": 32,
+      "total_losses": 37,
+      "derived_win_rate": 0.4638,
+      "derived_usage_share": 0.0094
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 2802,
+      "total_wins": 1629,
+      "total_losses": 1173,
+      "derived_win_rate": 0.5814,
+      "derived_usage_share": 0.7677
+    },
+    {
+      "artifact_code": "efw32",
+      "artifact_name": "Prayer of Solitude",
+      "total_games": 480,
+      "total_wins": 237,
+      "total_losses": 243,
+      "derived_win_rate": 0.4938,
+      "derived_usage_share": 0.1315
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 259,
+      "total_wins": 144,
+      "total_losses": 115,
+      "derived_win_rate": 0.556,
+      "derived_usage_share": 0.071
+    },
+    {
+      "artifact_code": "efw31",
+      "artifact_name": "Golden Rose",
+      "total_games": 40,
+      "total_wins": 12,
+      "total_losses": 28,
+      "derived_win_rate": 0.3,
+      "derived_usage_share": 0.011
+    },
+    {
+      "artifact_code": "efw11",
+      "artifact_name": "Draco Plate",
+      "total_games": 20,
+      "total_wins": 9,
+      "total_losses": 11,
+      "derived_win_rate": 0.45,
+      "derived_usage_share": 0.0055
+    },
+    {
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 19,
+      "total_wins": 9,
+      "total_losses": 10,
+      "derived_win_rate": 0.4737,
+      "derived_usage_share": 0.0052
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 2153,
+      "total_wins": 1238,
+      "total_losses": 915,
+      "derived_win_rate": 0.575
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 1926,
+      "total_wins": 1127,
+      "total_losses": 799,
+      "derived_win_rate": 0.5852
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "total_games": 508,
+      "total_wins": 271,
+      "total_losses": 237,
+      "derived_win_rate": 0.5335
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 462,
+      "total_wins": 251,
+      "total_losses": 211,
+      "derived_win_rate": 0.5433
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 214,
+      "total_wins": 117,
+      "total_losses": 97,
+      "derived_win_rate": 0.5467
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 182,
+      "total_wins": 98,
+      "total_losses": 84,
+      "derived_win_rate": 0.5385
+    },
+    {
+      "set_agg_code": "set_counter+set_max_hp",
+      "total_games": 151,
+      "total_wins": 83,
+      "total_losses": 68,
+      "derived_win_rate": 0.5497
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "total_games": 145,
+      "total_wins": 88,
+      "total_losses": 57,
+      "derived_win_rate": 0.6069
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 142,
+      "total_wins": 79,
+      "total_losses": 63,
+      "derived_win_rate": 0.5563
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw32",
+      "artifact_name": "Prayer of Solitude",
+      "total_games": 135,
+      "total_wins": 59,
+      "total_losses": 76,
+      "derived_win_rate": 0.437
+    }
+  ],
+  "total_set_stats_games": 7339,
+  "total_artifact_stats_games": 3650,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5605,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2129?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:00:50Z"
+}

@@ -1,0 +1,158 @@
+{
+  "hero": "Blooming Lidica",
+  "hero_slug": "blooming-lidica",
+  "hero_code": "c5046",
+  "element": "wind",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 991,
+      "total_wins": 481,
+      "total_losses": 510,
+      "total_bans": 295,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 991,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 669,
+      "total_wins": 320,
+      "total_losses": 349,
+      "derived_win_rate": 0.4783,
+      "derived_usage_share": 0.4841
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 512,
+      "total_wins": 238,
+      "total_losses": 274,
+      "derived_win_rate": 0.4648,
+      "derived_usage_share": 0.3705
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 196,
+      "total_wins": 98,
+      "total_losses": 98,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.1418
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 695,
+      "total_wins": 332,
+      "total_losses": 363,
+      "derived_win_rate": 0.4777,
+      "derived_usage_share": 0.9986
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 467,
+      "total_wins": 220,
+      "total_losses": 247,
+      "derived_win_rate": 0.4711
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 467,
+      "total_wins": 220,
+      "total_losses": 247,
+      "derived_win_rate": 0.4711
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 186,
+      "total_wins": 93,
+      "total_losses": 93,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 185,
+      "total_wins": 93,
+      "total_losses": 92,
+      "derived_win_rate": 0.5027
+    },
+    {
+      "set_agg_code": "set_acc+set_acc",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 15,
+      "total_wins": 7,
+      "total_losses": 8,
+      "derived_win_rate": 0.4667
+    },
+    {
+      "set_agg_code": "set_acc+set_acc",
+      "total_games": 15,
+      "total_wins": 7,
+      "total_losses": 8,
+      "derived_win_rate": 0.4667
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 14,
+      "total_wins": 6,
+      "total_losses": 8,
+      "derived_win_rate": 0.4286
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 14,
+      "total_wins": 6,
+      "total_losses": 8,
+      "derived_win_rate": 0.4286
+    },
+    {
+      "set_agg_code": "set_acc+set_acc+set_max_hp",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 5,
+      "total_wins": 1,
+      "total_losses": 4,
+      "derived_win_rate": 0.2
+    },
+    {
+      "set_agg_code": "set_acc+set_acc+set_max_hp",
+      "total_games": 5,
+      "total_wins": 1,
+      "total_losses": 4,
+      "derived_win_rate": 0.2
+    }
+  ],
+  "total_set_stats_games": 1382,
+  "total_artifact_stats_games": 696,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.4854,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c5046?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:35Z"
+}

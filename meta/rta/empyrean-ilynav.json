@@ -1,0 +1,280 @@
+{
+  "hero": "Empyrean Ilynav",
+  "hero_slug": "empyrean-ilynav",
+  "hero_code": "c2113",
+  "element": "light",
+  "class": "knight",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 3095,
+      "total_wins": 1556,
+      "total_losses": 1539,
+      "total_bans": 1000,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 3095,
+  "top_sets": [
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1675,
+      "total_wins": 803,
+      "total_losses": 872,
+      "derived_win_rate": 0.4794,
+      "derived_usage_share": 0.3689
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 1195,
+      "total_wins": 568,
+      "total_losses": 627,
+      "derived_win_rate": 0.4753,
+      "derived_usage_share": 0.2632
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 753,
+      "total_wins": 392,
+      "total_losses": 361,
+      "derived_win_rate": 0.5206,
+      "derived_usage_share": 0.1658
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 351,
+      "total_wins": 180,
+      "total_losses": 171,
+      "derived_win_rate": 0.5128,
+      "derived_usage_share": 0.0773
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 227,
+      "total_wins": 112,
+      "total_losses": 115,
+      "derived_win_rate": 0.4934,
+      "derived_usage_share": 0.05
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 188,
+      "total_wins": 82,
+      "total_losses": 106,
+      "derived_win_rate": 0.4362,
+      "derived_usage_share": 0.0414
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 59,
+      "total_wins": 26,
+      "total_losses": 33,
+      "derived_win_rate": 0.4407,
+      "derived_usage_share": 0.013
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 51,
+      "total_wins": 25,
+      "total_losses": 26,
+      "derived_win_rate": 0.4902,
+      "derived_usage_share": 0.0112
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 24,
+      "total_wins": 11,
+      "total_losses": 13,
+      "derived_win_rate": 0.4583,
+      "derived_usage_share": 0.0053
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 1082,
+      "total_wins": 517,
+      "total_losses": 565,
+      "derived_win_rate": 0.4778,
+      "derived_usage_share": 0.5165
+    },
+    {
+      "artifact_code": "efk12",
+      "artifact_name": "Rise of a Monarch",
+      "total_games": 438,
+      "total_wins": 209,
+      "total_losses": 229,
+      "derived_win_rate": 0.4772,
+      "derived_usage_share": 0.2091
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 343,
+      "total_wins": 184,
+      "total_losses": 159,
+      "derived_win_rate": 0.5364,
+      "derived_usage_share": 0.1637
+    },
+    {
+      "artifact_code": "efk09",
+      "artifact_name": "Bastion of Perlutia",
+      "total_games": 62,
+      "total_wins": 28,
+      "total_losses": 34,
+      "derived_win_rate": 0.4516,
+      "derived_usage_share": 0.0296
+    },
+    {
+      "artifact_code": "efk02",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 41,
+      "total_wins": 15,
+      "total_losses": 26,
+      "derived_win_rate": 0.3659,
+      "derived_usage_share": 0.0196
+    },
+    {
+      "artifact_code": "efk16",
+      "artifact_name": "Wings of Light and Shadow",
+      "total_games": 41,
+      "total_wins": 18,
+      "total_losses": 23,
+      "derived_win_rate": 0.439,
+      "derived_usage_share": 0.0196
+    },
+    {
+      "artifact_code": "efk05",
+      "artifact_name": "Hilag Lance",
+      "total_games": 22,
+      "total_wins": 13,
+      "total_losses": 9,
+      "derived_win_rate": 0.5909,
+      "derived_usage_share": 0.0105
+    },
+    {
+      "artifact_code": "efk04",
+      "artifact_name": "Adamant Shield",
+      "total_games": 20,
+      "total_wins": 8,
+      "total_losses": 12,
+      "derived_win_rate": 0.4,
+      "derived_usage_share": 0.0095
+    },
+    {
+      "artifact_code": "efk13",
+      "artifact_name": "Crown of Glory",
+      "total_games": 14,
+      "total_wins": 7,
+      "total_losses": 7,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0067
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 1077,
+      "total_wins": 507,
+      "total_losses": 570,
+      "derived_win_rate": 0.4708
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 795,
+      "total_wins": 378,
+      "total_losses": 417,
+      "derived_win_rate": 0.4755
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "artifact_code": "efk12",
+      "artifact_name": "Rise of a Monarch",
+      "total_games": 219,
+      "total_wins": 101,
+      "total_losses": 118,
+      "derived_win_rate": 0.4612
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 149,
+      "total_wins": 74,
+      "total_losses": 75,
+      "derived_win_rate": 0.4966
+    },
+    {
+      "set_agg_code": "set_res+set_max_hp+set_immune",
+      "total_games": 120,
+      "total_wins": 64,
+      "total_losses": 56,
+      "derived_win_rate": 0.5333
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 117,
+      "total_wins": 48,
+      "total_losses": 69,
+      "derived_win_rate": 0.4103
+    },
+    {
+      "set_agg_code": "set_res+set_res+set_immune",
+      "total_games": 99,
+      "total_wins": 44,
+      "total_losses": 55,
+      "derived_win_rate": 0.4444
+    },
+    {
+      "set_agg_code": "set_shield+set_max_hp",
+      "total_games": 82,
+      "total_wins": 40,
+      "total_losses": 42,
+      "derived_win_rate": 0.4878
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 79,
+      "total_wins": 45,
+      "total_losses": 34,
+      "derived_win_rate": 0.5696
+    },
+    {
+      "set_agg_code": "set_res+set_res+set_res",
+      "total_games": 71,
+      "total_wins": 38,
+      "total_losses": 33,
+      "derived_win_rate": 0.5352
+    }
+  ],
+  "total_set_stats_games": 4541,
+  "total_artifact_stats_games": 2095,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5027,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2113?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:00Z"
+}

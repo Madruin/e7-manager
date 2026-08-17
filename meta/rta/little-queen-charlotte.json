@@ -1,0 +1,230 @@
+{
+  "hero": "Little Queen Charlotte",
+  "hero_slug": "little-queen-charlotte",
+  "hero_code": "c2009",
+  "element": "light",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 4419,
+      "total_wins": 2351,
+      "total_losses": 2046,
+      "total_bans": 889,
+      "total_prebans": 22
+    }
+  ],
+  "sample_size": 4419,
+  "top_sets": [
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 2223,
+      "total_wins": 1207,
+      "total_losses": 1016,
+      "derived_win_rate": 0.543,
+      "derived_usage_share": 0.3049
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 1908,
+      "total_wins": 997,
+      "total_losses": 911,
+      "derived_win_rate": 0.5225,
+      "derived_usage_share": 0.2617
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1023,
+      "total_wins": 557,
+      "total_losses": 466,
+      "derived_win_rate": 0.5445,
+      "derived_usage_share": 0.1403
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 981,
+      "total_wins": 521,
+      "total_losses": 460,
+      "derived_win_rate": 0.5311,
+      "derived_usage_share": 0.1345
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 770,
+      "total_wins": 436,
+      "total_losses": 334,
+      "derived_win_rate": 0.5662,
+      "derived_usage_share": 0.1056
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 144,
+      "total_wins": 85,
+      "total_losses": 59,
+      "derived_win_rate": 0.5903,
+      "derived_usage_share": 0.0198
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 131,
+      "total_wins": 69,
+      "total_losses": 62,
+      "derived_win_rate": 0.5267,
+      "derived_usage_share": 0.018
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 73,
+      "total_wins": 46,
+      "total_losses": 27,
+      "derived_win_rate": 0.6301,
+      "derived_usage_share": 0.01
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 2241,
+      "total_wins": 1205,
+      "total_losses": 1036,
+      "derived_win_rate": 0.5377,
+      "derived_usage_share": 0.6388
+    },
+    {
+      "artifact_code": "efw30",
+      "artifact_name": "Benimaru's Tachi",
+      "total_games": 938,
+      "total_wins": 534,
+      "total_losses": 404,
+      "derived_win_rate": 0.5693,
+      "derived_usage_share": 0.2674
+    },
+    {
+      "artifact_code": "efw38",
+      "artifact_name": "Strike of Aspiration",
+      "total_games": 235,
+      "total_wins": 114,
+      "total_losses": 121,
+      "derived_win_rate": 0.4851,
+      "derived_usage_share": 0.067
+    },
+    {
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 19,
+      "total_wins": 9,
+      "total_losses": 10,
+      "derived_win_rate": 0.4737,
+      "derived_usage_share": 0.0054
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 1248,
+      "total_wins": 665,
+      "total_losses": 583,
+      "derived_win_rate": 0.5329
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 723,
+      "total_wins": 392,
+      "total_losses": 331,
+      "derived_win_rate": 0.5422
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 688,
+      "total_wins": 378,
+      "total_losses": 310,
+      "derived_win_rate": 0.5494
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 608,
+      "total_wins": 321,
+      "total_losses": 287,
+      "derived_win_rate": 0.528
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw30",
+      "artifact_name": "Benimaru's Tachi",
+      "total_games": 500,
+      "total_wins": 274,
+      "total_losses": 226,
+      "derived_win_rate": 0.548
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 409,
+      "total_wins": 196,
+      "total_losses": 213,
+      "derived_win_rate": 0.4792
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 370,
+      "total_wins": 205,
+      "total_losses": 165,
+      "derived_win_rate": 0.5541
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 332,
+      "total_wins": 165,
+      "total_losses": 167,
+      "derived_win_rate": 0.497
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_chase",
+      "total_games": 185,
+      "total_wins": 115,
+      "total_losses": 70,
+      "derived_win_rate": 0.6216
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efw30",
+      "artifact_name": "Benimaru's Tachi",
+      "total_games": 168,
+      "total_wins": 104,
+      "total_losses": 64,
+      "derived_win_rate": 0.619
+    }
+  ],
+  "total_set_stats_games": 7291,
+  "total_artifact_stats_games": 3508,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5347,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2009?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:00:49Z"
+}

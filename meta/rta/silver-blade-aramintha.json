@@ -1,0 +1,207 @@
+{
+  "hero": "Silver Blade Aramintha",
+  "hero_slug": "silver-blade-aramintha",
+  "hero_code": "c2048",
+  "element": "light",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 565,
+      "total_wins": 321,
+      "total_losses": 244,
+      "total_bans": 194,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 565,
+  "top_sets": [
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 446,
+      "total_wins": 261,
+      "total_losses": 185,
+      "derived_win_rate": 0.5852,
+      "derived_usage_share": 0.5733
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 327,
+      "total_wins": 186,
+      "total_losses": 141,
+      "derived_win_rate": 0.5688,
+      "derived_usage_share": 0.4203
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 309,
+      "total_wins": 181,
+      "total_losses": 128,
+      "derived_win_rate": 0.5858,
+      "derived_usage_share": 0.8329
+    },
+    {
+      "artifact_code": "efm01",
+      "artifact_name": "Abyssal Crown",
+      "total_games": 32,
+      "total_wins": 14,
+      "total_losses": 18,
+      "derived_win_rate": 0.4375,
+      "derived_usage_share": 0.0863
+    },
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 11,
+      "total_wins": 6,
+      "total_losses": 5,
+      "derived_win_rate": 0.5455,
+      "derived_usage_share": 0.0296
+    },
+    {
+      "artifact_code": "efm31",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 7,
+      "total_wins": 3,
+      "total_losses": 4,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0189
+    },
+    {
+      "artifact_code": "ef309",
+      "artifact_name": "Cursed Compass",
+      "total_games": 6,
+      "total_wins": 3,
+      "total_losses": 3,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0162
+    },
+    {
+      "artifact_code": "efm21",
+      "artifact_name": "Twilight Calamity",
+      "total_games": 2,
+      "total_wins": 2,
+      "total_losses": 0,
+      "derived_win_rate": 1.0,
+      "derived_usage_share": 0.0054
+    },
+    {
+      "artifact_code": "efm26",
+      "artifact_name": "Ignition Cloth Gloves",
+      "total_games": 2,
+      "total_wins": 2,
+      "total_losses": 0,
+      "derived_win_rate": 1.0,
+      "derived_usage_share": 0.0054
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 318,
+      "total_wins": 183,
+      "total_losses": 135,
+      "derived_win_rate": 0.5755
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 271,
+      "total_wins": 157,
+      "total_losses": 114,
+      "derived_win_rate": 0.5793
+    },
+    {
+      "set_agg_code": "set_acc+set_acc+set_acc",
+      "total_games": 42,
+      "total_wins": 26,
+      "total_losses": 16,
+      "derived_win_rate": 0.619
+    },
+    {
+      "set_agg_code": "set_acc+set_acc+set_acc",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 33,
+      "total_wins": 23,
+      "total_losses": 10,
+      "derived_win_rate": 0.697
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm01",
+      "artifact_name": "Abyssal Crown",
+      "total_games": 26,
+      "total_wins": 13,
+      "total_losses": 13,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_acc+set_acc+set_acc",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 8,
+      "total_wins": 3,
+      "total_losses": 5,
+      "derived_win_rate": 0.375
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "ef309",
+      "artifact_name": "Cursed Compass",
+      "total_games": 6,
+      "total_wins": 3,
+      "total_losses": 3,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm31",
+      "artifact_name": "Bird's-Eye View",
+      "total_games": 6,
+      "total_wins": 2,
+      "total_losses": 4,
+      "derived_win_rate": 0.3333
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 6,
+      "total_wins": 2,
+      "total_losses": 4,
+      "derived_win_rate": 0.3333
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 3,
+      "total_wins": 1,
+      "total_losses": 2,
+      "derived_win_rate": 0.3333
+    }
+  ],
+  "total_set_stats_games": 778,
+  "total_artifact_stats_games": 371,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5681,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2048?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:02:04Z"
+}

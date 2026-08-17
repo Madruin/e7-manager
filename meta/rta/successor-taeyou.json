@@ -1,0 +1,230 @@
+{
+  "hero": "Successor Taeyou",
+  "hero_slug": "successor-taeyou",
+  "hero_code": "c2127",
+  "element": "light",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 1561,
+      "total_wins": 716,
+      "total_losses": 845,
+      "total_bans": 699,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1561,
+  "top_sets": [
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 750,
+      "total_wins": 342,
+      "total_losses": 408,
+      "derived_win_rate": 0.456,
+      "derived_usage_share": 0.3864
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 586,
+      "total_wins": 260,
+      "total_losses": 326,
+      "derived_win_rate": 0.4437,
+      "derived_usage_share": 0.3019
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 266,
+      "total_wins": 138,
+      "total_losses": 128,
+      "derived_win_rate": 0.5188,
+      "derived_usage_share": 0.137
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 172,
+      "total_wins": 73,
+      "total_losses": 99,
+      "derived_win_rate": 0.4244,
+      "derived_usage_share": 0.0886
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 127,
+      "total_wins": 63,
+      "total_losses": 64,
+      "derived_win_rate": 0.4961,
+      "derived_usage_share": 0.0654
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 25,
+      "total_wins": 17,
+      "total_losses": 8,
+      "derived_win_rate": 0.68,
+      "derived_usage_share": 0.0129
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 784,
+      "total_wins": 366,
+      "total_losses": 418,
+      "derived_win_rate": 0.4668,
+      "derived_usage_share": 0.9095
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 41,
+      "total_wins": 21,
+      "total_losses": 20,
+      "derived_win_rate": 0.5122,
+      "derived_usage_share": 0.0476
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 7,
+      "total_wins": 2,
+      "total_losses": 5,
+      "derived_win_rate": 0.2857,
+      "derived_usage_share": 0.0081
+    },
+    {
+      "artifact_code": "efw24",
+      "artifact_name": "Pure White Trust",
+      "total_games": 6,
+      "total_wins": 3,
+      "total_losses": 3,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.007
+    },
+    {
+      "artifact_code": "efw39",
+      "artifact_name": "Jumbo Berry Special",
+      "total_games": 5,
+      "total_wins": 3,
+      "total_losses": 2,
+      "derived_win_rate": 0.6,
+      "derived_usage_share": 0.0058
+    },
+    {
+      "artifact_code": "ef509",
+      "artifact_name": "Rune Sword",
+      "total_games": 5,
+      "total_wins": 0,
+      "total_losses": 5,
+      "derived_win_rate": 0.0,
+      "derived_usage_share": 0.0058
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 490,
+      "total_wins": 214,
+      "total_losses": 276,
+      "derived_win_rate": 0.4367
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 439,
+      "total_wins": 196,
+      "total_losses": 243,
+      "derived_win_rate": 0.4465
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_might",
+      "total_games": 89,
+      "total_wins": 46,
+      "total_losses": 43,
+      "derived_win_rate": 0.5169
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_might",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 86,
+      "total_wins": 43,
+      "total_losses": 43,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 59,
+      "total_wins": 31,
+      "total_losses": 28,
+      "derived_win_rate": 0.5254
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
+      "total_games": 59,
+      "total_wins": 31,
+      "total_losses": 28,
+      "derived_win_rate": 0.5254
+    },
+    {
+      "set_agg_code": "set_acc+set_penetrate+set_might",
+      "total_games": 47,
+      "total_wins": 14,
+      "total_losses": 33,
+      "derived_win_rate": 0.2979
+    },
+    {
+      "set_agg_code": "set_acc+set_penetrate+set_might",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 43,
+      "total_wins": 13,
+      "total_losses": 30,
+      "derived_win_rate": 0.3023
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_might",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 34,
+      "total_wins": 13,
+      "total_losses": 21,
+      "derived_win_rate": 0.3824
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_might",
+      "total_games": 34,
+      "total_wins": 13,
+      "total_losses": 21,
+      "derived_win_rate": 0.3824
+    }
+  ],
+  "total_set_stats_games": 1941,
+  "total_artifact_stats_games": 862,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.4587,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2127?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:14Z"
+}

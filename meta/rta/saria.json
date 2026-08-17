@@ -1,0 +1,243 @@
+{
+  "hero": "Saria",
+  "hero_slug": "saria",
+  "hero_code": "c1177",
+  "element": "wind",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 1553,
+      "total_wins": 781,
+      "total_losses": 763,
+      "total_bans": 755,
+      "total_prebans": 9
+    }
+  ],
+  "sample_size": 1553,
+  "top_sets": [
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 651,
+      "total_wins": 318,
+      "total_losses": 333,
+      "derived_win_rate": 0.4885,
+      "derived_usage_share": 0.416
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 400,
+      "total_wins": 193,
+      "total_losses": 207,
+      "derived_win_rate": 0.4825,
+      "derived_usage_share": 0.2556
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 383,
+      "total_wins": 196,
+      "total_losses": 187,
+      "derived_win_rate": 0.5117,
+      "derived_usage_share": 0.2447
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 130,
+      "total_wins": 70,
+      "total_losses": 60,
+      "derived_win_rate": 0.5385,
+      "derived_usage_share": 0.0831
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr06",
+      "artifact_name": "Otherworldly Machinery",
+      "total_games": 529,
+      "total_wins": 271,
+      "total_losses": 258,
+      "derived_win_rate": 0.5123,
+      "derived_usage_share": 0.6705
+    },
+    {
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 117,
+      "total_wins": 52,
+      "total_losses": 65,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.1483
+    },
+    {
+      "artifact_code": "efr30",
+      "artifact_name": "Awakened Leaf",
+      "total_games": 67,
+      "total_wins": 28,
+      "total_losses": 39,
+      "derived_win_rate": 0.4179,
+      "derived_usage_share": 0.0849
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 36,
+      "total_wins": 24,
+      "total_losses": 12,
+      "derived_win_rate": 0.6667,
+      "derived_usage_share": 0.0456
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 9,
+      "total_wins": 3,
+      "total_losses": 6,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0114
+    },
+    {
+      "artifact_code": "efr12",
+      "artifact_name": "Dux Noctis",
+      "total_games": 8,
+      "total_wins": 4,
+      "total_losses": 4,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0101
+    },
+    {
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 5,
+      "total_wins": 2,
+      "total_losses": 3,
+      "derived_win_rate": 0.4,
+      "derived_usage_share": 0.0063
+    },
+    {
+      "artifact_code": "ef502",
+      "artifact_name": "Victorious Flag",
+      "total_games": 5,
+      "total_wins": 3,
+      "total_losses": 2,
+      "derived_win_rate": 0.6,
+      "derived_usage_share": 0.0063
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 4,
+      "total_wins": 2,
+      "total_losses": 2,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "total_games": 368,
+      "total_wins": 191,
+      "total_losses": 177,
+      "derived_win_rate": 0.519
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 275,
+      "total_wins": 124,
+      "total_losses": 151,
+      "derived_win_rate": 0.4509
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efr06",
+      "artifact_name": "Otherworldly Machinery",
+      "total_games": 255,
+      "total_wins": 133,
+      "total_losses": 122,
+      "derived_win_rate": 0.5216
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efr06",
+      "artifact_name": "Otherworldly Machinery",
+      "total_games": 180,
+      "total_wins": 88,
+      "total_losses": 92,
+      "derived_win_rate": 0.4889
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 117,
+      "total_wins": 65,
+      "total_losses": 52,
+      "derived_win_rate": 0.5556
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr06",
+      "artifact_name": "Otherworldly Machinery",
+      "total_games": 80,
+      "total_wins": 44,
+      "total_losses": 36,
+      "derived_win_rate": 0.55
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 66,
+      "total_wins": 25,
+      "total_losses": 41,
+      "derived_win_rate": 0.3788
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 44,
+      "total_wins": 24,
+      "total_losses": 20,
+      "derived_win_rate": 0.5455
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efr30",
+      "artifact_name": "Awakened Leaf",
+      "total_games": 40,
+      "total_wins": 18,
+      "total_losses": 22,
+      "derived_win_rate": 0.45
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 17,
+      "total_wins": 12,
+      "total_losses": 5,
+      "derived_win_rate": 0.7059
+    }
+  ],
+  "total_set_stats_games": 1565,
+  "total_artifact_stats_games": 789,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5058,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1177?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:15Z"
+}

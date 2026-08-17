@@ -1,0 +1,223 @@
+{
+  "hero": "Bystander Hwayoung",
+  "hero_slug": "bystander-hwayoung",
+  "hero_code": "c2128",
+  "element": "dark",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 661,
+      "total_wins": 327,
+      "total_losses": 334,
+      "total_bans": 193,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 661,
+  "top_sets": [
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 457,
+      "total_wins": 225,
+      "total_losses": 232,
+      "derived_win_rate": 0.4923,
+      "derived_usage_share": 0.4888
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 376,
+      "total_wins": 184,
+      "total_losses": 192,
+      "derived_win_rate": 0.4894,
+      "derived_usage_share": 0.4021
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 75,
+      "total_wins": 35,
+      "total_losses": 40,
+      "derived_win_rate": 0.4667,
+      "derived_usage_share": 0.0802
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 17,
+      "total_wins": 10,
+      "total_losses": 7,
+      "derived_win_rate": 0.5882,
+      "derived_usage_share": 0.0182
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 9,
+      "total_wins": 3,
+      "total_losses": 6,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0096
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 413,
+      "total_wins": 205,
+      "total_losses": 208,
+      "derived_win_rate": 0.4964,
+      "derived_usage_share": 0.8825
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 31,
+      "total_wins": 14,
+      "total_losses": 17,
+      "derived_win_rate": 0.4516,
+      "derived_usage_share": 0.0662
+    },
+    {
+      "artifact_code": "efw31",
+      "artifact_name": "Golden Rose",
+      "total_games": 7,
+      "total_wins": 4,
+      "total_losses": 3,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.015
+    },
+    {
+      "artifact_code": "efw34",
+      "artifact_name": "Pipette Lance",
+      "total_games": 7,
+      "total_wins": 3,
+      "total_losses": 4,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.015
+    },
+    {
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 4,
+      "total_wins": 3,
+      "total_losses": 1,
+      "derived_win_rate": 0.75,
+      "derived_usage_share": 0.0085
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 3,
+      "total_wins": 0,
+      "total_losses": 3,
+      "derived_win_rate": 0.0,
+      "derived_usage_share": 0.0064
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "total_games": 367,
+      "total_wins": 181,
+      "total_losses": 186,
+      "derived_win_rate": 0.4932
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 349,
+      "total_wins": 176,
+      "total_losses": 173,
+      "derived_win_rate": 0.5043
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 73,
+      "total_wins": 34,
+      "total_losses": 39,
+      "derived_win_rate": 0.4658
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 47,
+      "total_wins": 21,
+      "total_losses": 26,
+      "derived_win_rate": 0.4468
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 26,
+      "total_wins": 13,
+      "total_losses": 13,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 17,
+      "total_wins": 10,
+      "total_losses": 7,
+      "derived_win_rate": 0.5882
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 7,
+      "total_wins": 4,
+      "total_losses": 3,
+      "derived_win_rate": 0.5714
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "artifact_code": "efw34",
+      "artifact_name": "Pipette Lance",
+      "total_games": 7,
+      "total_wins": 3,
+      "total_losses": 4,
+      "derived_win_rate": 0.4286
+    },
+    {
+      "set_agg_code": "set_counter+set_cri",
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 7,
+      "total_wins": 2,
+      "total_losses": 5,
+      "derived_win_rate": 0.2857
+    },
+    {
+      "set_agg_code": "set_counter+set_cri",
+      "total_games": 7,
+      "total_wins": 2,
+      "total_losses": 5,
+      "derived_win_rate": 0.2857
+    }
+  ],
+  "total_set_stats_games": 935,
+  "total_artifact_stats_games": 468,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.4947,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2128?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:59Z"
+}

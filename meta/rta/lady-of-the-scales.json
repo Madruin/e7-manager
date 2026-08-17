@@ -7,260 +7,260 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1692,
-      "total_wins": 461,
-      "total_losses": 373,
-      "total_bans": 125,
-      "total_prebans": 935
+      "total_games": 25749,
+      "total_wins": 6627,
+      "total_losses": 5562,
+      "total_bans": 1990,
+      "total_prebans": 15401
     }
   ],
-  "sample_size": 1692,
+  "sample_size": 25749,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 700,
-      "total_wins": 384,
-      "total_losses": 316,
-      "derived_win_rate": 0.5486,
-      "derived_usage_share": 0.5516
+      "total_games": 10090,
+      "total_wins": 5479,
+      "total_losses": 4611,
+      "derived_win_rate": 0.543,
+      "derived_usage_share": 0.5465
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 312,
-      "total_wins": 180,
-      "total_losses": 132,
-      "derived_win_rate": 0.5769,
-      "derived_usage_share": 0.2459
+      "total_games": 4139,
+      "total_wins": 2245,
+      "total_losses": 1894,
+      "derived_win_rate": 0.5424,
+      "derived_usage_share": 0.2242
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 119,
-      "total_wins": 56,
-      "total_losses": 63,
-      "derived_win_rate": 0.4706,
-      "derived_usage_share": 0.0938
-    },
-    {
-      "set_code": "set_chase",
-      "set_name": "Pursuit",
-      "total_games": 67,
-      "total_wins": 37,
-      "total_losses": 30,
-      "derived_win_rate": 0.5522,
-      "derived_usage_share": 0.0528
+      "total_games": 2007,
+      "total_wins": 1046,
+      "total_losses": 961,
+      "derived_win_rate": 0.5212,
+      "derived_usage_share": 0.1087
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 44,
-      "total_wins": 27,
-      "total_losses": 17,
-      "derived_win_rate": 0.6136,
-      "derived_usage_share": 0.0347
+      "total_games": 1194,
+      "total_wins": 676,
+      "total_losses": 518,
+      "derived_win_rate": 0.5662,
+      "derived_usage_share": 0.0647
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 542,
+      "total_wins": 312,
+      "total_losses": 230,
+      "derived_win_rate": 0.5756,
+      "derived_usage_share": 0.0294
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 15,
-      "total_wins": 9,
-      "total_losses": 6,
-      "derived_win_rate": 0.6,
-      "derived_usage_share": 0.0118
-    },
-    {
-      "set_code": "set_shield",
-      "set_name": "Protection",
-      "total_games": 7,
-      "total_wins": 6,
-      "total_losses": 1,
-      "derived_win_rate": 0.8571,
-      "derived_usage_share": 0.0055
+      "total_games": 308,
+      "total_wins": 161,
+      "total_losses": 147,
+      "derived_win_rate": 0.5227,
+      "derived_usage_share": 0.0167
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efh29",
       "artifact_name": "Excommunicant's Censer",
-      "total_games": 281,
-      "total_wins": 149,
-      "total_losses": 132,
-      "derived_win_rate": 0.5302,
-      "derived_usage_share": 0.3963
-    },
-    {
-      "artifact_code": "efh21",
-      "artifact_name": "Spotted Mouse Hair Tie",
-      "total_games": 165,
-      "total_wins": 94,
-      "total_losses": 71,
-      "derived_win_rate": 0.5697,
-      "derived_usage_share": 0.2327
+      "total_games": 3429,
+      "total_wins": 1908,
+      "total_losses": 1521,
+      "derived_win_rate": 0.5564,
+      "derived_usage_share": 0.3362
     },
     {
       "artifact_code": "efh19",
       "artifact_name": "Sole Consolation",
-      "total_games": 104,
-      "total_wins": 52,
-      "total_losses": 52,
-      "derived_win_rate": 0.5,
-      "derived_usage_share": 0.1467
+      "total_games": 1753,
+      "total_wins": 899,
+      "total_losses": 854,
+      "derived_win_rate": 0.5128,
+      "derived_usage_share": 0.1719
     },
     {
       "artifact_code": "efh20",
       "artifact_name": "Bird's-Eye View",
-      "total_games": 100,
-      "total_wins": 60,
-      "total_losses": 40,
-      "derived_win_rate": 0.6,
-      "derived_usage_share": 0.141
+      "total_games": 1748,
+      "total_wins": 938,
+      "total_losses": 810,
+      "derived_win_rate": 0.5366,
+      "derived_usage_share": 0.1714
     },
     {
-      "artifact_code": "efh26",
-      "artifact_name": "Queen’s Whistle",
-      "total_games": 19,
-      "total_wins": 13,
-      "total_losses": 6,
-      "derived_win_rate": 0.6842,
-      "derived_usage_share": 0.0268
-    },
-    {
-      "artifact_code": "efh14",
-      "artifact_name": "Guardian Ice Crystals",
-      "total_games": 12,
-      "total_wins": 7,
-      "total_losses": 5,
-      "derived_win_rate": 0.5833,
-      "derived_usage_share": 0.0169
-    },
-    {
-      "artifact_code": "ef507",
-      "artifact_name": "Bastion of Hope",
-      "total_games": 8,
-      "total_wins": 5,
-      "total_losses": 3,
-      "derived_win_rate": 0.625,
-      "derived_usage_share": 0.0113
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 1529,
+      "total_wins": 867,
+      "total_losses": 662,
+      "derived_win_rate": 0.567,
+      "derived_usage_share": 0.1499
     },
     {
       "artifact_code": "efh27",
       "artifact_name": "Cure-All Magic Wand",
-      "total_games": 7,
-      "total_wins": 5,
-      "total_losses": 2,
-      "derived_win_rate": 0.7143,
-      "derived_usage_share": 0.0099
+      "total_games": 459,
+      "total_wins": 238,
+      "total_losses": 221,
+      "derived_win_rate": 0.5185,
+      "derived_usage_share": 0.045
     },
     {
-      "artifact_code": "efh06",
-      "artifact_name": "Celestine",
-      "total_games": 6,
-      "total_wins": 5,
-      "total_losses": 1,
-      "derived_win_rate": 0.8333,
-      "derived_usage_share": 0.0085
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 426,
+      "total_wins": 228,
+      "total_losses": 198,
+      "derived_win_rate": 0.5352,
+      "derived_usage_share": 0.0418
+    },
+    {
+      "artifact_code": "efh26",
+      "artifact_name": "Queen’s Whistle",
+      "total_games": 247,
+      "total_wins": 145,
+      "total_losses": 102,
+      "derived_win_rate": 0.587,
+      "derived_usage_share": 0.0242
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 187,
+      "total_wins": 104,
+      "total_losses": 83,
+      "derived_win_rate": 0.5561,
+      "derived_usage_share": 0.0183
+    },
+    {
+      "artifact_code": "efh08",
+      "artifact_name": "Eternus",
+      "total_games": 92,
+      "total_wins": 45,
+      "total_losses": 47,
+      "derived_win_rate": 0.4891,
+      "derived_usage_share": 0.009
+    },
+    {
+      "artifact_code": "efh04",
+      "artifact_name": "Wondrous Potion Vial",
+      "total_games": 66,
+      "total_wins": 29,
+      "total_losses": 37,
+      "derived_win_rate": 0.4394,
+      "derived_usage_share": 0.0065
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_res",
-      "total_games": 312,
-      "total_wins": 180,
-      "total_losses": 132,
-      "derived_win_rate": 0.5769
+      "total_games": 4085,
+      "total_wins": 2214,
+      "total_losses": 1871,
+      "derived_win_rate": 0.542
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 1973,
+      "total_wins": 1023,
+      "total_losses": 950,
+      "derived_win_rate": 0.5185
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 148,
-      "total_wins": 78,
-      "total_losses": 70,
-      "derived_win_rate": 0.527
+      "total_games": 1943,
+      "total_wins": 1066,
+      "total_losses": 877,
+      "derived_win_rate": 0.5486
     },
     {
       "set_agg_code": "set_speed+set_res",
       "artifact_code": "efh29",
       "artifact_name": "Excommunicant's Censer",
-      "total_games": 138,
-      "total_wins": 82,
-      "total_losses": 56,
-      "derived_win_rate": 0.5942
-    },
-    {
-      "set_agg_code": "set_speed+set_immune",
-      "total_games": 111,
-      "total_wins": 50,
-      "total_losses": 61,
-      "derived_win_rate": 0.4505
-    },
-    {
-      "set_agg_code": "set_speed+set_res",
-      "artifact_code": "efh21",
-      "artifact_name": "Spotted Mouse Hair Tie",
-      "total_games": 74,
-      "total_wins": 41,
-      "total_losses": 33,
-      "derived_win_rate": 0.5541
-    },
-    {
-      "set_agg_code": "set_speed+set_chase",
-      "total_games": 67,
-      "total_wins": 37,
-      "total_losses": 30,
-      "derived_win_rate": 0.5522
-    },
-    {
-      "set_agg_code": "set_speed+set_immune",
-      "artifact_code": "efh29",
-      "artifact_name": "Excommunicant's Censer",
-      "total_games": 62,
-      "total_wins": 20,
-      "total_losses": 42,
-      "derived_win_rate": 0.3226
-    },
-    {
-      "set_agg_code": "set_speed",
-      "artifact_code": "efh21",
-      "artifact_name": "Spotted Mouse Hair Tie",
-      "total_games": 44,
-      "total_wins": 21,
-      "total_losses": 23,
-      "derived_win_rate": 0.4773
+      "total_games": 1421,
+      "total_wins": 830,
+      "total_losses": 591,
+      "derived_win_rate": 0.5841
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 44,
-      "total_wins": 27,
-      "total_losses": 17,
-      "derived_win_rate": 0.6136
+      "total_games": 1188,
+      "total_wins": 673,
+      "total_losses": 515,
+      "derived_win_rate": 0.5665
     },
     {
       "set_agg_code": "set_speed+set_res",
       "artifact_code": "efh19",
       "artifact_name": "Sole Consolation",
-      "total_games": 40,
-      "total_wins": 19,
-      "total_losses": 21,
-      "derived_win_rate": 0.475
+      "total_games": 766,
+      "total_wins": 377,
+      "total_losses": 389,
+      "derived_win_rate": 0.4922
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 719,
+      "total_wins": 367,
+      "total_losses": 352,
+      "derived_win_rate": 0.5104
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 644,
+      "total_wins": 344,
+      "total_losses": 300,
+      "derived_win_rate": 0.5342
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 637,
+      "total_wins": 343,
+      "total_losses": 294,
+      "derived_win_rate": 0.5385
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 530,
+      "total_wins": 301,
+      "total_losses": 229,
+      "derived_win_rate": 0.5679
     }
   ],
-  "total_set_stats_games": 1269,
-  "total_artifact_stats_games": 709,
+  "total_set_stats_games": 18462,
+  "total_artifact_stats_games": 10199,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-11T05:08:21.663Z"
+    "last_updated": "2026-08-17T05:11:25.900Z"
   },
   "derived": {
-    "win_rate": 0.5528,
+    "win_rate": 0.5437,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
       "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
     }
   },
-  "source_url": "https://www.epic7rtastats.com/heroes/c6005",
-  "scraped_at": "2026-08-12T02:05:08Z"
+  "source_url": "https://www.epic7rtastats.com/heroes/c6005?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:00:16Z"
 }

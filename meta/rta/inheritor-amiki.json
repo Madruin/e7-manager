@@ -1,0 +1,194 @@
+{
+  "hero": "Inheritor Amiki",
+  "hero_slug": "inheritor-amiki",
+  "hero_code": "c4158",
+  "element": "ice",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 694,
+      "total_wins": 347,
+      "total_losses": 347,
+      "total_bans": 393,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 694,
+  "top_sets": [
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 299,
+      "total_wins": 143,
+      "total_losses": 156,
+      "derived_win_rate": 0.4783,
+      "derived_usage_share": 0.5034
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 129,
+      "total_wins": 56,
+      "total_losses": 73,
+      "derived_win_rate": 0.4341,
+      "derived_usage_share": 0.2172
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 82,
+      "total_wins": 38,
+      "total_losses": 44,
+      "derived_win_rate": 0.4634,
+      "derived_usage_share": 0.138
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 41,
+      "total_wins": 24,
+      "total_losses": 17,
+      "derived_win_rate": 0.5854,
+      "derived_usage_share": 0.069
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 21,
+      "total_wins": 11,
+      "total_losses": 10,
+      "derived_win_rate": 0.5238,
+      "derived_usage_share": 0.0354
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 20,
+      "total_wins": 8,
+      "total_losses": 12,
+      "derived_win_rate": 0.4,
+      "derived_usage_share": 0.0337
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 256,
+      "total_wins": 121,
+      "total_losses": 135,
+      "derived_win_rate": 0.4727,
+      "derived_usage_share": 0.8505
+    },
+    {
+      "artifact_code": "efw41",
+      "artifact_name": "Tome of Life's End",
+      "total_games": 45,
+      "total_wins": 22,
+      "total_losses": 23,
+      "derived_win_rate": 0.4889,
+      "derived_usage_share": 0.1495
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_counter+set_res",
+      "total_games": 128,
+      "total_wins": 56,
+      "total_losses": 72,
+      "derived_win_rate": 0.4375
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 108,
+      "total_wins": 48,
+      "total_losses": 60,
+      "derived_win_rate": 0.4444
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 82,
+      "total_wins": 38,
+      "total_losses": 44,
+      "derived_win_rate": 0.4634
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 65,
+      "total_wins": 28,
+      "total_losses": 37,
+      "derived_win_rate": 0.4308
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 40,
+      "total_wins": 24,
+      "total_losses": 16,
+      "derived_win_rate": 0.6
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 40,
+      "total_wins": 24,
+      "total_losses": 16,
+      "derived_win_rate": 0.6
+    },
+    {
+      "set_agg_code": "set_counter+set_res",
+      "artifact_code": "efw41",
+      "artifact_name": "Tome of Life's End",
+      "total_games": 20,
+      "total_wins": 8,
+      "total_losses": 12,
+      "derived_win_rate": 0.4
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 19,
+      "total_wins": 8,
+      "total_losses": 11,
+      "derived_win_rate": 0.4211
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "total_games": 19,
+      "total_wins": 8,
+      "total_losses": 11,
+      "derived_win_rate": 0.4211
+    },
+    {
+      "set_agg_code": "set_counter+set_torrent",
+      "total_games": 18,
+      "total_wins": 11,
+      "total_losses": 7,
+      "derived_win_rate": 0.6111
+    }
+  ],
+  "total_set_stats_games": 594,
+  "total_artifact_stats_games": 301,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c4158?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:53Z"
+}

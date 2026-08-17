@@ -1,0 +1,250 @@
+{
+  "hero": "Dark Corvus",
+  "hero_slug": "dark-corvus",
+  "hero_code": "c2012",
+  "element": "dark",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 1187,
+      "total_wins": 601,
+      "total_losses": 586,
+      "total_bans": 436,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1187,
+  "top_sets": [
+    {
+      "set_code": "set_opener",
+      "set_name": "Warfare",
+      "total_games": 751,
+      "total_wins": 382,
+      "total_losses": 369,
+      "derived_win_rate": 0.5087,
+      "derived_usage_share": 0.5092
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 453,
+      "total_wins": 225,
+      "total_losses": 228,
+      "derived_win_rate": 0.4967,
+      "derived_usage_share": 0.3071
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 238,
+      "total_wins": 127,
+      "total_losses": 111,
+      "derived_win_rate": 0.5336,
+      "derived_usage_share": 0.1614
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 23,
+      "total_wins": 14,
+      "total_losses": 9,
+      "derived_win_rate": 0.6087,
+      "derived_usage_share": 0.0156
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 10,
+      "total_wins": 3,
+      "total_losses": 7,
+      "derived_win_rate": 0.3,
+      "derived_usage_share": 0.0068
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 326,
+      "total_wins": 158,
+      "total_losses": 168,
+      "derived_win_rate": 0.4847,
+      "derived_usage_share": 0.4341
+    },
+    {
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 270,
+      "total_wins": 146,
+      "total_losses": 124,
+      "derived_win_rate": 0.5407,
+      "derived_usage_share": 0.3595
+    },
+    {
+      "artifact_code": "efw02",
+      "artifact_name": "Durandal",
+      "total_games": 91,
+      "total_wins": 45,
+      "total_losses": 46,
+      "derived_win_rate": 0.4945,
+      "derived_usage_share": 0.1212
+    },
+    {
+      "artifact_code": "efw39",
+      "artifact_name": "Jumbo Berry Special",
+      "total_games": 27,
+      "total_wins": 16,
+      "total_losses": 11,
+      "derived_win_rate": 0.5926,
+      "derived_usage_share": 0.036
+    },
+    {
+      "artifact_code": "efw32",
+      "artifact_name": "Prayer of Solitude",
+      "total_games": 12,
+      "total_wins": 9,
+      "total_losses": 3,
+      "derived_win_rate": 0.75,
+      "derived_usage_share": 0.016
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 9,
+      "total_wins": 4,
+      "total_losses": 5,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.012
+    },
+    {
+      "artifact_code": "efw20",
+      "artifact_name": "Samsara Prayer Beads",
+      "total_games": 5,
+      "total_wins": 1,
+      "total_losses": 4,
+      "derived_win_rate": 0.2,
+      "derived_usage_share": 0.0067
+    },
+    {
+      "artifact_code": "ef303",
+      "artifact_name": "Prophetic Candlestick",
+      "total_games": 4,
+      "total_wins": 1,
+      "total_losses": 3,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0053
+    },
+    {
+      "artifact_code": "efw05",
+      "artifact_name": "Strak Gauntlet",
+      "total_games": 4,
+      "total_wins": 2,
+      "total_losses": 2,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0053
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "total_games": 453,
+      "total_wins": 225,
+      "total_losses": 228,
+      "derived_win_rate": 0.4967
+    },
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "total_games": 238,
+      "total_wins": 127,
+      "total_losses": 111,
+      "derived_win_rate": 0.5336
+    },
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 178,
+      "total_wins": 85,
+      "total_losses": 93,
+      "derived_win_rate": 0.4775
+    },
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 168,
+      "total_wins": 94,
+      "total_losses": 74,
+      "derived_win_rate": 0.5595
+    },
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 117,
+      "total_wins": 57,
+      "total_losses": 60,
+      "derived_win_rate": 0.4872
+    },
+    {
+      "set_agg_code": "set_opener+set_immune",
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 88,
+      "total_wins": 47,
+      "total_losses": 41,
+      "derived_win_rate": 0.5341
+    },
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "artifact_code": "efw02",
+      "artifact_name": "Durandal",
+      "total_games": 59,
+      "total_wins": 25,
+      "total_losses": 34,
+      "derived_win_rate": 0.4237
+    },
+    {
+      "set_agg_code": "set_opener",
+      "total_games": 27,
+      "total_wins": 13,
+      "total_losses": 14,
+      "derived_win_rate": 0.4815
+    },
+    {
+      "set_agg_code": "set_opener+set_res",
+      "total_games": 23,
+      "total_wins": 14,
+      "total_losses": 9,
+      "derived_win_rate": 0.6087
+    },
+    {
+      "set_agg_code": "set_opener+set_max_hp",
+      "artifact_code": "efw39",
+      "artifact_name": "Jumbo Berry Special",
+      "total_games": 19,
+      "total_wins": 9,
+      "total_losses": 10,
+      "derived_win_rate": 0.4737
+    }
+  ],
+  "total_set_stats_games": 1475,
+  "total_artifact_stats_games": 751,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5063,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2012?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:27Z"
+}

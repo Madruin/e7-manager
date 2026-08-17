@@ -1,0 +1,259 @@
+{
+  "hero": "Commander Pavel",
+  "hero_slug": "commander-pavel",
+  "hero_code": "c2080",
+  "element": "light",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 674,
+      "total_wins": 367,
+      "total_losses": 307,
+      "total_bans": 285,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 674,
+  "top_sets": [
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 453,
+      "total_wins": 237,
+      "total_losses": 216,
+      "derived_win_rate": 0.5232,
+      "derived_usage_share": 0.5498
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 290,
+      "total_wins": 161,
+      "total_losses": 129,
+      "derived_win_rate": 0.5552,
+      "derived_usage_share": 0.3519
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 35,
+      "total_wins": 19,
+      "total_losses": 16,
+      "derived_win_rate": 0.5429,
+      "derived_usage_share": 0.0425
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 19,
+      "total_wins": 9,
+      "total_losses": 10,
+      "derived_win_rate": 0.4737,
+      "derived_usage_share": 0.0231
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 16,
+      "total_wins": 7,
+      "total_losses": 9,
+      "derived_win_rate": 0.4375,
+      "derived_usage_share": 0.0194
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 11,
+      "total_wins": 7,
+      "total_losses": 4,
+      "derived_win_rate": 0.6364,
+      "derived_usage_share": 0.0133
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr12",
+      "artifact_name": "Dux Noctis",
+      "total_games": 225,
+      "total_wins": 114,
+      "total_losses": 111,
+      "derived_win_rate": 0.5067,
+      "derived_usage_share": 0.5784
+    },
+    {
+      "artifact_code": "efr06",
+      "artifact_name": "Otherworldly Machinery",
+      "total_games": 85,
+      "total_wins": 50,
+      "total_losses": 35,
+      "derived_win_rate": 0.5882,
+      "derived_usage_share": 0.2185
+    },
+    {
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 43,
+      "total_wins": 27,
+      "total_losses": 16,
+      "derived_win_rate": 0.6279,
+      "derived_usage_share": 0.1105
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 16,
+      "total_wins": 9,
+      "total_losses": 7,
+      "derived_win_rate": 0.5625,
+      "derived_usage_share": 0.0411
+    },
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 9,
+      "total_wins": 7,
+      "total_losses": 2,
+      "derived_win_rate": 0.7778,
+      "derived_usage_share": 0.0231
+    },
+    {
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 4,
+      "total_wins": 1,
+      "total_losses": 3,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0103
+    },
+    {
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 3,
+      "total_wins": 1,
+      "total_losses": 2,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0077
+    },
+    {
+      "artifact_code": "ef317",
+      "artifact_name": "Daydream Joker",
+      "total_games": 2,
+      "total_wins": 1,
+      "total_losses": 1,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0051
+    },
+    {
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 2,
+      "total_wins": 0,
+      "total_losses": 2,
+      "derived_win_rate": 0.0,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "total_games": 265,
+      "total_wins": 151,
+      "total_losses": 114,
+      "derived_win_rate": 0.5698
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efr12",
+      "artifact_name": "Dux Noctis",
+      "total_games": 137,
+      "total_wins": 74,
+      "total_losses": 63,
+      "derived_win_rate": 0.5401
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efr06",
+      "artifact_name": "Otherworldly Machinery",
+      "total_games": 67,
+      "total_wins": 39,
+      "total_losses": 28,
+      "derived_win_rate": 0.5821
+    },
+    {
+      "set_agg_code": "set_torrent+set_torrent+set_torrent",
+      "total_games": 48,
+      "total_wins": 21,
+      "total_losses": 27,
+      "derived_win_rate": 0.4375
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 35,
+      "total_wins": 22,
+      "total_losses": 13,
+      "derived_win_rate": 0.6286
+    },
+    {
+      "set_agg_code": "set_torrent+set_torrent+set_torrent",
+      "artifact_code": "efr12",
+      "artifact_name": "Dux Noctis",
+      "total_games": 34,
+      "total_wins": 15,
+      "total_losses": 19,
+      "derived_win_rate": 0.4412
+    },
+    {
+      "set_agg_code": "set_att+set_torrent",
+      "total_games": 32,
+      "total_wins": 18,
+      "total_losses": 14,
+      "derived_win_rate": 0.5625
+    },
+    {
+      "set_agg_code": "set_att+set_torrent",
+      "artifact_code": "efr12",
+      "artifact_name": "Dux Noctis",
+      "total_games": 24,
+      "total_wins": 14,
+      "total_losses": 10,
+      "derived_win_rate": 0.5833
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 15,
+      "total_wins": 8,
+      "total_losses": 7,
+      "derived_win_rate": 0.5333
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 12,
+      "total_wins": 5,
+      "total_losses": 7,
+      "derived_win_rate": 0.4167
+    }
+  ],
+  "total_set_stats_games": 824,
+  "total_artifact_stats_games": 389,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5445,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2080?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:56Z"
+}

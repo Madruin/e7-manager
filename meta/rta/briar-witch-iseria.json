@@ -1,0 +1,230 @@
+{
+  "hero": "Briar Witch Iseria",
+  "hero_slug": "briar-witch-iseria",
+  "hero_code": "c2024",
+  "element": "dark",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 2546,
+      "total_wins": 1251,
+      "total_losses": 1074,
+      "total_bans": 328,
+      "total_prebans": 221
+    }
+  ],
+  "sample_size": 2546,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1803,
+      "total_wins": 952,
+      "total_losses": 851,
+      "derived_win_rate": 0.528,
+      "derived_usage_share": 0.5896
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 399,
+      "total_wins": 206,
+      "total_losses": 193,
+      "derived_win_rate": 0.5163,
+      "derived_usage_share": 0.1305
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 357,
+      "total_wins": 197,
+      "total_losses": 160,
+      "derived_win_rate": 0.5518,
+      "derived_usage_share": 0.1167
+    },
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 242,
+      "total_wins": 143,
+      "total_losses": 99,
+      "derived_win_rate": 0.5909,
+      "derived_usage_share": 0.0791
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 154,
+      "total_wins": 98,
+      "total_losses": 56,
+      "derived_win_rate": 0.6364,
+      "derived_usage_share": 0.0504
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 33,
+      "total_wins": 18,
+      "total_losses": 15,
+      "derived_win_rate": 0.5455,
+      "derived_usage_share": 0.0108
+    },
+    {
+      "set_code": "set_weak",
+      "set_name": "Weakening",
+      "total_games": 28,
+      "total_wins": 16,
+      "total_losses": 12,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.0092
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 26,
+      "total_wins": 15,
+      "total_losses": 11,
+      "derived_win_rate": 0.5769,
+      "derived_usage_share": 0.0085
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 1687,
+      "total_wins": 894,
+      "total_losses": 793,
+      "derived_win_rate": 0.5299,
+      "derived_usage_share": 0.8448
+    },
+    {
+      "artifact_code": "efr10",
+      "artifact_name": "Reingar's Special Drink",
+      "total_games": 240,
+      "total_wins": 142,
+      "total_losses": 98,
+      "derived_win_rate": 0.5917,
+      "derived_usage_share": 0.1202
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 32,
+      "total_wins": 16,
+      "total_losses": 16,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.016
+    },
+    {
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 13,
+      "total_wins": 8,
+      "total_losses": 5,
+      "derived_win_rate": 0.6154,
+      "derived_usage_share": 0.0065
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 927,
+      "total_wins": 486,
+      "total_losses": 441,
+      "derived_win_rate": 0.5243
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 903,
+      "total_wins": 472,
+      "total_losses": 431,
+      "derived_win_rate": 0.5227
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 389,
+      "total_wins": 201,
+      "total_losses": 188,
+      "derived_win_rate": 0.5167
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 386,
+      "total_wins": 199,
+      "total_losses": 187,
+      "derived_win_rate": 0.5155
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 348,
+      "total_wins": 192,
+      "total_losses": 156,
+      "derived_win_rate": 0.5517
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 331,
+      "total_wins": 185,
+      "total_losses": 146,
+      "derived_win_rate": 0.5589
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_chase",
+      "artifact_code": "efr10",
+      "artifact_name": "Reingar's Special Drink",
+      "total_games": 141,
+      "total_wins": 88,
+      "total_losses": 53,
+      "derived_win_rate": 0.6241
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_chase",
+      "total_games": 141,
+      "total_wins": 88,
+      "total_losses": 53,
+      "derived_win_rate": 0.6241
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 91,
+      "total_wins": 48,
+      "total_losses": 43,
+      "derived_win_rate": 0.5275
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efr10",
+      "artifact_name": "Reingar's Special Drink",
+      "total_games": 75,
+      "total_wins": 40,
+      "total_losses": 35,
+      "derived_win_rate": 0.5333
+    }
+  ],
+  "total_set_stats_games": 3058,
+  "total_artifact_stats_games": 1997,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5381,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c2024?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:05Z"
+}

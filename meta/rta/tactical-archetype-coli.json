@@ -1,0 +1,245 @@
+{
+  "hero": "Tactical Archetype Coli",
+  "hero_slug": "tactical-archetype-coli",
+  "hero_code": "c5033",
+  "element": "ice",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 4290,
+      "total_wins": 2199,
+      "total_losses": 2085,
+      "total_bans": 932,
+      "total_prebans": 6
+    }
+  ],
+  "sample_size": 4290,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 3338,
+      "total_wins": 1711,
+      "total_losses": 1627,
+      "derived_win_rate": 0.5126,
+      "derived_usage_share": 0.5071
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 3170,
+      "total_wins": 1626,
+      "total_losses": 1544,
+      "derived_win_rate": 0.5129,
+      "derived_usage_share": 0.4816
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 36,
+      "total_wins": 25,
+      "total_losses": 11,
+      "derived_win_rate": 0.6944,
+      "derived_usage_share": 0.0055
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 793,
+      "total_wins": 376,
+      "total_losses": 417,
+      "derived_win_rate": 0.4741,
+      "derived_usage_share": 0.2366
+    },
+    {
+      "artifact_code": "efa32",
+      "artifact_name": "Shadow Winds 7",
+      "total_games": 761,
+      "total_wins": 376,
+      "total_losses": 385,
+      "derived_win_rate": 0.4941,
+      "derived_usage_share": 0.227
+    },
+    {
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 510,
+      "total_wins": 274,
+      "total_losses": 236,
+      "derived_win_rate": 0.5373,
+      "derived_usage_share": 0.1521
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 451,
+      "total_wins": 238,
+      "total_losses": 213,
+      "derived_win_rate": 0.5277,
+      "derived_usage_share": 0.1345
+    },
+    {
+      "artifact_code": "ef322",
+      "artifact_name": "Oath Key",
+      "total_games": 245,
+      "total_wins": 129,
+      "total_losses": 116,
+      "derived_win_rate": 0.5265,
+      "derived_usage_share": 0.0731
+    },
+    {
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 186,
+      "total_wins": 94,
+      "total_losses": 92,
+      "derived_win_rate": 0.5054,
+      "derived_usage_share": 0.0555
+    },
+    {
+      "artifact_code": "ef309",
+      "artifact_name": "Cursed Compass",
+      "total_games": 122,
+      "total_wins": 68,
+      "total_losses": 54,
+      "derived_win_rate": 0.5574,
+      "derived_usage_share": 0.0364
+    },
+    {
+      "artifact_code": "efa14",
+      "artifact_name": "Secret Art - Storm Sword",
+      "total_games": 98,
+      "total_wins": 58,
+      "total_losses": 40,
+      "derived_win_rate": 0.5918,
+      "derived_usage_share": 0.0292
+    },
+    {
+      "artifact_code": "efa12",
+      "artifact_name": "Alabastron",
+      "total_games": 67,
+      "total_wins": 39,
+      "total_losses": 28,
+      "derived_win_rate": 0.5821,
+      "derived_usage_share": 0.02
+    },
+    {
+      "artifact_code": "efa13",
+      "artifact_name": "Manica of Control",
+      "total_games": 66,
+      "total_wins": 34,
+      "total_losses": 32,
+      "derived_win_rate": 0.5152,
+      "derived_usage_share": 0.0197
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 3161,
+      "total_wins": 1619,
+      "total_losses": 1542,
+      "derived_win_rate": 0.5122
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 743,
+      "total_wins": 350,
+      "total_losses": 393,
+      "derived_win_rate": 0.4711
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa32",
+      "artifact_name": "Shadow Winds 7",
+      "total_games": 689,
+      "total_wins": 340,
+      "total_losses": 349,
+      "derived_win_rate": 0.4935
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 505,
+      "total_wins": 271,
+      "total_losses": 234,
+      "derived_win_rate": 0.5366
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 448,
+      "total_wins": 236,
+      "total_losses": 212,
+      "derived_win_rate": 0.5268
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "ef322",
+      "artifact_name": "Oath Key",
+      "total_games": 217,
+      "total_wins": 117,
+      "total_losses": 100,
+      "derived_win_rate": 0.5392
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 185,
+      "total_wins": 94,
+      "total_losses": 91,
+      "derived_win_rate": 0.5081
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "ef309",
+      "artifact_name": "Cursed Compass",
+      "total_games": 121,
+      "total_wins": 67,
+      "total_losses": 54,
+      "derived_win_rate": 0.5537
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 109,
+      "total_wins": 48,
+      "total_losses": 61,
+      "derived_win_rate": 0.4404
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa14",
+      "artifact_name": "Secret Art - Storm Sword",
+      "total_games": 97,
+      "total_wins": 58,
+      "total_losses": 39,
+      "derived_win_rate": 0.5979
+    }
+  ],
+  "total_set_stats_games": 6582,
+  "total_artifact_stats_games": 3352,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5133,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c5033?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:00:52Z"
+}

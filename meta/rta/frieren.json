@@ -1,0 +1,194 @@
+{
+  "hero": "Frieren",
+  "hero_slug": "frieren",
+  "hero_code": "c1172",
+  "element": "wind",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 5780,
+      "total_wins": 2758,
+      "total_losses": 2380,
+      "total_bans": 1254,
+      "total_prebans": 643
+    }
+  ],
+  "sample_size": 5780,
+  "top_sets": [
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 3173,
+      "total_wins": 1721,
+      "total_losses": 1452,
+      "derived_win_rate": 0.5424,
+      "derived_usage_share": 0.4084
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 2867,
+      "total_wins": 1558,
+      "total_losses": 1309,
+      "derived_win_rate": 0.5434,
+      "derived_usage_share": 0.369
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 971,
+      "total_wins": 513,
+      "total_losses": 458,
+      "derived_win_rate": 0.5283,
+      "derived_usage_share": 0.125
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 528,
+      "total_wins": 293,
+      "total_losses": 235,
+      "derived_win_rate": 0.5549,
+      "derived_usage_share": 0.068
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 158,
+      "total_wins": 63,
+      "total_losses": 95,
+      "derived_win_rate": 0.3987,
+      "derived_usage_share": 0.0203
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 3539,
+      "total_wins": 1929,
+      "total_losses": 1610,
+      "derived_win_rate": 0.5451,
+      "derived_usage_share": 0.9112
+    },
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 301,
+      "total_wins": 131,
+      "total_losses": 170,
+      "derived_win_rate": 0.4352,
+      "derived_usage_share": 0.0775
+    },
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 39,
+      "total_wins": 26,
+      "total_losses": 13,
+      "derived_win_rate": 0.6667,
+      "derived_usage_share": 0.01
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 2345,
+      "total_wins": 1277,
+      "total_losses": 1068,
+      "derived_win_rate": 0.5446
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 2226,
+      "total_wins": 1214,
+      "total_losses": 1012,
+      "derived_win_rate": 0.5454
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "total_games": 804,
+      "total_wins": 430,
+      "total_losses": 374,
+      "derived_win_rate": 0.5348
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 609,
+      "total_wins": 346,
+      "total_losses": 263,
+      "derived_win_rate": 0.5681
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 358,
+      "total_wins": 210,
+      "total_losses": 148,
+      "derived_win_rate": 0.5866
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 349,
+      "total_wins": 202,
+      "total_losses": 147,
+      "derived_win_rate": 0.5788
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_torrent",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 195,
+      "total_wins": 84,
+      "total_losses": 111,
+      "derived_win_rate": 0.4308
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 146,
+      "total_wins": 73,
+      "total_losses": 73,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 145,
+      "total_wins": 73,
+      "total_losses": 72,
+      "derived_win_rate": 0.5034
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 135,
+      "total_wins": 55,
+      "total_losses": 80,
+      "derived_win_rate": 0.4074
+    }
+  ],
+  "total_set_stats_games": 7769,
+  "total_artifact_stats_games": 3884,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5368,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1172?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:00:38Z"
+}

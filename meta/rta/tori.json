@@ -1,0 +1,232 @@
+{
+  "hero": "Tori",
+  "hero_slug": "tori",
+  "hero_code": "c1171",
+  "element": "fire",
+  "class": "assassin",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 2134,
+      "total_wins": 1052,
+      "total_losses": 1028,
+      "total_bans": 403,
+      "total_prebans": 54
+    }
+  ],
+  "sample_size": 2134,
+  "top_sets": [
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1662,
+      "total_wins": 838,
+      "total_losses": 824,
+      "derived_win_rate": 0.5042,
+      "derived_usage_share": 0.3404
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 1512,
+      "total_wins": 766,
+      "total_losses": 746,
+      "derived_win_rate": 0.5066,
+      "derived_usage_share": 0.3096
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 1399,
+      "total_wins": 712,
+      "total_losses": 687,
+      "derived_win_rate": 0.5089,
+      "derived_usage_share": 0.2865
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 155,
+      "total_wins": 78,
+      "total_losses": 77,
+      "derived_win_rate": 0.5032,
+      "derived_usage_share": 0.0317
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 50,
+      "total_wins": 21,
+      "total_losses": 29,
+      "derived_win_rate": 0.42,
+      "derived_usage_share": 0.0102
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 46,
+      "total_wins": 23,
+      "total_losses": 23,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0094
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 960,
+      "total_wins": 473,
+      "total_losses": 487,
+      "derived_win_rate": 0.4927,
+      "derived_usage_share": 0.5725
+    },
+    {
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 404,
+      "total_wins": 209,
+      "total_losses": 195,
+      "derived_win_rate": 0.5173,
+      "derived_usage_share": 0.2409
+    },
+    {
+      "artifact_code": "efa30",
+      "artifact_name": "Master of the Nightmare",
+      "total_games": 184,
+      "total_wins": 101,
+      "total_losses": 83,
+      "derived_win_rate": 0.5489,
+      "derived_usage_share": 0.1097
+    },
+    {
+      "artifact_code": "efa26",
+      "artifact_name": "Feed of Criticism",
+      "total_games": 87,
+      "total_wins": 43,
+      "total_losses": 44,
+      "derived_win_rate": 0.4943,
+      "derived_usage_share": 0.0519
+    },
+    {
+      "artifact_code": "efa08",
+      "artifact_name": "Violet Talisman",
+      "total_games": 15,
+      "total_wins": 8,
+      "total_losses": 7,
+      "derived_win_rate": 0.5333,
+      "derived_usage_share": 0.0089
+    },
+    {
+      "artifact_code": "efa01",
+      "artifact_name": "Rhianna & Luciella",
+      "total_games": 10,
+      "total_wins": 3,
+      "total_losses": 7,
+      "derived_win_rate": 0.3,
+      "derived_usage_share": 0.006
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_torrent",
+      "total_games": 1365,
+      "total_wins": 693,
+      "total_losses": 672,
+      "derived_win_rate": 0.5077
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_torrent",
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 863,
+      "total_wins": 433,
+      "total_losses": 430,
+      "derived_win_rate": 0.5017
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_torrent",
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 323,
+      "total_wins": 168,
+      "total_losses": 155,
+      "derived_win_rate": 0.5201
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_might",
+      "total_games": 138,
+      "total_wins": 72,
+      "total_losses": 66,
+      "derived_win_rate": 0.5217
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_torrent",
+      "artifact_code": "efa30",
+      "artifact_name": "Master of the Nightmare",
+      "total_games": 101,
+      "total_wins": 56,
+      "total_losses": 45,
+      "derived_win_rate": 0.5545
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_might",
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 58,
+      "total_wins": 28,
+      "total_losses": 30,
+      "derived_win_rate": 0.4828
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 50,
+      "total_wins": 21,
+      "total_losses": 29,
+      "derived_win_rate": 0.42
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_torrent",
+      "artifact_code": "efa26",
+      "artifact_name": "Feed of Criticism",
+      "total_games": 46,
+      "total_wins": 22,
+      "total_losses": 24,
+      "derived_win_rate": 0.4783
+    },
+    {
+      "set_agg_code": "set_penetrate+set_immune+set_might",
+      "artifact_code": "efa02",
+      "artifact_name": "Wind Rider",
+      "total_games": 44,
+      "total_wins": 22,
+      "total_losses": 22,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 43,
+      "total_wins": 23,
+      "total_losses": 20,
+      "derived_win_rate": 0.5349
+    }
+  ],
+  "total_set_stats_games": 4883,
+  "total_artifact_stats_games": 1677,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-17T05:11:25.900Z"
+  },
+  "derived": {
+    "win_rate": 0.5058,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1171?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-17T10:01:08Z"
+}
