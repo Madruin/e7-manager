@@ -5,7 +5,7 @@
     "site": "epic7db.com/guides",
     "note": "Team comps only; per-slot stat thresholds are prose on epic7db and are NOT captured. Hero names resolved to datamine roster; unresolved slugs kept with resolved=false."
   },
-  "scraped_at": "2026-08-17T10:07:43Z",
+  "scraped_at": "2026-08-24T10:20:34Z",
   "guide_count": 9,
   "comps": [
     {
@@ -167,7 +167,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:23Z",
+      "scraped_at": "2026-08-24T10:20:15Z",
       "resolved_heroes": 23,
       "total_hero_slots": 23
     },
@@ -192,7 +192,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:24Z",
+      "scraped_at": "2026-08-24T10:20:16Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
@@ -217,7 +217,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:25Z",
+      "scraped_at": "2026-08-24T10:20:18Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
@@ -242,7 +242,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:33Z",
+      "scraped_at": "2026-08-24T10:20:24Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     },
@@ -469,7 +469,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:37Z",
+      "scraped_at": "2026-08-24T10:20:29Z",
       "resolved_heroes": 33,
       "total_hero_slots": 33
     },
@@ -636,7 +636,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:38Z",
+      "scraped_at": "2026-08-24T10:20:30Z",
       "resolved_heroes": 24,
       "total_hero_slots": 24
     },
@@ -808,7 +808,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:40Z",
+      "scraped_at": "2026-08-24T10:20:31Z",
       "resolved_heroes": 24,
       "total_hero_slots": 24
     },
@@ -874,7 +874,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:41Z",
+      "scraped_at": "2026-08-24T10:20:33Z",
       "resolved_heroes": 8,
       "total_hero_slots": 8
     },
@@ -899,7 +899,7 @@
           }
         ]
       ],
-      "scraped_at": "2026-08-17T10:07:43Z",
+      "scraped_at": "2026-08-24T10:20:34Z",
       "resolved_heroes": 2,
       "total_hero_slots": 2
     }
