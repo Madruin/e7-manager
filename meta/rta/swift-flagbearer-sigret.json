@@ -7,186 +7,186 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1509,
-      "total_wins": 665,
-      "total_losses": 704,
-      "total_bans": 292,
-      "total_prebans": 140
+      "total_games": 4893,
+      "total_wins": 2156,
+      "total_losses": 2365,
+      "total_bans": 943,
+      "total_prebans": 372
     }
   ],
-  "sample_size": 1509,
+  "sample_size": 4893,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 1064,
-      "total_wins": 521,
-      "total_losses": 543,
-      "derived_win_rate": 0.4897,
-      "derived_usage_share": 0.5366
+      "total_games": 3523,
+      "total_wins": 1663,
+      "total_losses": 1860,
+      "derived_win_rate": 0.472,
+      "derived_usage_share": 0.5326
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 698,
-      "total_wins": 344,
-      "total_losses": 354,
-      "derived_win_rate": 0.4928,
-      "derived_usage_share": 0.352
+      "total_games": 2441,
+      "total_wins": 1126,
+      "total_losses": 1315,
+      "derived_win_rate": 0.4613,
+      "derived_usage_share": 0.369
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 203,
-      "total_wins": 101,
-      "total_losses": 102,
-      "derived_win_rate": 0.4975,
-      "derived_usage_share": 0.1024
+      "total_games": 584,
+      "total_wins": 297,
+      "total_losses": 287,
+      "derived_win_rate": 0.5086,
+      "derived_usage_share": 0.0883
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 10,
-      "total_wins": 5,
-      "total_losses": 5,
-      "derived_win_rate": 0.5,
-      "derived_usage_share": 0.005
+      "total_games": 41,
+      "total_wins": 21,
+      "total_losses": 20,
+      "derived_win_rate": 0.5122,
+      "derived_usage_share": 0.0062
     }
   ],
   "top_artifacts": [
     {
-      "artifact_code": "efa31",
-      "artifact_name": "Glorious Flag",
-      "total_games": 573,
-      "total_wins": 292,
-      "total_losses": 281,
-      "derived_win_rate": 0.5096,
-      "derived_usage_share": 0.532
-    },
-    {
       "artifact_code": "efa19",
       "artifact_name": "Goblet of Oath",
-      "total_games": 480,
-      "total_wins": 222,
-      "total_losses": 258,
-      "derived_win_rate": 0.4625,
-      "derived_usage_share": 0.4457
+      "total_games": 1765,
+      "total_wins": 824,
+      "total_losses": 941,
+      "derived_win_rate": 0.4669,
+      "derived_usage_share": 0.4933
+    },
+    {
+      "artifact_code": "efa31",
+      "artifact_name": "Glorious Flag",
+      "total_games": 1705,
+      "total_wins": 815,
+      "total_losses": 890,
+      "derived_win_rate": 0.478,
+      "derived_usage_share": 0.4765
     },
     {
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 8,
-      "total_wins": 5,
-      "total_losses": 3,
-      "derived_win_rate": 0.625,
-      "derived_usage_share": 0.0074
+      "total_games": 60,
+      "total_wins": 29,
+      "total_losses": 31,
+      "derived_win_rate": 0.4833,
+      "derived_usage_share": 0.0168
     },
     {
-      "artifact_code": "ef506",
-      "artifact_name": "Guide to a Decision",
-      "total_games": 6,
-      "total_wins": 5,
-      "total_losses": 1,
-      "derived_win_rate": 0.8333,
-      "derived_usage_share": 0.0056
+      "artifact_code": "efa32",
+      "artifact_name": "Shadow Winds 7",
+      "total_games": 19,
+      "total_wins": 7,
+      "total_losses": 12,
+      "derived_win_rate": 0.3684,
+      "derived_usage_share": 0.0053
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 697,
-      "total_wins": 344,
-      "total_losses": 353,
-      "derived_win_rate": 0.4935
-    },
-    {
-      "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "efa31",
-      "artifact_name": "Glorious Flag",
-      "total_games": 373,
-      "total_wins": 187,
-      "total_losses": 186,
-      "derived_win_rate": 0.5013
+      "total_games": 2439,
+      "total_wins": 1126,
+      "total_losses": 1313,
+      "derived_win_rate": 0.4617
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa19",
       "artifact_name": "Goblet of Oath",
-      "total_games": 317,
-      "total_wins": 150,
-      "total_losses": 167,
-      "derived_win_rate": 0.4732
+      "total_games": 1212,
+      "total_wins": 548,
+      "total_losses": 664,
+      "derived_win_rate": 0.4521
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa31",
+      "artifact_name": "Glorious Flag",
+      "total_games": 1190,
+      "total_wins": 557,
+      "total_losses": 633,
+      "derived_win_rate": 0.4681
     },
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 191,
-      "total_wins": 95,
-      "total_losses": 96,
-      "derived_win_rate": 0.4974
+      "total_games": 538,
+      "total_wins": 273,
+      "total_losses": 265,
+      "derived_win_rate": 0.5074
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 170,
-      "total_wins": 80,
-      "total_losses": 90,
-      "derived_win_rate": 0.4706
-    },
-    {
-      "set_agg_code": "set_speed+set_immune",
-      "artifact_code": "efa31",
-      "artifact_name": "Glorious Flag",
-      "total_games": 95,
-      "total_wins": 48,
-      "total_losses": 47,
-      "derived_win_rate": 0.5053
-    },
-    {
-      "set_agg_code": "set_speed",
-      "artifact_code": "efa31",
-      "artifact_name": "Glorious Flag",
-      "total_games": 94,
-      "total_wins": 52,
-      "total_losses": 42,
-      "derived_win_rate": 0.5532
+      "total_games": 524,
+      "total_wins": 255,
+      "total_losses": 269,
+      "derived_win_rate": 0.4866
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efa19",
       "artifact_name": "Goblet of Oath",
-      "total_games": 83,
-      "total_wins": 41,
-      "total_losses": 42,
-      "derived_win_rate": 0.494
+      "total_games": 292,
+      "total_wins": 157,
+      "total_losses": 135,
+      "derived_win_rate": 0.5377
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa31",
+      "artifact_name": "Glorious Flag",
+      "total_games": 277,
+      "total_wins": 144,
+      "total_losses": 133,
+      "derived_win_rate": 0.5199
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efa19",
       "artifact_name": "Goblet of Oath",
-      "total_games": 73,
-      "total_wins": 28,
-      "total_losses": 45,
-      "derived_win_rate": 0.3836
+      "total_games": 243,
+      "total_wins": 111,
+      "total_losses": 132,
+      "derived_win_rate": 0.4568
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efa31",
+      "artifact_name": "Glorious Flag",
+      "total_games": 182,
+      "total_wins": 88,
+      "total_losses": 94,
+      "derived_win_rate": 0.4835
     },
     {
       "set_agg_code": "set_counter+set_immune",
       "artifact_code": "efa31",
       "artifact_name": "Glorious Flag",
-      "total_games": 10,
-      "total_wins": 5,
-      "total_losses": 5,
-      "derived_win_rate": 0.5
+      "total_games": 41,
+      "total_wins": 21,
+      "total_losses": 20,
+      "derived_win_rate": 0.5122
     }
   ],
-  "total_set_stats_games": 1983,
-  "total_artifact_stats_games": 1077,
+  "total_set_stats_games": 6615,
+  "total_artifact_stats_games": 3578,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-17T05:11:25.900Z"
+    "last_updated": "2026-08-24T05:16:16.964Z"
   },
   "derived": {
-    "win_rate": 0.4858,
+    "win_rate": 0.4769,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -194,5 +194,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5072?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-17T10:01:16Z"
+  "scraped_at": "2026-08-24T10:07:10Z"
 }

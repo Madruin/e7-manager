@@ -7,195 +7,220 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 565,
-      "total_wins": 321,
-      "total_losses": 244,
-      "total_bans": 194,
+      "total_games": 1720,
+      "total_wins": 935,
+      "total_losses": 785,
+      "total_bans": 548,
       "total_prebans": 0
     }
   ],
-  "sample_size": 565,
+  "sample_size": 1720,
   "top_sets": [
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 446,
-      "total_wins": 261,
-      "total_losses": 185,
-      "derived_win_rate": 0.5852,
-      "derived_usage_share": 0.5733
+      "total_games": 1304,
+      "total_wins": 709,
+      "total_losses": 595,
+      "derived_win_rate": 0.5437,
+      "derived_usage_share": 0.547
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 327,
-      "total_wins": 186,
-      "total_losses": 141,
-      "derived_win_rate": 0.5688,
-      "derived_usage_share": 0.4203
+      "total_games": 1047,
+      "total_wins": 552,
+      "total_losses": 495,
+      "derived_win_rate": 0.5272,
+      "derived_usage_share": 0.4392
+    },
+    {
+      "set_code": "set_weak",
+      "set_name": "Weakening",
+      "total_games": 20,
+      "total_wins": 11,
+      "total_losses": 9,
+      "derived_win_rate": 0.55,
+      "derived_usage_share": 0.0084
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 309,
-      "total_wins": 181,
-      "total_losses": 128,
-      "derived_win_rate": 0.5858,
-      "derived_usage_share": 0.8329
+      "total_games": 917,
+      "total_wins": 510,
+      "total_losses": 407,
+      "derived_win_rate": 0.5562,
+      "derived_usage_share": 0.7824
     },
     {
       "artifact_code": "efm01",
       "artifact_name": "Abyssal Crown",
-      "total_games": 32,
-      "total_wins": 14,
-      "total_losses": 18,
+      "total_games": 112,
+      "total_wins": 49,
+      "total_losses": 63,
       "derived_win_rate": 0.4375,
-      "derived_usage_share": 0.0863
-    },
-    {
-      "artifact_code": "efm32",
-      "artifact_name": "Mirrored Lotus Ring",
-      "total_games": 11,
-      "total_wins": 6,
-      "total_losses": 5,
-      "derived_win_rate": 0.5455,
-      "derived_usage_share": 0.0296
+      "derived_usage_share": 0.0956
     },
     {
       "artifact_code": "efm31",
       "artifact_name": "Bird's-Eye View",
-      "total_games": 7,
-      "total_wins": 3,
-      "total_losses": 4,
-      "derived_win_rate": 0.4286,
-      "derived_usage_share": 0.0189
+      "total_games": 43,
+      "total_wins": 16,
+      "total_losses": 27,
+      "derived_win_rate": 0.3721,
+      "derived_usage_share": 0.0367
     },
     {
-      "artifact_code": "ef309",
-      "artifact_name": "Cursed Compass",
-      "total_games": 6,
-      "total_wins": 3,
-      "total_losses": 3,
-      "derived_win_rate": 0.5,
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 25,
+      "total_wins": 11,
+      "total_losses": 14,
+      "derived_win_rate": 0.44,
+      "derived_usage_share": 0.0213
+    },
+    {
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 19,
+      "total_wins": 8,
+      "total_losses": 11,
+      "derived_win_rate": 0.4211,
       "derived_usage_share": 0.0162
     },
     {
       "artifact_code": "efm21",
       "artifact_name": "Twilight Calamity",
-      "total_games": 2,
-      "total_wins": 2,
-      "total_losses": 0,
-      "derived_win_rate": 1.0,
-      "derived_usage_share": 0.0054
+      "total_games": 17,
+      "total_wins": 8,
+      "total_losses": 9,
+      "derived_win_rate": 0.4706,
+      "derived_usage_share": 0.0145
     },
     {
-      "artifact_code": "efm26",
-      "artifact_name": "Ignition Cloth Gloves",
-      "total_games": 2,
-      "total_wins": 2,
-      "total_losses": 0,
-      "derived_win_rate": 1.0,
-      "derived_usage_share": 0.0054
+      "artifact_code": "ef309",
+      "artifact_name": "Cursed Compass",
+      "total_games": 11,
+      "total_wins": 7,
+      "total_losses": 4,
+      "derived_win_rate": 0.6364,
+      "derived_usage_share": 0.0094
+    },
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 11,
+      "total_wins": 5,
+      "total_losses": 6,
+      "derived_win_rate": 0.4545,
+      "derived_usage_share": 0.0094
+    },
+    {
+      "artifact_code": "efm04",
+      "artifact_name": "Kal'adra",
+      "total_games": 6,
+      "total_wins": 1,
+      "total_losses": 5,
+      "derived_win_rate": 0.1667,
+      "derived_usage_share": 0.0051
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 318,
-      "total_wins": 183,
-      "total_losses": 135,
-      "derived_win_rate": 0.5755
+      "total_games": 990,
+      "total_wins": 533,
+      "total_losses": 457,
+      "derived_win_rate": 0.5384
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 271,
-      "total_wins": 157,
-      "total_losses": 114,
-      "derived_win_rate": 0.5793
+      "total_games": 797,
+      "total_wins": 448,
+      "total_losses": 349,
+      "derived_win_rate": 0.5621
     },
     {
       "set_agg_code": "set_acc+set_acc+set_acc",
-      "total_games": 42,
-      "total_wins": 26,
-      "total_losses": 16,
-      "derived_win_rate": 0.619
+      "total_games": 95,
+      "total_wins": 54,
+      "total_losses": 41,
+      "derived_win_rate": 0.5684
     },
     {
       "set_agg_code": "set_acc+set_acc+set_acc",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 33,
-      "total_wins": 23,
-      "total_losses": 10,
-      "derived_win_rate": 0.697
+      "total_games": 83,
+      "total_wins": 50,
+      "total_losses": 33,
+      "derived_win_rate": 0.6024
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efm01",
       "artifact_name": "Abyssal Crown",
-      "total_games": 26,
-      "total_wins": 13,
-      "total_losses": 13,
-      "derived_win_rate": 0.5
+      "total_games": 79,
+      "total_wins": 34,
+      "total_losses": 45,
+      "derived_win_rate": 0.4304
     },
     {
-      "set_agg_code": "set_acc+set_acc+set_acc",
-      "artifact_code": "efm32",
-      "artifact_name": "Mirrored Lotus Ring",
-      "total_games": 8,
-      "total_wins": 3,
-      "total_losses": 5,
-      "derived_win_rate": 0.375
-    },
-    {
-      "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "ef309",
-      "artifact_name": "Cursed Compass",
-      "total_games": 6,
-      "total_wins": 3,
-      "total_losses": 3,
-      "derived_win_rate": 0.5
+      "set_agg_code": "set_speed",
+      "total_games": 45,
+      "total_wins": 16,
+      "total_losses": 29,
+      "derived_win_rate": 0.3556
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efm31",
       "artifact_name": "Bird's-Eye View",
-      "total_games": 6,
-      "total_wins": 2,
-      "total_losses": 4,
-      "derived_win_rate": 0.3333
-    },
-    {
-      "set_agg_code": "set_speed",
-      "total_games": 6,
-      "total_wins": 2,
-      "total_losses": 4,
-      "derived_win_rate": 0.3333
+      "total_games": 29,
+      "total_wins": 11,
+      "total_losses": 18,
+      "derived_win_rate": 0.3793
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 3,
-      "total_wins": 1,
-      "total_losses": 2,
-      "derived_win_rate": 0.3333
+      "total_games": 29,
+      "total_wins": 11,
+      "total_losses": 18,
+      "derived_win_rate": 0.3793
+    },
+    {
+      "set_agg_code": "set_weak+set_acc",
+      "total_games": 20,
+      "total_wins": 11,
+      "total_losses": 9,
+      "derived_win_rate": 0.55
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efm29",
+      "artifact_name": "Umbral Keystones",
+      "total_games": 19,
+      "total_wins": 8,
+      "total_losses": 11,
+      "derived_win_rate": 0.4211
     }
   ],
-  "total_set_stats_games": 778,
-  "total_artifact_stats_games": 371,
+  "total_set_stats_games": 2384,
+  "total_artifact_stats_games": 1172,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-17T05:11:25.900Z"
+    "last_updated": "2026-08-24T05:16:16.964Z"
   },
   "derived": {
-    "win_rate": 0.5681,
+    "win_rate": 0.5436,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -203,5 +228,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2048?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-17T10:02:04Z"
+  "scraped_at": "2026-08-24T10:07:48Z"
 }

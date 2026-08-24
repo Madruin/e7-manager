@@ -7,202 +7,175 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 5737,
-      "total_wins": 2693,
-      "total_losses": 2641,
-      "total_bans": 799,
-      "total_prebans": 403
+      "total_games": 18913,
+      "total_wins": 8634,
+      "total_losses": 8992,
+      "total_bans": 2876,
+      "total_prebans": 1290
     }
   ],
-  "sample_size": 5737,
+  "sample_size": 18913,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 4526,
-      "total_wins": 2299,
-      "total_losses": 2227,
-      "derived_win_rate": 0.508,
-      "derived_usage_share": 0.6561
+      "total_games": 14716,
+      "total_wins": 7239,
+      "total_losses": 7477,
+      "derived_win_rate": 0.4919,
+      "derived_usage_share": 0.6496
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 1648,
-      "total_wins": 807,
-      "total_losses": 841,
-      "derived_win_rate": 0.4897,
-      "derived_usage_share": 0.2389
+      "total_games": 5656,
+      "total_wins": 2731,
+      "total_losses": 2925,
+      "derived_win_rate": 0.4829,
+      "derived_usage_share": 0.2497
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 366,
-      "total_wins": 193,
-      "total_losses": 173,
-      "derived_win_rate": 0.5273,
-      "derived_usage_share": 0.0531
+      "total_games": 1307,
+      "total_wins": 686,
+      "total_losses": 621,
+      "derived_win_rate": 0.5249,
+      "derived_usage_share": 0.0577
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 212,
-      "total_wins": 95,
-      "total_losses": 117,
-      "derived_win_rate": 0.4481,
-      "derived_usage_share": 0.0307
-    },
-    {
-      "set_code": "set_torrent",
-      "set_name": "Torrent",
-      "total_games": 39,
-      "total_wins": 26,
-      "total_losses": 13,
-      "derived_win_rate": 0.6667,
-      "derived_usage_share": 0.0057
+      "total_games": 597,
+      "total_wins": 280,
+      "total_losses": 317,
+      "derived_win_rate": 0.469,
+      "derived_usage_share": 0.0264
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa27",
       "artifact_name": "Discreet Hands",
-      "total_games": 3276,
-      "total_wins": 1651,
-      "total_losses": 1625,
-      "derived_win_rate": 0.504,
-      "derived_usage_share": 0.7224
+      "total_games": 11394,
+      "total_wins": 5543,
+      "total_losses": 5851,
+      "derived_win_rate": 0.4865,
+      "derived_usage_share": 0.7725
     },
     {
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 1060,
-      "total_wins": 566,
-      "total_losses": 494,
-      "derived_win_rate": 0.534,
-      "derived_usage_share": 0.2337
+      "total_games": 2757,
+      "total_wins": 1462,
+      "total_losses": 1295,
+      "derived_win_rate": 0.5303,
+      "derived_usage_share": 0.1869
     },
     {
       "artifact_code": "efa33",
       "artifact_name": "Butterfly's Baptism",
-      "total_games": 95,
-      "total_wins": 46,
-      "total_losses": 49,
-      "derived_win_rate": 0.4842,
-      "derived_usage_share": 0.0209
-    },
-    {
-      "artifact_code": "ef506",
-      "artifact_name": "Guide to a Decision",
-      "total_games": 32,
-      "total_wins": 10,
-      "total_losses": 22,
-      "derived_win_rate": 0.3125,
-      "derived_usage_share": 0.0071
-    },
-    {
-      "artifact_code": "efa32",
-      "artifact_name": "Shadow Winds 7",
-      "total_games": 28,
-      "total_wins": 12,
-      "total_losses": 16,
-      "derived_win_rate": 0.4286,
-      "derived_usage_share": 0.0062
+      "total_games": 336,
+      "total_wins": 142,
+      "total_losses": 194,
+      "derived_win_rate": 0.4226,
+      "derived_usage_share": 0.0228
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed",
-      "total_games": 2174,
-      "total_wins": 1143,
-      "total_losses": 1031,
-      "derived_win_rate": 0.5258
+      "total_games": 6836,
+      "total_wins": 3390,
+      "total_losses": 3446,
+      "derived_win_rate": 0.4959
     },
     {
       "set_agg_code": "set_speed+set_chase",
-      "total_games": 1641,
-      "total_wins": 803,
-      "total_losses": 838,
-      "derived_win_rate": 0.4893
+      "total_games": 5632,
+      "total_wins": 2722,
+      "total_losses": 2910,
+      "derived_win_rate": 0.4833
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 4969,
+      "total_wins": 2413,
+      "total_losses": 2556,
+      "derived_win_rate": 0.4856
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efa27",
       "artifact_name": "Discreet Hands",
-      "total_games": 1446,
-      "total_wins": 755,
-      "total_losses": 691,
-      "derived_win_rate": 0.5221
-    },
-    {
-      "set_agg_code": "set_speed+set_chase",
-      "artifact_code": "efa27",
-      "artifact_name": "Discreet Hands",
-      "total_games": 1350,
-      "total_wins": 665,
-      "total_losses": 685,
-      "derived_win_rate": 0.4926
+      "total_games": 4694,
+      "total_wins": 2299,
+      "total_losses": 2395,
+      "derived_win_rate": 0.4898
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 612,
-      "total_wins": 333,
-      "total_losses": 279,
-      "derived_win_rate": 0.5441
+      "total_games": 1752,
+      "total_wins": 925,
+      "total_losses": 827,
+      "derived_win_rate": 0.528
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 366,
-      "total_wins": 193,
-      "total_losses": 173,
-      "derived_win_rate": 0.5273
+      "total_games": 1307,
+      "total_wins": 686,
+      "total_losses": 621,
+      "derived_win_rate": 0.5249
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 899,
+      "total_wins": 445,
+      "total_losses": 454,
+      "derived_win_rate": 0.495
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 597,
+      "total_wins": 280,
+      "total_losses": 317,
+      "derived_win_rate": 0.469
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efa27",
+      "artifact_name": "Discreet Hands",
+      "total_games": 550,
+      "total_wins": 252,
+      "total_losses": 298,
+      "derived_win_rate": 0.4582
     },
     {
       "set_agg_code": "set_speed+set_chase",
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 252,
-      "total_wins": 120,
-      "total_losses": 132,
-      "derived_win_rate": 0.4762
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "total_games": 212,
-      "total_wins": 95,
-      "total_losses": 117,
-      "derived_win_rate": 0.4481
-    },
-    {
-      "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "efa27",
-      "artifact_name": "Discreet Hands",
-      "total_games": 207,
-      "total_wins": 104,
-      "total_losses": 103,
-      "derived_win_rate": 0.5024
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "artifact_code": "efa27",
-      "artifact_name": "Discreet Hands",
-      "total_games": 204,
-      "total_wins": 90,
-      "total_losses": 114,
-      "derived_win_rate": 0.4412
+      "total_games": 536,
+      "total_wins": 254,
+      "total_losses": 282,
+      "derived_win_rate": 0.4739
     }
   ],
-  "total_set_stats_games": 6898,
-  "total_artifact_stats_games": 4535,
+  "total_set_stats_games": 22654,
+  "total_artifact_stats_games": 14750,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-17T05:11:25.900Z"
+    "last_updated": "2026-08-24T05:16:16.964Z"
   },
   "derived": {
-    "win_rate": 0.5049,
+    "win_rate": 0.4898,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -210,5 +183,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1168?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-17T10:00:41Z"
+  "scraped_at": "2026-08-24T10:06:41Z"
 }

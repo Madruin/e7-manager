@@ -7,52 +7,61 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 991,
-      "total_wins": 481,
-      "total_losses": 510,
-      "total_bans": 295,
+      "total_games": 2688,
+      "total_wins": 1263,
+      "total_losses": 1425,
+      "total_bans": 775,
       "total_prebans": 0
     }
   ],
-  "sample_size": 991,
+  "sample_size": 2688,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 669,
-      "total_wins": 320,
-      "total_losses": 349,
-      "derived_win_rate": 0.4783,
-      "derived_usage_share": 0.4841
+      "total_games": 1855,
+      "total_wins": 876,
+      "total_losses": 979,
+      "derived_win_rate": 0.4722,
+      "derived_usage_share": 0.4888
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 512,
-      "total_wins": 238,
-      "total_losses": 274,
-      "derived_win_rate": 0.4648,
-      "derived_usage_share": 0.3705
+      "total_games": 1375,
+      "total_wins": 637,
+      "total_losses": 738,
+      "derived_win_rate": 0.4633,
+      "derived_usage_share": 0.3623
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 196,
-      "total_wins": 98,
-      "total_losses": 98,
-      "derived_win_rate": 0.5,
-      "derived_usage_share": 0.1418
+      "total_games": 511,
+      "total_wins": 245,
+      "total_losses": 266,
+      "derived_win_rate": 0.4795,
+      "derived_usage_share": 0.1347
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 37,
+      "total_wins": 15,
+      "total_losses": 22,
+      "derived_win_rate": 0.4054,
+      "derived_usage_share": 0.0097
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 695,
-      "total_wins": 332,
-      "total_losses": 363,
-      "derived_win_rate": 0.4777,
-      "derived_usage_share": 0.9986
+      "total_games": 1907,
+      "total_wins": 896,
+      "total_losses": 1011,
+      "derived_win_rate": 0.4698,
+      "derived_usage_share": 0.9969
     }
   ],
   "top_builds": [
@@ -60,33 +69,65 @@
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 467,
-      "total_wins": 220,
-      "total_losses": 247,
-      "derived_win_rate": 0.4711
+      "total_games": 1283,
+      "total_wins": 609,
+      "total_losses": 674,
+      "derived_win_rate": 0.4747
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 467,
-      "total_wins": 220,
-      "total_losses": 247,
-      "derived_win_rate": 0.4711
+      "total_games": 1283,
+      "total_wins": 609,
+      "total_losses": 674,
+      "derived_win_rate": 0.4747
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 186,
-      "total_wins": 93,
-      "total_losses": 93,
-      "derived_win_rate": 0.5
+      "total_games": 495,
+      "total_wins": 238,
+      "total_losses": 257,
+      "derived_win_rate": 0.4808
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 185,
-      "total_wins": 93,
-      "total_losses": 92,
-      "derived_win_rate": 0.5027
+      "total_games": 494,
+      "total_wins": 238,
+      "total_losses": 256,
+      "derived_win_rate": 0.4818
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 38,
+      "total_wins": 14,
+      "total_losses": 24,
+      "derived_win_rate": 0.3684
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 38,
+      "total_wins": 14,
+      "total_losses": 24,
+      "derived_win_rate": 0.3684
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 37,
+      "total_wins": 15,
+      "total_losses": 22,
+      "derived_win_rate": 0.4054
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "total_games": 37,
+      "total_wins": 15,
+      "total_losses": 22,
+      "derived_win_rate": 0.4054
     },
     {
       "set_agg_code": "set_acc+set_acc",
@@ -103,50 +144,18 @@
       "total_wins": 7,
       "total_losses": 8,
       "derived_win_rate": 0.4667
-    },
-    {
-      "set_agg_code": "set_speed",
-      "artifact_code": "efa23",
-      "artifact_name": "Seductive Flower",
-      "total_games": 14,
-      "total_wins": 6,
-      "total_losses": 8,
-      "derived_win_rate": 0.4286
-    },
-    {
-      "set_agg_code": "set_speed",
-      "total_games": 14,
-      "total_wins": 6,
-      "total_losses": 8,
-      "derived_win_rate": 0.4286
-    },
-    {
-      "set_agg_code": "set_acc+set_acc+set_max_hp",
-      "artifact_code": "efa23",
-      "artifact_name": "Seductive Flower",
-      "total_games": 5,
-      "total_wins": 1,
-      "total_losses": 4,
-      "derived_win_rate": 0.2
-    },
-    {
-      "set_agg_code": "set_acc+set_acc+set_max_hp",
-      "total_games": 5,
-      "total_wins": 1,
-      "total_losses": 4,
-      "derived_win_rate": 0.2
     }
   ],
-  "total_set_stats_games": 1382,
-  "total_artifact_stats_games": 696,
+  "total_set_stats_games": 3795,
+  "total_artifact_stats_games": 1913,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-17T05:11:25.900Z"
+    "last_updated": "2026-08-24T05:16:16.964Z"
   },
   "derived": {
-    "win_rate": 0.4854,
+    "win_rate": 0.4699,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -154,5 +163,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5046?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-17T10:01:35Z"
+  "scraped_at": "2026-08-24T10:07:28Z"
 }

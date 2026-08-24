@@ -7,211 +7,220 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 3977,
-      "total_wins": 1954,
-      "total_losses": 1912,
-      "total_bans": 1433,
-      "total_prebans": 112
+      "total_games": 13060,
+      "total_wins": 6147,
+      "total_losses": 6330,
+      "total_bans": 4243,
+      "total_prebans": 584
     }
   ],
-  "sample_size": 3977,
+  "sample_size": 13060,
   "top_sets": [
     {
       "set_code": "set_opener",
       "set_name": "Warfare",
-      "total_games": 2415,
-      "total_wins": 1207,
-      "total_losses": 1208,
-      "derived_win_rate": 0.4998,
-      "derived_usage_share": 0.51
+      "total_games": 8073,
+      "total_wins": 3996,
+      "total_losses": 4077,
+      "derived_win_rate": 0.495,
+      "derived_usage_share": 0.5069
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 1030,
-      "total_wins": 517,
-      "total_losses": 513,
-      "derived_win_rate": 0.5019,
-      "derived_usage_share": 0.2175
+      "total_games": 3515,
+      "total_wins": 1750,
+      "total_losses": 1765,
+      "derived_win_rate": 0.4979,
+      "derived_usage_share": 0.2207
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 677,
-      "total_wins": 328,
-      "total_losses": 349,
-      "derived_win_rate": 0.4845,
-      "derived_usage_share": 0.143
+      "total_games": 2566,
+      "total_wins": 1203,
+      "total_losses": 1363,
+      "derived_win_rate": 0.4688,
+      "derived_usage_share": 0.1611
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 465,
-      "total_wins": 247,
-      "total_losses": 218,
-      "derived_win_rate": 0.5312,
-      "derived_usage_share": 0.0982
+      "total_games": 1215,
+      "total_wins": 649,
+      "total_losses": 566,
+      "derived_win_rate": 0.5342,
+      "derived_usage_share": 0.0763
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 68,
-      "total_wins": 31,
-      "total_losses": 37,
-      "derived_win_rate": 0.4559,
-      "derived_usage_share": 0.0144
+      "total_games": 192,
+      "total_wins": 98,
+      "total_losses": 94,
+      "derived_win_rate": 0.5104,
+      "derived_usage_share": 0.0121
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 59,
-      "total_wins": 30,
-      "total_losses": 29,
-      "derived_win_rate": 0.5085,
-      "derived_usage_share": 0.0125
+      "total_games": 150,
+      "total_wins": 82,
+      "total_losses": 68,
+      "derived_win_rate": 0.5467,
+      "derived_usage_share": 0.0094
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw41",
       "artifact_name": "Tome of Life's End",
-      "total_games": 1806,
-      "total_wins": 885,
-      "total_losses": 921,
-      "derived_win_rate": 0.49,
-      "derived_usage_share": 0.7423
+      "total_games": 6453,
+      "total_wins": 3136,
+      "total_losses": 3317,
+      "derived_win_rate": 0.486,
+      "derived_usage_share": 0.7837
     },
     {
       "artifact_code": "efw22",
       "artifact_name": "Azure Comet",
-      "total_games": 312,
-      "total_wins": 175,
-      "total_losses": 137,
-      "derived_win_rate": 0.5609,
-      "derived_usage_share": 0.1282
+      "total_games": 762,
+      "total_wins": 426,
+      "total_losses": 336,
+      "derived_win_rate": 0.5591,
+      "derived_usage_share": 0.0925
     },
     {
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 222,
-      "total_wins": 100,
-      "total_losses": 122,
-      "derived_win_rate": 0.4505,
-      "derived_usage_share": 0.0912
+      "total_games": 715,
+      "total_wins": 335,
+      "total_losses": 380,
+      "derived_win_rate": 0.4685,
+      "derived_usage_share": 0.0868
     },
     {
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 32,
-      "total_wins": 20,
-      "total_losses": 12,
-      "derived_win_rate": 0.625,
-      "derived_usage_share": 0.0132
+      "total_games": 78,
+      "total_wins": 44,
+      "total_losses": 34,
+      "derived_win_rate": 0.5641,
+      "derived_usage_share": 0.0095
     },
     {
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 18,
-      "total_wins": 7,
-      "total_losses": 11,
-      "derived_win_rate": 0.3889,
+      "total_games": 63,
+      "total_wins": 29,
+      "total_losses": 34,
+      "derived_win_rate": 0.4603,
+      "derived_usage_share": 0.0077
+    },
+    {
+      "artifact_code": "efw35",
+      "artifact_name": "Sweet Miracle",
+      "total_games": 61,
+      "total_wins": 41,
+      "total_losses": 20,
+      "derived_win_rate": 0.6721,
       "derived_usage_share": 0.0074
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_opener+set_immune",
-      "total_games": 1024,
-      "total_wins": 514,
-      "total_losses": 510,
-      "derived_win_rate": 0.502
+      "total_games": 3446,
+      "total_wins": 1718,
+      "total_losses": 1728,
+      "derived_win_rate": 0.4985
     },
     {
       "set_agg_code": "set_opener+set_immune",
       "artifact_code": "efw41",
       "artifact_name": "Tome of Life's End",
-      "total_games": 839,
-      "total_wins": 426,
-      "total_losses": 413,
-      "derived_win_rate": 0.5077
+      "total_games": 2808,
+      "total_wins": 1400,
+      "total_losses": 1408,
+      "derived_win_rate": 0.4986
     },
     {
       "set_agg_code": "set_opener+set_chase",
-      "total_games": 675,
-      "total_wins": 328,
-      "total_losses": 347,
-      "derived_win_rate": 0.4859
+      "total_games": 2530,
+      "total_wins": 1192,
+      "total_losses": 1338,
+      "derived_win_rate": 0.4711
     },
     {
       "set_agg_code": "set_opener+set_chase",
       "artifact_code": "efw41",
       "artifact_name": "Tome of Life's End",
-      "total_games": 616,
-      "total_wins": 299,
-      "total_losses": 317,
-      "derived_win_rate": 0.4854
+      "total_games": 2370,
+      "total_wins": 1118,
+      "total_losses": 1252,
+      "derived_win_rate": 0.4717
     },
     {
       "set_agg_code": "set_opener+set_torrent",
-      "total_games": 465,
-      "total_wins": 247,
-      "total_losses": 218,
-      "derived_win_rate": 0.5312
+      "total_games": 1214,
+      "total_wins": 648,
+      "total_losses": 566,
+      "derived_win_rate": 0.5338
+    },
+    {
+      "set_agg_code": "set_opener+set_torrent",
+      "artifact_code": "efw41",
+      "artifact_name": "Tome of Life's End",
+      "total_games": 615,
+      "total_wins": 301,
+      "total_losses": 314,
+      "derived_win_rate": 0.4894
+    },
+    {
+      "set_agg_code": "set_opener",
+      "total_games": 520,
+      "total_wins": 251,
+      "total_losses": 269,
+      "derived_win_rate": 0.4827
     },
     {
       "set_agg_code": "set_opener+set_torrent",
       "artifact_code": "efw22",
       "artifact_name": "Azure Comet",
-      "total_games": 202,
-      "total_wins": 118,
-      "total_losses": 84,
-      "derived_win_rate": 0.5842
-    },
-    {
-      "set_agg_code": "set_opener+set_torrent",
-      "artifact_code": "efw41",
-      "artifact_name": "Tome of Life's End",
-      "total_games": 185,
-      "total_wins": 89,
-      "total_losses": 96,
-      "derived_win_rate": 0.4811
-    },
-    {
-      "set_agg_code": "set_opener",
-      "total_games": 126,
-      "total_wins": 55,
-      "total_losses": 71,
-      "derived_win_rate": 0.4365
+      "total_games": 419,
+      "total_wins": 251,
+      "total_losses": 168,
+      "derived_win_rate": 0.599
     },
     {
       "set_agg_code": "set_opener+set_immune",
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 92,
-      "total_wins": 38,
-      "total_losses": 54,
-      "derived_win_rate": 0.413
+      "total_games": 369,
+      "total_wins": 176,
+      "total_losses": 193,
+      "derived_win_rate": 0.477
     },
     {
-      "set_agg_code": "set_opener+set_immune",
-      "artifact_code": "efw22",
-      "artifact_name": "Azure Comet",
-      "total_games": 67,
-      "total_wins": 35,
-      "total_losses": 32,
-      "derived_win_rate": 0.5224
+      "set_agg_code": "set_opener",
+      "artifact_code": "efw41",
+      "artifact_name": "Tome of Life's End",
+      "total_games": 328,
+      "total_wins": 163,
+      "total_losses": 165,
+      "derived_win_rate": 0.497
     }
   ],
-  "total_set_stats_games": 4735,
-  "total_artifact_stats_games": 2433,
+  "total_set_stats_games": 15927,
+  "total_artifact_stats_games": 8234,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-17T05:11:25.900Z"
+    "last_updated": "2026-08-24T05:16:16.964Z"
   },
   "derived": {
-    "win_rate": 0.5054,
+    "win_rate": 0.4927,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -219,5 +228,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1178?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-17T10:00:53Z"
+  "scraped_at": "2026-08-24T10:06:48Z"
 }

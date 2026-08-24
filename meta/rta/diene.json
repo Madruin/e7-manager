@@ -1,0 +1,268 @@
+{
+  "hero": "Diene",
+  "hero_slug": "diene",
+  "hero_code": "c1076",
+  "element": "ice",
+  "class": "manauser",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 537,
+      "total_wins": 250,
+      "total_losses": 287,
+      "total_bans": 84,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 537,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 453,
+      "total_wins": 212,
+      "total_losses": 241,
+      "derived_win_rate": 0.468,
+      "derived_usage_share": 0.58
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 244,
+      "total_wins": 120,
+      "total_losses": 124,
+      "derived_win_rate": 0.4918,
+      "derived_usage_share": 0.3124
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 42,
+      "total_wins": 17,
+      "total_losses": 25,
+      "derived_win_rate": 0.4048,
+      "derived_usage_share": 0.0538
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 32,
+      "total_wins": 16,
+      "total_losses": 16,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.041
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 6,
+      "total_wins": 1,
+      "total_losses": 5,
+      "derived_win_rate": 0.1667,
+      "derived_usage_share": 0.0077
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 4,
+      "total_wins": 3,
+      "total_losses": 1,
+      "derived_win_rate": 0.75,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efh19",
+      "artifact_name": "Sole Consolation",
+      "total_games": 144,
+      "total_wins": 59,
+      "total_losses": 85,
+      "derived_win_rate": 0.4097,
+      "derived_usage_share": 0.3179
+    },
+    {
+      "artifact_code": "efh10",
+      "artifact_name": "Unfading Memories",
+      "total_games": 86,
+      "total_wins": 39,
+      "total_losses": 47,
+      "derived_win_rate": 0.4535,
+      "derived_usage_share": 0.1898
+    },
+    {
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 82,
+      "total_wins": 45,
+      "total_losses": 37,
+      "derived_win_rate": 0.5488,
+      "derived_usage_share": 0.181
+    },
+    {
+      "artifact_code": "efh01",
+      "artifact_name": "Rod of Amaryllis",
+      "total_games": 77,
+      "total_wins": 42,
+      "total_losses": 35,
+      "derived_win_rate": 0.5455,
+      "derived_usage_share": 0.17
+    },
+    {
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 34,
+      "total_wins": 14,
+      "total_losses": 20,
+      "derived_win_rate": 0.4118,
+      "derived_usage_share": 0.0751
+    },
+    {
+      "artifact_code": "efh21",
+      "artifact_name": "Spotted Mouse Hair Tie",
+      "total_games": 7,
+      "total_wins": 2,
+      "total_losses": 5,
+      "derived_win_rate": 0.2857,
+      "derived_usage_share": 0.0155
+    },
+    {
+      "artifact_code": "efh05",
+      "artifact_name": "Magaraha's Tome",
+      "total_games": 5,
+      "total_wins": 2,
+      "total_losses": 3,
+      "derived_win_rate": 0.4,
+      "derived_usage_share": 0.011
+    },
+    {
+      "artifact_code": "efh08",
+      "artifact_name": "Eternus",
+      "total_games": 4,
+      "total_wins": 2,
+      "total_losses": 2,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0088
+    },
+    {
+      "artifact_code": "efh26",
+      "artifact_name": "Queen’s Whistle",
+      "total_games": 4,
+      "total_wins": 2,
+      "total_losses": 2,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0088
+    },
+    {
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 4,
+      "total_wins": 2,
+      "total_losses": 2,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0088
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_res",
+      "total_games": 244,
+      "total_wins": 120,
+      "total_losses": 124,
+      "derived_win_rate": 0.4918
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 125,
+      "total_wins": 55,
+      "total_losses": 70,
+      "derived_win_rate": 0.44
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh19",
+      "artifact_name": "Sole Consolation",
+      "total_games": 78,
+      "total_wins": 33,
+      "total_losses": 45,
+      "derived_win_rate": 0.4231
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh10",
+      "artifact_name": "Unfading Memories",
+      "total_games": 74,
+      "total_wins": 36,
+      "total_losses": 38,
+      "derived_win_rate": 0.4865
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh23",
+      "artifact_name": "Proof of Friendship",
+      "total_games": 66,
+      "total_wins": 35,
+      "total_losses": 31,
+      "derived_win_rate": 0.5303
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh01",
+      "artifact_name": "Rod of Amaryllis",
+      "total_games": 59,
+      "total_wins": 36,
+      "total_losses": 23,
+      "derived_win_rate": 0.6102
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 42,
+      "total_wins": 17,
+      "total_losses": 25,
+      "derived_win_rate": 0.4048
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efh19",
+      "artifact_name": "Sole Consolation",
+      "total_games": 38,
+      "total_wins": 13,
+      "total_losses": 25,
+      "derived_win_rate": 0.3421
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 32,
+      "total_wins": 16,
+      "total_losses": 16,
+      "derived_win_rate": 0.5
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 22,
+      "total_wins": 10,
+      "total_losses": 12,
+      "derived_win_rate": 0.4545
+    }
+  ],
+  "total_set_stats_games": 781,
+  "total_artifact_stats_games": 453,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-08-24T05:16:16.964Z"
+  },
+  "derived": {
+    "win_rate": 0.4655,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1076?season=pvp_rta_ss21",
+  "scraped_at": "2026-08-24T10:08:14Z"
+}

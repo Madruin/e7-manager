@@ -7,182 +7,193 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 694,
-      "total_wins": 347,
-      "total_losses": 347,
-      "total_bans": 393,
+      "total_games": 2300,
+      "total_wins": 1140,
+      "total_losses": 1160,
+      "total_bans": 1192,
       "total_prebans": 0
     }
   ],
-  "sample_size": 694,
+  "sample_size": 2300,
   "top_sets": [
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 299,
-      "total_wins": 143,
-      "total_losses": 156,
-      "derived_win_rate": 0.4783,
-      "derived_usage_share": 0.5034
+      "total_games": 1090,
+      "total_wins": 539,
+      "total_losses": 551,
+      "derived_win_rate": 0.4945,
+      "derived_usage_share": 0.4998
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 129,
-      "total_wins": 56,
-      "total_losses": 73,
-      "derived_win_rate": 0.4341,
-      "derived_usage_share": 0.2172
+      "total_games": 418,
+      "total_wins": 202,
+      "total_losses": 216,
+      "derived_win_rate": 0.4833,
+      "derived_usage_share": 0.1917
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 82,
-      "total_wins": 38,
-      "total_losses": 44,
-      "derived_win_rate": 0.4634,
-      "derived_usage_share": 0.138
+      "total_games": 383,
+      "total_wins": 189,
+      "total_losses": 194,
+      "derived_win_rate": 0.4935,
+      "derived_usage_share": 0.1756
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 41,
-      "total_wins": 24,
-      "total_losses": 17,
-      "derived_win_rate": 0.5854,
-      "derived_usage_share": 0.069
-    },
-    {
-      "set_code": "set_torrent",
-      "set_name": "Torrent",
-      "total_games": 21,
-      "total_wins": 11,
-      "total_losses": 10,
-      "derived_win_rate": 0.5238,
-      "derived_usage_share": 0.0354
+      "total_games": 157,
+      "total_wins": 81,
+      "total_losses": 76,
+      "derived_win_rate": 0.5159,
+      "derived_usage_share": 0.072
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 20,
-      "total_wins": 8,
-      "total_losses": 12,
-      "derived_win_rate": 0.4,
-      "derived_usage_share": 0.0337
+      "total_games": 62,
+      "total_wins": 26,
+      "total_losses": 36,
+      "derived_win_rate": 0.4194,
+      "derived_usage_share": 0.0284
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 58,
+      "total_wins": 27,
+      "total_losses": 31,
+      "derived_win_rate": 0.4655,
+      "derived_usage_share": 0.0266
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 256,
-      "total_wins": 121,
-      "total_losses": 135,
-      "derived_win_rate": 0.4727,
-      "derived_usage_share": 0.8505
+      "total_games": 891,
+      "total_wins": 441,
+      "total_losses": 450,
+      "derived_win_rate": 0.4949,
+      "derived_usage_share": 0.8042
     },
     {
       "artifact_code": "efw41",
       "artifact_name": "Tome of Life's End",
-      "total_games": 45,
-      "total_wins": 22,
-      "total_losses": 23,
-      "derived_win_rate": 0.4889,
-      "derived_usage_share": 0.1495
+      "total_games": 206,
+      "total_wins": 98,
+      "total_losses": 108,
+      "derived_win_rate": 0.4757,
+      "derived_usage_share": 0.1859
+    },
+    {
+      "artifact_code": "efw03",
+      "artifact_name": "El's Fist",
+      "total_games": 6,
+      "total_wins": 3,
+      "total_losses": 3,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0054
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_counter+set_res",
-      "total_games": 128,
-      "total_wins": 56,
-      "total_losses": 72,
-      "derived_win_rate": 0.4375
+      "total_games": 411,
+      "total_wins": 202,
+      "total_losses": 209,
+      "derived_win_rate": 0.4915
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 377,
+      "total_wins": 186,
+      "total_losses": 191,
+      "derived_win_rate": 0.4934
     },
     {
       "set_agg_code": "set_counter+set_res",
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 108,
-      "total_wins": 48,
-      "total_losses": 60,
-      "derived_win_rate": 0.4444
-    },
-    {
-      "set_agg_code": "set_counter+set_chase",
-      "total_games": 82,
-      "total_wins": 38,
-      "total_losses": 44,
-      "derived_win_rate": 0.4634
+      "total_games": 331,
+      "total_wins": 158,
+      "total_losses": 173,
+      "derived_win_rate": 0.4773
     },
     {
       "set_agg_code": "set_counter+set_chase",
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 65,
-      "total_wins": 28,
-      "total_losses": 37,
-      "derived_win_rate": 0.4308
+      "total_games": 283,
+      "total_wins": 145,
+      "total_losses": 138,
+      "derived_win_rate": 0.5124
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 156,
+      "total_wins": 81,
+      "total_losses": 75,
+      "derived_win_rate": 0.5192
     },
     {
       "set_agg_code": "set_counter+set_immune",
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 40,
-      "total_wins": 24,
-      "total_losses": 16,
-      "derived_win_rate": 0.6
+      "total_games": 144,
+      "total_wins": 78,
+      "total_losses": 66,
+      "derived_win_rate": 0.5417
     },
     {
-      "set_agg_code": "set_counter+set_immune",
-      "total_games": 40,
-      "total_wins": 24,
-      "total_losses": 16,
-      "derived_win_rate": 0.6
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efw41",
+      "artifact_name": "Tome of Life's End",
+      "total_games": 91,
+      "total_wins": 39,
+      "total_losses": 52,
+      "derived_win_rate": 0.4286
     },
     {
       "set_agg_code": "set_counter+set_res",
       "artifact_code": "efw41",
       "artifact_name": "Tome of Life's End",
-      "total_games": 20,
-      "total_wins": 8,
-      "total_losses": 12,
-      "derived_win_rate": 0.4
+      "total_games": 77,
+      "total_wins": 43,
+      "total_losses": 34,
+      "derived_win_rate": 0.5584
+    },
+    {
+      "set_agg_code": "set_counter+set_penetrate",
+      "total_games": 56,
+      "total_wins": 25,
+      "total_losses": 31,
+      "derived_win_rate": 0.4464
     },
     {
       "set_agg_code": "set_counter+set_penetrate",
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 19,
-      "total_wins": 8,
-      "total_losses": 11,
-      "derived_win_rate": 0.4211
-    },
-    {
-      "set_agg_code": "set_counter+set_penetrate",
-      "total_games": 19,
-      "total_wins": 8,
-      "total_losses": 11,
-      "derived_win_rate": 0.4211
-    },
-    {
-      "set_agg_code": "set_counter+set_torrent",
-      "total_games": 18,
-      "total_wins": 11,
-      "total_losses": 7,
-      "derived_win_rate": 0.6111
+      "total_games": 55,
+      "total_wins": 25,
+      "total_losses": 30,
+      "derived_win_rate": 0.4545
     }
   ],
-  "total_set_stats_games": 594,
-  "total_artifact_stats_games": 301,
+  "total_set_stats_games": 2181,
+  "total_artifact_stats_games": 1108,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-17T05:11:25.900Z"
+    "last_updated": "2026-08-24T05:16:16.964Z"
   },
   "derived": {
-    "win_rate": 0.5,
+    "win_rate": 0.4957,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -190,5 +201,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c4158?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-17T10:01:53Z"
+  "scraped_at": "2026-08-24T10:07:40Z"
 }
