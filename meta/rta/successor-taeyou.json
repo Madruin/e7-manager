@@ -7,218 +7,225 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 4727,
-      "total_wins": 2056,
-      "total_losses": 2667,
-      "total_bans": 2093,
-      "total_prebans": 4
+      "total_games": 7928,
+      "total_wins": 3461,
+      "total_losses": 4393,
+      "total_bans": 3423,
+      "total_prebans": 74
     }
   ],
-  "sample_size": 4727,
+  "sample_size": 7928,
   "top_sets": [
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 2257,
-      "total_wins": 976,
-      "total_losses": 1281,
-      "derived_win_rate": 0.4324,
-      "derived_usage_share": 0.3825
+      "total_games": 3746,
+      "total_wins": 1612,
+      "total_losses": 2134,
+      "derived_win_rate": 0.4303,
+      "derived_usage_share": 0.379
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 1780,
-      "total_wins": 723,
-      "total_losses": 1057,
-      "derived_win_rate": 0.4062,
-      "derived_usage_share": 0.3016
+      "total_games": 3028,
+      "total_wins": 1250,
+      "total_losses": 1778,
+      "derived_win_rate": 0.4128,
+      "derived_usage_share": 0.3064
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 777,
-      "total_wins": 388,
-      "total_losses": 389,
-      "derived_win_rate": 0.4994,
-      "derived_usage_share": 0.1317
+      "total_games": 1329,
+      "total_wins": 647,
+      "total_losses": 682,
+      "derived_win_rate": 0.4868,
+      "derived_usage_share": 0.1345
     },
     {
       "set_code": "set_might",
       "set_name": "Fervor",
-      "total_games": 540,
-      "total_wins": 243,
-      "total_losses": 297,
-      "derived_win_rate": 0.45,
-      "derived_usage_share": 0.0915
+      "total_games": 850,
+      "total_wins": 393,
+      "total_losses": 457,
+      "derived_win_rate": 0.4624,
+      "derived_usage_share": 0.086
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 376,
-      "total_wins": 180,
-      "total_losses": 196,
-      "derived_win_rate": 0.4787,
-      "derived_usage_share": 0.0637
+      "total_games": 641,
+      "total_wins": 291,
+      "total_losses": 350,
+      "derived_win_rate": 0.454,
+      "derived_usage_share": 0.0649
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 114,
-      "total_wins": 62,
-      "total_losses": 52,
-      "derived_win_rate": 0.5439,
-      "derived_usage_share": 0.0193
+      "total_games": 178,
+      "total_wins": 87,
+      "total_losses": 91,
+      "derived_win_rate": 0.4888,
+      "derived_usage_share": 0.018
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 49,
+      "total_wins": 23,
+      "total_losses": 26,
+      "derived_win_rate": 0.4694,
+      "derived_usage_share": 0.005
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw14",
       "artifact_name": "Merciless Glutton",
-      "total_games": 2324,
-      "total_wins": 1019,
-      "total_losses": 1305,
-      "derived_win_rate": 0.4385,
-      "derived_usage_share": 0.8837
+      "total_games": 3933,
+      "total_wins": 1717,
+      "total_losses": 2216,
+      "derived_win_rate": 0.4366,
+      "derived_usage_share": 0.8876
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 132,
-      "total_wins": 55,
-      "total_losses": 77,
-      "derived_win_rate": 0.4167,
-      "derived_usage_share": 0.0502
-    },
-    {
-      "artifact_code": "efw24",
-      "artifact_name": "Pure White Trust",
-      "total_games": 35,
-      "total_wins": 16,
-      "total_losses": 19,
-      "derived_win_rate": 0.4571,
-      "derived_usage_share": 0.0133
-    },
-    {
-      "artifact_code": "efw39",
-      "artifact_name": "Jumbo Berry Special",
-      "total_games": 34,
-      "total_wins": 14,
-      "total_losses": 20,
-      "derived_win_rate": 0.4118,
-      "derived_usage_share": 0.0129
+      "total_games": 192,
+      "total_wins": 83,
+      "total_losses": 109,
+      "derived_win_rate": 0.4323,
+      "derived_usage_share": 0.0433
     },
     {
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 28,
-      "total_wins": 10,
-      "total_losses": 18,
-      "derived_win_rate": 0.3571,
-      "derived_usage_share": 0.0106
+      "total_games": 57,
+      "total_wins": 23,
+      "total_losses": 34,
+      "derived_win_rate": 0.4035,
+      "derived_usage_share": 0.0129
+    },
+    {
+      "artifact_code": "efw39",
+      "artifact_name": "Jumbo Berry Special",
+      "total_games": 53,
+      "total_wins": 18,
+      "total_losses": 35,
+      "derived_win_rate": 0.3396,
+      "derived_usage_share": 0.012
+    },
+    {
+      "artifact_code": "efw24",
+      "artifact_name": "Pure White Trust",
+      "total_games": 51,
+      "total_wins": 23,
+      "total_losses": 28,
+      "derived_win_rate": 0.451,
+      "derived_usage_share": 0.0115
     },
     {
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 19,
-      "total_wins": 4,
-      "total_losses": 15,
-      "derived_win_rate": 0.2105,
-      "derived_usage_share": 0.0072
+      "total_games": 44,
+      "total_wins": 16,
+      "total_losses": 28,
+      "derived_win_rate": 0.3636,
+      "derived_usage_share": 0.0099
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
-      "total_games": 1475,
-      "total_wins": 595,
-      "total_losses": 880,
-      "derived_win_rate": 0.4034
+      "total_games": 2459,
+      "total_wins": 1000,
+      "total_losses": 1459,
+      "derived_win_rate": 0.4067
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efw14",
       "artifact_name": "Merciless Glutton",
-      "total_games": 1289,
-      "total_wins": 531,
-      "total_losses": 758,
-      "derived_win_rate": 0.4119
+      "total_games": 2165,
+      "total_wins": 892,
+      "total_losses": 1273,
+      "derived_win_rate": 0.412
     },
     {
       "set_agg_code": "set_penetrate+set_torrent+set_might",
-      "total_games": 306,
-      "total_wins": 151,
-      "total_losses": 155,
-      "derived_win_rate": 0.4935
+      "total_games": 454,
+      "total_wins": 224,
+      "total_losses": 230,
+      "derived_win_rate": 0.4934
     },
     {
       "set_agg_code": "set_penetrate+set_torrent+set_might",
       "artifact_code": "efw14",
       "artifact_name": "Merciless Glutton",
-      "total_games": 281,
-      "total_wins": 141,
+      "total_games": 419,
+      "total_wins": 210,
+      "total_losses": 209,
+      "derived_win_rate": 0.5012
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
+      "total_games": 282,
+      "total_wins": 140,
+      "total_losses": 142,
+      "derived_win_rate": 0.4965
+    },
+    {
+      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 277,
+      "total_wins": 137,
       "total_losses": 140,
-      "derived_win_rate": 0.5018
-    },
-    {
-      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
-      "artifact_code": "efw14",
-      "artifact_name": "Merciless Glutton",
-      "total_games": 154,
-      "total_wins": 80,
-      "total_losses": 74,
-      "derived_win_rate": 0.5195
-    },
-    {
-      "set_agg_code": "set_penetrate+set_torrent+set_torrent",
-      "total_games": 154,
-      "total_wins": 80,
-      "total_losses": 74,
-      "derived_win_rate": 0.5195
-    },
-    {
-      "set_agg_code": "set_acc+set_penetrate+set_might",
-      "total_games": 118,
-      "total_wins": 49,
-      "total_losses": 69,
-      "derived_win_rate": 0.4153
-    },
-    {
-      "set_agg_code": "set_acc+set_penetrate+set_might",
-      "artifact_code": "efw14",
-      "artifact_name": "Merciless Glutton",
-      "total_games": 110,
-      "total_wins": 46,
-      "total_losses": 64,
-      "derived_win_rate": 0.4182
+      "derived_win_rate": 0.4946
     },
     {
       "set_agg_code": "set_cri_dmg+set_might",
-      "total_games": 106,
-      "total_wins": 40,
-      "total_losses": 66,
-      "derived_win_rate": 0.3774
+      "total_games": 202,
+      "total_wins": 90,
+      "total_losses": 112,
+      "derived_win_rate": 0.4455
     },
     {
-      "set_agg_code": "set_cri_dmg+set_penetrate",
-      "artifact_code": "ef504",
-      "artifact_name": "A Symbol of Unity",
-      "total_games": 100,
-      "total_wins": 40,
-      "total_losses": 60,
-      "derived_win_rate": 0.4
+      "set_agg_code": "set_cri_dmg+set_might",
+      "artifact_code": "efw14",
+      "artifact_name": "Merciless Glutton",
+      "total_games": 187,
+      "total_wins": 82,
+      "total_losses": 105,
+      "derived_win_rate": 0.4385
+    },
+    {
+      "set_agg_code": "set_acc+set_penetrate+set_might",
+      "total_games": 177,
+      "total_wins": 73,
+      "total_losses": 104,
+      "derived_win_rate": 0.4124
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_acc",
+      "total_games": 163,
+      "total_wins": 72,
+      "total_losses": 91,
+      "derived_win_rate": 0.4417
     }
   ],
-  "total_set_stats_games": 5901,
-  "total_artifact_stats_games": 2630,
+  "total_set_stats_games": 9883,
+  "total_artifact_stats_games": 4431,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.4353,
+    "win_rate": 0.4407,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -226,5 +233,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2127?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:07:13Z"
+  "scraped_at": "2026-08-31T17:06:55Z"
 }

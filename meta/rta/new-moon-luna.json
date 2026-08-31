@@ -7,211 +7,211 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 14764,
-      "total_wins": 7183,
-      "total_losses": 6671,
-      "total_bans": 3737,
-      "total_prebans": 910
+      "total_games": 25442,
+      "total_wins": 12177,
+      "total_losses": 11454,
+      "total_bans": 6441,
+      "total_prebans": 1815
     }
   ],
-  "sample_size": 14764,
+  "sample_size": 25442,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 9798,
-      "total_wins": 5006,
-      "total_losses": 4792,
-      "derived_win_rate": 0.5109,
-      "derived_usage_share": 0.5396
+      "total_games": 16673,
+      "total_wins": 8487,
+      "total_losses": 8186,
+      "derived_win_rate": 0.509,
+      "derived_usage_share": 0.5361
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 6010,
-      "total_wins": 3157,
-      "total_losses": 2853,
-      "derived_win_rate": 0.5253,
-      "derived_usage_share": 0.331
+      "total_games": 10471,
+      "total_wins": 5479,
+      "total_losses": 4992,
+      "derived_win_rate": 0.5233,
+      "derived_usage_share": 0.3367
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 1287,
-      "total_wins": 622,
-      "total_losses": 665,
-      "derived_win_rate": 0.4833,
-      "derived_usage_share": 0.0709
+      "total_games": 2099,
+      "total_wins": 969,
+      "total_losses": 1130,
+      "derived_win_rate": 0.4616,
+      "derived_usage_share": 0.0675
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 432,
-      "total_wins": 230,
-      "total_losses": 202,
-      "derived_win_rate": 0.5324,
-      "derived_usage_share": 0.0238
+      "total_games": 622,
+      "total_wins": 310,
+      "total_losses": 312,
+      "derived_win_rate": 0.4984,
+      "derived_usage_share": 0.02
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 264,
-      "total_wins": 125,
-      "total_losses": 139,
-      "derived_win_rate": 0.4735,
-      "derived_usage_share": 0.0145
-    },
-    {
-      "set_code": "set_shield",
-      "set_name": "Protection",
-      "total_games": 161,
-      "total_wins": 93,
-      "total_losses": 68,
-      "derived_win_rate": 0.5776,
-      "derived_usage_share": 0.0089
+      "total_games": 558,
+      "total_wins": 255,
+      "total_losses": 303,
+      "derived_win_rate": 0.457,
+      "derived_usage_share": 0.0179
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 120,
-      "total_wins": 55,
-      "total_losses": 65,
-      "derived_win_rate": 0.4583,
-      "derived_usage_share": 0.0066
+      "total_games": 313,
+      "total_wins": 154,
+      "total_losses": 159,
+      "derived_win_rate": 0.492,
+      "derived_usage_share": 0.0101
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 227,
+      "total_wins": 127,
+      "total_losses": 100,
+      "derived_win_rate": 0.5595,
+      "derived_usage_share": 0.0073
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 8906,
-      "total_wins": 4574,
-      "total_losses": 4332,
-      "derived_win_rate": 0.5136,
-      "derived_usage_share": 0.8803
+      "total_games": 15045,
+      "total_wins": 7653,
+      "total_losses": 7392,
+      "derived_win_rate": 0.5087,
+      "derived_usage_share": 0.8752
     },
     {
       "artifact_code": "efm32",
       "artifact_name": "Mirrored Lotus Ring",
-      "total_games": 691,
-      "total_wins": 366,
-      "total_losses": 325,
-      "derived_win_rate": 0.5297,
-      "derived_usage_share": 0.0683
+      "total_games": 1272,
+      "total_wins": 662,
+      "total_losses": 610,
+      "derived_win_rate": 0.5204,
+      "derived_usage_share": 0.074
     },
     {
       "artifact_code": "efm34",
       "artifact_name": "Refracted Desire",
-      "total_games": 324,
-      "total_wins": 145,
-      "total_losses": 179,
-      "derived_win_rate": 0.4475,
-      "derived_usage_share": 0.032
+      "total_games": 522,
+      "total_wins": 258,
+      "total_losses": 264,
+      "derived_win_rate": 0.4943,
+      "derived_usage_share": 0.0304
     },
     {
       "artifact_code": "efm02",
       "artifact_name": "Etica's Scepter",
-      "total_games": 118,
-      "total_wins": 60,
-      "total_losses": 58,
-      "derived_win_rate": 0.5085,
-      "derived_usage_share": 0.0117
+      "total_games": 236,
+      "total_wins": 115,
+      "total_losses": 121,
+      "derived_win_rate": 0.4873,
+      "derived_usage_share": 0.0137
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 5723,
-      "total_wins": 3002,
-      "total_losses": 2721,
-      "derived_win_rate": 0.5246
+      "total_games": 10016,
+      "total_wins": 5253,
+      "total_losses": 4763,
+      "derived_win_rate": 0.5245
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 5181,
-      "total_wins": 2757,
-      "total_losses": 2424,
-      "derived_win_rate": 0.5321
+      "total_games": 9190,
+      "total_wins": 4861,
+      "total_losses": 4329,
+      "derived_win_rate": 0.5289
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 2171,
-      "total_wins": 1060,
-      "total_losses": 1111,
-      "derived_win_rate": 0.4883
+      "total_games": 3459,
+      "total_wins": 1713,
+      "total_losses": 1746,
+      "derived_win_rate": 0.4952
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 1997,
-      "total_wins": 978,
-      "total_losses": 1019,
-      "derived_win_rate": 0.4897
+      "total_games": 3009,
+      "total_wins": 1475,
+      "total_losses": 1534,
+      "derived_win_rate": 0.4902
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 1264,
-      "total_wins": 613,
-      "total_losses": 651,
-      "derived_win_rate": 0.485
+      "total_games": 2075,
+      "total_wins": 959,
+      "total_losses": 1116,
+      "derived_win_rate": 0.4622
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 1062,
-      "total_wins": 500,
-      "total_losses": 562,
-      "derived_win_rate": 0.4708
+      "total_games": 1720,
+      "total_wins": 768,
+      "total_losses": 952,
+      "derived_win_rate": 0.4465
     },
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 430,
-      "total_wins": 229,
-      "total_losses": 201,
-      "derived_win_rate": 0.5326
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "artifact_code": "efm03",
-      "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 244,
-      "total_wins": 117,
-      "total_losses": 127,
-      "derived_win_rate": 0.4795
-    },
-    {
-      "set_agg_code": "set_speed+set_immune",
-      "artifact_code": "efm34",
-      "artifact_name": "Refracted Desire",
-      "total_games": 223,
-      "total_wins": 94,
-      "total_losses": 129,
-      "derived_win_rate": 0.4215
+      "total_games": 620,
+      "total_wins": 309,
+      "total_losses": 311,
+      "derived_win_rate": 0.4984
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efm32",
       "artifact_name": "Mirrored Lotus Ring",
-      "total_games": 219,
-      "total_wins": 110,
-      "total_losses": 109,
-      "derived_win_rate": 0.5023
+      "total_games": 357,
+      "total_wins": 177,
+      "total_losses": 180,
+      "derived_win_rate": 0.4958
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 354,
+      "total_wins": 161,
+      "total_losses": 193,
+      "derived_win_rate": 0.4548
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 346,
+      "total_wins": 184,
+      "total_losses": 162,
+      "derived_win_rate": 0.5318
     }
   ],
-  "total_set_stats_games": 18158,
-  "total_artifact_stats_games": 10117,
+  "total_set_stats_games": 31101,
+  "total_artifact_stats_games": 17190,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.5185,
+    "win_rate": 0.5153,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -219,5 +219,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2066?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:45Z"
+  "scraped_at": "2026-08-31T17:06:25Z"
 }

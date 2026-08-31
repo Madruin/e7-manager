@@ -7,218 +7,227 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 10684,
-      "total_wins": 5330,
-      "total_losses": 5187,
-      "total_bans": 2973,
-      "total_prebans": 167
+      "total_games": 18252,
+      "total_wins": 8991,
+      "total_losses": 8966,
+      "total_bans": 4984,
+      "total_prebans": 295
     }
   ],
-  "sample_size": 10684,
+  "sample_size": 18252,
   "top_sets": [
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 5545,
-      "total_wins": 2855,
-      "total_losses": 2690,
-      "derived_win_rate": 0.5149,
-      "derived_usage_share": 0.3695
+      "total_games": 9346,
+      "total_wins": 4758,
+      "total_losses": 4588,
+      "derived_win_rate": 0.5091,
+      "derived_usage_share": 0.3616
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 4732,
-      "total_wins": 2393,
-      "total_losses": 2339,
-      "derived_win_rate": 0.5057,
-      "derived_usage_share": 0.3153
+      "total_games": 8066,
+      "total_wins": 4037,
+      "total_losses": 4029,
+      "derived_win_rate": 0.5005,
+      "derived_usage_share": 0.3121
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 1743,
-      "total_wins": 821,
-      "total_losses": 922,
-      "derived_win_rate": 0.471,
-      "derived_usage_share": 0.1161
+      "total_games": 3057,
+      "total_wins": 1432,
+      "total_losses": 1625,
+      "derived_win_rate": 0.4684,
+      "derived_usage_share": 0.1183
     },
     {
       "set_code": "set_riposte",
       "set_name": "Riposte",
-      "total_games": 1506,
-      "total_wins": 758,
-      "total_losses": 748,
-      "derived_win_rate": 0.5033,
-      "derived_usage_share": 0.1003
+      "total_games": 2577,
+      "total_wins": 1265,
+      "total_losses": 1312,
+      "derived_win_rate": 0.4909,
+      "derived_usage_share": 0.0997
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 886,
-      "total_wins": 437,
-      "total_losses": 449,
-      "derived_win_rate": 0.4932,
-      "derived_usage_share": 0.059
+      "total_games": 1557,
+      "total_wins": 772,
+      "total_losses": 785,
+      "derived_win_rate": 0.4958,
+      "derived_usage_share": 0.0602
     },
     {
       "set_code": "set_vampire",
       "set_name": "Lifesteal",
-      "total_games": 283,
-      "total_wins": 153,
-      "total_losses": 130,
-      "derived_win_rate": 0.5406,
-      "derived_usage_share": 0.0189
+      "total_games": 539,
+      "total_wins": 268,
+      "total_losses": 271,
+      "derived_win_rate": 0.4972,
+      "derived_usage_share": 0.0209
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 76,
-      "total_wins": 39,
-      "total_losses": 37,
-      "derived_win_rate": 0.5132,
-      "derived_usage_share": 0.0051
+      "total_games": 222,
+      "total_wins": 101,
+      "total_losses": 121,
+      "derived_win_rate": 0.455,
+      "derived_usage_share": 0.0086
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 167,
+      "total_wins": 90,
+      "total_losses": 77,
+      "derived_win_rate": 0.5389,
+      "derived_usage_share": 0.0065
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 6973,
-      "total_wins": 3534,
-      "total_losses": 3439,
-      "derived_win_rate": 0.5068,
-      "derived_usage_share": 0.9243
+      "total_games": 11917,
+      "total_wins": 5977,
+      "total_losses": 5940,
+      "derived_win_rate": 0.5016,
+      "derived_usage_share": 0.9186
     },
     {
       "artifact_code": "efw31",
       "artifact_name": "Golden Rose",
-      "total_games": 273,
-      "total_wins": 121,
-      "total_losses": 152,
-      "derived_win_rate": 0.4432,
-      "derived_usage_share": 0.0362
+      "total_games": 475,
+      "total_wins": 206,
+      "total_losses": 269,
+      "derived_win_rate": 0.4337,
+      "derived_usage_share": 0.0366
     },
     {
       "artifact_code": "efw06",
       "artifact_name": "Uberius's Tooth",
-      "total_games": 138,
-      "total_wins": 86,
-      "total_losses": 52,
-      "derived_win_rate": 0.6232,
-      "derived_usage_share": 0.0183
+      "total_games": 212,
+      "total_wins": 127,
+      "total_losses": 85,
+      "derived_win_rate": 0.5991,
+      "derived_usage_share": 0.0163
     },
     {
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 53,
-      "total_wins": 26,
-      "total_losses": 27,
-      "derived_win_rate": 0.4906,
-      "derived_usage_share": 0.007
+      "total_games": 155,
+      "total_wins": 70,
+      "total_losses": 85,
+      "derived_win_rate": 0.4516,
+      "derived_usage_share": 0.0119
     },
     {
       "artifact_code": "ef507",
       "artifact_name": "Bastion of Hope",
-      "total_games": 41,
-      "total_wins": 24,
-      "total_losses": 17,
-      "derived_win_rate": 0.5854,
-      "derived_usage_share": 0.0054
+      "total_games": 73,
+      "total_wins": 43,
+      "total_losses": 30,
+      "derived_win_rate": 0.589,
+      "derived_usage_share": 0.0056
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_immune",
-      "total_games": 3636,
-      "total_wins": 1882,
-      "total_losses": 1754,
-      "derived_win_rate": 0.5176
+      "total_games": 6098,
+      "total_wins": 3134,
+      "total_losses": 2964,
+      "derived_win_rate": 0.5139
     },
     {
       "set_agg_code": "set_cri_dmg+set_immune",
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 3529,
-      "total_wins": 1838,
-      "total_losses": 1691,
-      "derived_win_rate": 0.5208
+      "total_games": 5920,
+      "total_wins": 3055,
+      "total_losses": 2865,
+      "derived_win_rate": 0.516
     },
     {
       "set_agg_code": "set_riposte+set_immune",
-      "total_games": 985,
-      "total_wins": 501,
-      "total_losses": 484,
-      "derived_win_rate": 0.5086
+      "total_games": 1689,
+      "total_wins": 834,
+      "total_losses": 855,
+      "derived_win_rate": 0.4938
     },
     {
       "set_agg_code": "set_riposte+set_immune",
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 962,
-      "total_wins": 488,
-      "total_losses": 474,
-      "derived_win_rate": 0.5073
+      "total_games": 1651,
+      "total_wins": 818,
+      "total_losses": 833,
+      "derived_win_rate": 0.4955
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
-      "total_games": 933,
-      "total_wins": 428,
-      "total_losses": 505,
-      "derived_win_rate": 0.4587
+      "total_games": 1649,
+      "total_wins": 751,
+      "total_losses": 898,
+      "derived_win_rate": 0.4554
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 879,
-      "total_wins": 405,
-      "total_losses": 474,
-      "derived_win_rate": 0.4608
+      "total_games": 1540,
+      "total_wins": 708,
+      "total_losses": 832,
+      "derived_win_rate": 0.4597
     },
     {
       "set_agg_code": "set_counter+set_immune",
-      "total_games": 631,
-      "total_wins": 310,
-      "total_losses": 321,
-      "derived_win_rate": 0.4913
+      "total_games": 1101,
+      "total_wins": 544,
+      "total_losses": 557,
+      "derived_win_rate": 0.4941
     },
     {
       "set_agg_code": "set_counter+set_immune",
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 623,
-      "total_wins": 305,
-      "total_losses": 318,
-      "derived_win_rate": 0.4896
+      "total_games": 1053,
+      "total_wins": 522,
+      "total_losses": 531,
+      "derived_win_rate": 0.4957
     },
     {
       "set_agg_code": "set_riposte+set_penetrate",
-      "total_games": 488,
-      "total_wins": 236,
-      "total_losses": 252,
-      "derived_win_rate": 0.4836
+      "total_games": 829,
+      "total_wins": 398,
+      "total_losses": 431,
+      "derived_win_rate": 0.4801
     },
     {
       "set_agg_code": "set_riposte+set_penetrate",
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 412,
-      "total_wins": 203,
-      "total_losses": 209,
-      "derived_win_rate": 0.4927
+      "total_games": 724,
+      "total_wins": 351,
+      "total_losses": 373,
+      "derived_win_rate": 0.4848
     }
   ],
-  "total_set_stats_games": 15008,
-  "total_artifact_stats_games": 7544,
+  "total_set_stats_games": 25843,
+  "total_artifact_stats_games": 12973,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.5068,
+    "win_rate": 0.5007,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -226,5 +235,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2071?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:58Z"
+  "scraped_at": "2026-08-31T17:06:38Z"
 }

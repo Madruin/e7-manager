@@ -7,200 +7,209 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 10569,
-      "total_wins": 5552,
-      "total_losses": 4903,
-      "total_bans": 3710,
-      "total_prebans": 114
+      "total_games": 16913,
+      "total_wins": 8756,
+      "total_losses": 7802,
+      "total_bans": 5750,
+      "total_prebans": 356
     }
   ],
-  "sample_size": 10569,
+  "sample_size": 16913,
   "top_sets": [
     {
       "set_code": "set_revenant",
       "set_name": "Reversal",
-      "total_games": 3638,
-      "total_wins": 2000,
-      "total_losses": 1638,
-      "derived_win_rate": 0.5498,
-      "derived_usage_share": 0.2646
+      "total_games": 5769,
+      "total_wins": 3140,
+      "total_losses": 2629,
+      "derived_win_rate": 0.5443,
+      "derived_usage_share": 0.2613
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 3197,
-      "total_wins": 1622,
-      "total_losses": 1575,
-      "derived_win_rate": 0.5074,
-      "derived_usage_share": 0.2325
+      "total_games": 5179,
+      "total_wins": 2641,
+      "total_losses": 2538,
+      "derived_win_rate": 0.5099,
+      "derived_usage_share": 0.2346
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 2958,
-      "total_wins": 1687,
-      "total_losses": 1271,
-      "derived_win_rate": 0.5703,
-      "derived_usage_share": 0.2151
+      "total_games": 4627,
+      "total_wins": 2603,
+      "total_losses": 2024,
+      "derived_win_rate": 0.5626,
+      "derived_usage_share": 0.2096
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 2674,
-      "total_wins": 1403,
-      "total_losses": 1271,
-      "derived_win_rate": 0.5247,
-      "derived_usage_share": 0.1945
+      "total_games": 4304,
+      "total_wins": 2248,
+      "total_losses": 2056,
+      "derived_win_rate": 0.5223,
+      "derived_usage_share": 0.1949
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 1052,
-      "total_wins": 505,
-      "total_losses": 547,
-      "derived_win_rate": 0.48,
-      "derived_usage_share": 0.0765
+      "total_games": 1800,
+      "total_wins": 843,
+      "total_losses": 957,
+      "derived_win_rate": 0.4683,
+      "derived_usage_share": 0.0815
     },
     {
       "set_code": "set_def",
       "set_name": "Defense",
-      "total_games": 197,
-      "total_wins": 108,
-      "total_losses": 89,
-      "derived_win_rate": 0.5482,
-      "derived_usage_share": 0.0143
+      "total_games": 323,
+      "total_wins": 182,
+      "total_losses": 141,
+      "derived_win_rate": 0.5635,
+      "derived_usage_share": 0.0146
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efh07",
       "artifact_name": "Idol's Cheer",
-      "total_games": 3269,
-      "total_wins": 1858,
-      "total_losses": 1411,
-      "derived_win_rate": 0.5684,
-      "derived_usage_share": 0.4847
+      "total_games": 5014,
+      "total_wins": 2835,
+      "total_losses": 2179,
+      "derived_win_rate": 0.5654,
+      "derived_usage_share": 0.4639
     },
     {
       "artifact_code": "ef303",
       "artifact_name": "Prophetic Candlestick",
-      "total_games": 2921,
-      "total_wins": 1453,
-      "total_losses": 1468,
-      "derived_win_rate": 0.4974,
-      "derived_usage_share": 0.4331
+      "total_games": 4839,
+      "total_wins": 2396,
+      "total_losses": 2443,
+      "derived_win_rate": 0.4951,
+      "derived_usage_share": 0.4477
     },
     {
       "artifact_code": "efh03",
       "artifact_name": "Water's Origin",
-      "total_games": 263,
-      "total_wins": 133,
-      "total_losses": 130,
-      "derived_win_rate": 0.5057,
+      "total_games": 422,
+      "total_wins": 204,
+      "total_losses": 218,
+      "derived_win_rate": 0.4834,
       "derived_usage_share": 0.039
     },
     {
       "artifact_code": "efh14",
       "artifact_name": "Guardian Ice Crystals",
-      "total_games": 101,
-      "total_wins": 64,
-      "total_losses": 37,
-      "derived_win_rate": 0.6337,
-      "derived_usage_share": 0.015
+      "total_games": 184,
+      "total_wins": 111,
+      "total_losses": 73,
+      "derived_win_rate": 0.6033,
+      "derived_usage_share": 0.017
+    },
+    {
+      "artifact_code": "efh27",
+      "artifact_name": "Cure-All Magic Wand",
+      "total_games": 78,
+      "total_wins": 44,
+      "total_losses": 34,
+      "derived_win_rate": 0.5641,
+      "derived_usage_share": 0.0072
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_revenant+set_immune",
-      "total_games": 1939,
-      "total_wins": 1125,
-      "total_losses": 814,
-      "derived_win_rate": 0.5802
+      "total_games": 2968,
+      "total_wins": 1709,
+      "total_losses": 1259,
+      "derived_win_rate": 0.5758
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 2174,
+      "total_wins": 1106,
+      "total_losses": 1068,
+      "derived_win_rate": 0.5087
     },
     {
       "set_agg_code": "set_revenant+set_immune",
       "artifact_code": "efh07",
       "artifact_name": "Idol's Cheer",
-      "total_games": 1368,
-      "total_wins": 840,
-      "total_losses": 528,
-      "derived_win_rate": 0.614
-    },
-    {
-      "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 1354,
-      "total_wins": 683,
-      "total_losses": 671,
-      "derived_win_rate": 0.5044
+      "total_games": 1925,
+      "total_wins": 1173,
+      "total_losses": 752,
+      "derived_win_rate": 0.6094
     },
     {
       "set_agg_code": "set_revenant+set_max_hp",
-      "total_games": 1104,
-      "total_wins": 581,
-      "total_losses": 523,
-      "derived_win_rate": 0.5263
+      "total_games": 1819,
+      "total_wins": 957,
+      "total_losses": 862,
+      "derived_win_rate": 0.5261
     },
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 886,
-      "total_wins": 493,
-      "total_losses": 393,
-      "derived_win_rate": 0.5564
+      "total_games": 1375,
+      "total_wins": 751,
+      "total_losses": 624,
+      "derived_win_rate": 0.5462
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "ef303",
       "artifact_name": "Prophetic Candlestick",
-      "total_games": 649,
-      "total_wins": 319,
-      "total_losses": 330,
-      "derived_win_rate": 0.4915
+      "total_games": 1053,
+      "total_wins": 517,
+      "total_losses": 536,
+      "derived_win_rate": 0.491
     },
     {
       "set_agg_code": "set_revenant+set_max_hp",
       "artifact_code": "efh07",
       "artifact_name": "Idol's Cheer",
-      "total_games": 573,
-      "total_wins": 323,
-      "total_losses": 250,
-      "derived_win_rate": 0.5637
+      "total_games": 958,
+      "total_wins": 532,
+      "total_losses": 426,
+      "derived_win_rate": 0.5553
     },
     {
       "set_agg_code": "set_revenant+set_immune",
       "artifact_code": "ef303",
       "artifact_name": "Prophetic Candlestick",
-      "total_games": 523,
-      "total_wins": 253,
-      "total_losses": 270,
-      "derived_win_rate": 0.4837
+      "total_games": 935,
+      "total_wins": 468,
+      "total_losses": 467,
+      "derived_win_rate": 0.5005
+    },
+    {
+      "set_agg_code": "set_revenant+set_res",
+      "total_games": 822,
+      "total_wins": 391,
+      "total_losses": 431,
+      "derived_win_rate": 0.4757
     },
     {
       "set_agg_code": "set_revenant+set_max_hp",
       "artifact_code": "ef303",
       "artifact_name": "Prophetic Candlestick",
-      "total_games": 495,
-      "total_wins": 235,
-      "total_losses": 260,
-      "derived_win_rate": 0.4747
-    },
-    {
-      "set_agg_code": "set_revenant+set_res",
-      "total_games": 480,
-      "total_wins": 229,
-      "total_losses": 251,
-      "derived_win_rate": 0.4771
+      "total_games": 781,
+      "total_wins": 380,
+      "total_losses": 401,
+      "derived_win_rate": 0.4866
     }
   ],
-  "total_set_stats_games": 13749,
-  "total_artifact_stats_games": 6745,
+  "total_set_stats_games": 22079,
+  "total_artifact_stats_games": 10808,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.531,
+    "win_rate": 0.5288,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -208,5 +217,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1022?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:59Z"
+  "scraped_at": "2026-08-31T17:06:39Z"
 }

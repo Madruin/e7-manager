@@ -7,76 +7,76 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 78048,
-      "total_wins": 20866,
-      "total_losses": 20739,
-      "total_bans": 5038,
-      "total_prebans": 40950
+      "total_games": 129786,
+      "total_wins": 34006,
+      "total_losses": 33874,
+      "total_bans": 8864,
+      "total_prebans": 69942
     }
   ],
-  "sample_size": 78048,
+  "sample_size": 129786,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 36354,
-      "total_wins": 18155,
-      "total_losses": 18199,
-      "derived_win_rate": 0.4994,
-      "derived_usage_share": 0.553
+      "total_games": 58618,
+      "total_wins": 29211,
+      "total_losses": 29407,
+      "derived_win_rate": 0.4983,
+      "derived_usage_share": 0.5542
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 9357,
-      "total_wins": 4582,
-      "total_losses": 4775,
-      "derived_win_rate": 0.4897,
-      "derived_usage_share": 0.1423
+      "total_games": 15285,
+      "total_wins": 7432,
+      "total_losses": 7853,
+      "derived_win_rate": 0.4862,
+      "derived_usage_share": 0.1445
     },
     {
       "set_code": "set_might",
       "set_name": "Fervor",
-      "total_games": 6945,
-      "total_wins": 3446,
-      "total_losses": 3499,
-      "derived_win_rate": 0.4962,
-      "derived_usage_share": 0.1056
+      "total_games": 11473,
+      "total_wins": 5797,
+      "total_losses": 5676,
+      "derived_win_rate": 0.5053,
+      "derived_usage_share": 0.1085
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 6656,
-      "total_wins": 3439,
-      "total_losses": 3217,
-      "derived_win_rate": 0.5167,
-      "derived_usage_share": 0.1012
+      "total_games": 10394,
+      "total_wins": 5388,
+      "total_losses": 5006,
+      "derived_win_rate": 0.5184,
+      "derived_usage_share": 0.0983
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 3127,
-      "total_wins": 1607,
-      "total_losses": 1520,
-      "derived_win_rate": 0.5139,
-      "derived_usage_share": 0.0476
+      "total_games": 5018,
+      "total_wins": 2537,
+      "total_losses": 2481,
+      "derived_win_rate": 0.5056,
+      "derived_usage_share": 0.0474
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 2582,
-      "total_wins": 1344,
-      "total_losses": 1238,
-      "derived_win_rate": 0.5205,
-      "derived_usage_share": 0.0393
+      "total_games": 3712,
+      "total_wins": 1914,
+      "total_losses": 1798,
+      "derived_win_rate": 0.5156,
+      "derived_usage_share": 0.0351
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 405,
-      "total_wins": 192,
-      "total_losses": 213,
-      "derived_win_rate": 0.4741,
+      "total_games": 652,
+      "total_wins": 295,
+      "total_losses": 357,
+      "derived_win_rate": 0.4525,
       "derived_usage_share": 0.0062
     }
   ],
@@ -84,184 +84,186 @@
     {
       "artifact_code": "efa08",
       "artifact_name": "Violet Talisman",
-      "total_games": 26195,
-      "total_wins": 13162,
-      "total_losses": 13033,
-      "derived_win_rate": 0.5025,
-      "derived_usage_share": 0.7164
+      "total_games": 41719,
+      "total_wins": 20888,
+      "total_losses": 20831,
+      "derived_win_rate": 0.5007,
+      "derived_usage_share": 0.7069
     },
     {
       "artifact_code": "efa33",
       "artifact_name": "Butterfly's Baptism",
-      "total_games": 3627,
-      "total_wins": 1750,
-      "total_losses": 1877,
-      "derived_win_rate": 0.4825,
-      "derived_usage_share": 0.0992
+      "total_games": 6358,
+      "total_wins": 3065,
+      "total_losses": 3293,
+      "derived_win_rate": 0.4821,
+      "derived_usage_share": 0.1077
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 3013,
-      "total_wins": 1518,
-      "total_losses": 1495,
-      "derived_win_rate": 0.5038,
-      "derived_usage_share": 0.0824
+      "total_games": 4360,
+      "total_wins": 2200,
+      "total_losses": 2160,
+      "derived_win_rate": 0.5046,
+      "derived_usage_share": 0.0739
     },
     {
       "artifact_code": "efa16",
       "artifact_name": "Double-Edged Decrescent",
-      "total_games": 788,
-      "total_wins": 362,
-      "total_losses": 426,
-      "derived_win_rate": 0.4594,
-      "derived_usage_share": 0.0215
-    },
-    {
-      "artifact_code": "efa13",
-      "artifact_name": "Manica of Control",
-      "total_games": 451,
-      "total_wins": 239,
-      "total_losses": 212,
-      "derived_win_rate": 0.5299,
-      "derived_usage_share": 0.0123
+      "total_games": 1536,
+      "total_wins": 737,
+      "total_losses": 799,
+      "derived_win_rate": 0.4798,
+      "derived_usage_share": 0.026
     },
     {
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 440,
-      "total_wins": 243,
-      "total_losses": 197,
-      "derived_win_rate": 0.5523,
-      "derived_usage_share": 0.012
+      "total_games": 988,
+      "total_wins": 538,
+      "total_losses": 450,
+      "derived_win_rate": 0.5445,
+      "derived_usage_share": 0.0167
     },
     {
       "artifact_code": "efa02",
       "artifact_name": "Wind Rider",
-      "total_games": 391,
-      "total_wins": 165,
-      "total_losses": 226,
-      "derived_win_rate": 0.422,
-      "derived_usage_share": 0.0107
+      "total_games": 643,
+      "total_wins": 283,
+      "total_losses": 360,
+      "derived_win_rate": 0.4401,
+      "derived_usage_share": 0.0109
     },
     {
       "artifact_code": "efa15",
       "artifact_name": "Shepherd of the Hollow",
-      "total_games": 338,
-      "total_wins": 181,
-      "total_losses": 157,
-      "derived_win_rate": 0.5355,
-      "derived_usage_share": 0.0092
+      "total_games": 609,
+      "total_wins": 335,
+      "total_losses": 274,
+      "derived_win_rate": 0.5501,
+      "derived_usage_share": 0.0103
     },
     {
-      "artifact_code": "efa12",
-      "artifact_name": "Alabastron",
-      "total_games": 293,
-      "total_wins": 127,
-      "total_losses": 166,
-      "derived_win_rate": 0.4334,
-      "derived_usage_share": 0.008
+      "artifact_code": "efa13",
+      "artifact_name": "Manica of Control",
+      "total_games": 545,
+      "total_wins": 286,
+      "total_losses": 259,
+      "derived_win_rate": 0.5248,
+      "derived_usage_share": 0.0092
     },
     {
       "artifact_code": "efa31",
       "artifact_name": "Glorious Flag",
-      "total_games": 284,
-      "total_wins": 139,
-      "total_losses": 145,
-      "derived_win_rate": 0.4894,
-      "derived_usage_share": 0.0078
+      "total_games": 491,
+      "total_wins": 238,
+      "total_losses": 253,
+      "derived_win_rate": 0.4847,
+      "derived_usage_share": 0.0083
+    },
+    {
+      "artifact_code": "efa12",
+      "artifact_name": "Alabastron",
+      "total_games": 448,
+      "total_wins": 194,
+      "total_losses": 254,
+      "derived_win_rate": 0.433,
+      "derived_usage_share": 0.0076
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 9348,
-      "total_wins": 4578,
-      "total_losses": 4770,
-      "derived_win_rate": 0.4897
+      "total_games": 15266,
+      "total_wins": 7423,
+      "total_losses": 7843,
+      "derived_win_rate": 0.4862
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 7377,
-      "total_wins": 3564,
-      "total_losses": 3813,
-      "derived_win_rate": 0.4831
+      "total_games": 12252,
+      "total_wins": 5906,
+      "total_losses": 6346,
+      "derived_win_rate": 0.482
     },
     {
       "set_agg_code": "set_speed+set_might",
-      "total_games": 6904,
-      "total_wins": 3428,
-      "total_losses": 3476,
-      "derived_win_rate": 0.4965
+      "total_games": 11382,
+      "total_wins": 5755,
+      "total_losses": 5627,
+      "derived_win_rate": 0.5056
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efa08",
       "artifact_name": "Violet Talisman",
-      "total_games": 6650,
-      "total_wins": 3267,
-      "total_losses": 3383,
-      "derived_win_rate": 0.4913
+      "total_games": 10772,
+      "total_wins": 5284,
+      "total_losses": 5488,
+      "derived_win_rate": 0.4905
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 6620,
-      "total_wins": 3425,
-      "total_losses": 3195,
-      "derived_win_rate": 0.5174
+      "total_games": 10325,
+      "total_wins": 5356,
+      "total_losses": 4969,
+      "derived_win_rate": 0.5187
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efa08",
       "artifact_name": "Violet Talisman",
-      "total_games": 5450,
-      "total_wins": 2712,
-      "total_losses": 2738,
-      "derived_win_rate": 0.4976
+      "total_games": 8988,
+      "total_wins": 4413,
+      "total_losses": 4575,
+      "derived_win_rate": 0.491
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa08",
       "artifact_name": "Violet Talisman",
-      "total_games": 5098,
-      "total_wins": 2643,
-      "total_losses": 2455,
-      "derived_win_rate": 0.5184
+      "total_games": 7749,
+      "total_wins": 4043,
+      "total_losses": 3706,
+      "derived_win_rate": 0.5217
     },
     {
       "set_agg_code": "set_speed+set_might",
       "artifact_code": "efa08",
       "artifact_name": "Violet Talisman",
-      "total_games": 4730,
-      "total_wins": 2389,
-      "total_losses": 2341,
-      "derived_win_rate": 0.5051
+      "total_games": 7607,
+      "total_wins": 3889,
+      "total_losses": 3718,
+      "derived_win_rate": 0.5112
     },
     {
       "set_agg_code": "set_speed+set_penetrate",
-      "total_games": 3060,
-      "total_wins": 1577,
-      "total_losses": 1483,
-      "derived_win_rate": 0.5154
+      "total_games": 4893,
+      "total_wins": 2475,
+      "total_losses": 2418,
+      "derived_win_rate": 0.5058
     },
     {
-      "set_agg_code": "set_speed+set_torrent",
-      "total_games": 2568,
-      "total_wins": 1342,
-      "total_losses": 1226,
-      "derived_win_rate": 0.5226
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efa08",
+      "artifact_name": "Violet Talisman",
+      "total_games": 3736,
+      "total_wins": 1864,
+      "total_losses": 1872,
+      "derived_win_rate": 0.4989
     }
   ],
-  "total_set_stats_games": 65745,
-  "total_artifact_stats_games": 36567,
+  "total_set_stats_games": 105770,
+  "total_artifact_stats_games": 59016,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.5015,
+    "win_rate": 0.501,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -269,5 +271,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2185?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:23Z"
+  "scraped_at": "2026-08-31T17:06:04Z"
 }

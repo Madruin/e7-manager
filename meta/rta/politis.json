@@ -7,263 +7,263 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 2754,
-      "total_wins": 1380,
-      "total_losses": 1371,
-      "total_bans": 861,
-      "total_prebans": 3
+      "total_games": 4265,
+      "total_wins": 2178,
+      "total_losses": 2083,
+      "total_bans": 1381,
+      "total_prebans": 4
     }
   ],
-  "sample_size": 2754,
+  "sample_size": 4265,
   "top_sets": [
     {
       "set_code": "set_weak",
       "set_name": "Weakening",
-      "total_games": 1108,
-      "total_wins": 575,
-      "total_losses": 533,
-      "derived_win_rate": 0.519,
-      "derived_usage_share": 0.2979
+      "total_games": 1649,
+      "total_wins": 866,
+      "total_losses": 783,
+      "derived_win_rate": 0.5252,
+      "derived_usage_share": 0.2909
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 938,
-      "total_wins": 469,
-      "total_losses": 469,
-      "derived_win_rate": 0.5,
-      "derived_usage_share": 0.2522
+      "total_games": 1409,
+      "total_wins": 716,
+      "total_losses": 693,
+      "derived_win_rate": 0.5082,
+      "derived_usage_share": 0.2486
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 644,
-      "total_wins": 297,
-      "total_losses": 347,
-      "derived_win_rate": 0.4612,
-      "derived_usage_share": 0.1732
+      "total_games": 988,
+      "total_wins": 483,
+      "total_losses": 505,
+      "derived_win_rate": 0.4889,
+      "derived_usage_share": 0.1743
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 351,
-      "total_wins": 152,
-      "total_losses": 199,
-      "derived_win_rate": 0.433,
-      "derived_usage_share": 0.0944
+      "total_games": 526,
+      "total_wins": 245,
+      "total_losses": 281,
+      "derived_win_rate": 0.4658,
+      "derived_usage_share": 0.0928
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 300,
-      "total_wins": 167,
-      "total_losses": 133,
-      "derived_win_rate": 0.5567,
-      "derived_usage_share": 0.0807
+      "total_games": 455,
+      "total_wins": 252,
+      "total_losses": 203,
+      "derived_win_rate": 0.5538,
+      "derived_usage_share": 0.0803
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 262,
-      "total_wins": 113,
-      "total_losses": 149,
-      "derived_win_rate": 0.4313,
-      "derived_usage_share": 0.0704
+      "total_games": 433,
+      "total_wins": 199,
+      "total_losses": 234,
+      "derived_win_rate": 0.4596,
+      "derived_usage_share": 0.0764
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 50,
-      "total_wins": 20,
-      "total_losses": 30,
-      "derived_win_rate": 0.4,
-      "derived_usage_share": 0.0134
+      "total_games": 71,
+      "total_wins": 26,
+      "total_losses": 45,
+      "derived_win_rate": 0.3662,
+      "derived_usage_share": 0.0125
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 34,
-      "total_wins": 22,
-      "total_losses": 12,
-      "derived_win_rate": 0.6471,
-      "derived_usage_share": 0.0091
+      "total_games": 60,
+      "total_wins": 37,
+      "total_losses": 23,
+      "derived_win_rate": 0.6167,
+      "derived_usage_share": 0.0106
     },
     {
-      "set_code": "set_max_hp",
-      "set_name": "Health",
-      "total_games": 19,
-      "total_wins": 9,
-      "total_losses": 10,
-      "derived_win_rate": 0.4737,
-      "derived_usage_share": 0.0051
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 39,
+      "total_wins": 24,
+      "total_losses": 15,
+      "derived_win_rate": 0.6154,
+      "derived_usage_share": 0.0069
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efm01",
       "artifact_name": "Abyssal Crown",
-      "total_games": 1456,
-      "total_wins": 730,
-      "total_losses": 726,
-      "derived_win_rate": 0.5014,
-      "derived_usage_share": 0.7704
+      "total_games": 2200,
+      "total_wins": 1126,
+      "total_losses": 1074,
+      "derived_win_rate": 0.5118,
+      "derived_usage_share": 0.7639
     },
     {
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 257,
-      "total_wins": 134,
-      "total_losses": 123,
-      "derived_win_rate": 0.5214,
-      "derived_usage_share": 0.136
+      "total_games": 419,
+      "total_wins": 225,
+      "total_losses": 194,
+      "derived_win_rate": 0.537,
+      "derived_usage_share": 0.1455
     },
     {
       "artifact_code": "efm05",
       "artifact_name": "Sira-Ren",
-      "total_games": 39,
-      "total_wins": 12,
-      "total_losses": 27,
-      "derived_win_rate": 0.3077,
-      "derived_usage_share": 0.0206
+      "total_games": 66,
+      "total_wins": 27,
+      "total_losses": 39,
+      "derived_win_rate": 0.4091,
+      "derived_usage_share": 0.0229
     },
     {
       "artifact_code": "efm19",
       "artifact_name": "Fairy Tale for a Nightmare",
-      "total_games": 34,
-      "total_wins": 11,
-      "total_losses": 23,
-      "derived_win_rate": 0.3235,
-      "derived_usage_share": 0.018
+      "total_games": 47,
+      "total_wins": 19,
+      "total_losses": 28,
+      "derived_win_rate": 0.4043,
+      "derived_usage_share": 0.0163
     },
     {
       "artifact_code": "efm16",
       "artifact_name": "Black Hand of the Goddess",
-      "total_games": 23,
-      "total_wins": 11,
-      "total_losses": 12,
-      "derived_win_rate": 0.4783,
-      "derived_usage_share": 0.0122
+      "total_games": 33,
+      "total_wins": 13,
+      "total_losses": 20,
+      "derived_win_rate": 0.3939,
+      "derived_usage_share": 0.0115
     },
     {
       "artifact_code": "",
       "artifact_name": null,
-      "total_games": 21,
-      "total_wins": 10,
-      "total_losses": 11,
-      "derived_win_rate": 0.4762,
-      "derived_usage_share": 0.0111
-    },
-    {
-      "artifact_code": "efm20",
-      "artifact_name": "Knowledge Seed",
-      "total_games": 13,
-      "total_wins": 5,
-      "total_losses": 8,
-      "derived_win_rate": 0.3846,
-      "derived_usage_share": 0.0069
+      "total_games": 29,
+      "total_wins": 15,
+      "total_losses": 14,
+      "derived_win_rate": 0.5172,
+      "derived_usage_share": 0.0101
     },
     {
       "artifact_code": "efm31",
       "artifact_name": "Bird's-Eye View",
-      "total_games": 13,
-      "total_wins": 6,
-      "total_losses": 7,
-      "derived_win_rate": 0.4615,
-      "derived_usage_share": 0.0069
+      "total_games": 22,
+      "total_wins": 10,
+      "total_losses": 12,
+      "derived_win_rate": 0.4545,
+      "derived_usage_share": 0.0076
+    },
+    {
+      "artifact_code": "efm20",
+      "artifact_name": "Knowledge Seed",
+      "total_games": 19,
+      "total_wins": 7,
+      "total_losses": 12,
+      "derived_win_rate": 0.3684,
+      "derived_usage_share": 0.0066
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_weak+set_acc",
-      "total_games": 770,
-      "total_wins": 398,
-      "total_losses": 372,
-      "derived_win_rate": 0.5169
+      "total_games": 1149,
+      "total_wins": 599,
+      "total_losses": 550,
+      "derived_win_rate": 0.5213
     },
     {
       "set_agg_code": "set_weak+set_acc",
       "artifact_code": "efm01",
       "artifact_name": "Abyssal Crown",
-      "total_games": 763,
-      "total_wins": 395,
-      "total_losses": 368,
-      "derived_win_rate": 0.5177
+      "total_games": 1136,
+      "total_wins": 594,
+      "total_losses": 542,
+      "derived_win_rate": 0.5229
     },
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 268,
-      "total_wins": 118,
-      "total_losses": 150,
-      "derived_win_rate": 0.4403
+      "total_games": 403,
+      "total_wins": 192,
+      "total_losses": 211,
+      "derived_win_rate": 0.4764
     },
     {
       "set_agg_code": "set_weak+set_immune",
-      "total_games": 221,
-      "total_wins": 125,
-      "total_losses": 96,
-      "derived_win_rate": 0.5656
+      "total_games": 319,
+      "total_wins": 179,
+      "total_losses": 140,
+      "derived_win_rate": 0.5611
     },
     {
       "set_agg_code": "set_weak+set_immune",
       "artifact_code": "efm01",
       "artifact_name": "Abyssal Crown",
-      "total_games": 219,
-      "total_wins": 124,
-      "total_losses": 95,
-      "derived_win_rate": 0.5662
+      "total_games": 317,
+      "total_wins": 178,
+      "total_losses": 139,
+      "derived_win_rate": 0.5615
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 160,
-      "total_wins": 69,
-      "total_losses": 91,
-      "derived_win_rate": 0.4313
+      "total_games": 236,
+      "total_wins": 106,
+      "total_losses": 130,
+      "derived_win_rate": 0.4492
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 135,
-      "total_wins": 68,
-      "total_losses": 67,
-      "derived_win_rate": 0.5037
+      "total_games": 210,
+      "total_wins": 110,
+      "total_losses": 100,
+      "derived_win_rate": 0.5238
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efm01",
       "artifact_name": "Abyssal Crown",
-      "total_games": 130,
-      "total_wins": 58,
-      "total_losses": 72,
-      "derived_win_rate": 0.4462
+      "total_games": 196,
+      "total_wins": 90,
+      "total_losses": 106,
+      "derived_win_rate": 0.4592
     },
     {
       "set_agg_code": "set_speed+set_torrent",
-      "total_games": 89,
-      "total_wins": 50,
-      "total_losses": 39,
-      "derived_win_rate": 0.5618
+      "total_games": 149,
+      "total_wins": 86,
+      "total_losses": 63,
+      "derived_win_rate": 0.5772
     },
     {
-      "set_agg_code": "set_speed+set_cri",
-      "artifact_code": "efm01",
-      "artifact_name": "Abyssal Crown",
-      "total_games": 87,
-      "total_wins": 31,
-      "total_losses": 56,
-      "derived_win_rate": 0.3563
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 126,
+      "total_wins": 76,
+      "total_losses": 50,
+      "derived_win_rate": 0.6032
     }
   ],
-  "total_set_stats_games": 3719,
-  "total_artifact_stats_games": 1890,
+  "total_set_stats_games": 5668,
+  "total_artifact_stats_games": 2880,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.5016,
+    "win_rate": 0.5111,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -271,5 +271,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1112?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:07:26Z"
+  "scraped_at": "2026-08-31T17:07:12Z"
 }

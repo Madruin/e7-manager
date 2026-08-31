@@ -7,177 +7,177 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 11400,
-      "total_wins": 4709,
-      "total_losses": 4533,
-      "total_bans": 469,
-      "total_prebans": 2172
+      "total_games": 15251,
+      "total_wins": 6332,
+      "total_losses": 6234,
+      "total_bans": 747,
+      "total_prebans": 2699
     }
   ],
-  "sample_size": 11400,
+  "sample_size": 15251,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 8759,
-      "total_wins": 4487,
-      "total_losses": 4272,
-      "derived_win_rate": 0.5123,
-      "derived_usage_share": 0.7624
+      "total_games": 11803,
+      "total_wins": 5973,
+      "total_losses": 5830,
+      "derived_win_rate": 0.5061,
+      "derived_usage_share": 0.7458
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 1641,
-      "total_wins": 865,
-      "total_losses": 776,
-      "derived_win_rate": 0.5271,
-      "derived_usage_share": 0.1428
+      "total_games": 2515,
+      "total_wins": 1282,
+      "total_losses": 1233,
+      "derived_win_rate": 0.5097,
+      "derived_usage_share": 0.1589
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 943,
-      "total_wins": 473,
-      "total_losses": 470,
-      "derived_win_rate": 0.5016,
-      "derived_usage_share": 0.0821
+      "total_games": 1271,
+      "total_wins": 635,
+      "total_losses": 636,
+      "derived_win_rate": 0.4996,
+      "derived_usage_share": 0.0803
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 59,
-      "total_wins": 30,
-      "total_losses": 29,
-      "derived_win_rate": 0.5085,
-      "derived_usage_share": 0.0051
+      "total_games": 116,
+      "total_wins": 59,
+      "total_losses": 57,
+      "derived_win_rate": 0.5086,
+      "derived_usage_share": 0.0073
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efr31",
       "artifact_name": "Gifted Pen",
-      "total_games": 5945,
-      "total_wins": 3072,
-      "total_losses": 2873,
-      "derived_win_rate": 0.5167,
-      "derived_usage_share": 0.6776
+      "total_games": 7652,
+      "total_wins": 3900,
+      "total_losses": 3752,
+      "derived_win_rate": 0.5097,
+      "derived_usage_share": 0.6474
     },
     {
       "artifact_code": "efr28",
       "artifact_name": "Renewed Will",
-      "total_games": 2371,
-      "total_wins": 1218,
-      "total_losses": 1153,
-      "derived_win_rate": 0.5137,
-      "derived_usage_share": 0.2703
+      "total_games": 3443,
+      "total_wins": 1766,
+      "total_losses": 1677,
+      "derived_win_rate": 0.5129,
+      "derived_usage_share": 0.2913
     },
     {
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 393,
-      "total_wins": 173,
-      "total_losses": 220,
-      "derived_win_rate": 0.4402,
-      "derived_usage_share": 0.0448
+      "total_games": 618,
+      "total_wins": 266,
+      "total_losses": 352,
+      "derived_win_rate": 0.4304,
+      "derived_usage_share": 0.0523
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed",
-      "total_games": 6034,
-      "total_wins": 3077,
-      "total_losses": 2957,
-      "derived_win_rate": 0.5099
+      "total_games": 7784,
+      "total_wins": 3938,
+      "total_losses": 3846,
+      "derived_win_rate": 0.5059
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efr31",
       "artifact_name": "Gifted Pen",
-      "total_games": 4417,
-      "total_wins": 2300,
-      "total_losses": 2117,
-      "derived_win_rate": 0.5207
+      "total_games": 5385,
+      "total_wins": 2765,
+      "total_losses": 2620,
+      "derived_win_rate": 0.5135
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 1641,
-      "total_wins": 865,
-      "total_losses": 776,
-      "derived_win_rate": 0.5271
+      "total_games": 2515,
+      "total_wins": 1282,
+      "total_losses": 1233,
+      "derived_win_rate": 0.5097
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efr28",
       "artifact_name": "Renewed Will",
-      "total_games": 1380,
-      "total_wins": 683,
-      "total_losses": 697,
-      "derived_win_rate": 0.4949
+      "total_games": 2023,
+      "total_wins": 1021,
+      "total_losses": 1002,
+      "derived_win_rate": 0.5047
     },
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 938,
-      "total_wins": 470,
-      "total_losses": 468,
-      "derived_win_rate": 0.5011
+      "total_games": 1266,
+      "total_wins": 632,
+      "total_losses": 634,
+      "derived_win_rate": 0.4992
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr28",
       "artifact_name": "Renewed Will",
-      "total_games": 844,
-      "total_wins": 460,
-      "total_losses": 384,
-      "derived_win_rate": 0.545
+      "total_games": 1202,
+      "total_wins": 634,
+      "total_losses": 568,
+      "derived_win_rate": 0.5275
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efr31",
       "artifact_name": "Gifted Pen",
-      "total_games": 785,
-      "total_wins": 390,
-      "total_losses": 395,
-      "derived_win_rate": 0.4968
+      "total_games": 1037,
+      "total_wins": 513,
+      "total_losses": 524,
+      "derived_win_rate": 0.4947
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr31",
       "artifact_name": "Gifted Pen",
-      "total_games": 609,
-      "total_wins": 309,
-      "total_losses": 300,
-      "derived_win_rate": 0.5074
+      "total_games": 1016,
+      "total_wins": 507,
+      "total_losses": 509,
+      "derived_win_rate": 0.499
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 225,
-      "total_wins": 91,
-      "total_losses": 134,
-      "derived_win_rate": 0.4044
+      "total_games": 354,
+      "total_wins": 146,
+      "total_losses": 208,
+      "derived_win_rate": 0.4124
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 143,
-      "total_wins": 71,
-      "total_losses": 72,
-      "derived_win_rate": 0.4965
+      "total_games": 222,
+      "total_wins": 102,
+      "total_losses": 120,
+      "derived_win_rate": 0.4595
     }
   ],
-  "total_set_stats_games": 11489,
-  "total_artifact_stats_games": 8773,
+  "total_set_stats_games": 15827,
+  "total_artifact_stats_games": 11819,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.5095,
+    "win_rate": 0.5039,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -185,5 +185,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1046?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:56Z"
+  "scraped_at": "2026-08-31T17:06:43Z"
 }

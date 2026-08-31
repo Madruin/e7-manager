@@ -7,88 +7,97 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 583,
-      "total_wins": 243,
-      "total_losses": 339,
-      "total_bans": 36,
-      "total_prebans": 1
+      "total_games": 868,
+      "total_wins": 353,
+      "total_losses": 512,
+      "total_bans": 65,
+      "total_prebans": 3
     }
   ],
-  "sample_size": 583,
+  "sample_size": 868,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 544,
-      "total_wins": 225,
-      "total_losses": 319,
-      "derived_win_rate": 0.4136,
-      "derived_usage_share": 0.6051
+      "total_games": 797,
+      "total_wins": 323,
+      "total_losses": 474,
+      "derived_win_rate": 0.4053,
+      "derived_usage_share": 0.6079
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 245,
-      "total_wins": 97,
-      "total_losses": 148,
-      "derived_win_rate": 0.3959,
-      "derived_usage_share": 0.2725
+      "total_games": 365,
+      "total_wins": 148,
+      "total_losses": 217,
+      "derived_win_rate": 0.4055,
+      "derived_usage_share": 0.2784
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 101,
-      "total_wins": 41,
-      "total_losses": 60,
-      "derived_win_rate": 0.4059,
-      "derived_usage_share": 0.1123
+      "total_games": 131,
+      "total_wins": 49,
+      "total_losses": 82,
+      "derived_win_rate": 0.374,
+      "derived_usage_share": 0.0999
     },
     {
       "set_code": "set_might",
       "set_name": "Fervor",
-      "total_games": 9,
-      "total_wins": 4,
-      "total_losses": 5,
-      "derived_win_rate": 0.4444,
-      "derived_usage_share": 0.01
+      "total_games": 15,
+      "total_wins": 8,
+      "total_losses": 7,
+      "derived_win_rate": 0.5333,
+      "derived_usage_share": 0.0114
     }
   ],
   "top_artifacts": [
     {
-      "artifact_code": "ef510",
-      "artifact_name": "Elbris Ritual Sword",
-      "total_games": 159,
-      "total_wins": 71,
-      "total_losses": 88,
-      "derived_win_rate": 0.4465,
-      "derived_usage_share": 0.2912
-    },
-    {
       "artifact_code": "efa18",
       "artifact_name": "Sword of Winter Shadow",
-      "total_games": 147,
-      "total_wins": 70,
-      "total_losses": 77,
-      "derived_win_rate": 0.4762,
-      "derived_usage_share": 0.2692
+      "total_games": 243,
+      "total_wins": 112,
+      "total_losses": 131,
+      "derived_win_rate": 0.4609,
+      "derived_usage_share": 0.3038
+    },
+    {
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 204,
+      "total_wins": 90,
+      "total_losses": 114,
+      "derived_win_rate": 0.4412,
+      "derived_usage_share": 0.255
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 98,
-      "total_wins": 36,
-      "total_losses": 62,
-      "derived_win_rate": 0.3673,
-      "derived_usage_share": 0.1795
+      "total_games": 144,
+      "total_wins": 54,
+      "total_losses": 90,
+      "derived_win_rate": 0.375,
+      "derived_usage_share": 0.18
     },
     {
       "artifact_code": "efa13",
       "artifact_name": "Manica of Control",
-      "total_games": 91,
-      "total_wins": 37,
-      "total_losses": 54,
-      "derived_win_rate": 0.4066,
-      "derived_usage_share": 0.1667
+      "total_games": 136,
+      "total_wins": 49,
+      "total_losses": 87,
+      "derived_win_rate": 0.3603,
+      "derived_usage_share": 0.17
+    },
+    {
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 19,
+      "total_wins": 4,
+      "total_losses": 15,
+      "derived_win_rate": 0.2105,
+      "derived_usage_share": 0.0238
     },
     {
       "artifact_code": "efa19",
@@ -97,34 +106,34 @@
       "total_wins": 3,
       "total_losses": 14,
       "derived_win_rate": 0.1765,
-      "derived_usage_share": 0.0311
-    },
-    {
-      "artifact_code": "efa07",
-      "artifact_name": "Alexa's Basket",
-      "total_games": 13,
-      "total_wins": 1,
-      "total_losses": 12,
-      "derived_win_rate": 0.0769,
-      "derived_usage_share": 0.0238
+      "derived_usage_share": 0.0213
     },
     {
       "artifact_code": "efa01",
       "artifact_name": "Rhianna & Luciella",
-      "total_games": 6,
-      "total_wins": 1,
-      "total_losses": 5,
-      "derived_win_rate": 0.1667,
-      "derived_usage_share": 0.011
+      "total_games": 10,
+      "total_wins": 2,
+      "total_losses": 8,
+      "derived_win_rate": 0.2,
+      "derived_usage_share": 0.0125
     },
     {
       "artifact_code": "efa33",
       "artifact_name": "Butterfly's Baptism",
-      "total_games": 5,
+      "total_games": 9,
       "total_wins": 3,
-      "total_losses": 2,
-      "derived_win_rate": 0.6,
-      "derived_usage_share": 0.0092
+      "total_losses": 6,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0112
+    },
+    {
+      "artifact_code": "efa17",
+      "artifact_name": "Sword of Summer Twilight",
+      "total_games": 9,
+      "total_wins": 5,
+      "total_losses": 4,
+      "derived_win_rate": 0.5556,
+      "derived_usage_share": 0.0112
     },
     {
       "artifact_code": "ef406",
@@ -133,114 +142,105 @@
       "total_wins": 1,
       "total_losses": 3,
       "derived_win_rate": 0.25,
-      "derived_usage_share": 0.0073
-    },
-    {
-      "artifact_code": "efa17",
-      "artifact_name": "Sword of Summer Twilight",
-      "total_games": 3,
-      "total_wins": 2,
-      "total_losses": 1,
-      "derived_win_rate": 0.6667,
-      "derived_usage_share": 0.0055
+      "derived_usage_share": 0.005
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 244,
-      "total_wins": 97,
-      "total_losses": 147,
-      "derived_win_rate": 0.3975
+      "total_games": 363,
+      "total_wins": 148,
+      "total_losses": 215,
+      "derived_win_rate": 0.4077
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 192,
-      "total_wins": 83,
-      "total_losses": 109,
-      "derived_win_rate": 0.4323
+      "total_games": 287,
+      "total_wins": 116,
+      "total_losses": 171,
+      "derived_win_rate": 0.4042
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efa18",
       "artifact_name": "Sword of Winter Shadow",
-      "total_games": 134,
-      "total_wins": 64,
-      "total_losses": 70,
-      "derived_win_rate": 0.4776
+      "total_games": 199,
+      "total_wins": 96,
+      "total_losses": 103,
+      "derived_win_rate": 0.4824
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "ef510",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 119,
-      "total_wins": 58,
-      "total_losses": 61,
-      "derived_win_rate": 0.4874
+      "total_games": 159,
+      "total_wins": 75,
+      "total_losses": 84,
+      "derived_win_rate": 0.4717
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 100,
-      "total_wins": 41,
-      "total_losses": 59,
-      "derived_win_rate": 0.41
+      "total_games": 130,
+      "total_wins": 49,
+      "total_losses": 81,
+      "derived_win_rate": 0.3769
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 60,
-      "total_wins": 17,
-      "total_losses": 43,
-      "derived_win_rate": 0.2833
+      "total_games": 96,
+      "total_wins": 30,
+      "total_losses": 66,
+      "derived_win_rate": 0.3125
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa13",
       "artifact_name": "Manica of Control",
-      "total_games": 57,
-      "total_wins": 27,
-      "total_losses": 30,
-      "derived_win_rate": 0.4737
+      "total_games": 86,
+      "total_wins": 35,
+      "total_losses": 51,
+      "derived_win_rate": 0.407
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 32,
-      "total_wins": 17,
-      "total_losses": 15,
-      "derived_win_rate": 0.5312
-    },
-    {
-      "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "ef510",
-      "artifact_name": "Elbris Ritual Sword",
-      "total_games": 28,
-      "total_wins": 10,
-      "total_losses": 18,
-      "derived_win_rate": 0.3571
+      "total_games": 42,
+      "total_wins": 22,
+      "total_losses": 20,
+      "derived_win_rate": 0.5238
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efa13",
       "artifact_name": "Manica of Control",
-      "total_games": 28,
-      "total_wins": 10,
-      "total_losses": 18,
-      "derived_win_rate": 0.3571
+      "total_games": 37,
+      "total_wins": 13,
+      "total_losses": 24,
+      "derived_win_rate": 0.3514
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa18",
+      "artifact_name": "Sword of Winter Shadow",
+      "total_games": 33,
+      "total_wins": 9,
+      "total_losses": 24,
+      "derived_win_rate": 0.2727
     }
   ],
-  "total_set_stats_games": 899,
-  "total_artifact_stats_games": 546,
+  "total_set_stats_games": 1311,
+  "total_artifact_stats_games": 800,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.4175,
+    "win_rate": 0.4081,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -248,5 +248,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1118?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:08:11Z"
+  "scraped_at": "2026-08-31T17:07:56Z"
 }

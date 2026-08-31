@@ -7,227 +7,227 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 13397,
-      "total_wins": 4710,
-      "total_losses": 5100,
-      "total_bans": 1759,
-      "total_prebans": 3623
+      "total_games": 22740,
+      "total_wins": 8204,
+      "total_losses": 8951,
+      "total_bans": 3079,
+      "total_prebans": 5635
     }
   ],
-  "sample_size": 13397,
+  "sample_size": 22740,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 7841,
-      "total_wins": 3654,
-      "total_losses": 4187,
-      "derived_win_rate": 0.466,
-      "derived_usage_share": 0.5927
+      "total_games": 13683,
+      "total_wins": 6338,
+      "total_losses": 7345,
+      "derived_win_rate": 0.4632,
+      "derived_usage_share": 0.5975
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 2159,
-      "total_wins": 1061,
-      "total_losses": 1098,
-      "derived_win_rate": 0.4914,
-      "derived_usage_share": 0.1632
+      "total_games": 3570,
+      "total_wins": 1751,
+      "total_losses": 1819,
+      "derived_win_rate": 0.4905,
+      "derived_usage_share": 0.1559
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 1267,
-      "total_wins": 582,
-      "total_losses": 685,
-      "derived_win_rate": 0.4594,
-      "derived_usage_share": 0.0958
+      "total_games": 2343,
+      "total_wins": 1060,
+      "total_losses": 1283,
+      "derived_win_rate": 0.4524,
+      "derived_usage_share": 0.1023
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 1048,
-      "total_wins": 495,
-      "total_losses": 553,
-      "derived_win_rate": 0.4723,
-      "derived_usage_share": 0.0792
+      "total_games": 1702,
+      "total_wins": 761,
+      "total_losses": 941,
+      "derived_win_rate": 0.4471,
+      "derived_usage_share": 0.0743
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 475,
-      "total_wins": 207,
-      "total_losses": 268,
-      "derived_win_rate": 0.4358,
-      "derived_usage_share": 0.0359
+      "total_games": 704,
+      "total_wins": 310,
+      "total_losses": 394,
+      "derived_win_rate": 0.4403,
+      "derived_usage_share": 0.0307
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 195,
-      "total_wins": 92,
-      "total_losses": 103,
-      "derived_win_rate": 0.4718,
-      "derived_usage_share": 0.0147
+      "total_games": 414,
+      "total_wins": 205,
+      "total_losses": 209,
+      "derived_win_rate": 0.4952,
+      "derived_usage_share": 0.0181
     },
     {
       "set_code": "set_might",
       "set_name": "Fervor",
-      "total_games": 166,
-      "total_wins": 60,
-      "total_losses": 106,
-      "derived_win_rate": 0.3614,
-      "derived_usage_share": 0.0125
+      "total_games": 296,
+      "total_wins": 115,
+      "total_losses": 181,
+      "derived_win_rate": 0.3885,
+      "derived_usage_share": 0.0129
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 7219,
-      "total_wins": 3388,
-      "total_losses": 3831,
-      "derived_win_rate": 0.4693,
-      "derived_usage_share": 0.8967
+      "total_games": 12595,
+      "total_wins": 5858,
+      "total_losses": 6737,
+      "derived_win_rate": 0.4651,
+      "derived_usage_share": 0.8948
     },
     {
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 327,
-      "total_wins": 155,
-      "total_losses": 172,
-      "derived_win_rate": 0.474,
-      "derived_usage_share": 0.0406
+      "total_games": 507,
+      "total_wins": 242,
+      "total_losses": 265,
+      "derived_win_rate": 0.4773,
+      "derived_usage_share": 0.036
     },
     {
       "artifact_code": "",
       "artifact_name": null,
-      "total_games": 200,
-      "total_wins": 177,
-      "total_losses": 23,
-      "derived_win_rate": 0.885,
-      "derived_usage_share": 0.0248
+      "total_games": 357,
+      "total_wins": 316,
+      "total_losses": 41,
+      "derived_win_rate": 0.8852,
+      "derived_usage_share": 0.0254
     },
     {
       "artifact_code": "efw24",
       "artifact_name": "Pure White Trust",
-      "total_games": 171,
-      "total_wins": 61,
-      "total_losses": 110,
-      "derived_win_rate": 0.3567,
-      "derived_usage_share": 0.0212
-    },
-    {
-      "artifact_code": "efw05",
-      "artifact_name": "Strak Gauntlet",
-      "total_games": 62,
-      "total_wins": 27,
-      "total_losses": 35,
-      "derived_win_rate": 0.4355,
-      "derived_usage_share": 0.0077
+      "total_games": 283,
+      "total_wins": 106,
+      "total_losses": 177,
+      "derived_win_rate": 0.3746,
+      "derived_usage_share": 0.0201
     },
     {
       "artifact_code": "efw09",
       "artifact_name": "Creation & Destruction",
-      "total_games": 42,
-      "total_wins": 14,
-      "total_losses": 28,
-      "derived_win_rate": 0.3333,
+      "total_games": 134,
+      "total_wins": 53,
+      "total_losses": 81,
+      "derived_win_rate": 0.3955,
+      "derived_usage_share": 0.0095
+    },
+    {
+      "artifact_code": "efw05",
+      "artifact_name": "Strak Gauntlet",
+      "total_games": 73,
+      "total_wins": 33,
+      "total_losses": 40,
+      "derived_win_rate": 0.4521,
       "derived_usage_share": 0.0052
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed",
-      "total_games": 2474,
-      "total_wins": 1127,
-      "total_losses": 1347,
-      "derived_win_rate": 0.4555
+      "total_games": 4528,
+      "total_wins": 2060,
+      "total_losses": 2468,
+      "derived_win_rate": 0.4549
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 2201,
-      "total_wins": 1010,
-      "total_losses": 1191,
-      "derived_win_rate": 0.4589
+      "total_games": 4067,
+      "total_wins": 1854,
+      "total_losses": 2213,
+      "derived_win_rate": 0.4559
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 2145,
-      "total_wins": 1054,
-      "total_losses": 1091,
-      "derived_win_rate": 0.4914
+      "total_games": 3544,
+      "total_wins": 1737,
+      "total_losses": 1807,
+      "derived_win_rate": 0.4901
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 2040,
-      "total_wins": 1004,
-      "total_losses": 1036,
-      "derived_win_rate": 0.4922
+      "total_games": 3369,
+      "total_wins": 1657,
+      "total_losses": 1712,
+      "derived_win_rate": 0.4918
     },
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 1266,
-      "total_wins": 582,
-      "total_losses": 684,
-      "derived_win_rate": 0.4597
+      "total_games": 2326,
+      "total_wins": 1053,
+      "total_losses": 1273,
+      "derived_win_rate": 0.4527
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 1199,
-      "total_wins": 554,
-      "total_losses": 645,
-      "derived_win_rate": 0.4621
+      "total_games": 2136,
+      "total_wins": 974,
+      "total_losses": 1162,
+      "derived_win_rate": 0.456
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 1048,
-      "total_wins": 495,
-      "total_losses": 553,
-      "derived_win_rate": 0.4723
+      "total_games": 1694,
+      "total_wins": 760,
+      "total_losses": 934,
+      "derived_win_rate": 0.4486
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 983,
-      "total_wins": 469,
-      "total_losses": 514,
-      "derived_win_rate": 0.4771
+      "total_games": 1590,
+      "total_wins": 715,
+      "total_losses": 875,
+      "derived_win_rate": 0.4497
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 703,
+      "total_wins": 309,
+      "total_losses": 394,
+      "derived_win_rate": 0.4395
     },
     {
       "set_agg_code": "set_speed+set_chase",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 474,
-      "total_wins": 206,
-      "total_losses": 268,
-      "derived_win_rate": 0.4346
-    },
-    {
-      "set_agg_code": "set_speed+set_chase",
-      "total_games": 474,
-      "total_wins": 206,
-      "total_losses": 268,
-      "derived_win_rate": 0.4346
+      "total_games": 691,
+      "total_wins": 303,
+      "total_losses": 388,
+      "derived_win_rate": 0.4385
     }
   ],
-  "total_set_stats_games": 13229,
-  "total_artifact_stats_games": 8051,
+  "total_set_stats_games": 22901,
+  "total_artifact_stats_games": 14076,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.4801,
+    "win_rate": 0.4782,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -235,5 +235,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2184?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:47Z"
+  "scraped_at": "2026-08-31T17:06:27Z"
 }

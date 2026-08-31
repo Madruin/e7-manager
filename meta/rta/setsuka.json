@@ -7,200 +7,200 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 11781,
-      "total_wins": 5851,
-      "total_losses": 5626,
-      "total_bans": 3287,
-      "total_prebans": 304
+      "total_games": 19481,
+      "total_wins": 9672,
+      "total_losses": 9383,
+      "total_bans": 5389,
+      "total_prebans": 426
     }
   ],
-  "sample_size": 11781,
+  "sample_size": 19481,
   "top_sets": [
     {
       "set_code": "set_riposte",
       "set_name": "Riposte",
-      "total_games": 7193,
-      "total_wins": 3715,
-      "total_losses": 3478,
-      "derived_win_rate": 0.5165,
-      "derived_usage_share": 0.4413
+      "total_games": 11882,
+      "total_wins": 6094,
+      "total_losses": 5788,
+      "derived_win_rate": 0.5129,
+      "derived_usage_share": 0.4366
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 6108,
-      "total_wins": 3184,
-      "total_losses": 2924,
-      "derived_win_rate": 0.5213,
-      "derived_usage_share": 0.3748
-    },
-    {
-      "set_code": "set_penetrate",
-      "set_name": "Penetration",
-      "total_games": 801,
-      "total_wins": 388,
-      "total_losses": 413,
-      "derived_win_rate": 0.4844,
-      "derived_usage_share": 0.0491
+      "total_games": 9926,
+      "total_wins": 5134,
+      "total_losses": 4792,
+      "derived_win_rate": 0.5172,
+      "derived_usage_share": 0.3647
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 759,
-      "total_wins": 358,
-      "total_losses": 401,
-      "derived_win_rate": 0.4717,
-      "derived_usage_share": 0.0466
+      "total_games": 1410,
+      "total_wins": 642,
+      "total_losses": 768,
+      "derived_win_rate": 0.4553,
+      "derived_usage_share": 0.0518
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 1333,
+      "total_wins": 641,
+      "total_losses": 692,
+      "derived_win_rate": 0.4809,
+      "derived_usage_share": 0.049
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 557,
-      "total_wins": 250,
-      "total_losses": 307,
-      "derived_win_rate": 0.4488,
-      "derived_usage_share": 0.0342
+      "total_games": 1023,
+      "total_wins": 460,
+      "total_losses": 563,
+      "derived_win_rate": 0.4497,
+      "derived_usage_share": 0.0376
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 473,
-      "total_wins": 214,
-      "total_losses": 259,
-      "derived_win_rate": 0.4524,
-      "derived_usage_share": 0.029
+      "total_games": 899,
+      "total_wins": 418,
+      "total_losses": 481,
+      "derived_win_rate": 0.465,
+      "derived_usage_share": 0.033
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 203,
-      "total_wins": 101,
-      "total_losses": 102,
-      "derived_win_rate": 0.4975,
-      "derived_usage_share": 0.0125
+      "total_games": 305,
+      "total_wins": 144,
+      "total_losses": 161,
+      "derived_win_rate": 0.4721,
+      "derived_usage_share": 0.0112
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 109,
-      "total_wins": 58,
-      "total_losses": 51,
-      "derived_win_rate": 0.5321,
-      "derived_usage_share": 0.0067
+      "total_games": 195,
+      "total_wins": 95,
+      "total_losses": 100,
+      "derived_win_rate": 0.4872,
+      "derived_usage_share": 0.0072
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa29",
       "artifact_name": "Lethal Whispers",
-      "total_games": 7905,
-      "total_wins": 4047,
-      "total_losses": 3858,
-      "derived_win_rate": 0.512,
-      "derived_usage_share": 0.9652
+      "total_games": 13144,
+      "total_wins": 6664,
+      "total_losses": 6480,
+      "derived_win_rate": 0.507,
+      "derived_usage_share": 0.9618
     },
     {
       "artifact_code": "efa16",
       "artifact_name": "Double-Edged Decrescent",
-      "total_games": 222,
-      "total_wins": 97,
-      "total_losses": 125,
-      "derived_win_rate": 0.4369,
-      "derived_usage_share": 0.0271
+      "total_games": 361,
+      "total_wins": 151,
+      "total_losses": 210,
+      "derived_win_rate": 0.4183,
+      "derived_usage_share": 0.0264
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_riposte+set_immune",
-      "total_games": 5654,
-      "total_wins": 2973,
-      "total_losses": 2681,
-      "derived_win_rate": 0.5258
+      "total_games": 9152,
+      "total_wins": 4782,
+      "total_losses": 4370,
+      "derived_win_rate": 0.5225
     },
     {
       "set_agg_code": "set_riposte+set_immune",
       "artifact_code": "efa29",
       "artifact_name": "Lethal Whispers",
-      "total_games": 5607,
-      "total_wins": 2948,
-      "total_losses": 2659,
-      "derived_win_rate": 0.5258
+      "total_games": 9053,
+      "total_wins": 4736,
+      "total_losses": 4317,
+      "derived_win_rate": 0.5231
     },
     {
       "set_agg_code": "set_riposte+set_penetrate",
       "artifact_code": "efa29",
       "artifact_name": "Lethal Whispers",
-      "total_games": 655,
-      "total_wins": 311,
-      "total_losses": 344,
-      "derived_win_rate": 0.4748
+      "total_games": 1082,
+      "total_wins": 517,
+      "total_losses": 565,
+      "derived_win_rate": 0.4778
     },
     {
       "set_agg_code": "set_riposte+set_penetrate",
-      "total_games": 655,
-      "total_wins": 311,
-      "total_losses": 344,
-      "derived_win_rate": 0.4748
+      "total_games": 1082,
+      "total_wins": 517,
+      "total_losses": 565,
+      "derived_win_rate": 0.4778
     },
     {
       "set_agg_code": "set_riposte+set_max_hp",
-      "total_games": 494,
-      "total_wins": 246,
-      "total_losses": 248,
-      "derived_win_rate": 0.498
+      "total_games": 915,
+      "total_wins": 439,
+      "total_losses": 476,
+      "derived_win_rate": 0.4798
     },
     {
       "set_agg_code": "set_riposte+set_max_hp",
       "artifact_code": "efa29",
       "artifact_name": "Lethal Whispers",
-      "total_games": 493,
-      "total_wins": 245,
-      "total_losses": 248,
-      "derived_win_rate": 0.497
+      "total_games": 914,
+      "total_wins": 438,
+      "total_losses": 476,
+      "derived_win_rate": 0.4792
     },
     {
       "set_agg_code": "set_riposte+set_cri",
-      "total_games": 301,
-      "total_wins": 138,
-      "total_losses": 163,
-      "derived_win_rate": 0.4585
+      "total_games": 578,
+      "total_wins": 280,
+      "total_losses": 298,
+      "derived_win_rate": 0.4844
     },
     {
       "set_agg_code": "set_counter+set_immune",
-      "total_games": 299,
-      "total_wins": 133,
-      "total_losses": 166,
-      "derived_win_rate": 0.4448
-    },
-    {
-      "set_agg_code": "set_counter+set_immune",
-      "artifact_code": "efa29",
-      "artifact_name": "Lethal Whispers",
-      "total_games": 287,
-      "total_wins": 129,
-      "total_losses": 158,
-      "derived_win_rate": 0.4495
+      "total_games": 529,
+      "total_wins": 236,
+      "total_losses": 293,
+      "derived_win_rate": 0.4461
     },
     {
       "set_agg_code": "set_riposte+set_cri",
       "artifact_code": "efa29",
       "artifact_name": "Lethal Whispers",
-      "total_games": 280,
-      "total_wins": 132,
-      "total_losses": 148,
-      "derived_win_rate": 0.4714
+      "total_games": 520,
+      "total_wins": 254,
+      "total_losses": 266,
+      "derived_win_rate": 0.4885
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "artifact_code": "efa29",
+      "artifact_name": "Lethal Whispers",
+      "total_games": 512,
+      "total_wins": 231,
+      "total_losses": 281,
+      "derived_win_rate": 0.4512
     }
   ],
-  "total_set_stats_games": 16298,
-  "total_artifact_stats_games": 8190,
+  "total_set_stats_games": 27216,
+  "total_artifact_stats_games": 13666,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.5098,
+    "win_rate": 0.5076,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -208,5 +208,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1176?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:06:54Z"
+  "scraped_at": "2026-08-31T17:06:35Z"
 }

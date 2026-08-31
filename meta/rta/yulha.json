@@ -7,270 +7,272 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 825,
-      "total_wins": 375,
-      "total_losses": 425,
-      "total_bans": 140,
+      "total_games": 1420,
+      "total_wins": 668,
+      "total_losses": 727,
+      "total_bans": 231,
       "total_prebans": 25
     }
   ],
-  "sample_size": 825,
+  "sample_size": 1420,
   "top_sets": [
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 1117,
-      "total_wins": 512,
-      "total_losses": 605,
-      "derived_win_rate": 0.4584,
-      "derived_usage_share": 0.6737
+      "total_games": 2068,
+      "total_wins": 959,
+      "total_losses": 1109,
+      "derived_win_rate": 0.4637,
+      "derived_usage_share": 0.6989
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 166,
-      "total_wins": 82,
-      "total_losses": 84,
-      "derived_win_rate": 0.494,
-      "derived_usage_share": 0.1001
+      "total_games": 278,
+      "total_wins": 138,
+      "total_losses": 140,
+      "derived_win_rate": 0.4964,
+      "derived_usage_share": 0.094
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 96,
-      "total_wins": 54,
-      "total_losses": 42,
-      "derived_win_rate": 0.5625,
-      "derived_usage_share": 0.0579
+      "total_games": 152,
+      "total_wins": 88,
+      "total_losses": 64,
+      "derived_win_rate": 0.5789,
+      "derived_usage_share": 0.0514
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 78,
-      "total_wins": 28,
-      "total_losses": 50,
-      "derived_win_rate": 0.359,
-      "derived_usage_share": 0.047
+      "total_games": 117,
+      "total_wins": 45,
+      "total_losses": 72,
+      "derived_win_rate": 0.3846,
+      "derived_usage_share": 0.0395
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 62,
-      "total_wins": 30,
-      "total_losses": 32,
-      "derived_win_rate": 0.4839,
-      "derived_usage_share": 0.0374
+      "total_games": 109,
+      "total_wins": 58,
+      "total_losses": 51,
+      "derived_win_rate": 0.5321,
+      "derived_usage_share": 0.0368
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 47,
-      "total_wins": 19,
-      "total_losses": 28,
-      "derived_win_rate": 0.4043,
-      "derived_usage_share": 0.0283
+      "total_games": 79,
+      "total_wins": 35,
+      "total_losses": 44,
+      "derived_win_rate": 0.443,
+      "derived_usage_share": 0.0267
     },
     {
       "set_code": "set_revenant",
       "set_name": "Reversal",
-      "total_games": 42,
-      "total_wins": 23,
-      "total_losses": 19,
-      "derived_win_rate": 0.5476,
+      "total_games": 75,
+      "total_wins": 39,
+      "total_losses": 36,
+      "derived_win_rate": 0.52,
       "derived_usage_share": 0.0253
     },
     {
       "set_code": "set_def",
       "set_name": "Defense",
-      "total_games": 27,
-      "total_wins": 15,
-      "total_losses": 12,
-      "derived_win_rate": 0.5556,
-      "derived_usage_share": 0.0163
+      "total_games": 40,
+      "total_wins": 20,
+      "total_losses": 20,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0135
     },
     {
       "set_code": "set_revenge",
       "set_name": "Revenge",
-      "total_games": 21,
-      "total_wins": 7,
-      "total_losses": 14,
-      "derived_win_rate": 0.3333,
-      "derived_usage_share": 0.0127
+      "total_games": 30,
+      "total_wins": 13,
+      "total_losses": 17,
+      "derived_win_rate": 0.4333,
+      "derived_usage_share": 0.0101
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 434,
-      "total_wins": 203,
-      "total_losses": 231,
-      "derived_win_rate": 0.4677,
-      "derived_usage_share": 0.6576
+      "total_games": 743,
+      "total_wins": 354,
+      "total_losses": 389,
+      "derived_win_rate": 0.4764,
+      "derived_usage_share": 0.6383
     },
     {
       "artifact_code": "efk03",
       "artifact_name": "Aurius",
-      "total_games": 87,
-      "total_wins": 42,
-      "total_losses": 45,
-      "derived_win_rate": 0.4828,
-      "derived_usage_share": 0.1318
+      "total_games": 166,
+      "total_wins": 80,
+      "total_losses": 86,
+      "derived_win_rate": 0.4819,
+      "derived_usage_share": 0.1426
     },
     {
       "artifact_code": "efk17",
       "artifact_name": "Sphere of Sadism",
-      "total_games": 47,
-      "total_wins": 19,
-      "total_losses": 28,
-      "derived_win_rate": 0.4043,
-      "derived_usage_share": 0.0712
+      "total_games": 82,
+      "total_wins": 34,
+      "total_losses": 48,
+      "derived_win_rate": 0.4146,
+      "derived_usage_share": 0.0704
     },
     {
       "artifact_code": "efk04",
       "artifact_name": "Adamant Shield",
-      "total_games": 22,
-      "total_wins": 10,
-      "total_losses": 12,
-      "derived_win_rate": 0.4545,
-      "derived_usage_share": 0.0333
+      "total_games": 37,
+      "total_wins": 19,
+      "total_losses": 18,
+      "derived_win_rate": 0.5135,
+      "derived_usage_share": 0.0318
     },
     {
       "artifact_code": "efk13",
       "artifact_name": "Crown of Glory",
-      "total_games": 17,
-      "total_wins": 7,
-      "total_losses": 10,
-      "derived_win_rate": 0.4118,
-      "derived_usage_share": 0.0258
-    },
-    {
-      "artifact_code": "",
-      "artifact_name": null,
-      "total_games": 12,
-      "total_wins": 4,
-      "total_losses": 8,
-      "derived_win_rate": 0.3333,
-      "derived_usage_share": 0.0182
+      "total_games": 33,
+      "total_wins": 19,
+      "total_losses": 14,
+      "derived_win_rate": 0.5758,
+      "derived_usage_share": 0.0284
     },
     {
       "artifact_code": "efk23",
       "artifact_name": "A Precious Connection",
-      "total_games": 12,
-      "total_wins": 4,
-      "total_losses": 8,
-      "derived_win_rate": 0.3333,
-      "derived_usage_share": 0.0182
+      "total_games": 28,
+      "total_wins": 9,
+      "total_losses": 19,
+      "derived_win_rate": 0.3214,
+      "derived_usage_share": 0.0241
     },
     {
       "artifact_code": "efk06",
       "artifact_name": "Noble Oath",
-      "total_games": 10,
-      "total_wins": 8,
-      "total_losses": 2,
-      "derived_win_rate": 0.8,
-      "derived_usage_share": 0.0152
+      "total_games": 18,
+      "total_wins": 12,
+      "total_losses": 6,
+      "derived_win_rate": 0.6667,
+      "derived_usage_share": 0.0155
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 17,
+      "total_wins": 7,
+      "total_losses": 10,
+      "derived_win_rate": 0.4118,
+      "derived_usage_share": 0.0146
     },
     {
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 7,
-      "total_wins": 4,
-      "total_losses": 3,
-      "derived_win_rate": 0.5714,
-      "derived_usage_share": 0.0106
+      "total_games": 17,
+      "total_wins": 10,
+      "total_losses": 7,
+      "derived_win_rate": 0.5882,
+      "derived_usage_share": 0.0146
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_max_hp+set_max_hp+set_max_hp",
-      "total_games": 202,
-      "total_wins": 87,
-      "total_losses": 115,
-      "derived_win_rate": 0.4307
+      "total_games": 394,
+      "total_wins": 173,
+      "total_losses": 221,
+      "derived_win_rate": 0.4391
     },
     {
       "set_agg_code": "set_max_hp+set_max_hp+set_max_hp",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 141,
-      "total_wins": 66,
-      "total_losses": 75,
-      "derived_win_rate": 0.4681
+      "total_games": 267,
+      "total_wins": 124,
+      "total_losses": 143,
+      "derived_win_rate": 0.4644
     },
     {
       "set_agg_code": "set_max_hp+set_max_hp+set_immune",
-      "total_games": 66,
-      "total_wins": 37,
-      "total_losses": 29,
-      "derived_win_rate": 0.5606
+      "total_games": 125,
+      "total_wins": 65,
+      "total_losses": 60,
+      "derived_win_rate": 0.52
     },
     {
       "set_agg_code": "set_shield+set_max_hp",
-      "total_games": 62,
-      "total_wins": 33,
-      "total_losses": 29,
-      "derived_win_rate": 0.5323
+      "total_games": 107,
+      "total_wins": 62,
+      "total_losses": 45,
+      "derived_win_rate": 0.5794
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 55,
-      "total_wins": 28,
-      "total_losses": 27,
-      "derived_win_rate": 0.5091
+      "total_games": 95,
+      "total_wins": 50,
+      "total_losses": 45,
+      "derived_win_rate": 0.5263
+    },
+    {
+      "set_agg_code": "set_res+set_max_hp+set_max_hp",
+      "total_games": 81,
+      "total_wins": 32,
+      "total_losses": 49,
+      "derived_win_rate": 0.3951
     },
     {
       "set_agg_code": "set_res+set_max_hp+set_max_hp",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 48,
-      "total_wins": 18,
-      "total_losses": 30,
-      "derived_win_rate": 0.375
-    },
-    {
-      "set_agg_code": "set_res+set_max_hp+set_max_hp",
-      "total_games": 48,
-      "total_wins": 18,
-      "total_losses": 30,
-      "derived_win_rate": 0.375
+      "total_games": 78,
+      "total_wins": 30,
+      "total_losses": 48,
+      "derived_win_rate": 0.3846
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 43,
-      "total_wins": 22,
-      "total_losses": 21,
-      "derived_win_rate": 0.5116
+      "total_games": 69,
+      "total_wins": 36,
+      "total_losses": 33,
+      "derived_win_rate": 0.5217
     },
     {
       "set_agg_code": "set_shield+set_max_hp",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 36,
-      "total_wins": 19,
-      "total_losses": 17,
-      "derived_win_rate": 0.5278
+      "total_games": 56,
+      "total_wins": 32,
+      "total_losses": 24,
+      "derived_win_rate": 0.5714
     },
     {
-      "set_agg_code": "set_shield+set_immune",
-      "total_games": 33,
-      "total_wins": 20,
-      "total_losses": 13,
-      "derived_win_rate": 0.6061
+      "set_agg_code": "set_max_hp+set_max_hp+set_immune",
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 54,
+      "total_wins": 30,
+      "total_losses": 24,
+      "derived_win_rate": 0.5556
     }
   ],
-  "total_set_stats_games": 1658,
-  "total_artifact_stats_games": 660,
+  "total_set_stats_games": 2959,
+  "total_artifact_stats_games": 1164,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-24T05:16:16.964Z"
+    "last_updated": "2026-08-31T05:12:44.315Z"
   },
   "derived": {
-    "win_rate": 0.4688,
+    "win_rate": 0.4789,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -278,5 +280,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1131?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-24T10:08:05Z"
+  "scraped_at": "2026-08-31T17:07:47Z"
 }
