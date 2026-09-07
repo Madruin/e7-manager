@@ -7,218 +7,218 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 21768,
-      "total_wins": 10994,
-      "total_losses": 10325,
-      "total_bans": 3550,
-      "total_prebans": 449
+      "total_games": 27530,
+      "total_wins": 13920,
+      "total_losses": 13103,
+      "total_bans": 4461,
+      "total_prebans": 507
     }
   ],
-  "sample_size": 21768,
+  "sample_size": 27530,
   "top_sets": [
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 35526,
-      "total_wins": 18300,
-      "total_losses": 17226,
-      "derived_win_rate": 0.5151,
-      "derived_usage_share": 0.8321
+      "total_games": 45509,
+      "total_wins": 23413,
+      "total_losses": 22096,
+      "derived_win_rate": 0.5145,
+      "derived_usage_share": 0.8364
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 3359,
-      "total_wins": 1766,
-      "total_losses": 1593,
-      "derived_win_rate": 0.5258,
-      "derived_usage_share": 0.0787
+      "total_games": 4199,
+      "total_wins": 2188,
+      "total_losses": 2011,
+      "derived_win_rate": 0.5211,
+      "derived_usage_share": 0.0772
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 1643,
-      "total_wins": 794,
-      "total_losses": 849,
-      "derived_win_rate": 0.4833,
-      "derived_usage_share": 0.0385
+      "total_games": 2026,
+      "total_wins": 993,
+      "total_losses": 1033,
+      "derived_win_rate": 0.4901,
+      "derived_usage_share": 0.0372
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 801,
-      "total_wins": 370,
-      "total_losses": 431,
-      "derived_win_rate": 0.4619,
-      "derived_usage_share": 0.0188
+      "total_games": 1014,
+      "total_wins": 484,
+      "total_losses": 530,
+      "derived_win_rate": 0.4773,
+      "derived_usage_share": 0.0186
     },
     {
       "set_code": "set_def",
       "set_name": "Defense",
-      "total_games": 455,
-      "total_wins": 260,
-      "total_losses": 195,
-      "derived_win_rate": 0.5714,
-      "derived_usage_share": 0.0107
+      "total_games": 567,
+      "total_wins": 315,
+      "total_losses": 252,
+      "derived_win_rate": 0.5556,
+      "derived_usage_share": 0.0104
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 384,
-      "total_wins": 188,
-      "total_losses": 196,
-      "derived_win_rate": 0.4896,
-      "derived_usage_share": 0.009
+      "total_games": 467,
+      "total_wins": 220,
+      "total_losses": 247,
+      "derived_win_rate": 0.4711,
+      "derived_usage_share": 0.0086
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 368,
-      "total_wins": 182,
-      "total_losses": 186,
-      "derived_win_rate": 0.4946,
-      "derived_usage_share": 0.0086
+      "total_games": 443,
+      "total_wins": 220,
+      "total_losses": 223,
+      "derived_win_rate": 0.4966,
+      "derived_usage_share": 0.0081
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 15196,
-      "total_wins": 7937,
-      "total_losses": 7259,
-      "derived_win_rate": 0.5223,
-      "derived_usage_share": 0.8552
+      "total_games": 19331,
+      "total_wins": 10085,
+      "total_losses": 9246,
+      "derived_win_rate": 0.5217,
+      "derived_usage_share": 0.8568
     },
     {
       "artifact_code": "ef507",
       "artifact_name": "Bastion of Hope",
-      "total_games": 1748,
-      "total_wins": 807,
-      "total_losses": 941,
-      "derived_win_rate": 0.4617,
-      "derived_usage_share": 0.0984
+      "total_games": 2263,
+      "total_wins": 1050,
+      "total_losses": 1213,
+      "derived_win_rate": 0.464,
+      "derived_usage_share": 0.1003
     },
     {
       "artifact_code": "efk04",
       "artifact_name": "Adamant Shield",
-      "total_games": 331,
-      "total_wins": 162,
-      "total_losses": 169,
-      "derived_win_rate": 0.4894,
-      "derived_usage_share": 0.0186
+      "total_games": 374,
+      "total_wins": 189,
+      "total_losses": 185,
+      "derived_win_rate": 0.5053,
+      "derived_usage_share": 0.0166
     },
     {
       "artifact_code": "efk03",
       "artifact_name": "Aurius",
-      "total_games": 212,
-      "total_wins": 96,
-      "total_losses": 116,
-      "derived_win_rate": 0.4528,
-      "derived_usage_share": 0.0119
+      "total_games": 231,
+      "total_wins": 104,
+      "total_losses": 127,
+      "derived_win_rate": 0.4502,
+      "derived_usage_share": 0.0102
     },
     {
       "artifact_code": "efk25",
       "artifact_name": "With a Little Friend",
-      "total_games": 122,
-      "total_wins": 53,
-      "total_losses": 69,
-      "derived_win_rate": 0.4344,
-      "derived_usage_share": 0.0069
+      "total_games": 147,
+      "total_wins": 63,
+      "total_losses": 84,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0065
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_res+set_res+set_res",
-      "total_games": 6390,
-      "total_wins": 3236,
-      "total_losses": 3154,
-      "derived_win_rate": 0.5064
+      "total_games": 8342,
+      "total_wins": 4222,
+      "total_losses": 4120,
+      "derived_win_rate": 0.5061
     },
     {
       "set_agg_code": "set_res+set_res+set_res",
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 5666,
-      "total_wins": 2915,
-      "total_losses": 2751,
-      "derived_win_rate": 0.5145
+      "total_games": 7374,
+      "total_wins": 3785,
+      "total_losses": 3589,
+      "derived_win_rate": 0.5133
     },
     {
       "set_agg_code": "set_res+set_res",
-      "total_games": 2766,
-      "total_wins": 1531,
-      "total_losses": 1235,
-      "derived_win_rate": 0.5535
+      "total_games": 3497,
+      "total_wins": 1929,
+      "total_losses": 1568,
+      "derived_win_rate": 0.5516
     },
     {
       "set_agg_code": "set_res+set_res",
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 2582,
-      "total_wins": 1431,
-      "total_losses": 1151,
-      "derived_win_rate": 0.5542
+      "total_games": 3268,
+      "total_wins": 1803,
+      "total_losses": 1465,
+      "derived_win_rate": 0.5517
     },
     {
       "set_agg_code": "set_res",
-      "total_games": 2065,
-      "total_wins": 1062,
-      "total_losses": 1003,
-      "derived_win_rate": 0.5143
+      "total_games": 2553,
+      "total_wins": 1311,
+      "total_losses": 1242,
+      "derived_win_rate": 0.5135
     },
     {
       "set_agg_code": "set_res+set_res+set_max_hp",
-      "total_games": 1950,
-      "total_wins": 1022,
-      "total_losses": 928,
-      "derived_win_rate": 0.5241
+      "total_games": 2450,
+      "total_wins": 1283,
+      "total_losses": 1167,
+      "derived_win_rate": 0.5237
     },
     {
       "set_agg_code": "set_res",
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 1887,
-      "total_wins": 982,
-      "total_losses": 905,
-      "derived_win_rate": 0.5204
+      "total_games": 2348,
+      "total_wins": 1223,
+      "total_losses": 1125,
+      "derived_win_rate": 0.5209
     },
     {
       "set_agg_code": "set_res+set_res+set_max_hp",
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 1582,
-      "total_wins": 842,
-      "total_losses": 740,
-      "derived_win_rate": 0.5322
+      "total_games": 2006,
+      "total_wins": 1070,
+      "total_losses": 936,
+      "derived_win_rate": 0.5334
     },
     {
       "set_agg_code": "set_speed+set_res",
-      "total_games": 1560,
-      "total_wins": 756,
-      "total_losses": 804,
-      "derived_win_rate": 0.4846
+      "total_games": 1912,
+      "total_wins": 939,
+      "total_losses": 973,
+      "derived_win_rate": 0.4911
     },
     {
       "set_agg_code": "set_speed+set_res",
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 1254,
-      "total_wins": 632,
-      "total_losses": 622,
-      "derived_win_rate": 0.504
+      "total_games": 1537,
+      "total_wins": 784,
+      "total_losses": 753,
+      "derived_win_rate": 0.5101
     }
   ],
-  "total_set_stats_games": 42692,
-  "total_artifact_stats_games": 17769,
+  "total_set_stats_games": 54409,
+  "total_artifact_stats_games": 22562,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.5157,
+    "win_rate": 0.5151,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -226,5 +226,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c4123?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:06:30Z"
+  "scraped_at": "2026-09-07T15:06:06Z"
 }

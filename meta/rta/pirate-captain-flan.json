@@ -7,193 +7,193 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 4125,
-      "total_wins": 2030,
-      "total_losses": 2095,
-      "total_bans": 926,
+      "total_games": 5333,
+      "total_wins": 2591,
+      "total_losses": 2742,
+      "total_bans": 1227,
       "total_prebans": 0
     }
   ],
-  "sample_size": 4125,
+  "sample_size": 5333,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 3124,
-      "total_wins": 1565,
-      "total_losses": 1559,
-      "derived_win_rate": 0.501,
-      "derived_usage_share": 0.5114
+      "total_games": 3989,
+      "total_wins": 1976,
+      "total_losses": 2013,
+      "derived_win_rate": 0.4954,
+      "derived_usage_share": 0.5088
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 2852,
-      "total_wins": 1422,
-      "total_losses": 1430,
-      "derived_win_rate": 0.4986,
-      "derived_usage_share": 0.4669
+      "total_games": 3666,
+      "total_wins": 1800,
+      "total_losses": 1866,
+      "derived_win_rate": 0.491,
+      "derived_usage_share": 0.4676
     },
     {
       "set_code": "set_weak",
       "set_name": "Weakening",
-      "total_games": 63,
-      "total_wins": 31,
-      "total_losses": 32,
-      "derived_win_rate": 0.4921,
-      "derived_usage_share": 0.0103
+      "total_games": 101,
+      "total_wins": 44,
+      "total_losses": 57,
+      "derived_win_rate": 0.4356,
+      "derived_usage_share": 0.0129
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 43,
-      "total_wins": 22,
+      "total_games": 46,
+      "total_wins": 25,
       "total_losses": 21,
-      "derived_win_rate": 0.5116,
-      "derived_usage_share": 0.007
+      "derived_win_rate": 0.5435,
+      "derived_usage_share": 0.0059
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efr18",
       "artifact_name": "Star of the Deep Sea",
-      "total_games": 2761,
-      "total_wins": 1385,
-      "total_losses": 1376,
-      "derived_win_rate": 0.5016,
-      "derived_usage_share": 0.8631
+      "total_games": 3517,
+      "total_wins": 1745,
+      "total_losses": 1772,
+      "derived_win_rate": 0.4962,
+      "derived_usage_share": 0.8566
     },
     {
       "artifact_code": "efr30",
       "artifact_name": "Awakened Leaf",
-      "total_games": 218,
-      "total_wins": 103,
-      "total_losses": 115,
-      "derived_win_rate": 0.4725,
-      "derived_usage_share": 0.0681
+      "total_games": 284,
+      "total_wins": 139,
+      "total_losses": 145,
+      "derived_win_rate": 0.4894,
+      "derived_usage_share": 0.0692
     },
     {
       "artifact_code": "efr28",
       "artifact_name": "Renewed Will",
-      "total_games": 99,
-      "total_wins": 49,
-      "total_losses": 50,
-      "derived_win_rate": 0.4949,
-      "derived_usage_share": 0.0309
+      "total_games": 149,
+      "total_wins": 65,
+      "total_losses": 84,
+      "derived_win_rate": 0.4362,
+      "derived_usage_share": 0.0363
     },
     {
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 58,
-      "total_wins": 31,
-      "total_losses": 27,
-      "derived_win_rate": 0.5345,
-      "derived_usage_share": 0.0181
+      "total_games": 67,
+      "total_wins": 35,
+      "total_losses": 32,
+      "derived_win_rate": 0.5224,
+      "derived_usage_share": 0.0163
     },
     {
       "artifact_code": "efr16",
       "artifact_name": "Unseen Observer",
-      "total_games": 26,
-      "total_wins": 13,
-      "total_losses": 13,
-      "derived_win_rate": 0.5,
-      "derived_usage_share": 0.0081
+      "total_games": 41,
+      "total_wins": 19,
+      "total_losses": 22,
+      "derived_win_rate": 0.4634,
+      "derived_usage_share": 0.01
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 2780,
-      "total_wins": 1390,
-      "total_losses": 1390,
-      "derived_win_rate": 0.5
+      "total_games": 3553,
+      "total_wins": 1753,
+      "total_losses": 1800,
+      "derived_win_rate": 0.4934
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr18",
       "artifact_name": "Star of the Deep Sea",
-      "total_games": 2408,
-      "total_wins": 1204,
-      "total_losses": 1204,
-      "derived_win_rate": 0.5
+      "total_games": 3059,
+      "total_wins": 1512,
+      "total_losses": 1547,
+      "derived_win_rate": 0.4943
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 274,
-      "total_wins": 141,
-      "total_losses": 133,
-      "derived_win_rate": 0.5146
+      "total_games": 353,
+      "total_wins": 181,
+      "total_losses": 172,
+      "derived_win_rate": 0.5127
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efr18",
       "artifact_name": "Star of the Deep Sea",
-      "total_games": 228,
-      "total_wins": 122,
-      "total_losses": 106,
-      "derived_win_rate": 0.5351
+      "total_games": 297,
+      "total_wins": 159,
+      "total_losses": 138,
+      "derived_win_rate": 0.5354
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr30",
       "artifact_name": "Awakened Leaf",
-      "total_games": 188,
-      "total_wins": 91,
-      "total_losses": 97,
-      "derived_win_rate": 0.484
+      "total_games": 248,
+      "total_wins": 123,
+      "total_losses": 125,
+      "derived_win_rate": 0.496
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr28",
       "artifact_name": "Renewed Will",
-      "total_games": 74,
-      "total_wins": 38,
-      "total_losses": 36,
-      "derived_win_rate": 0.5135
+      "total_games": 109,
+      "total_wins": 51,
+      "total_losses": 58,
+      "derived_win_rate": 0.4679
     },
     {
       "set_agg_code": "set_weak+set_acc",
-      "total_games": 61,
-      "total_wins": 30,
-      "total_losses": 31,
-      "derived_win_rate": 0.4918
-    },
-    {
-      "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "efr13",
-      "artifact_name": "Guiding Light",
-      "total_games": 58,
-      "total_wins": 31,
-      "total_losses": 27,
-      "derived_win_rate": 0.5345
+      "total_games": 98,
+      "total_wins": 43,
+      "total_losses": 55,
+      "derived_win_rate": 0.4388
     },
     {
       "set_agg_code": "set_weak+set_acc",
       "artifact_code": "efr18",
       "artifact_name": "Star of the Deep Sea",
-      "total_games": 58,
-      "total_wins": 29,
-      "total_losses": 29,
-      "derived_win_rate": 0.5
+      "total_games": 78,
+      "total_wins": 36,
+      "total_losses": 42,
+      "derived_win_rate": 0.4615
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 67,
+      "total_wins": 35,
+      "total_losses": 32,
+      "derived_win_rate": 0.5224
     },
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 43,
-      "total_wins": 22,
+      "total_games": 46,
+      "total_wins": 25,
       "total_losses": 21,
-      "derived_win_rate": 0.5116
+      "derived_win_rate": 0.5435
     }
   ],
-  "total_set_stats_games": 6109,
-  "total_artifact_stats_games": 3199,
+  "total_set_stats_games": 7840,
+  "total_artifact_stats_games": 4106,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.4921,
+    "win_rate": 0.4858,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -201,5 +201,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2110?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:07:14Z"
+  "scraped_at": "2026-09-07T15:06:59Z"
 }

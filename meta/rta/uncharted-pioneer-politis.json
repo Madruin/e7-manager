@@ -1,0 +1,228 @@
+{
+  "hero": "Uncharted Pioneer Politis",
+  "hero_slug": "uncharted-pioneer-politis",
+  "hero_code": "c5112",
+  "element": "ice",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 8180,
+      "total_wins": 3688,
+      "total_losses": 4029,
+      "total_bans": 577,
+      "total_prebans": 464
+    }
+  ],
+  "sample_size": 8180,
+  "top_sets": [
+    {
+      "set_code": "set_chase",
+      "set_name": "Pursuit",
+      "total_games": 6272,
+      "total_wins": 3008,
+      "total_losses": 3264,
+      "derived_win_rate": 0.4796,
+      "derived_usage_share": 0.4282
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 4662,
+      "total_wins": 2197,
+      "total_losses": 2465,
+      "derived_win_rate": 0.4713,
+      "derived_usage_share": 0.3182
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 1772,
+      "total_wins": 905,
+      "total_losses": 867,
+      "derived_win_rate": 0.5107,
+      "derived_usage_share": 0.121
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 624,
+      "total_wins": 281,
+      "total_losses": 343,
+      "derived_win_rate": 0.4503,
+      "derived_usage_share": 0.0426
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 508,
+      "total_wins": 240,
+      "total_losses": 268,
+      "derived_win_rate": 0.4724,
+      "derived_usage_share": 0.0347
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 341,
+      "total_wins": 152,
+      "total_losses": 189,
+      "derived_win_rate": 0.4457,
+      "derived_usage_share": 0.0233
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 287,
+      "total_wins": 118,
+      "total_losses": 169,
+      "derived_win_rate": 0.4111,
+      "derived_usage_share": 0.0196
+    },
+    {
+      "set_code": "set_shield",
+      "set_name": "Protection",
+      "total_games": 73,
+      "total_wins": 35,
+      "total_losses": 38,
+      "derived_win_rate": 0.4795,
+      "derived_usage_share": 0.005
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr34",
+      "artifact_name": "Light and Darkness",
+      "total_games": 6737,
+      "total_wins": 3262,
+      "total_losses": 3475,
+      "derived_win_rate": 0.4842,
+      "derived_usage_share": 0.9436
+    },
+    {
+      "artifact_code": "efr13",
+      "artifact_name": "Guiding Light",
+      "total_games": 172,
+      "total_wins": 59,
+      "total_losses": 113,
+      "derived_win_rate": 0.343,
+      "derived_usage_share": 0.0241
+    },
+    {
+      "artifact_code": "efr28",
+      "artifact_name": "Renewed Will",
+      "total_games": 68,
+      "total_wins": 32,
+      "total_losses": 36,
+      "derived_win_rate": 0.4706,
+      "derived_usage_share": 0.0095
+    },
+    {
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 64,
+      "total_wins": 29,
+      "total_losses": 35,
+      "derived_win_rate": 0.4531,
+      "derived_usage_share": 0.009
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "total_games": 4122,
+      "total_wins": 1945,
+      "total_losses": 2177,
+      "derived_win_rate": 0.4719
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efr34",
+      "artifact_name": "Light and Darkness",
+      "total_games": 3950,
+      "total_wins": 1881,
+      "total_losses": 2069,
+      "derived_win_rate": 0.4762
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "total_games": 1474,
+      "total_wins": 759,
+      "total_losses": 715,
+      "derived_win_rate": 0.5149
+    },
+    {
+      "set_agg_code": "set_counter+set_chase",
+      "artifact_code": "efr34",
+      "artifact_name": "Light and Darkness",
+      "total_games": 1449,
+      "total_wins": 751,
+      "total_losses": 698,
+      "derived_win_rate": 0.5183
+    },
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "total_games": 208,
+      "total_wins": 97,
+      "total_losses": 111,
+      "derived_win_rate": 0.4663
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 202,
+      "total_wins": 88,
+      "total_losses": 114,
+      "derived_win_rate": 0.4356
+    },
+    {
+      "set_agg_code": "set_max_hp+set_immune+set_chase",
+      "artifact_code": "efr34",
+      "artifact_name": "Light and Darkness",
+      "total_games": 197,
+      "total_wins": 93,
+      "total_losses": 104,
+      "derived_win_rate": 0.4721
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 188,
+      "total_wins": 99,
+      "total_losses": 89,
+      "derived_win_rate": 0.5266
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr34",
+      "artifact_name": "Light and Darkness",
+      "total_games": 155,
+      "total_wins": 71,
+      "total_losses": 84,
+      "derived_win_rate": 0.4581
+    },
+    {
+      "set_agg_code": "set_counter+set_immune",
+      "total_games": 145,
+      "total_wins": 79,
+      "total_losses": 66,
+      "derived_win_rate": 0.5448
+    }
+  ],
+  "total_set_stats_games": 14649,
+  "total_artifact_stats_games": 7140,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-09-07T05:14:36.897Z"
+  },
+  "derived": {
+    "win_rate": 0.4779,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c5112?season=pvp_rta_ss21",
+  "scraped_at": "2026-09-07T15:06:43Z"
+}

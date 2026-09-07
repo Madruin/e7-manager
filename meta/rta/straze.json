@@ -7,247 +7,258 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 4005,
-      "total_wins": 1955,
-      "total_losses": 2046,
-      "total_bans": 1568,
-      "total_prebans": 4
+      "total_games": 5874,
+      "total_wins": 2849,
+      "total_losses": 3008,
+      "total_bans": 2251,
+      "total_prebans": 17
     }
   ],
-  "sample_size": 4005,
+  "sample_size": 5874,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 2195,
-      "total_wins": 1066,
-      "total_losses": 1129,
-      "derived_win_rate": 0.4856,
-      "derived_usage_share": 0.4462
+      "total_games": 3233,
+      "total_wins": 1571,
+      "total_losses": 1662,
+      "derived_win_rate": 0.4859,
+      "derived_usage_share": 0.44
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 1891,
-      "total_wins": 942,
-      "total_losses": 949,
-      "derived_win_rate": 0.4981,
-      "derived_usage_share": 0.3844
+      "total_games": 2931,
+      "total_wins": 1458,
+      "total_losses": 1473,
+      "derived_win_rate": 0.4974,
+      "derived_usage_share": 0.3989
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 608,
-      "total_wins": 283,
-      "total_losses": 325,
-      "derived_win_rate": 0.4655,
-      "derived_usage_share": 0.1236
+      "total_games": 883,
+      "total_wins": 415,
+      "total_losses": 468,
+      "derived_win_rate": 0.47,
+      "derived_usage_share": 0.1202
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 113,
-      "total_wins": 37,
-      "total_losses": 76,
-      "derived_win_rate": 0.3274,
-      "derived_usage_share": 0.023
+      "total_games": 134,
+      "total_wins": 43,
+      "total_losses": 91,
+      "derived_win_rate": 0.3209,
+      "derived_usage_share": 0.0182
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 73,
-      "total_wins": 47,
-      "total_losses": 26,
-      "derived_win_rate": 0.6438,
-      "derived_usage_share": 0.0148
+      "total_games": 99,
+      "total_wins": 62,
+      "total_losses": 37,
+      "derived_win_rate": 0.6263,
+      "derived_usage_share": 0.0135
+    },
+    {
+      "set_code": "set_att",
+      "set_name": "Attack",
+      "total_games": 43,
+      "total_wins": 22,
+      "total_losses": 21,
+      "derived_win_rate": 0.5116,
+      "derived_usage_share": 0.0059
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw30",
       "artifact_name": "Benimaru's Tachi",
-      "total_games": 1183,
-      "total_wins": 606,
-      "total_losses": 577,
-      "derived_win_rate": 0.5123,
-      "derived_usage_share": 0.4862
+      "total_games": 1713,
+      "total_wins": 862,
+      "total_losses": 851,
+      "derived_win_rate": 0.5032,
+      "derived_usage_share": 0.475
     },
     {
       "artifact_code": "efw38",
       "artifact_name": "Strike of Aspiration",
-      "total_games": 428,
-      "total_wins": 201,
-      "total_losses": 227,
-      "derived_win_rate": 0.4696,
-      "derived_usage_share": 0.1759
+      "total_games": 622,
+      "total_wins": 294,
+      "total_losses": 328,
+      "derived_win_rate": 0.4727,
+      "derived_usage_share": 0.1725
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 188,
-      "total_wins": 75,
-      "total_losses": 113,
-      "derived_win_rate": 0.3989,
-      "derived_usage_share": 0.0773
-    },
-    {
-      "artifact_code": "efw06",
-      "artifact_name": "Uberius's Tooth",
-      "total_games": 129,
-      "total_wins": 78,
-      "total_losses": 51,
-      "derived_win_rate": 0.6047,
-      "derived_usage_share": 0.053
+      "total_games": 305,
+      "total_wins": 132,
+      "total_losses": 173,
+      "derived_win_rate": 0.4328,
+      "derived_usage_share": 0.0846
     },
     {
       "artifact_code": "ef403",
       "artifact_name": "Portrait of the Saviors",
-      "total_games": 113,
-      "total_wins": 60,
-      "total_losses": 53,
-      "derived_win_rate": 0.531,
-      "derived_usage_share": 0.0464
+      "total_games": 194,
+      "total_wins": 105,
+      "total_losses": 89,
+      "derived_win_rate": 0.5412,
+      "derived_usage_share": 0.0538
+    },
+    {
+      "artifact_code": "efw06",
+      "artifact_name": "Uberius's Tooth",
+      "total_games": 189,
+      "total_wins": 112,
+      "total_losses": 77,
+      "derived_win_rate": 0.5926,
+      "derived_usage_share": 0.0524
     },
     {
       "artifact_code": "efw09",
       "artifact_name": "Creation & Destruction",
-      "total_games": 108,
-      "total_wins": 42,
-      "total_losses": 66,
+      "total_games": 162,
+      "total_wins": 63,
+      "total_losses": 99,
       "derived_win_rate": 0.3889,
-      "derived_usage_share": 0.0444
+      "derived_usage_share": 0.0449
     },
     {
       "artifact_code": "efw04",
       "artifact_name": "Hell Cutter",
-      "total_games": 58,
-      "total_wins": 19,
-      "total_losses": 39,
-      "derived_win_rate": 0.3276,
-      "derived_usage_share": 0.0238
+      "total_games": 85,
+      "total_wins": 33,
+      "total_losses": 52,
+      "derived_win_rate": 0.3882,
+      "derived_usage_share": 0.0236
     },
     {
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 49,
-      "total_wins": 23,
-      "total_losses": 26,
-      "derived_win_rate": 0.4694,
-      "derived_usage_share": 0.0201
+      "total_games": 69,
+      "total_wins": 32,
+      "total_losses": 37,
+      "derived_win_rate": 0.4638,
+      "derived_usage_share": 0.0191
     },
     {
       "artifact_code": "ef317",
       "artifact_name": "Daydream Joker",
-      "total_games": 32,
-      "total_wins": 10,
-      "total_losses": 22,
-      "derived_win_rate": 0.3125,
-      "derived_usage_share": 0.0132
+      "total_games": 42,
+      "total_wins": 15,
+      "total_losses": 27,
+      "derived_win_rate": 0.3571,
+      "derived_usage_share": 0.0116
     },
     {
-      "artifact_code": "efw31",
-      "artifact_name": "Golden Rose",
-      "total_games": 27,
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 32,
       "total_wins": 11,
-      "total_losses": 16,
-      "derived_win_rate": 0.4074,
-      "derived_usage_share": 0.0111
+      "total_losses": 21,
+      "derived_win_rate": 0.3438,
+      "derived_usage_share": 0.0089
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_torrent",
-      "total_games": 1495,
-      "total_wins": 733,
-      "total_losses": 762,
-      "derived_win_rate": 0.4903
+      "total_games": 2246,
+      "total_wins": 1097,
+      "total_losses": 1149,
+      "derived_win_rate": 0.4884
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efw30",
       "artifact_name": "Benimaru's Tachi",
-      "total_games": 812,
-      "total_wins": 427,
-      "total_losses": 385,
-      "derived_win_rate": 0.5259
+      "total_games": 1164,
+      "total_wins": 595,
+      "total_losses": 569,
+      "derived_win_rate": 0.5112
     },
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 603,
-      "total_wins": 281,
-      "total_losses": 322,
-      "derived_win_rate": 0.466
+      "total_games": 877,
+      "total_wins": 413,
+      "total_losses": 464,
+      "derived_win_rate": 0.4709
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efw30",
       "artifact_name": "Benimaru's Tachi",
-      "total_games": 315,
-      "total_wins": 157,
-      "total_losses": 158,
-      "derived_win_rate": 0.4984
+      "total_games": 483,
+      "total_wins": 240,
+      "total_losses": 243,
+      "derived_win_rate": 0.4969
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efw38",
       "artifact_name": "Strike of Aspiration",
-      "total_games": 233,
-      "total_wins": 109,
-      "total_losses": 124,
-      "derived_win_rate": 0.4678
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "artifact_code": "efw38",
-      "artifact_name": "Strike of Aspiration",
-      "total_games": 143,
-      "total_wins": 68,
-      "total_losses": 75,
-      "derived_win_rate": 0.4755
+      "total_games": 371,
+      "total_wins": 177,
+      "total_losses": 194,
+      "derived_win_rate": 0.4771
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 140,
-      "total_wins": 57,
-      "total_losses": 83,
-      "derived_win_rate": 0.4071
+      "total_games": 217,
+      "total_wins": 95,
+      "total_losses": 122,
+      "derived_win_rate": 0.4378
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efw38",
+      "artifact_name": "Strike of Aspiration",
+      "total_games": 189,
+      "total_wins": 89,
+      "total_losses": 100,
+      "derived_win_rate": 0.4709
     },
     {
       "set_agg_code": "set_torrent+set_torrent+set_torrent",
-      "total_games": 98,
-      "total_wins": 57,
-      "total_losses": 41,
-      "derived_win_rate": 0.5816
-    },
-    {
-      "set_agg_code": "set_cri_dmg+set_torrent",
-      "total_games": 96,
-      "total_wins": 35,
-      "total_losses": 61,
-      "derived_win_rate": 0.3646
+      "total_games": 186,
+      "total_wins": 105,
+      "total_losses": 81,
+      "derived_win_rate": 0.5645
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efw09",
       "artifact_name": "Creation & Destruction",
-      "total_games": 76,
-      "total_wins": 34,
-      "total_losses": 42,
-      "derived_win_rate": 0.4474
+      "total_games": 122,
+      "total_wins": 53,
+      "total_losses": 69,
+      "derived_win_rate": 0.4344
+    },
+    {
+      "set_agg_code": "set_torrent+set_torrent+set_torrent",
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 118,
+      "total_wins": 66,
+      "total_losses": 52,
+      "derived_win_rate": 0.5593
     }
   ],
-  "total_set_stats_games": 4919,
-  "total_artifact_stats_games": 2433,
+  "total_set_stats_games": 7348,
+  "total_artifact_stats_games": 3606,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.4886,
+    "win_rate": 0.4864,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -255,5 +266,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1034?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:07:18Z"
+  "scraped_at": "2026-09-07T15:06:51Z"
 }

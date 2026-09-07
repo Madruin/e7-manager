@@ -7,236 +7,236 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 20481,
-      "total_wins": 10579,
-      "total_losses": 9794,
-      "total_bans": 4057,
-      "total_prebans": 108
+      "total_games": 27117,
+      "total_wins": 14017,
+      "total_losses": 12961,
+      "total_bans": 5360,
+      "total_prebans": 139
     }
   ],
-  "sample_size": 20481,
+  "sample_size": 27117,
   "top_sets": [
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 9858,
-      "total_wins": 5237,
-      "total_losses": 4621,
-      "derived_win_rate": 0.5312,
-      "derived_usage_share": 0.2896
+      "total_games": 13237,
+      "total_wins": 7048,
+      "total_losses": 6189,
+      "derived_win_rate": 0.5324,
+      "derived_usage_share": 0.2933
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 8572,
-      "total_wins": 4448,
-      "total_losses": 4124,
-      "derived_win_rate": 0.5189,
-      "derived_usage_share": 0.2518
+      "total_games": 11586,
+      "total_wins": 6010,
+      "total_losses": 5576,
+      "derived_win_rate": 0.5187,
+      "derived_usage_share": 0.2567
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 4799,
-      "total_wins": 2587,
-      "total_losses": 2212,
-      "derived_win_rate": 0.5391,
-      "derived_usage_share": 0.141
+      "total_games": 6395,
+      "total_wins": 3420,
+      "total_losses": 2975,
+      "derived_win_rate": 0.5348,
+      "derived_usage_share": 0.1417
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 4631,
-      "total_wins": 2345,
-      "total_losses": 2286,
-      "derived_win_rate": 0.5064,
-      "derived_usage_share": 0.136
+      "total_games": 5910,
+      "total_wins": 2969,
+      "total_losses": 2941,
+      "derived_win_rate": 0.5024,
+      "derived_usage_share": 0.131
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 4330,
-      "total_wins": 2222,
-      "total_losses": 2108,
-      "derived_win_rate": 0.5132,
-      "derived_usage_share": 0.1272
+      "total_games": 5586,
+      "total_wins": 2851,
+      "total_losses": 2735,
+      "derived_win_rate": 0.5104,
+      "derived_usage_share": 0.1238
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 610,
-      "total_wins": 326,
-      "total_losses": 284,
-      "derived_win_rate": 0.5344,
-      "derived_usage_share": 0.0179
+      "total_games": 716,
+      "total_wins": 369,
+      "total_losses": 347,
+      "derived_win_rate": 0.5154,
+      "derived_usage_share": 0.0159
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 532,
-      "total_wins": 296,
-      "total_losses": 236,
-      "derived_win_rate": 0.5564,
-      "derived_usage_share": 0.0156
+      "total_games": 713,
+      "total_wins": 388,
+      "total_losses": 325,
+      "derived_win_rate": 0.5442,
+      "derived_usage_share": 0.0158
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 357,
-      "total_wins": 201,
-      "total_losses": 156,
-      "derived_win_rate": 0.563,
-      "derived_usage_share": 0.0105
+      "total_games": 511,
+      "total_wins": 283,
+      "total_losses": 228,
+      "derived_win_rate": 0.5538,
+      "derived_usage_share": 0.0113
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 10825,
-      "total_wins": 5624,
-      "total_losses": 5201,
-      "derived_win_rate": 0.5195,
-      "derived_usage_share": 0.6635
+      "total_games": 14539,
+      "total_wins": 7522,
+      "total_losses": 7017,
+      "derived_win_rate": 0.5174,
+      "derived_usage_share": 0.6725
     },
     {
       "artifact_code": "efw30",
       "artifact_name": "Benimaru's Tachi",
-      "total_games": 3708,
-      "total_wins": 2042,
-      "total_losses": 1666,
-      "derived_win_rate": 0.5507,
-      "derived_usage_share": 0.2273
+      "total_games": 4659,
+      "total_wins": 2580,
+      "total_losses": 2079,
+      "derived_win_rate": 0.5538,
+      "derived_usage_share": 0.2155
     },
     {
       "artifact_code": "efw38",
       "artifact_name": "Strike of Aspiration",
-      "total_games": 1148,
-      "total_wins": 612,
-      "total_losses": 536,
-      "derived_win_rate": 0.5331,
-      "derived_usage_share": 0.0704
-    },
-    {
-      "artifact_code": "efw04",
-      "artifact_name": "Hell Cutter",
-      "total_games": 95,
-      "total_wins": 32,
-      "total_losses": 63,
-      "derived_win_rate": 0.3368,
-      "derived_usage_share": 0.0058
-    },
-    {
-      "artifact_code": "efw01",
-      "artifact_name": "Sigurd Scythe",
-      "total_games": 94,
-      "total_wins": 44,
-      "total_losses": 50,
-      "derived_win_rate": 0.4681,
-      "derived_usage_share": 0.0058
+      "total_games": 1503,
+      "total_wins": 812,
+      "total_losses": 691,
+      "derived_win_rate": 0.5403,
+      "derived_usage_share": 0.0695
     },
     {
       "artifact_code": "efw21",
       "artifact_name": "A Little Queen's Huge Crown",
-      "total_games": 91,
-      "total_wins": 40,
-      "total_losses": 51,
-      "derived_win_rate": 0.4396,
-      "derived_usage_share": 0.0056
+      "total_games": 163,
+      "total_wins": 69,
+      "total_losses": 94,
+      "derived_win_rate": 0.4233,
+      "derived_usage_share": 0.0075
+    },
+    {
+      "artifact_code": "efw01",
+      "artifact_name": "Sigurd Scythe",
+      "total_games": 132,
+      "total_wins": 64,
+      "total_losses": 68,
+      "derived_win_rate": 0.4848,
+      "derived_usage_share": 0.0061
+    },
+    {
+      "artifact_code": "efw04",
+      "artifact_name": "Hell Cutter",
+      "total_games": 129,
+      "total_wins": 46,
+      "total_losses": 83,
+      "derived_win_rate": 0.3566,
+      "derived_usage_share": 0.006
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
-      "total_games": 5295,
-      "total_wins": 2820,
-      "total_losses": 2475,
-      "derived_win_rate": 0.5326
-    },
-    {
-      "set_agg_code": "set_cri_dmg+set_immune",
-      "total_games": 3066,
-      "total_wins": 1657,
-      "total_losses": 1409,
-      "derived_win_rate": 0.5404
+      "total_games": 7245,
+      "total_wins": 3867,
+      "total_losses": 3378,
+      "derived_win_rate": 0.5337
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 3005,
-      "total_wins": 1552,
-      "total_losses": 1453,
-      "derived_win_rate": 0.5165
+      "total_games": 4143,
+      "total_wins": 2147,
+      "total_losses": 1996,
+      "derived_win_rate": 0.5182
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 4054,
+      "total_wins": 2194,
+      "total_losses": 1860,
+      "derived_win_rate": 0.5412
     },
     {
       "set_agg_code": "set_cri_dmg+set_immune",
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 2955,
-      "total_wins": 1604,
-      "total_losses": 1351,
-      "derived_win_rate": 0.5428
+      "total_games": 3887,
+      "total_wins": 2112,
+      "total_losses": 1775,
+      "derived_win_rate": 0.5433
     },
     {
       "set_agg_code": "set_speed+set_penetrate",
-      "total_games": 1850,
-      "total_wins": 889,
-      "total_losses": 961,
-      "derived_win_rate": 0.4805
+      "total_games": 2443,
+      "total_wins": 1174,
+      "total_losses": 1269,
+      "derived_win_rate": 0.4806
     },
     {
       "set_agg_code": "set_speed+set_chase",
-      "total_games": 1848,
-      "total_wins": 944,
-      "total_losses": 904,
-      "derived_win_rate": 0.5108
+      "total_games": 2284,
+      "total_wins": 1162,
+      "total_losses": 1122,
+      "derived_win_rate": 0.5088
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efw30",
       "artifact_name": "Benimaru's Tachi",
-      "total_games": 1597,
-      "total_wins": 896,
-      "total_losses": 701,
-      "derived_win_rate": 0.5611
+      "total_games": 2061,
+      "total_wins": 1169,
+      "total_losses": 892,
+      "derived_win_rate": 0.5672
     },
     {
       "set_agg_code": "set_speed+set_penetrate",
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 1382,
-      "total_wins": 673,
-      "total_losses": 709,
-      "derived_win_rate": 0.487
+      "total_games": 1799,
+      "total_wins": 872,
+      "total_losses": 927,
+      "derived_win_rate": 0.4847
     },
     {
       "set_agg_code": "set_cri_dmg+set_chase",
-      "total_games": 1160,
-      "total_wins": 580,
-      "total_losses": 580,
-      "derived_win_rate": 0.5
+      "total_games": 1528,
+      "total_wins": 768,
+      "total_losses": 760,
+      "derived_win_rate": 0.5026
     },
     {
       "set_agg_code": "set_speed+set_chase",
       "artifact_code": "efw30",
       "artifact_name": "Benimaru's Tachi",
-      "total_games": 953,
-      "total_wins": 507,
-      "total_losses": 446,
-      "derived_win_rate": 0.532
+      "total_games": 1139,
+      "total_wins": 604,
+      "total_losses": 535,
+      "derived_win_rate": 0.5303
     }
   ],
-  "total_set_stats_games": 34045,
-  "total_artifact_stats_games": 16316,
+  "total_set_stats_games": 45128,
+  "total_artifact_stats_games": 21618,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.5193,
+    "win_rate": 0.5196,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -244,5 +244,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2009?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:06:32Z"
+  "scraped_at": "2026-09-07T15:06:07Z"
 }

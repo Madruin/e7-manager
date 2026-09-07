@@ -7,224 +7,233 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 19288,
-      "total_wins": 9355,
-      "total_losses": 9842,
-      "total_bans": 4479,
-      "total_prebans": 91
+      "total_games": 25686,
+      "total_wins": 12463,
+      "total_losses": 13131,
+      "total_bans": 6080,
+      "total_prebans": 92
     }
   ],
-  "sample_size": 19288,
+  "sample_size": 25686,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 14602,
-      "total_wins": 7022,
-      "total_losses": 7580,
-      "derived_win_rate": 0.4809,
-      "derived_usage_share": 0.5087
+      "total_games": 19328,
+      "total_wins": 9306,
+      "total_losses": 10022,
+      "derived_win_rate": 0.4815,
+      "derived_usage_share": 0.5077
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 13707,
-      "total_wins": 6609,
-      "total_losses": 7098,
+      "total_games": 18093,
+      "total_wins": 8724,
+      "total_losses": 9369,
       "derived_win_rate": 0.4822,
-      "derived_usage_share": 0.4775
+      "derived_usage_share": 0.4753
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 268,
+      "total_wins": 131,
+      "total_losses": 137,
+      "derived_win_rate": 0.4888,
+      "derived_usage_share": 0.007
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 4119,
-      "total_wins": 1916,
-      "total_losses": 2203,
-      "derived_win_rate": 0.4652,
-      "derived_usage_share": 0.2799
+      "total_games": 5722,
+      "total_wins": 2676,
+      "total_losses": 3046,
+      "derived_win_rate": 0.4677,
+      "derived_usage_share": 0.2932
     },
     {
       "artifact_code": "efa07",
       "artifact_name": "Alexa's Basket",
-      "total_games": 3227,
-      "total_wins": 1485,
-      "total_losses": 1742,
-      "derived_win_rate": 0.4602,
-      "derived_usage_share": 0.2193
+      "total_games": 4354,
+      "total_wins": 2054,
+      "total_losses": 2300,
+      "derived_win_rate": 0.4718,
+      "derived_usage_share": 0.2231
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 2119,
-      "total_wins": 1027,
-      "total_losses": 1092,
-      "derived_win_rate": 0.4847,
-      "derived_usage_share": 0.144
+      "total_games": 2716,
+      "total_wins": 1326,
+      "total_losses": 1390,
+      "derived_win_rate": 0.4882,
+      "derived_usage_share": 0.1392
     },
     {
       "artifact_code": "ef510",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 1744,
-      "total_wins": 858,
-      "total_losses": 886,
-      "derived_win_rate": 0.492,
-      "derived_usage_share": 0.1185
+      "total_games": 2150,
+      "total_wins": 1027,
+      "total_losses": 1123,
+      "derived_win_rate": 0.4777,
+      "derived_usage_share": 0.1102
     },
     {
       "artifact_code": "ef322",
       "artifact_name": "Oath Key",
-      "total_games": 1053,
-      "total_wins": 542,
-      "total_losses": 511,
-      "derived_win_rate": 0.5147,
-      "derived_usage_share": 0.0715
+      "total_games": 1347,
+      "total_wins": 708,
+      "total_losses": 639,
+      "derived_win_rate": 0.5256,
+      "derived_usage_share": 0.069
     },
     {
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 667,
-      "total_wins": 331,
-      "total_losses": 336,
-      "derived_win_rate": 0.4963,
-      "derived_usage_share": 0.0453
+      "total_games": 891,
+      "total_wins": 432,
+      "total_losses": 459,
+      "derived_win_rate": 0.4848,
+      "derived_usage_share": 0.0457
     },
     {
       "artifact_code": "efa12",
       "artifact_name": "Alabastron",
-      "total_games": 455,
-      "total_wins": 221,
-      "total_losses": 234,
-      "derived_win_rate": 0.4857,
-      "derived_usage_share": 0.0309
+      "total_games": 583,
+      "total_wins": 278,
+      "total_losses": 305,
+      "derived_win_rate": 0.4768,
+      "derived_usage_share": 0.0299
     },
     {
       "artifact_code": "efa13",
       "artifact_name": "Manica of Control",
-      "total_games": 419,
-      "total_wins": 208,
-      "total_losses": 211,
-      "derived_win_rate": 0.4964,
-      "derived_usage_share": 0.0285
-    },
-    {
-      "artifact_code": "efa14",
-      "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 360,
-      "total_wins": 197,
-      "total_losses": 163,
-      "derived_win_rate": 0.5472,
-      "derived_usage_share": 0.0245
+      "total_games": 552,
+      "total_wins": 275,
+      "total_losses": 277,
+      "derived_win_rate": 0.4982,
+      "derived_usage_share": 0.0283
     },
     {
       "artifact_code": "ef309",
       "artifact_name": "Cursed Compass",
-      "total_games": 344,
-      "total_wins": 187,
-      "total_losses": 157,
-      "derived_win_rate": 0.5436,
-      "derived_usage_share": 0.0234
+      "total_games": 452,
+      "total_wins": 238,
+      "total_losses": 214,
+      "derived_win_rate": 0.5265,
+      "derived_usage_share": 0.0232
+    },
+    {
+      "artifact_code": "efa14",
+      "artifact_name": "Secret Art - Storm Sword",
+      "total_games": 442,
+      "total_wins": 237,
+      "total_losses": 205,
+      "derived_win_rate": 0.5362,
+      "derived_usage_share": 0.0227
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 13618,
-      "total_wins": 6563,
-      "total_losses": 7055,
-      "derived_win_rate": 0.4819
+      "total_games": 17970,
+      "total_wins": 8670,
+      "total_losses": 9300,
+      "derived_win_rate": 0.4825
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 3790,
-      "total_wins": 1772,
-      "total_losses": 2018,
-      "derived_win_rate": 0.4675
+      "total_games": 5200,
+      "total_wins": 2445,
+      "total_losses": 2755,
+      "derived_win_rate": 0.4702
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa07",
       "artifact_name": "Alexa's Basket",
-      "total_games": 2965,
-      "total_wins": 1370,
-      "total_losses": 1595,
-      "derived_win_rate": 0.4621
+      "total_games": 3990,
+      "total_wins": 1897,
+      "total_losses": 2093,
+      "derived_win_rate": 0.4754
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 2062,
-      "total_wins": 1006,
-      "total_losses": 1056,
-      "derived_win_rate": 0.4879
+      "total_games": 2642,
+      "total_wins": 1297,
+      "total_losses": 1345,
+      "derived_win_rate": 0.4909
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "ef510",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 1637,
-      "total_wins": 800,
-      "total_losses": 837,
-      "derived_win_rate": 0.4887
+      "total_games": 2008,
+      "total_wins": 954,
+      "total_losses": 1054,
+      "derived_win_rate": 0.4751
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "ef322",
       "artifact_name": "Oath Key",
-      "total_games": 967,
-      "total_wins": 497,
-      "total_losses": 470,
-      "derived_win_rate": 0.514
+      "total_games": 1235,
+      "total_wins": 647,
+      "total_losses": 588,
+      "derived_win_rate": 0.5239
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 651,
-      "total_wins": 296,
-      "total_losses": 355,
-      "derived_win_rate": 0.4547
+      "total_games": 834,
+      "total_wins": 381,
+      "total_losses": 453,
+      "derived_win_rate": 0.4568
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 621,
-      "total_wins": 307,
-      "total_losses": 314,
-      "derived_win_rate": 0.4944
+      "total_games": 814,
+      "total_wins": 387,
+      "total_losses": 427,
+      "derived_win_rate": 0.4754
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa13",
       "artifact_name": "Manica of Control",
-      "total_games": 390,
-      "total_wins": 189,
-      "total_losses": 201,
-      "derived_win_rate": 0.4846
+      "total_games": 520,
+      "total_wins": 254,
+      "total_losses": 266,
+      "derived_win_rate": 0.4885
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa12",
       "artifact_name": "Alabastron",
-      "total_games": 339,
-      "total_wins": 163,
-      "total_losses": 176,
-      "derived_win_rate": 0.4808
+      "total_games": 450,
+      "total_wins": 210,
+      "total_losses": 240,
+      "derived_win_rate": 0.4667
     }
   ],
-  "total_set_stats_games": 28705,
-  "total_artifact_stats_games": 14718,
+  "total_set_stats_games": 38070,
+  "total_artifact_stats_games": 19514,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.4873,
+    "win_rate": 0.487,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -232,5 +241,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5033?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:06:37Z"
+  "scraped_at": "2026-09-07T15:06:11Z"
 }

@@ -7,249 +7,249 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 6619,
-      "total_wins": 3390,
-      "total_losses": 3222,
-      "total_bans": 1440,
-      "total_prebans": 7
+      "total_games": 8726,
+      "total_wins": 4472,
+      "total_losses": 4241,
+      "total_bans": 1937,
+      "total_prebans": 13
     }
   ],
-  "sample_size": 6619,
+  "sample_size": 8726,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 5115,
-      "total_wins": 2585,
-      "total_losses": 2530,
-      "derived_win_rate": 0.5054,
-      "derived_usage_share": 0.6666
+      "total_games": 6700,
+      "total_wins": 3392,
+      "total_losses": 3308,
+      "derived_win_rate": 0.5063,
+      "derived_usage_share": 0.6727
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 1649,
-      "total_wins": 831,
-      "total_losses": 818,
-      "derived_win_rate": 0.5039,
-      "derived_usage_share": 0.2149
+      "total_games": 2079,
+      "total_wins": 1043,
+      "total_losses": 1036,
+      "derived_win_rate": 0.5017,
+      "derived_usage_share": 0.2087
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 590,
-      "total_wins": 293,
-      "total_losses": 297,
-      "derived_win_rate": 0.4966,
-      "derived_usage_share": 0.0769
-    },
-    {
-      "set_code": "set_res",
-      "set_name": "Resist",
-      "total_games": 135,
-      "total_wins": 67,
-      "total_losses": 68,
-      "derived_win_rate": 0.4963,
-      "derived_usage_share": 0.0176
+      "total_games": 731,
+      "total_wins": 364,
+      "total_losses": 367,
+      "derived_win_rate": 0.4979,
+      "derived_usage_share": 0.0734
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 116,
-      "total_wins": 50,
-      "total_losses": 66,
-      "derived_win_rate": 0.431,
-      "derived_usage_share": 0.0151
+      "total_games": 190,
+      "total_wins": 88,
+      "total_losses": 102,
+      "derived_win_rate": 0.4632,
+      "derived_usage_share": 0.0191
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 162,
+      "total_wins": 81,
+      "total_losses": 81,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0163
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 40,
-      "total_wins": 17,
-      "total_losses": 23,
-      "derived_win_rate": 0.425,
-      "derived_usage_share": 0.0052
+      "total_games": 65,
+      "total_wins": 31,
+      "total_losses": 34,
+      "derived_win_rate": 0.4769,
+      "derived_usage_share": 0.0065
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efr30",
       "artifact_name": "Awakened Leaf",
-      "total_games": 3623,
-      "total_wins": 1877,
-      "total_losses": 1746,
-      "derived_win_rate": 0.5181,
-      "derived_usage_share": 0.7005
+      "total_games": 4661,
+      "total_wins": 2426,
+      "total_losses": 2235,
+      "derived_win_rate": 0.5205,
+      "derived_usage_share": 0.6879
     },
     {
       "artifact_code": "efr21",
       "artifact_name": "Spatiotemporal Fan",
-      "total_games": 401,
-      "total_wins": 185,
-      "total_losses": 216,
-      "derived_win_rate": 0.4613,
-      "derived_usage_share": 0.0775
-    },
-    {
-      "artifact_code": "ef506",
-      "artifact_name": "Guide to a Decision",
-      "total_games": 266,
-      "total_wins": 138,
-      "total_losses": 128,
-      "derived_win_rate": 0.5188,
-      "derived_usage_share": 0.0514
+      "total_games": 564,
+      "total_wins": 268,
+      "total_losses": 296,
+      "derived_win_rate": 0.4752,
+      "derived_usage_share": 0.0832
     },
     {
       "artifact_code": "efr32",
       "artifact_name": "Aubade Orb",
-      "total_games": 264,
-      "total_wins": 131,
-      "total_losses": 133,
-      "derived_win_rate": 0.4962,
-      "derived_usage_share": 0.051
+      "total_games": 385,
+      "total_wins": 193,
+      "total_losses": 192,
+      "derived_win_rate": 0.5013,
+      "derived_usage_share": 0.0568
+    },
+    {
+      "artifact_code": "ef506",
+      "artifact_name": "Guide to a Decision",
+      "total_games": 353,
+      "total_wins": 179,
+      "total_losses": 174,
+      "derived_win_rate": 0.5071,
+      "derived_usage_share": 0.0521
     },
     {
       "artifact_code": "efr16",
       "artifact_name": "Unseen Observer",
-      "total_games": 243,
-      "total_wins": 110,
-      "total_losses": 133,
-      "derived_win_rate": 0.4527,
-      "derived_usage_share": 0.047
+      "total_games": 328,
+      "total_wins": 142,
+      "total_losses": 186,
+      "derived_win_rate": 0.4329,
+      "derived_usage_share": 0.0484
     },
     {
       "artifact_code": "efr33",
       "artifact_name": "Intoxicating Indulgence",
-      "total_games": 139,
-      "total_wins": 58,
-      "total_losses": 81,
-      "derived_win_rate": 0.4173,
-      "derived_usage_share": 0.0269
+      "total_games": 170,
+      "total_wins": 71,
+      "total_losses": 99,
+      "derived_win_rate": 0.4176,
+      "derived_usage_share": 0.0251
     },
     {
       "artifact_code": "ef507",
       "artifact_name": "Bastion of Hope",
-      "total_games": 60,
-      "total_wins": 27,
-      "total_losses": 33,
-      "derived_win_rate": 0.45,
-      "derived_usage_share": 0.0116
+      "total_games": 89,
+      "total_wins": 41,
+      "total_losses": 48,
+      "derived_win_rate": 0.4607,
+      "derived_usage_share": 0.0131
     },
     {
       "artifact_code": "efr14",
       "artifact_name": "Ms. Confille",
-      "total_games": 45,
-      "total_wins": 21,
-      "total_losses": 24,
-      "derived_win_rate": 0.4667,
-      "derived_usage_share": 0.0087
+      "total_games": 56,
+      "total_wins": 25,
+      "total_losses": 31,
+      "derived_win_rate": 0.4464,
+      "derived_usage_share": 0.0083
     },
     {
       "artifact_code": "efr02",
       "artifact_name": "Song of Stars",
-      "total_games": 45,
-      "total_wins": 25,
-      "total_losses": 20,
-      "derived_win_rate": 0.5556,
-      "derived_usage_share": 0.0087
+      "total_games": 51,
+      "total_wins": 27,
+      "total_losses": 24,
+      "derived_win_rate": 0.5294,
+      "derived_usage_share": 0.0075
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed",
-      "total_games": 2603,
-      "total_wins": 1331,
-      "total_losses": 1272,
-      "derived_win_rate": 0.5113
+      "total_games": 3503,
+      "total_wins": 1794,
+      "total_losses": 1709,
+      "derived_win_rate": 0.5121
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efr30",
       "artifact_name": "Awakened Leaf",
-      "total_games": 2234,
-      "total_wins": 1172,
-      "total_losses": 1062,
-      "derived_win_rate": 0.5246
+      "total_games": 2936,
+      "total_wins": 1543,
+      "total_losses": 1393,
+      "derived_win_rate": 0.5255
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 1642,
-      "total_wins": 829,
-      "total_losses": 813,
-      "derived_win_rate": 0.5049
+      "total_games": 2067,
+      "total_wins": 1039,
+      "total_losses": 1028,
+      "derived_win_rate": 0.5027
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr30",
       "artifact_name": "Awakened Leaf",
-      "total_games": 992,
-      "total_wins": 516,
-      "total_losses": 476,
-      "derived_win_rate": 0.5202
+      "total_games": 1234,
+      "total_wins": 643,
+      "total_losses": 591,
+      "derived_win_rate": 0.5211
     },
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 586,
-      "total_wins": 292,
-      "total_losses": 294,
-      "derived_win_rate": 0.4983
+      "total_games": 722,
+      "total_wins": 362,
+      "total_losses": 360,
+      "derived_win_rate": 0.5014
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "ef506",
       "artifact_name": "Guide to a Decision",
-      "total_games": 258,
-      "total_wins": 133,
-      "total_losses": 125,
-      "derived_win_rate": 0.5155
-    },
-    {
-      "set_agg_code": "set_speed+set_immune",
-      "artifact_code": "efr30",
-      "artifact_name": "Awakened Leaf",
-      "total_games": 217,
-      "total_wins": 105,
-      "total_losses": 112,
-      "derived_win_rate": 0.4839
-    },
-    {
-      "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "efr32",
-      "artifact_name": "Aubade Orb",
-      "total_games": 215,
-      "total_wins": 109,
-      "total_losses": 106,
-      "derived_win_rate": 0.507
+      "total_games": 343,
+      "total_wins": 173,
+      "total_losses": 170,
+      "derived_win_rate": 0.5044
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr21",
       "artifact_name": "Spatiotemporal Fan",
-      "total_games": 206,
-      "total_wins": 103,
-      "total_losses": 103,
-      "derived_win_rate": 0.5
+      "total_games": 286,
+      "total_wins": 145,
+      "total_losses": 141,
+      "derived_win_rate": 0.507
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "efr30",
+      "artifact_name": "Awakened Leaf",
+      "total_games": 257,
+      "total_wins": 128,
+      "total_losses": 129,
+      "derived_win_rate": 0.4981
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "artifact_code": "efr16",
-      "artifact_name": "Unseen Observer",
-      "total_games": 134,
-      "total_wins": 63,
-      "total_losses": 71,
-      "derived_win_rate": 0.4701
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 229,
+      "total_wins": 115,
+      "total_losses": 114,
+      "derived_win_rate": 0.5022
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr21",
+      "artifact_name": "Spatiotemporal Fan",
+      "total_games": 194,
+      "total_wins": 85,
+      "total_losses": 109,
+      "derived_win_rate": 0.4381
     }
   ],
-  "total_set_stats_games": 7673,
-  "total_artifact_stats_games": 5172,
+  "total_set_stats_games": 9960,
+  "total_artifact_stats_games": 6776,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.5127,
+    "win_rate": 0.5133,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -257,5 +257,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2112?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:07:02Z"
+  "scraped_at": "2026-09-07T15:06:40Z"
 }

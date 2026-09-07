@@ -7,267 +7,276 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 21999,
-      "total_wins": 6046,
-      "total_losses": 3813,
-      "total_bans": 1992,
-      "total_prebans": 13737
+      "total_games": 72213,
+      "total_wins": 15221,
+      "total_losses": 10111,
+      "total_bans": 5507,
+      "total_prebans": 53954
     }
   ],
-  "sample_size": 21999,
+  "sample_size": 72213,
   "top_sets": [
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 7612,
-      "total_wins": 4833,
-      "total_losses": 2779,
-      "derived_win_rate": 0.6349,
-      "derived_usage_share": 0.4844
-    },
-    {
-      "set_code": "set_speed",
-      "set_name": "Speed",
-      "total_games": 3667,
-      "total_wins": 2253,
-      "total_losses": 1414,
-      "derived_win_rate": 0.6144,
-      "derived_usage_share": 0.2334
+      "total_games": 19003,
+      "total_wins": 11838,
+      "total_losses": 7165,
+      "derived_win_rate": 0.623,
+      "derived_usage_share": 0.4812
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 3462,
-      "total_wins": 2298,
-      "total_losses": 1164,
-      "derived_win_rate": 0.6638,
-      "derived_usage_share": 0.2203
+      "total_games": 9343,
+      "total_wins": 6047,
+      "total_losses": 3296,
+      "derived_win_rate": 0.6472,
+      "derived_usage_share": 0.2366
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 8301,
+      "total_wins": 4991,
+      "total_losses": 3310,
+      "derived_win_rate": 0.6013,
+      "derived_usage_share": 0.2102
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 433,
-      "total_wins": 240,
-      "total_losses": 193,
-      "derived_win_rate": 0.5543,
-      "derived_usage_share": 0.0276
-    },
-    {
-      "set_code": "set_immune",
-      "set_name": "Immunity",
-      "total_games": 130,
-      "total_wins": 77,
-      "total_losses": 53,
-      "derived_win_rate": 0.5923,
-      "derived_usage_share": 0.0083
+      "total_games": 1455,
+      "total_wins": 830,
+      "total_losses": 625,
+      "derived_win_rate": 0.5704,
+      "derived_usage_share": 0.0368
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 126,
-      "total_wins": 68,
-      "total_losses": 58,
-      "derived_win_rate": 0.5397,
-      "derived_usage_share": 0.008
+      "total_games": 416,
+      "total_wins": 239,
+      "total_losses": 177,
+      "derived_win_rate": 0.5745,
+      "derived_usage_share": 0.0105
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 257,
+      "total_wins": 135,
+      "total_losses": 122,
+      "derived_win_rate": 0.5253,
+      "derived_usage_share": 0.0065
     },
     {
       "set_code": "set_def",
       "set_name": "Defense",
-      "total_games": 108,
-      "total_wins": 66,
-      "total_losses": 42,
-      "derived_win_rate": 0.6111,
-      "derived_usage_share": 0.0069
+      "total_games": 215,
+      "total_wins": 121,
+      "total_losses": 94,
+      "derived_win_rate": 0.5628,
+      "derived_usage_share": 0.0054
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 209,
+      "total_wins": 128,
+      "total_losses": 81,
+      "derived_win_rate": 0.6124,
+      "derived_usage_share": 0.0053
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "ef505",
       "artifact_name": "War Horn",
-      "total_games": 2788,
-      "total_wins": 1781,
-      "total_losses": 1007,
-      "derived_win_rate": 0.6388,
-      "derived_usage_share": 0.3544
+      "total_games": 6540,
+      "total_wins": 4117,
+      "total_losses": 2423,
+      "derived_win_rate": 0.6295,
+      "derived_usage_share": 0.3299
     },
     {
       "artifact_code": "efh22",
       "artifact_name": "Homage to Tarman",
-      "total_games": 1736,
-      "total_wins": 1123,
-      "total_losses": 613,
-      "derived_win_rate": 0.6469,
-      "derived_usage_share": 0.2207
+      "total_games": 4761,
+      "total_wins": 3015,
+      "total_losses": 1746,
+      "derived_win_rate": 0.6333,
+      "derived_usage_share": 0.2402
     },
     {
       "artifact_code": "efh07",
       "artifact_name": "Idol's Cheer",
-      "total_games": 670,
-      "total_wins": 439,
-      "total_losses": 231,
-      "derived_win_rate": 0.6552,
-      "derived_usage_share": 0.0852
+      "total_games": 1839,
+      "total_wins": 1176,
+      "total_losses": 663,
+      "derived_win_rate": 0.6395,
+      "derived_usage_share": 0.0928
     },
     {
       "artifact_code": "efh21",
       "artifact_name": "Spotted Mouse Hair Tie",
-      "total_games": 511,
-      "total_wins": 326,
-      "total_losses": 185,
-      "derived_win_rate": 0.638,
-      "derived_usage_share": 0.065
+      "total_games": 1235,
+      "total_wins": 787,
+      "total_losses": 448,
+      "derived_win_rate": 0.6372,
+      "derived_usage_share": 0.0623
     },
     {
       "artifact_code": "efh29",
       "artifact_name": "Excommunicant's Censer",
-      "total_games": 348,
-      "total_wins": 214,
-      "total_losses": 134,
-      "derived_win_rate": 0.6149,
-      "derived_usage_share": 0.0442
-    },
-    {
-      "artifact_code": "ef501",
-      "artifact_name": "Proof of Valor",
-      "total_games": 325,
-      "total_wins": 212,
-      "total_losses": 113,
-      "derived_win_rate": 0.6523,
-      "derived_usage_share": 0.0413
+      "total_games": 1081,
+      "total_wins": 629,
+      "total_losses": 452,
+      "derived_win_rate": 0.5819,
+      "derived_usage_share": 0.0545
     },
     {
       "artifact_code": "efh06",
       "artifact_name": "Celestine",
-      "total_games": 261,
-      "total_wins": 154,
-      "total_losses": 107,
-      "derived_win_rate": 0.59,
-      "derived_usage_share": 0.0332
+      "total_games": 848,
+      "total_wins": 485,
+      "total_losses": 363,
+      "derived_win_rate": 0.5719,
+      "derived_usage_share": 0.0428
+    },
+    {
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 810,
+      "total_wins": 506,
+      "total_losses": 304,
+      "derived_win_rate": 0.6247,
+      "derived_usage_share": 0.0409
     },
     {
       "artifact_code": "efh27",
       "artifact_name": "Cure-All Magic Wand",
-      "total_games": 215,
-      "total_wins": 128,
-      "total_losses": 87,
-      "derived_win_rate": 0.5953,
-      "derived_usage_share": 0.0273
+      "total_games": 492,
+      "total_wins": 296,
+      "total_losses": 196,
+      "derived_win_rate": 0.6016,
+      "derived_usage_share": 0.0248
     },
     {
       "artifact_code": "efh23",
       "artifact_name": "Proof of Friendship",
-      "total_games": 178,
-      "total_wins": 109,
-      "total_losses": 69,
-      "derived_win_rate": 0.6124,
-      "derived_usage_share": 0.0226
+      "total_games": 361,
+      "total_wins": 218,
+      "total_losses": 143,
+      "derived_win_rate": 0.6039,
+      "derived_usage_share": 0.0182
     },
     {
-      "artifact_code": "efh20",
-      "artifact_name": "Bird's-Eye View",
-      "total_games": 156,
-      "total_wins": 89,
-      "total_losses": 67,
-      "derived_win_rate": 0.5705,
-      "derived_usage_share": 0.0198
+      "artifact_code": "efh14",
+      "artifact_name": "Guardian Ice Crystals",
+      "total_games": 344,
+      "total_wins": 207,
+      "total_losses": 137,
+      "derived_win_rate": 0.6017,
+      "derived_usage_share": 0.0174
     }
   ],
   "top_builds": [
     {
-      "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 3325,
-      "total_wins": 2044,
-      "total_losses": 1281,
-      "derived_win_rate": 0.6147
-    },
-    {
       "set_agg_code": "set_shield+set_max_hp",
-      "total_games": 3303,
-      "total_wins": 2214,
-      "total_losses": 1089,
-      "derived_win_rate": 0.6703
+      "total_games": 9009,
+      "total_wins": 5872,
+      "total_losses": 3137,
+      "derived_win_rate": 0.6518
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "artifact_code": "ef505",
-      "artifact_name": "War Horn",
-      "total_games": 1344,
-      "total_wins": 829,
-      "total_losses": 515,
-      "derived_win_rate": 0.6168
-    },
-    {
-      "set_agg_code": "set_shield+set_max_hp",
-      "artifact_code": "ef505",
-      "artifact_name": "War Horn",
-      "total_games": 1152,
-      "total_wins": 781,
-      "total_losses": 371,
-      "derived_win_rate": 0.678
+      "total_games": 7405,
+      "total_wins": 4463,
+      "total_losses": 2942,
+      "derived_win_rate": 0.6027
     },
     {
       "set_agg_code": "set_shield+set_max_hp",
       "artifact_code": "efh22",
       "artifact_name": "Homage to Tarman",
+      "total_games": 3060,
+      "total_wins": 1997,
+      "total_losses": 1063,
+      "derived_win_rate": 0.6526
+    },
+    {
+      "set_agg_code": "set_shield+set_max_hp",
+      "artifact_code": "ef505",
+      "artifact_name": "War Horn",
+      "total_games": 2949,
+      "total_wins": 1954,
+      "total_losses": 995,
+      "derived_win_rate": 0.6626
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "ef505",
+      "artifact_name": "War Horn",
+      "total_games": 2865,
+      "total_wins": 1738,
+      "total_losses": 1127,
+      "derived_win_rate": 0.6066
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh22",
+      "artifact_name": "Homage to Tarman",
+      "total_games": 1284,
+      "total_wins": 778,
+      "total_losses": 506,
+      "derived_win_rate": 0.6059
+    },
+    {
+      "set_agg_code": "set_shield+set_max_hp",
+      "artifact_code": "efh07",
+      "artifact_name": "Idol's Cheer",
       "total_games": 1061,
-      "total_wins": 716,
-      "total_losses": 345,
-      "derived_win_rate": 0.6748
-    },
-    {
-      "set_agg_code": "set_speed+set_max_hp",
-      "artifact_code": "efh22",
-      "artifact_name": "Homage to Tarman",
-      "total_games": 544,
-      "total_wins": 334,
-      "total_losses": 210,
-      "derived_win_rate": 0.614
+      "total_wins": 694,
+      "total_losses": 367,
+      "derived_win_rate": 0.6541
     },
     {
       "set_agg_code": "set_counter+set_max_hp",
-      "total_games": 337,
-      "total_wins": 187,
-      "total_losses": 150,
-      "derived_win_rate": 0.5549
-    },
-    {
-      "set_agg_code": "set_shield+set_max_hp",
-      "artifact_code": "efh07",
-      "artifact_name": "Idol's Cheer",
-      "total_games": 333,
-      "total_wins": 220,
-      "total_losses": 113,
-      "derived_win_rate": 0.6607
-    },
-    {
-      "set_agg_code": "set_speed+set_max_hp",
-      "artifact_code": "efh07",
-      "artifact_name": "Idol's Cheer",
-      "total_games": 236,
-      "total_wins": 156,
-      "total_losses": 80,
-      "derived_win_rate": 0.661
+      "total_games": 1036,
+      "total_wins": 603,
+      "total_losses": 433,
+      "derived_win_rate": 0.582
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efh21",
       "artifact_name": "Spotted Mouse Hair Tie",
-      "total_games": 229,
-      "total_wins": 139,
-      "total_losses": 90,
-      "derived_win_rate": 0.607
+      "total_games": 573,
+      "total_wins": 346,
+      "total_losses": 227,
+      "derived_win_rate": 0.6038
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 570,
+      "total_wins": 337,
+      "total_losses": 233,
+      "derived_win_rate": 0.5912
     }
   ],
-  "total_set_stats_games": 15714,
-  "total_artifact_stats_games": 7867,
+  "total_set_stats_games": 39494,
+  "total_artifact_stats_games": 19825,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.6132,
+    "win_rate": 0.6009,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -275,5 +284,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2186?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:06:29Z"
+  "scraped_at": "2026-09-07T15:05:48Z"
 }

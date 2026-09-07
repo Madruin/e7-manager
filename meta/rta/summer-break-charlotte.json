@@ -7,258 +7,274 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1695,
-      "total_wins": 840,
-      "total_losses": 855,
-      "total_bans": 470,
+      "total_games": 2320,
+      "total_wins": 1147,
+      "total_losses": 1173,
+      "total_bans": 609,
       "total_prebans": 0
     }
   ],
-  "sample_size": 1695,
+  "sample_size": 2320,
   "top_sets": [
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 1221,
-      "total_wins": 612,
-      "total_losses": 609,
-      "derived_win_rate": 0.5012,
-      "derived_usage_share": 0.4803
+      "total_games": 1709,
+      "total_wins": 857,
+      "total_losses": 852,
+      "derived_win_rate": 0.5015,
+      "derived_usage_share": 0.4742
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 537,
-      "total_wins": 270,
-      "total_losses": 267,
-      "derived_win_rate": 0.5028,
-      "derived_usage_share": 0.2113
+      "total_games": 676,
+      "total_wins": 344,
+      "total_losses": 332,
+      "derived_win_rate": 0.5089,
+      "derived_usage_share": 0.1876
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 457,
-      "total_wins": 206,
-      "total_losses": 251,
-      "derived_win_rate": 0.4508,
-      "derived_usage_share": 0.1798
+      "total_games": 634,
+      "total_wins": 290,
+      "total_losses": 344,
+      "derived_win_rate": 0.4574,
+      "derived_usage_share": 0.1759
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 117,
-      "total_wins": 59,
-      "total_losses": 58,
-      "derived_win_rate": 0.5043,
-      "derived_usage_share": 0.046
+      "total_games": 193,
+      "total_wins": 95,
+      "total_losses": 98,
+      "derived_win_rate": 0.4922,
+      "derived_usage_share": 0.0536
     },
     {
       "set_code": "set_att",
       "set_name": "Attack",
-      "total_games": 90,
-      "total_wins": 44,
-      "total_losses": 46,
-      "derived_win_rate": 0.4889,
-      "derived_usage_share": 0.0354
+      "total_games": 149,
+      "total_wins": 74,
+      "total_losses": 75,
+      "derived_win_rate": 0.4966,
+      "derived_usage_share": 0.0413
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 45,
-      "total_wins": 14,
-      "total_losses": 31,
-      "derived_win_rate": 0.3111,
-      "derived_usage_share": 0.0177
+      "total_games": 135,
+      "total_wins": 59,
+      "total_losses": 76,
+      "derived_win_rate": 0.437,
+      "derived_usage_share": 0.0375
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 29,
-      "total_wins": 11,
-      "total_losses": 18,
-      "derived_win_rate": 0.3793,
-      "derived_usage_share": 0.0114
-    },
-    {
-      "set_code": "set_cri",
-      "set_name": "Critical",
-      "total_games": 19,
-      "total_wins": 7,
-      "total_losses": 12,
-      "derived_win_rate": 0.3684,
-      "derived_usage_share": 0.0075
+      "total_games": 40,
+      "total_wins": 15,
+      "total_losses": 25,
+      "derived_win_rate": 0.375,
+      "derived_usage_share": 0.0111
     },
     {
       "set_code": "set_weak",
       "set_name": "Weakening",
-      "total_games": 17,
-      "total_wins": 8,
-      "total_losses": 9,
-      "derived_win_rate": 0.4706,
-      "derived_usage_share": 0.0067
+      "total_games": 32,
+      "total_wins": 14,
+      "total_losses": 18,
+      "derived_win_rate": 0.4375,
+      "derived_usage_share": 0.0089
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 22,
+      "total_wins": 9,
+      "total_losses": 13,
+      "derived_win_rate": 0.4091,
+      "derived_usage_share": 0.0061
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk15",
       "artifact_name": "Spear of a New Dawn",
-      "total_games": 655,
-      "total_wins": 330,
-      "total_losses": 325,
-      "derived_win_rate": 0.5038,
-      "derived_usage_share": 0.5347
+      "total_games": 868,
+      "total_wins": 438,
+      "total_losses": 430,
+      "derived_win_rate": 0.5046,
+      "derived_usage_share": 0.5073
     },
     {
       "artifact_code": "efk20",
       "artifact_name": "Broken Will of the Priest",
-      "total_games": 294,
-      "total_wins": 125,
-      "total_losses": 169,
-      "derived_win_rate": 0.4252,
-      "derived_usage_share": 0.24
+      "total_games": 384,
+      "total_wins": 174,
+      "total_losses": 210,
+      "derived_win_rate": 0.4531,
+      "derived_usage_share": 0.2244
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 122,
-      "total_wins": 70,
-      "total_losses": 52,
-      "derived_win_rate": 0.5738,
-      "derived_usage_share": 0.0996
+      "total_games": 219,
+      "total_wins": 117,
+      "total_losses": 102,
+      "derived_win_rate": 0.5342,
+      "derived_usage_share": 0.128
     },
     {
       "artifact_code": "efk18",
       "artifact_name": "Mature Sunglasses",
-      "total_games": 65,
-      "total_wins": 21,
-      "total_losses": 44,
-      "derived_win_rate": 0.3231,
-      "derived_usage_share": 0.0531
+      "total_games": 106,
+      "total_wins": 40,
+      "total_losses": 66,
+      "derived_win_rate": 0.3774,
+      "derived_usage_share": 0.062
     },
     {
       "artifact_code": "efk16",
       "artifact_name": "Wings of Light and Shadow",
-      "total_games": 49,
-      "total_wins": 27,
-      "total_losses": 22,
-      "derived_win_rate": 0.551,
-      "derived_usage_share": 0.04
+      "total_games": 66,
+      "total_wins": 34,
+      "total_losses": 32,
+      "derived_win_rate": 0.5152,
+      "derived_usage_share": 0.0386
     },
     {
       "artifact_code": "ef403",
       "artifact_name": "Portrait of the Saviors",
-      "total_games": 15,
+      "total_games": 21,
       "total_wins": 7,
-      "total_losses": 8,
-      "derived_win_rate": 0.4667,
-      "derived_usage_share": 0.0122
+      "total_losses": 14,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0123
     },
     {
       "artifact_code": "ef502",
       "artifact_name": "Victorious Flag",
-      "total_games": 13,
+      "total_games": 18,
+      "total_wins": 9,
+      "total_losses": 9,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0105
+    },
+    {
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 14,
       "total_wins": 6,
-      "total_losses": 7,
-      "derived_win_rate": 0.4615,
-      "derived_usage_share": 0.0106
+      "total_losses": 8,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0082
+    },
+    {
+      "artifact_code": "ef510",
+      "artifact_name": "Elbris Ritual Sword",
+      "total_games": 9,
+      "total_wins": 5,
+      "total_losses": 4,
+      "derived_win_rate": 0.5556,
+      "derived_usage_share": 0.0053
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
-      "total_games": 495,
-      "total_wins": 252,
-      "total_losses": 243,
-      "derived_win_rate": 0.5091
+      "total_games": 618,
+      "total_wins": 318,
+      "total_losses": 300,
+      "derived_win_rate": 0.5146
     },
     {
       "set_agg_code": "set_speed+set_torrent",
-      "total_games": 368,
-      "total_wins": 171,
-      "total_losses": 197,
-      "derived_win_rate": 0.4647
+      "total_games": 517,
+      "total_wins": 241,
+      "total_losses": 276,
+      "derived_win_rate": 0.4662
     },
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
       "artifact_code": "efk15",
       "artifact_name": "Spear of a New Dawn",
-      "total_games": 290,
-      "total_wins": 150,
-      "total_losses": 140,
-      "derived_win_rate": 0.5172
+      "total_games": 355,
+      "total_wins": 189,
+      "total_losses": 166,
+      "derived_win_rate": 0.5324
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efk15",
       "artifact_name": "Spear of a New Dawn",
-      "total_games": 197,
-      "total_wins": 95,
-      "total_losses": 102,
-      "derived_win_rate": 0.4822
+      "total_games": 257,
+      "total_wins": 120,
+      "total_losses": 137,
+      "derived_win_rate": 0.4669
     },
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
       "artifact_code": "efk20",
       "artifact_name": "Broken Will of the Priest",
-      "total_games": 111,
-      "total_wins": 45,
-      "total_losses": 66,
-      "derived_win_rate": 0.4054
+      "total_games": 142,
+      "total_wins": 60,
+      "total_losses": 82,
+      "derived_win_rate": 0.4225
     },
     {
       "set_agg_code": "set_torrent+set_torrent+set_torrent",
-      "total_games": 104,
-      "total_wins": 53,
-      "total_losses": 51,
-      "derived_win_rate": 0.5096
+      "total_games": 113,
+      "total_wins": 58,
+      "total_losses": 55,
+      "derived_win_rate": 0.5133
     },
     {
-      "set_agg_code": "set_torrent+set_torrent+set_torrent",
+      "set_agg_code": "set_att+set_chase",
+      "total_games": 106,
+      "total_wins": 49,
+      "total_losses": 57,
+      "derived_win_rate": 0.4623
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efk20",
       "artifact_name": "Broken Will of the Priest",
-      "total_games": 92,
-      "total_wins": 46,
-      "total_losses": 46,
-      "derived_win_rate": 0.5
-    },
-    {
-      "set_agg_code": "set_cri_dmg+set_torrent",
-      "artifact_code": "ef504",
-      "artifact_name": "A Symbol of Unity",
-      "total_games": 75,
+      "total_games": 105,
       "total_wins": 48,
-      "total_losses": 27,
-      "derived_win_rate": 0.64
-    },
-    {
-      "set_agg_code": "set_speed+set_torrent",
-      "artifact_code": "efk20",
-      "artifact_name": "Broken Will of the Priest",
-      "total_games": 67,
-      "total_wins": 26,
-      "total_losses": 41,
-      "derived_win_rate": 0.3881
+      "total_losses": 57,
+      "derived_win_rate": 0.4571
     },
     {
       "set_agg_code": "set_att+set_chase",
       "artifact_code": "efk15",
       "artifact_name": "Spear of a New Dawn",
-      "total_games": 60,
-      "total_wins": 28,
-      "total_losses": 32,
+      "total_games": 105,
+      "total_wins": 49,
+      "total_losses": 56,
       "derived_win_rate": 0.4667
+    },
+    {
+      "set_agg_code": "set_torrent+set_torrent+set_torrent",
+      "artifact_code": "efk20",
+      "artifact_name": "Broken Will of the Priest",
+      "total_games": 99,
+      "total_wins": 50,
+      "total_losses": 49,
+      "derived_win_rate": 0.5051
     }
   ],
-  "total_set_stats_games": 2542,
-  "total_artifact_stats_games": 1225,
+  "total_set_stats_games": 3604,
+  "total_artifact_stats_games": 1711,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.4956,
+    "win_rate": 0.4944,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -266,5 +282,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5009?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:07:39Z"
+  "scraped_at": "2026-09-07T15:07:24Z"
 }

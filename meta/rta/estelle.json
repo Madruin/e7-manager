@@ -7,188 +7,188 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 73568,
-      "total_wins": 34775,
-      "total_losses": 34398,
-      "total_bans": 5633,
-      "total_prebans": 4429
+      "total_games": 100130,
+      "total_wins": 47429,
+      "total_losses": 46928,
+      "total_bans": 7640,
+      "total_prebans": 5815
     }
   ],
-  "sample_size": 73568,
+  "sample_size": 100130,
   "top_sets": [
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 57119,
-      "total_wins": 29014,
-      "total_losses": 28105,
-      "derived_win_rate": 0.508,
-      "derived_usage_share": 0.4469
+      "total_games": 77955,
+      "total_wins": 39571,
+      "total_losses": 38384,
+      "derived_win_rate": 0.5076,
+      "derived_usage_share": 0.447
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 50974,
-      "total_wins": 26016,
-      "total_losses": 24958,
-      "derived_win_rate": 0.5104,
-      "derived_usage_share": 0.3988
+      "total_games": 68848,
+      "total_wins": 35108,
+      "total_losses": 33740,
+      "derived_win_rate": 0.5099,
+      "derived_usage_share": 0.3948
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 12091,
-      "total_wins": 5894,
-      "total_losses": 6197,
-      "derived_win_rate": 0.4875,
-      "derived_usage_share": 0.0946
+      "total_games": 17115,
+      "total_wins": 8338,
+      "total_losses": 8777,
+      "derived_win_rate": 0.4872,
+      "derived_usage_share": 0.0981
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 2430,
-      "total_wins": 1257,
-      "total_losses": 1173,
-      "derived_win_rate": 0.5173,
-      "derived_usage_share": 0.019
+      "total_games": 3223,
+      "total_wins": 1670,
+      "total_losses": 1553,
+      "derived_win_rate": 0.5182,
+      "derived_usage_share": 0.0185
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 2063,
-      "total_wins": 993,
-      "total_losses": 1070,
-      "derived_win_rate": 0.4813,
-      "derived_usage_share": 0.0161
+      "total_games": 2791,
+      "total_wins": 1344,
+      "total_losses": 1447,
+      "derived_win_rate": 0.4815,
+      "derived_usage_share": 0.016
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 1609,
-      "total_wins": 758,
-      "total_losses": 851,
-      "derived_win_rate": 0.4711,
-      "derived_usage_share": 0.0126
+      "total_games": 2302,
+      "total_wins": 1102,
+      "total_losses": 1200,
+      "derived_win_rate": 0.4787,
+      "derived_usage_share": 0.0132
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 926,
-      "total_wins": 477,
-      "total_losses": 449,
-      "derived_win_rate": 0.5151,
-      "derived_usage_share": 0.0072
+      "total_games": 1207,
+      "total_wins": 616,
+      "total_losses": 591,
+      "derived_win_rate": 0.5104,
+      "derived_usage_share": 0.0069
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 38132,
-      "total_wins": 19572,
-      "total_losses": 18560,
-      "derived_win_rate": 0.5133,
-      "derived_usage_share": 0.6001
+      "total_games": 50177,
+      "total_wins": 25572,
+      "total_losses": 24605,
+      "derived_win_rate": 0.5096,
+      "derived_usage_share": 0.5786
     },
     {
       "artifact_code": "efk25",
       "artifact_name": "With a Little Friend",
-      "total_games": 24741,
-      "total_wins": 12286,
-      "total_losses": 12455,
-      "derived_win_rate": 0.4966,
-      "derived_usage_share": 0.3894
+      "total_games": 35626,
+      "total_wins": 17871,
+      "total_losses": 17755,
+      "derived_win_rate": 0.5016,
+      "derived_usage_share": 0.4108
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_counter+set_immune",
-      "total_games": 46357,
-      "total_wins": 23737,
-      "total_losses": 22620,
-      "derived_win_rate": 0.512
+      "total_games": 62837,
+      "total_wins": 32149,
+      "total_losses": 30688,
+      "derived_win_rate": 0.5116
     },
     {
       "set_agg_code": "set_counter+set_immune",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 29429,
-      "total_wins": 15197,
-      "total_losses": 14232,
-      "derived_win_rate": 0.5164
+      "total_games": 38702,
+      "total_wins": 19810,
+      "total_losses": 18892,
+      "derived_win_rate": 0.5119
     },
     {
       "set_agg_code": "set_counter+set_immune",
       "artifact_code": "efk25",
       "artifact_name": "With a Little Friend",
-      "total_games": 16772,
-      "total_wins": 8467,
-      "total_losses": 8305,
-      "derived_win_rate": 0.5048
+      "total_games": 23943,
+      "total_wins": 12255,
+      "total_losses": 11688,
+      "derived_win_rate": 0.5118
     },
     {
       "set_agg_code": "set_counter+set_max_hp",
-      "total_games": 8268,
-      "total_wins": 4036,
-      "total_losses": 4232,
-      "derived_win_rate": 0.4881
+      "total_games": 11626,
+      "total_wins": 5689,
+      "total_losses": 5937,
+      "derived_win_rate": 0.4893
     },
     {
       "set_agg_code": "set_counter+set_max_hp",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 4712,
-      "total_wins": 2334,
-      "total_losses": 2378,
-      "derived_win_rate": 0.4953
+      "total_games": 6327,
+      "total_wins": 3140,
+      "total_losses": 3187,
+      "derived_win_rate": 0.4963
     },
     {
       "set_agg_code": "set_counter+set_max_hp",
       "artifact_code": "efk25",
       "artifact_name": "With a Little Friend",
-      "total_games": 3362,
-      "total_wins": 1614,
-      "total_losses": 1748,
-      "derived_win_rate": 0.4801
+      "total_games": 5021,
+      "total_wins": 2417,
+      "total_losses": 2604,
+      "derived_win_rate": 0.4814
     },
     {
       "set_agg_code": "set_shield+set_immune",
-      "total_games": 1997,
-      "total_wins": 1031,
-      "total_losses": 966,
-      "derived_win_rate": 0.5163
+      "total_games": 2561,
+      "total_wins": 1326,
+      "total_losses": 1235,
+      "derived_win_rate": 0.5178
     },
     {
       "set_agg_code": "set_counter+set_penetrate",
-      "total_games": 1376,
-      "total_wins": 659,
-      "total_losses": 717,
-      "derived_win_rate": 0.4789
+      "total_games": 1978,
+      "total_wins": 954,
+      "total_losses": 1024,
+      "derived_win_rate": 0.4823
     },
     {
       "set_agg_code": "set_cri_dmg+set_immune",
-      "total_games": 1308,
-      "total_wins": 620,
-      "total_losses": 688,
-      "derived_win_rate": 0.474
+      "total_games": 1721,
+      "total_wins": 813,
+      "total_losses": 908,
+      "derived_win_rate": 0.4724
     },
     {
       "set_agg_code": "set_shield+set_immune",
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 1245,
-      "total_wins": 665,
-      "total_losses": 580,
-      "derived_win_rate": 0.5341
+      "total_games": 1525,
+      "total_wins": 805,
+      "total_losses": 720,
+      "derived_win_rate": 0.5279
     }
   ],
-  "total_set_stats_games": 127820,
-  "total_artifact_stats_games": 63540,
+  "total_set_stats_games": 174391,
+  "total_artifact_stats_games": 86717,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
     "win_rate": 0.5027,
@@ -199,5 +199,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1183?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:06:13Z"
+  "scraped_at": "2026-09-07T15:05:41Z"
 }

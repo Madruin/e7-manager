@@ -7,41 +7,41 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 4099,
-      "total_wins": 1963,
-      "total_losses": 2136,
-      "total_bans": 1161,
+      "total_games": 5214,
+      "total_wins": 2485,
+      "total_losses": 2729,
+      "total_bans": 1443,
       "total_prebans": 0
     }
   ],
-  "sample_size": 4099,
+  "sample_size": 5214,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 2847,
-      "total_wins": 1376,
-      "total_losses": 1471,
-      "derived_win_rate": 0.4833,
-      "derived_usage_share": 0.4876
+      "total_games": 3647,
+      "total_wins": 1754,
+      "total_losses": 1893,
+      "derived_win_rate": 0.4809,
+      "derived_usage_share": 0.4859
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 2126,
-      "total_wins": 1021,
-      "total_losses": 1105,
-      "derived_win_rate": 0.4802,
-      "derived_usage_share": 0.3641
+      "total_games": 2710,
+      "total_wins": 1308,
+      "total_losses": 1402,
+      "derived_win_rate": 0.4827,
+      "derived_usage_share": 0.3611
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 763,
-      "total_wins": 376,
-      "total_losses": 387,
-      "derived_win_rate": 0.4928,
-      "derived_usage_share": 0.1307
+      "total_games": 1025,
+      "total_wins": 490,
+      "total_losses": 535,
+      "derived_win_rate": 0.478,
+      "derived_usage_share": 0.1366
     },
     {
       "set_code": "set_might",
@@ -50,52 +50,68 @@
       "total_wins": 19,
       "total_losses": 31,
       "derived_win_rate": 0.38,
-      "derived_usage_share": 0.0086
+      "derived_usage_share": 0.0067
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 2911,
-      "total_wins": 1404,
-      "total_losses": 1507,
-      "derived_win_rate": 0.4823,
-      "derived_usage_share": 0.9908
+      "total_games": 3739,
+      "total_wins": 1798,
+      "total_losses": 1941,
+      "derived_win_rate": 0.4809,
+      "derived_usage_share": 0.9915
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 2001,
-      "total_wins": 972,
-      "total_losses": 1029,
-      "derived_win_rate": 0.4858
+      "total_games": 2543,
+      "total_wins": 1239,
+      "total_losses": 1304,
+      "derived_win_rate": 0.4872
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 1998,
-      "total_wins": 970,
-      "total_losses": 1028,
-      "derived_win_rate": 0.4855
+      "total_games": 2537,
+      "total_wins": 1235,
+      "total_losses": 1302,
+      "derived_win_rate": 0.4868
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 736,
-      "total_wins": 364,
-      "total_losses": 372,
-      "derived_win_rate": 0.4946
+      "total_games": 975,
+      "total_wins": 464,
+      "total_losses": 511,
+      "derived_win_rate": 0.4759
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 725,
-      "total_wins": 359,
-      "total_losses": 366,
-      "derived_win_rate": 0.4952
+      "total_games": 962,
+      "total_wins": 459,
+      "total_losses": 503,
+      "derived_win_rate": 0.4771
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efa23",
+      "artifact_name": "Seductive Flower",
+      "total_games": 57,
+      "total_wins": 22,
+      "total_losses": 35,
+      "derived_win_rate": 0.386
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 57,
+      "total_wins": 22,
+      "total_losses": 35,
+      "derived_win_rate": 0.386
     },
     {
       "set_agg_code": "set_speed+set_might",
@@ -114,48 +130,32 @@
       "derived_win_rate": 0.38
     },
     {
-      "set_agg_code": "set_speed",
-      "artifact_code": "efa23",
-      "artifact_name": "Seductive Flower",
-      "total_games": 48,
-      "total_wins": 18,
-      "total_losses": 30,
-      "derived_win_rate": 0.375
-    },
-    {
-      "set_agg_code": "set_speed",
-      "total_games": 48,
-      "total_wins": 18,
-      "total_losses": 30,
-      "derived_win_rate": 0.375
-    },
-    {
       "set_agg_code": "set_shield+set_acc",
       "artifact_code": "efa23",
       "artifact_name": "Seductive Flower",
-      "total_games": 19,
-      "total_wins": 10,
-      "total_losses": 9,
-      "derived_win_rate": 0.5263
+      "total_games": 27,
+      "total_wins": 15,
+      "total_losses": 12,
+      "derived_win_rate": 0.5556
     },
     {
       "set_agg_code": "set_shield+set_acc",
-      "total_games": 19,
-      "total_wins": 10,
-      "total_losses": 9,
-      "derived_win_rate": 0.5263
+      "total_games": 27,
+      "total_wins": 15,
+      "total_losses": 12,
+      "derived_win_rate": 0.5556
     }
   ],
-  "total_set_stats_games": 5839,
-  "total_artifact_stats_games": 2938,
+  "total_set_stats_games": 7505,
+  "total_artifact_stats_games": 3771,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.4789,
+    "win_rate": 0.4766,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -163,5 +163,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5046?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:07:15Z"
+  "scraped_at": "2026-09-07T15:07:03Z"
 }

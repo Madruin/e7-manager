@@ -7,218 +7,218 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 110333,
-      "total_wins": 38168,
-      "total_losses": 32513,
-      "total_bans": 6766,
-      "total_prebans": 42729
+      "total_games": 146791,
+      "total_wins": 52590,
+      "total_losses": 45391,
+      "total_bans": 9584,
+      "total_prebans": 52286
     }
   ],
-  "sample_size": 110333,
+  "sample_size": 146791,
   "top_sets": [
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 46523,
-      "total_wins": 25679,
-      "total_losses": 20844,
-      "derived_win_rate": 0.552,
-      "derived_usage_share": 0.3331
+      "total_games": 64173,
+      "total_wins": 35249,
+      "total_losses": 28924,
+      "derived_win_rate": 0.5493,
+      "derived_usage_share": 0.3322
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 38971,
-      "total_wins": 20929,
-      "total_losses": 18042,
-      "derived_win_rate": 0.537,
-      "derived_usage_share": 0.279
+      "total_games": 54176,
+      "total_wins": 28932,
+      "total_losses": 25244,
+      "derived_win_rate": 0.534,
+      "derived_usage_share": 0.2804
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 19827,
-      "total_wins": 10899,
-      "total_losses": 8928,
-      "derived_win_rate": 0.5497,
-      "derived_usage_share": 0.142
+      "total_games": 27872,
+      "total_wins": 15253,
+      "total_losses": 12619,
+      "derived_win_rate": 0.5473,
+      "derived_usage_share": 0.1443
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 18242,
-      "total_wins": 10150,
-      "total_losses": 8092,
-      "derived_win_rate": 0.5564,
-      "derived_usage_share": 0.1306
+      "total_games": 24692,
+      "total_wins": 13657,
+      "total_losses": 11035,
+      "derived_win_rate": 0.5531,
+      "derived_usage_share": 0.1278
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 11371,
-      "total_wins": 6341,
-      "total_losses": 5030,
-      "derived_win_rate": 0.5576,
-      "derived_usage_share": 0.0814
+      "total_games": 15448,
+      "total_wins": 8591,
+      "total_losses": 6857,
+      "derived_win_rate": 0.5561,
+      "derived_usage_share": 0.08
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 4023,
-      "total_wins": 2191,
-      "total_losses": 1832,
-      "derived_win_rate": 0.5446,
-      "derived_usage_share": 0.0288
+      "total_games": 5760,
+      "total_wins": 3118,
+      "total_losses": 2642,
+      "derived_win_rate": 0.5413,
+      "derived_usage_share": 0.0298
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efh28",
       "artifact_name": "Veritas",
-      "total_games": 53022,
-      "total_wins": 28634,
-      "total_losses": 24388,
-      "derived_win_rate": 0.54,
-      "derived_usage_share": 0.8296
+      "total_games": 73562,
+      "total_wins": 39605,
+      "total_losses": 33957,
+      "derived_win_rate": 0.5384,
+      "derived_usage_share": 0.8322
     },
     {
       "artifact_code": "efh21",
       "artifact_name": "Spotted Mouse Hair Tie",
-      "total_games": 5093,
-      "total_wins": 3044,
-      "total_losses": 2049,
-      "derived_win_rate": 0.5977,
-      "derived_usage_share": 0.0797
+      "total_games": 6546,
+      "total_wins": 3870,
+      "total_losses": 2676,
+      "derived_win_rate": 0.5912,
+      "derived_usage_share": 0.0741
     },
     {
       "artifact_code": "ef507",
       "artifact_name": "Bastion of Hope",
-      "total_games": 2468,
-      "total_wins": 1353,
-      "total_losses": 1115,
-      "derived_win_rate": 0.5482,
-      "derived_usage_share": 0.0386
+      "total_games": 3596,
+      "total_wins": 1941,
+      "total_losses": 1655,
+      "derived_win_rate": 0.5398,
+      "derived_usage_share": 0.0407
     },
     {
       "artifact_code": "efh02",
       "artifact_name": "Shimadra Staff",
-      "total_games": 739,
-      "total_wins": 409,
-      "total_losses": 330,
-      "derived_win_rate": 0.5535,
-      "derived_usage_share": 0.0116
+      "total_games": 926,
+      "total_wins": 509,
+      "total_losses": 417,
+      "derived_win_rate": 0.5497,
+      "derived_usage_share": 0.0105
     },
     {
       "artifact_code": "efh10",
       "artifact_name": "Unfading Memories",
-      "total_games": 331,
-      "total_wins": 184,
-      "total_losses": 147,
-      "derived_win_rate": 0.5559,
-      "derived_usage_share": 0.0052
+      "total_games": 476,
+      "total_wins": 256,
+      "total_losses": 220,
+      "derived_win_rate": 0.5378,
+      "derived_usage_share": 0.0054
     },
     {
       "artifact_code": "efh07",
       "artifact_name": "Idol's Cheer",
-      "total_games": 327,
-      "total_wins": 182,
-      "total_losses": 145,
-      "derived_win_rate": 0.5566,
+      "total_games": 449,
+      "total_wins": 245,
+      "total_losses": 204,
+      "derived_win_rate": 0.5457,
       "derived_usage_share": 0.0051
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 26363,
-      "total_wins": 14218,
-      "total_losses": 12145,
-      "derived_win_rate": 0.5393
+      "total_games": 36860,
+      "total_wins": 19837,
+      "total_losses": 17023,
+      "derived_win_rate": 0.5382
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efh28",
       "artifact_name": "Veritas",
-      "total_games": 22834,
-      "total_wins": 12267,
-      "total_losses": 10567,
-      "derived_win_rate": 0.5372
+      "total_games": 31909,
+      "total_wins": 17111,
+      "total_losses": 14798,
+      "derived_win_rate": 0.5362
     },
     {
       "set_agg_code": "set_shield+set_immune",
-      "total_games": 9651,
-      "total_wins": 5445,
-      "total_losses": 4206,
-      "derived_win_rate": 0.5642
+      "total_games": 12883,
+      "total_wins": 7212,
+      "total_losses": 5671,
+      "derived_win_rate": 0.5598
     },
     {
       "set_agg_code": "set_shield+set_immune",
       "artifact_code": "efh28",
       "artifact_name": "Veritas",
-      "total_games": 7209,
-      "total_wins": 3971,
-      "total_losses": 3238,
-      "derived_win_rate": 0.5508
+      "total_games": 9778,
+      "total_wins": 5357,
+      "total_losses": 4421,
+      "derived_win_rate": 0.5479
     },
     {
       "set_agg_code": "set_res+set_max_hp+set_immune",
-      "total_games": 5343,
-      "total_wins": 3073,
-      "total_losses": 2270,
-      "derived_win_rate": 0.5751
+      "total_games": 6944,
+      "total_wins": 3964,
+      "total_losses": 2980,
+      "derived_win_rate": 0.5709
     },
     {
       "set_agg_code": "set_speed+set_res",
-      "total_games": 5117,
-      "total_wins": 2768,
-      "total_losses": 2349,
-      "derived_win_rate": 0.5409
+      "total_games": 6740,
+      "total_wins": 3582,
+      "total_losses": 3158,
+      "derived_win_rate": 0.5315
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 5861,
+      "total_wins": 3034,
+      "total_losses": 2827,
+      "derived_win_rate": 0.5177
     },
     {
       "set_agg_code": "set_res+set_max_hp+set_immune",
       "artifact_code": "efh28",
       "artifact_name": "Veritas",
-      "total_games": 4348,
-      "total_wins": 2486,
-      "total_losses": 1862,
-      "derived_win_rate": 0.5718
-    },
-    {
-      "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 4113,
-      "total_wins": 2138,
-      "total_losses": 1975,
-      "derived_win_rate": 0.5198
+      "total_games": 5643,
+      "total_wins": 3213,
+      "total_losses": 2430,
+      "derived_win_rate": 0.5694
     },
     {
       "set_agg_code": "set_speed+set_res",
       "artifact_code": "efh28",
       "artifact_name": "Veritas",
-      "total_games": 3954,
-      "total_wins": 2102,
-      "total_losses": 1852,
-      "derived_win_rate": 0.5316
+      "total_games": 5240,
+      "total_wins": 2735,
+      "total_losses": 2505,
+      "derived_win_rate": 0.5219
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efh28",
       "artifact_name": "Veritas",
-      "total_games": 3613,
-      "total_wins": 1870,
-      "total_losses": 1743,
-      "derived_win_rate": 0.5176
+      "total_games": 5237,
+      "total_wins": 2691,
+      "total_losses": 2546,
+      "derived_win_rate": 0.5138
     }
   ],
-  "total_set_stats_games": 139671,
-  "total_artifact_stats_games": 63915,
+  "total_set_stats_games": 193189,
+  "total_artifact_stats_games": 88397,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.54,
+    "win_rate": 0.5367,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -226,5 +226,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5154?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:06:07Z"
+  "scraped_at": "2026-09-07T15:05:36Z"
 }

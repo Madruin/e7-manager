@@ -7,178 +7,178 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1945,
-      "total_wins": 986,
-      "total_losses": 959,
-      "total_bans": 430,
+      "total_games": 2400,
+      "total_wins": 1218,
+      "total_losses": 1182,
+      "total_bans": 530,
       "total_prebans": 0
     }
   ],
-  "sample_size": 1945,
+  "sample_size": 2400,
   "top_sets": [
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 869,
-      "total_wins": 439,
-      "total_losses": 430,
-      "derived_win_rate": 0.5052,
-      "derived_usage_share": 0.2896
+      "total_games": 1075,
+      "total_wins": 544,
+      "total_losses": 531,
+      "derived_win_rate": 0.506,
+      "derived_usage_share": 0.2897
     },
     {
       "set_code": "set_vampire",
       "set_name": "Lifesteal",
-      "total_games": 718,
-      "total_wins": 352,
-      "total_losses": 366,
-      "derived_win_rate": 0.4903,
-      "derived_usage_share": 0.2393
+      "total_games": 921,
+      "total_wins": 457,
+      "total_losses": 464,
+      "derived_win_rate": 0.4962,
+      "derived_usage_share": 0.2482
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 312,
-      "total_wins": 172,
-      "total_losses": 140,
-      "derived_win_rate": 0.5513,
-      "derived_usage_share": 0.104
+      "total_games": 380,
+      "total_wins": 205,
+      "total_losses": 175,
+      "derived_win_rate": 0.5395,
+      "derived_usage_share": 0.1024
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 283,
-      "total_wins": 140,
-      "total_losses": 143,
-      "derived_win_rate": 0.4947,
-      "derived_usage_share": 0.0943
+      "total_games": 351,
+      "total_wins": 170,
+      "total_losses": 181,
+      "derived_win_rate": 0.4843,
+      "derived_usage_share": 0.0946
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 268,
-      "total_wins": 132,
-      "total_losses": 136,
-      "derived_win_rate": 0.4925,
-      "derived_usage_share": 0.0893
-    },
-    {
-      "set_code": "set_def",
-      "set_name": "Defense",
-      "total_games": 145,
-      "total_wins": 70,
-      "total_losses": 75,
-      "derived_win_rate": 0.4828,
-      "derived_usage_share": 0.0483
+      "total_games": 296,
+      "total_wins": 147,
+      "total_losses": 149,
+      "derived_win_rate": 0.4966,
+      "derived_usage_share": 0.0798
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 141,
-      "total_wins": 63,
-      "total_losses": 78,
-      "derived_win_rate": 0.4468,
-      "derived_usage_share": 0.047
+      "total_games": 192,
+      "total_wins": 81,
+      "total_losses": 111,
+      "derived_win_rate": 0.4219,
+      "derived_usage_share": 0.0517
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 170,
+      "total_wins": 84,
+      "total_losses": 86,
+      "derived_win_rate": 0.4941,
+      "derived_usage_share": 0.0458
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 68,
-      "total_wins": 27,
-      "total_losses": 41,
-      "derived_win_rate": 0.3971,
-      "derived_usage_share": 0.0227
+      "total_games": 83,
+      "total_wins": 33,
+      "total_losses": 50,
+      "derived_win_rate": 0.3976,
+      "derived_usage_share": 0.0224
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 62,
-      "total_wins": 39,
-      "total_losses": 23,
-      "derived_win_rate": 0.629,
-      "derived_usage_share": 0.0207
+      "total_games": 74,
+      "total_wins": 45,
+      "total_losses": 29,
+      "derived_win_rate": 0.6081,
+      "derived_usage_share": 0.0199
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 53,
-      "total_wins": 33,
-      "total_losses": 20,
-      "derived_win_rate": 0.6226,
-      "derived_usage_share": 0.0177
+      "total_games": 69,
+      "total_wins": 39,
+      "total_losses": 30,
+      "derived_win_rate": 0.5652,
+      "derived_usage_share": 0.0186
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 966,
-      "total_wins": 499,
-      "total_losses": 467,
-      "derived_win_rate": 0.5166,
-      "derived_usage_share": 0.6376
+      "total_games": 1213,
+      "total_wins": 625,
+      "total_losses": 588,
+      "derived_win_rate": 0.5153,
+      "derived_usage_share": 0.6487
     },
     {
       "artifact_code": "efk03",
       "artifact_name": "Aurius",
-      "total_games": 271,
-      "total_wins": 132,
-      "total_losses": 139,
-      "derived_win_rate": 0.4871,
-      "derived_usage_share": 0.1789
+      "total_games": 304,
+      "total_wins": 149,
+      "total_losses": 155,
+      "derived_win_rate": 0.4901,
+      "derived_usage_share": 0.1626
     },
     {
       "artifact_code": "efk01",
       "artifact_name": "Holy Sacrifice",
-      "total_games": 121,
-      "total_wins": 50,
-      "total_losses": 71,
-      "derived_win_rate": 0.4132,
-      "derived_usage_share": 0.0799
+      "total_games": 150,
+      "total_wins": 62,
+      "total_losses": 88,
+      "derived_win_rate": 0.4133,
+      "derived_usage_share": 0.0802
     },
     {
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 47,
-      "total_wins": 28,
-      "total_losses": 19,
-      "derived_win_rate": 0.5957,
-      "derived_usage_share": 0.031
+      "total_games": 61,
+      "total_wins": 34,
+      "total_losses": 27,
+      "derived_win_rate": 0.5574,
+      "derived_usage_share": 0.0326
     },
     {
       "artifact_code": "",
       "artifact_name": null,
-      "total_games": 25,
-      "total_wins": 15,
-      "total_losses": 10,
-      "derived_win_rate": 0.6,
-      "derived_usage_share": 0.0165
+      "total_games": 35,
+      "total_wins": 20,
+      "total_losses": 15,
+      "derived_win_rate": 0.5714,
+      "derived_usage_share": 0.0187
     },
     {
       "artifact_code": "efk21",
       "artifact_name": "3F",
-      "total_games": 24,
-      "total_wins": 9,
-      "total_losses": 15,
-      "derived_win_rate": 0.375,
-      "derived_usage_share": 0.0158
+      "total_games": 31,
+      "total_wins": 12,
+      "total_losses": 19,
+      "derived_win_rate": 0.3871,
+      "derived_usage_share": 0.0166
     },
     {
       "artifact_code": "efk18",
       "artifact_name": "Mature Sunglasses",
-      "total_games": 17,
-      "total_wins": 5,
+      "total_games": 19,
+      "total_wins": 7,
       "total_losses": 12,
-      "derived_win_rate": 0.2941,
-      "derived_usage_share": 0.0112
+      "derived_win_rate": 0.3684,
+      "derived_usage_share": 0.0102
     },
     {
       "artifact_code": "efk24",
       "artifact_name": "Glorious Throne",
-      "total_games": 11,
-      "total_wins": 2,
-      "total_losses": 9,
-      "derived_win_rate": 0.1818,
-      "derived_usage_share": 0.0073
+      "total_games": 18,
+      "total_wins": 4,
+      "total_losses": 14,
+      "derived_win_rate": 0.2222,
+      "derived_usage_share": 0.0096
     },
     {
       "artifact_code": "ef501",
@@ -187,101 +187,101 @@
       "total_wins": 4,
       "total_losses": 6,
       "derived_win_rate": 0.4,
-      "derived_usage_share": 0.0066
+      "derived_usage_share": 0.0053
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_vampire+set_immune",
-      "total_games": 423,
-      "total_wins": 212,
-      "total_losses": 211,
-      "derived_win_rate": 0.5012
+      "total_games": 555,
+      "total_wins": 281,
+      "total_losses": 274,
+      "derived_win_rate": 0.5063
     },
     {
       "set_agg_code": "set_vampire+set_immune",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 348,
-      "total_wins": 181,
-      "total_losses": 167,
-      "derived_win_rate": 0.5201
+      "total_games": 466,
+      "total_wins": 243,
+      "total_losses": 223,
+      "derived_win_rate": 0.5215
+    },
+    {
+      "set_agg_code": "set_vampire+set_cri",
+      "total_games": 231,
+      "total_wins": 116,
+      "total_losses": 115,
+      "derived_win_rate": 0.5022
     },
     {
       "set_agg_code": "set_cri_dmg+set_immune",
-      "total_games": 194,
-      "total_wins": 104,
-      "total_losses": 90,
-      "derived_win_rate": 0.5361
+      "total_games": 230,
+      "total_wins": 121,
+      "total_losses": 109,
+      "derived_win_rate": 0.5261
     },
     {
       "set_agg_code": "set_cri_dmg+set_immune",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 192,
-      "total_wins": 102,
-      "total_losses": 90,
-      "derived_win_rate": 0.5312
+      "total_games": 228,
+      "total_wins": 119,
+      "total_losses": 109,
+      "derived_win_rate": 0.5219
     },
     {
       "set_agg_code": "set_shield+set_immune",
-      "total_games": 189,
-      "total_wins": 93,
-      "total_losses": 96,
-      "derived_win_rate": 0.4921
-    },
-    {
-      "set_agg_code": "set_vampire+set_cri",
-      "total_games": 184,
-      "total_wins": 95,
-      "total_losses": 89,
-      "derived_win_rate": 0.5163
+      "total_games": 212,
+      "total_wins": 106,
+      "total_losses": 106,
+      "derived_win_rate": 0.5
     },
     {
       "set_agg_code": "set_shield+set_immune",
       "artifact_code": "efk03",
       "artifact_name": "Aurius",
-      "total_games": 175,
-      "total_wins": 87,
-      "total_losses": 88,
-      "derived_win_rate": 0.4971
+      "total_games": 198,
+      "total_wins": 100,
+      "total_losses": 98,
+      "derived_win_rate": 0.5051
     },
     {
       "set_agg_code": "set_vampire+set_cri",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 146,
-      "total_wins": 77,
-      "total_losses": 69,
-      "derived_win_rate": 0.5274
+      "total_games": 179,
+      "total_wins": 92,
+      "total_losses": 87,
+      "derived_win_rate": 0.514
     },
     {
       "set_agg_code": "set_vampire+set_def",
-      "total_games": 66,
-      "total_wins": 31,
-      "total_losses": 35,
-      "derived_win_rate": 0.4697
+      "total_games": 75,
+      "total_wins": 37,
+      "total_losses": 38,
+      "derived_win_rate": 0.4933
     },
     {
       "set_agg_code": "set_vampire+set_def",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 62,
-      "total_wins": 28,
-      "total_losses": 34,
-      "derived_win_rate": 0.4516
+      "total_games": 68,
+      "total_wins": 32,
+      "total_losses": 36,
+      "derived_win_rate": 0.4706
     }
   ],
-  "total_set_stats_games": 3001,
-  "total_artifact_stats_games": 1515,
+  "total_set_stats_games": 3711,
+  "total_artifact_stats_games": 1870,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-08-31T05:12:44.315Z"
+    "last_updated": "2026-09-07T05:14:36.897Z"
   },
   "derived": {
-    "win_rate": 0.5069,
+    "win_rate": 0.5075,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -289,5 +289,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2016?season=pvp_rta_ss21",
-  "scraped_at": "2026-08-31T17:07:34Z"
+  "scraped_at": "2026-09-07T15:07:23Z"
 }
