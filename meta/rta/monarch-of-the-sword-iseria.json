@@ -7,155 +7,139 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 11785,
-      "total_wins": 5767,
-      "total_losses": 5531,
-      "total_bans": 3744,
-      "total_prebans": 487
+      "total_games": 19826,
+      "total_wins": 9694,
+      "total_losses": 9179,
+      "total_bans": 6173,
+      "total_prebans": 953
     }
   ],
-  "sample_size": 11785,
+  "sample_size": 19826,
   "top_sets": [
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 7512,
-      "total_wins": 3839,
-      "total_losses": 3673,
-      "derived_win_rate": 0.511,
-      "derived_usage_share": 0.4991
+      "total_games": 12636,
+      "total_wins": 6525,
+      "total_losses": 6111,
+      "derived_win_rate": 0.5164,
+      "derived_usage_share": 0.4992
     },
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 3924,
-      "total_wins": 1971,
-      "total_losses": 1953,
-      "derived_win_rate": 0.5023,
-      "derived_usage_share": 0.2607
+      "total_games": 6594,
+      "total_wins": 3374,
+      "total_losses": 3220,
+      "derived_win_rate": 0.5117,
+      "derived_usage_share": 0.2605
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 3305,
-      "total_wins": 1742,
-      "total_losses": 1563,
-      "derived_win_rate": 0.5271,
-      "derived_usage_share": 0.2196
+      "total_games": 5596,
+      "total_wins": 2951,
+      "total_losses": 2645,
+      "derived_win_rate": 0.5273,
+      "derived_usage_share": 0.2211
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 227,
-      "total_wins": 112,
-      "total_losses": 115,
-      "derived_win_rate": 0.4934,
-      "derived_usage_share": 0.0151
+      "total_games": 364,
+      "total_wins": 167,
+      "total_losses": 197,
+      "derived_win_rate": 0.4588,
+      "derived_usage_share": 0.0144
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 7532,
-      "total_wins": 3851,
-      "total_losses": 3681,
-      "derived_win_rate": 0.5113,
-      "derived_usage_share": 0.9971
+      "total_games": 12672,
+      "total_wins": 6539,
+      "total_losses": 6133,
+      "derived_win_rate": 0.516,
+      "derived_usage_share": 0.9978
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_counter+set_chase",
-      "total_games": 3899,
-      "total_wins": 1958,
-      "total_losses": 1941,
-      "derived_win_rate": 0.5022
+      "total_games": 6549,
+      "total_wins": 3356,
+      "total_losses": 3193,
+      "derived_win_rate": 0.5124
     },
     {
       "set_agg_code": "set_counter+set_chase",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 3891,
-      "total_wins": 1956,
-      "total_losses": 1935,
-      "derived_win_rate": 0.5027
+      "total_games": 6539,
+      "total_wins": 3354,
+      "total_losses": 3185,
+      "derived_win_rate": 0.5129
     },
     {
       "set_agg_code": "set_counter+set_immune",
-      "total_games": 3280,
-      "total_wins": 1730,
-      "total_losses": 1550,
-      "derived_win_rate": 0.5274
+      "total_games": 5567,
+      "total_wins": 2939,
+      "total_losses": 2628,
+      "derived_win_rate": 0.5279
     },
     {
       "set_agg_code": "set_counter+set_immune",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 3268,
-      "total_wins": 1726,
-      "total_losses": 1542,
+      "total_games": 5551,
+      "total_wins": 2932,
+      "total_losses": 2619,
       "derived_win_rate": 0.5282
     },
     {
       "set_agg_code": "set_counter+set_res",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 225,
-      "total_wins": 111,
-      "total_losses": 114,
-      "derived_win_rate": 0.4933
+      "total_games": 360,
+      "total_wins": 166,
+      "total_losses": 194,
+      "derived_win_rate": 0.4611
     },
     {
       "set_agg_code": "set_counter+set_res",
-      "total_games": 225,
-      "total_wins": 111,
-      "total_losses": 114,
-      "derived_win_rate": 0.4933
+      "total_games": 360,
+      "total_wins": 166,
+      "total_losses": 194,
+      "derived_win_rate": 0.4611
     },
     {
       "set_agg_code": "set_counter",
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 54,
-      "total_wins": 22,
-      "total_losses": 32,
-      "derived_win_rate": 0.4074
+      "total_games": 84,
+      "total_wins": 34,
+      "total_losses": 50,
+      "derived_win_rate": 0.4048
     },
     {
       "set_agg_code": "set_counter",
-      "total_games": 54,
-      "total_wins": 22,
-      "total_losses": 32,
-      "derived_win_rate": 0.4074
-    },
-    {
-      "set_agg_code": "set_counter+set_max_hp",
-      "artifact_code": "efk02",
-      "artifact_name": "Elbris Ritual Sword",
-      "total_games": 38,
-      "total_wins": 15,
-      "total_losses": 23,
-      "derived_win_rate": 0.3947
-    },
-    {
-      "set_agg_code": "set_counter+set_max_hp",
-      "total_games": 38,
-      "total_wins": 15,
-      "total_losses": 23,
-      "derived_win_rate": 0.3947
+      "total_games": 84,
+      "total_wins": 34,
+      "total_losses": 50,
+      "derived_win_rate": 0.4048
     }
   ],
-  "total_set_stats_games": 15052,
-  "total_artifact_stats_games": 7554,
+  "total_set_stats_games": 25312,
+  "total_artifact_stats_games": 12700,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.5104,
+    "win_rate": 0.5136,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -163,5 +147,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c6024?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:06:26Z"
+  "scraped_at": "2026-09-14T15:56:11Z"
 }

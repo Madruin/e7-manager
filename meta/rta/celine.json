@@ -7,209 +7,211 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 9534,
-      "total_wins": 4583,
-      "total_losses": 4868,
-      "total_bans": 3105,
-      "total_prebans": 83
+      "total_games": 14688,
+      "total_wins": 7067,
+      "total_losses": 7513,
+      "total_bans": 4698,
+      "total_prebans": 108
     }
   ],
-  "sample_size": 9534,
+  "sample_size": 14688,
   "top_sets": [
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 6049,
-      "total_wins": 2864,
-      "total_losses": 3185,
-      "derived_win_rate": 0.4735,
-      "derived_usage_share": 0.48
+      "total_games": 9415,
+      "total_wins": 4516,
+      "total_losses": 4899,
+      "derived_win_rate": 0.4797,
+      "derived_usage_share": 0.4785
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 4766,
-      "total_wins": 2258,
-      "total_losses": 2508,
-      "derived_win_rate": 0.4738,
-      "derived_usage_share": 0.3782
+      "total_games": 7575,
+      "total_wins": 3639,
+      "total_losses": 3936,
+      "derived_win_rate": 0.4804,
+      "derived_usage_share": 0.385
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 1370,
-      "total_wins": 645,
-      "total_losses": 725,
-      "derived_win_rate": 0.4708,
-      "derived_usage_share": 0.1087
-    },
-    {
-      "set_code": "set_cri",
-      "set_name": "Critical",
-      "total_games": 145,
-      "total_wins": 67,
-      "total_losses": 78,
-      "derived_win_rate": 0.4621,
-      "derived_usage_share": 0.0115
+      "total_games": 1980,
+      "total_wins": 920,
+      "total_losses": 1060,
+      "derived_win_rate": 0.4646,
+      "derived_usage_share": 0.1006
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 142,
-      "total_wins": 62,
-      "total_losses": 80,
-      "derived_win_rate": 0.4366,
-      "derived_usage_share": 0.0113
+      "total_games": 266,
+      "total_wins": 128,
+      "total_losses": 138,
+      "derived_win_rate": 0.4812,
+      "derived_usage_share": 0.0135
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 245,
+      "total_wins": 101,
+      "total_losses": 144,
+      "derived_win_rate": 0.4122,
+      "derived_usage_share": 0.0125
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 6008,
-      "total_wins": 2860,
-      "total_losses": 3148,
-      "derived_win_rate": 0.476,
-      "derived_usage_share": 0.9467
+      "total_games": 9315,
+      "total_wins": 4490,
+      "total_losses": 4825,
+      "derived_win_rate": 0.482,
+      "derived_usage_share": 0.9426
     },
     {
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 80,
-      "total_wins": 33,
-      "total_losses": 47,
-      "derived_win_rate": 0.4125,
-      "derived_usage_share": 0.0126
+      "total_games": 139,
+      "total_wins": 55,
+      "total_losses": 84,
+      "derived_win_rate": 0.3957,
+      "derived_usage_share": 0.0141
     },
     {
       "artifact_code": "efa03",
       "artifact_name": "Moonlight Dreamblade",
-      "total_games": 71,
-      "total_wins": 27,
-      "total_losses": 44,
-      "derived_win_rate": 0.3803,
-      "derived_usage_share": 0.0112
+      "total_games": 123,
+      "total_wins": 48,
+      "total_losses": 75,
+      "derived_win_rate": 0.3902,
+      "derived_usage_share": 0.0124
     },
     {
       "artifact_code": "",
       "artifact_name": null,
-      "total_games": 53,
-      "total_wins": 21,
-      "total_losses": 32,
-      "derived_win_rate": 0.3962,
-      "derived_usage_share": 0.0084
+      "total_games": 77,
+      "total_wins": 29,
+      "total_losses": 48,
+      "derived_win_rate": 0.3766,
+      "derived_usage_share": 0.0078
     },
     {
       "artifact_code": "efa07",
       "artifact_name": "Alexa's Basket",
-      "total_games": 40,
-      "total_wins": 18,
-      "total_losses": 22,
+      "total_games": 60,
+      "total_wins": 27,
+      "total_losses": 33,
       "derived_win_rate": 0.45,
-      "derived_usage_share": 0.0063
+      "derived_usage_share": 0.0061
     },
     {
       "artifact_code": "efa02",
       "artifact_name": "Wind Rider",
-      "total_games": 33,
-      "total_wins": 12,
-      "total_losses": 21,
-      "derived_win_rate": 0.3636,
-      "derived_usage_share": 0.0052
+      "total_games": 49,
+      "total_wins": 17,
+      "total_losses": 32,
+      "derived_win_rate": 0.3469,
+      "derived_usage_share": 0.005
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
-      "total_games": 4583,
-      "total_wins": 2181,
-      "total_losses": 2402,
-      "derived_win_rate": 0.4759
+      "total_games": 7287,
+      "total_wins": 3522,
+      "total_losses": 3765,
+      "derived_win_rate": 0.4833
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 4358,
-      "total_wins": 2089,
-      "total_losses": 2269,
-      "derived_win_rate": 0.4793
+      "total_games": 6905,
+      "total_wins": 3369,
+      "total_losses": 3536,
+      "derived_win_rate": 0.4879
     },
     {
       "set_agg_code": "set_speed+set_penetrate",
-      "total_games": 1290,
-      "total_wins": 610,
-      "total_losses": 680,
-      "derived_win_rate": 0.4729
+      "total_games": 1842,
+      "total_wins": 864,
+      "total_losses": 978,
+      "derived_win_rate": 0.4691
     },
     {
       "set_agg_code": "set_speed+set_penetrate",
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 1223,
-      "total_wins": 585,
-      "total_losses": 638,
-      "derived_win_rate": 0.4783
-    },
-    {
-      "set_agg_code": "set_cri_dmg",
-      "total_games": 80,
-      "total_wins": 34,
-      "total_losses": 46,
-      "derived_win_rate": 0.425
-    },
-    {
-      "set_agg_code": "set_cri_dmg",
-      "artifact_code": "efa14",
-      "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 79,
-      "total_wins": 34,
-      "total_losses": 45,
-      "derived_win_rate": 0.4304
+      "total_games": 1722,
+      "total_wins": 817,
+      "total_losses": 905,
+      "derived_win_rate": 0.4744
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 62,
-      "total_wins": 25,
-      "total_losses": 37,
-      "derived_win_rate": 0.4032
+      "total_games": 110,
+      "total_wins": 44,
+      "total_losses": 66,
+      "derived_win_rate": 0.4
+    },
+    {
+      "set_agg_code": "set_cri_dmg",
+      "total_games": 104,
+      "total_wins": 42,
+      "total_losses": 62,
+      "derived_win_rate": 0.4038
+    },
+    {
+      "set_agg_code": "set_cri_dmg",
+      "artifact_code": "efa14",
+      "artifact_name": "Secret Art - Storm Sword",
+      "total_games": 100,
+      "total_wins": 40,
+      "total_losses": 60,
+      "derived_win_rate": 0.4
     },
     {
       "set_agg_code": "set_cri_dmg+set_cri",
-      "total_games": 50,
-      "total_wins": 26,
-      "total_losses": 24,
-      "derived_win_rate": 0.52
+      "total_games": 93,
+      "total_wins": 40,
+      "total_losses": 53,
+      "derived_win_rate": 0.4301
     },
     {
-      "set_agg_code": "set_speed+set_cri",
-      "total_games": 50,
-      "total_wins": 24,
-      "total_losses": 26,
-      "derived_win_rate": 0.48
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efa03",
+      "artifact_name": "Moonlight Dreamblade",
+      "total_games": 84,
+      "total_wins": 35,
+      "total_losses": 49,
+      "derived_win_rate": 0.4167
     },
     {
-      "set_agg_code": "set_speed+set_cri",
+      "set_agg_code": "set_cri_dmg+set_cri",
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 49,
-      "total_wins": 23,
-      "total_losses": 26,
-      "derived_win_rate": 0.4694
+      "total_games": 81,
+      "total_wins": 35,
+      "total_losses": 46,
+      "derived_win_rate": 0.4321
     }
   ],
-  "total_set_stats_games": 12602,
-  "total_artifact_stats_games": 6346,
+  "total_set_stats_games": 19675,
+  "total_artifact_stats_games": 9882,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.4849,
+    "win_rate": 0.4847,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -217,5 +219,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1103?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:06:34Z"
+  "scraped_at": "2026-09-14T15:56:21Z"
 }

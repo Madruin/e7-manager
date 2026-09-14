@@ -7,249 +7,249 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1388,
-      "total_wins": 638,
-      "total_losses": 750,
-      "total_bans": 331,
+      "total_games": 2076,
+      "total_wins": 957,
+      "total_losses": 1119,
+      "total_bans": 483,
       "total_prebans": 0
     }
   ],
-  "sample_size": 1388,
+  "sample_size": 2076,
   "top_sets": [
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 1113,
-      "total_wins": 503,
-      "total_losses": 610,
-      "derived_win_rate": 0.4519,
-      "derived_usage_share": 0.5162
+      "total_games": 1705,
+      "total_wins": 786,
+      "total_losses": 919,
+      "derived_win_rate": 0.461,
+      "derived_usage_share": 0.5219
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 948,
-      "total_wins": 433,
-      "total_losses": 515,
-      "derived_win_rate": 0.4568,
-      "derived_usage_share": 0.4397
+      "total_games": 1421,
+      "total_wins": 642,
+      "total_losses": 779,
+      "derived_win_rate": 0.4518,
+      "derived_usage_share": 0.435
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 35,
-      "total_wins": 17,
-      "total_losses": 18,
-      "derived_win_rate": 0.4857,
-      "derived_usage_share": 0.0162
+      "total_games": 52,
+      "total_wins": 25,
+      "total_losses": 27,
+      "derived_win_rate": 0.4808,
+      "derived_usage_share": 0.0159
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 24,
-      "total_wins": 10,
-      "total_losses": 14,
-      "derived_win_rate": 0.4167,
-      "derived_usage_share": 0.0111
+      "total_games": 47,
+      "total_wins": 26,
+      "total_losses": 21,
+      "derived_win_rate": 0.5532,
+      "derived_usage_share": 0.0144
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 17,
-      "total_wins": 9,
-      "total_losses": 8,
-      "derived_win_rate": 0.5294,
-      "derived_usage_share": 0.0079
+      "total_games": 19,
+      "total_wins": 10,
+      "total_losses": 9,
+      "derived_win_rate": 0.5263,
+      "derived_usage_share": 0.0058
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa02",
       "artifact_name": "Wind Rider",
-      "total_games": 428,
-      "total_wins": 203,
-      "total_losses": 225,
-      "derived_win_rate": 0.4743,
-      "derived_usage_share": 0.4049
+      "total_games": 635,
+      "total_wins": 306,
+      "total_losses": 329,
+      "derived_win_rate": 0.4819,
+      "derived_usage_share": 0.3986
     },
     {
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 309,
-      "total_wins": 147,
-      "total_losses": 162,
-      "derived_win_rate": 0.4757,
-      "derived_usage_share": 0.2923
+      "total_games": 431,
+      "total_wins": 207,
+      "total_losses": 224,
+      "derived_win_rate": 0.4803,
+      "derived_usage_share": 0.2706
     },
     {
       "artifact_code": "efa22",
       "artifact_name": "Hostess of the Banquet",
-      "total_games": 133,
-      "total_wins": 46,
-      "total_losses": 87,
-      "derived_win_rate": 0.3459,
-      "derived_usage_share": 0.1258
+      "total_games": 207,
+      "total_wins": 74,
+      "total_losses": 133,
+      "derived_win_rate": 0.3575,
+      "derived_usage_share": 0.1299
     },
     {
       "artifact_code": "efa25",
       "artifact_name": "Dark Blood Keeper",
-      "total_games": 90,
-      "total_wins": 46,
-      "total_losses": 44,
-      "derived_win_rate": 0.5111,
-      "derived_usage_share": 0.0851
-    },
-    {
-      "artifact_code": "ef403",
-      "artifact_name": "Portrait of the Saviors",
-      "total_games": 30,
-      "total_wins": 13,
-      "total_losses": 17,
-      "derived_win_rate": 0.4333,
-      "derived_usage_share": 0.0284
+      "total_games": 132,
+      "total_wins": 61,
+      "total_losses": 71,
+      "derived_win_rate": 0.4621,
+      "derived_usage_share": 0.0829
     },
     {
       "artifact_code": "efa26",
       "artifact_name": "Feed of Criticism",
-      "total_games": 18,
-      "total_wins": 8,
-      "total_losses": 10,
-      "derived_win_rate": 0.4444,
-      "derived_usage_share": 0.017
+      "total_games": 46,
+      "total_wins": 21,
+      "total_losses": 25,
+      "derived_win_rate": 0.4565,
+      "derived_usage_share": 0.0289
     },
     {
-      "artifact_code": "efa28",
-      "artifact_name": "Summer Photogenic",
-      "total_games": 9,
-      "total_wins": 4,
-      "total_losses": 5,
-      "derived_win_rate": 0.4444,
-      "derived_usage_share": 0.0085
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 42,
+      "total_wins": 17,
+      "total_losses": 25,
+      "derived_win_rate": 0.4048,
+      "derived_usage_share": 0.0264
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 8,
-      "total_wins": 3,
-      "total_losses": 5,
-      "derived_win_rate": 0.375,
-      "derived_usage_share": 0.0076
+      "total_games": 31,
+      "total_wins": 13,
+      "total_losses": 18,
+      "derived_win_rate": 0.4194,
+      "derived_usage_share": 0.0195
     },
     {
-      "artifact_code": "efa01",
-      "artifact_name": "Rhianna & Luciella",
-      "total_games": 7,
-      "total_wins": 2,
-      "total_losses": 5,
-      "derived_win_rate": 0.2857,
-      "derived_usage_share": 0.0066
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 18,
+      "total_wins": 8,
+      "total_losses": 10,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0113
     },
     {
       "artifact_code": "ef502",
       "artifact_name": "Victorious Flag",
-      "total_games": 7,
-      "total_wins": 3,
-      "total_losses": 4,
-      "derived_win_rate": 0.4286,
-      "derived_usage_share": 0.0066
+      "total_games": 15,
+      "total_wins": 9,
+      "total_losses": 6,
+      "derived_win_rate": 0.6,
+      "derived_usage_share": 0.0094
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 8,
+      "total_wins": 1,
+      "total_losses": 7,
+      "derived_win_rate": 0.125,
+      "derived_usage_share": 0.005
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_torrent",
-      "total_games": 896,
-      "total_wins": 407,
-      "total_losses": 489,
-      "derived_win_rate": 0.4542
+      "total_games": 1356,
+      "total_wins": 611,
+      "total_losses": 745,
+      "derived_win_rate": 0.4506
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efa02",
       "artifact_name": "Wind Rider",
-      "total_games": 392,
-      "total_wins": 185,
-      "total_losses": 207,
-      "derived_win_rate": 0.4719
+      "total_games": 578,
+      "total_wins": 276,
+      "total_losses": 302,
+      "derived_win_rate": 0.4775
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 254,
-      "total_wins": 122,
-      "total_losses": 132,
-      "derived_win_rate": 0.4803
+      "total_games": 351,
+      "total_wins": 168,
+      "total_losses": 183,
+      "derived_win_rate": 0.4786
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efa22",
       "artifact_name": "Hostess of the Banquet",
-      "total_games": 92,
-      "total_wins": 30,
-      "total_losses": 62,
-      "derived_win_rate": 0.3261
+      "total_games": 154,
+      "total_wins": 54,
+      "total_losses": 100,
+      "derived_win_rate": 0.3506
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efa25",
       "artifact_name": "Dark Blood Keeper",
-      "total_games": 85,
-      "total_wins": 41,
-      "total_losses": 44,
-      "derived_win_rate": 0.4824
+      "total_games": 123,
+      "total_wins": 54,
+      "total_losses": 69,
+      "derived_win_rate": 0.439
     },
     {
       "set_agg_code": "set_torrent+set_torrent+set_torrent",
-      "total_games": 50,
-      "total_wins": 22,
-      "total_losses": 28,
-      "derived_win_rate": 0.44
+      "total_games": 76,
+      "total_wins": 37,
+      "total_losses": 39,
+      "derived_win_rate": 0.4868
     },
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
-      "total_games": 31,
-      "total_wins": 16,
-      "total_losses": 15,
-      "derived_win_rate": 0.5161
-    },
-    {
-      "set_agg_code": "set_speed+set_torrent",
-      "artifact_code": "ef403",
-      "artifact_name": "Portrait of the Saviors",
-      "total_games": 24,
-      "total_wins": 11,
-      "total_losses": 13,
-      "derived_win_rate": 0.4583
-    },
-    {
-      "set_agg_code": "set_cri_dmg+set_torrent",
-      "artifact_code": "efa32",
-      "artifact_name": "Shadow Winds 7",
-      "total_games": 23,
-      "total_wins": 13,
-      "total_losses": 10,
-      "derived_win_rate": 0.5652
+      "total_games": 47,
+      "total_wins": 24,
+      "total_losses": 23,
+      "derived_win_rate": 0.5106
     },
     {
       "set_agg_code": "set_torrent+set_torrent+set_torrent",
       "artifact_code": "efa02",
       "artifact_name": "Wind Rider",
-      "total_games": 22,
+      "total_games": 38,
+      "total_wins": 24,
+      "total_losses": 14,
+      "derived_win_rate": 0.6316
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efa26",
+      "artifact_name": "Feed of Criticism",
+      "total_games": 35,
       "total_wins": 14,
-      "total_losses": 8,
-      "derived_win_rate": 0.6364
+      "total_losses": 21,
+      "derived_win_rate": 0.4
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 33,
+      "total_wins": 12,
+      "total_losses": 21,
+      "derived_win_rate": 0.3636
     }
   ],
-  "total_set_stats_games": 2156,
-  "total_artifact_stats_games": 1057,
+  "total_set_stats_games": 3267,
+  "total_artifact_stats_games": 1593,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.4597,
+    "win_rate": 0.461,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -257,5 +257,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5089?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:07:42Z"
+  "scraped_at": "2026-09-14T15:57:32Z"
 }

@@ -7,274 +7,272 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1063,
-      "total_wins": 492,
-      "total_losses": 571,
-      "total_bans": 215,
-      "total_prebans": 0
+      "total_games": 1784,
+      "total_wins": 805,
+      "total_losses": 977,
+      "total_bans": 337,
+      "total_prebans": 2
     }
   ],
-  "sample_size": 1063,
+  "sample_size": 1784,
   "top_sets": [
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 577,
-      "total_wins": 273,
-      "total_losses": 304,
-      "derived_win_rate": 0.4731,
-      "derived_usage_share": 0.3361
+      "total_games": 974,
+      "total_wins": 430,
+      "total_losses": 544,
+      "derived_win_rate": 0.4415,
+      "derived_usage_share": 0.3332
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 468,
-      "total_wins": 236,
-      "total_losses": 232,
-      "derived_win_rate": 0.5043,
-      "derived_usage_share": 0.2726
+      "total_games": 797,
+      "total_wins": 380,
+      "total_losses": 417,
+      "derived_win_rate": 0.4768,
+      "derived_usage_share": 0.2727
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 249,
-      "total_wins": 99,
-      "total_losses": 150,
-      "derived_win_rate": 0.3976,
-      "derived_usage_share": 0.145
+      "total_games": 448,
+      "total_wins": 173,
+      "total_losses": 275,
+      "derived_win_rate": 0.3862,
+      "derived_usage_share": 0.1533
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 222,
-      "total_wins": 100,
-      "total_losses": 122,
-      "derived_win_rate": 0.4505,
-      "derived_usage_share": 0.1293
+      "total_games": 363,
+      "total_wins": 171,
+      "total_losses": 192,
+      "derived_win_rate": 0.4711,
+      "derived_usage_share": 0.1242
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 86,
-      "total_wins": 31,
-      "total_losses": 55,
-      "derived_win_rate": 0.3605,
-      "derived_usage_share": 0.0501
+      "total_games": 135,
+      "total_wins": 50,
+      "total_losses": 85,
+      "derived_win_rate": 0.3704,
+      "derived_usage_share": 0.0462
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 46,
-      "total_wins": 23,
-      "total_losses": 23,
-      "derived_win_rate": 0.5,
-      "derived_usage_share": 0.0268
+      "total_games": 107,
+      "total_wins": 55,
+      "total_losses": 52,
+      "derived_win_rate": 0.514,
+      "derived_usage_share": 0.0366
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 45,
-      "total_wins": 14,
-      "total_losses": 31,
-      "derived_win_rate": 0.3111,
-      "derived_usage_share": 0.0262
+      "total_games": 68,
+      "total_wins": 21,
+      "total_losses": 47,
+      "derived_win_rate": 0.3088,
+      "derived_usage_share": 0.0233
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 18,
+      "total_games": 19,
       "total_wins": 7,
-      "total_losses": 11,
-      "derived_win_rate": 0.3889,
-      "derived_usage_share": 0.0105
+      "total_losses": 12,
+      "derived_win_rate": 0.3684,
+      "derived_usage_share": 0.0065
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 287,
-      "total_wins": 123,
-      "total_losses": 164,
-      "derived_win_rate": 0.4286,
-      "derived_usage_share": 0.3384
+      "total_games": 439,
+      "total_wins": 188,
+      "total_losses": 251,
+      "derived_win_rate": 0.4282,
+      "derived_usage_share": 0.3038
     },
     {
       "artifact_code": "efw11",
       "artifact_name": "Draco Plate",
-      "total_games": 217,
-      "total_wins": 110,
-      "total_losses": 107,
-      "derived_win_rate": 0.5069,
-      "derived_usage_share": 0.2559
+      "total_games": 367,
+      "total_wins": 189,
+      "total_losses": 178,
+      "derived_win_rate": 0.515,
+      "derived_usage_share": 0.254
     },
     {
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 188,
-      "total_wins": 90,
-      "total_losses": 98,
-      "derived_win_rate": 0.4787,
-      "derived_usage_share": 0.2217
+      "total_games": 340,
+      "total_wins": 145,
+      "total_losses": 195,
+      "derived_win_rate": 0.4265,
+      "derived_usage_share": 0.2353
     },
     {
       "artifact_code": "efw20",
       "artifact_name": "Samsara Prayer Beads",
-      "total_games": 51,
-      "total_wins": 22,
-      "total_losses": 29,
-      "derived_win_rate": 0.4314,
-      "derived_usage_share": 0.0601
+      "total_games": 82,
+      "total_wins": 37,
+      "total_losses": 45,
+      "derived_win_rate": 0.4512,
+      "derived_usage_share": 0.0567
     },
     {
       "artifact_code": "efw01",
       "artifact_name": "Sigurd Scythe",
-      "total_games": 20,
-      "total_wins": 8,
-      "total_losses": 12,
-      "derived_win_rate": 0.4,
-      "derived_usage_share": 0.0236
+      "total_games": 62,
+      "total_wins": 19,
+      "total_losses": 43,
+      "derived_win_rate": 0.3065,
+      "derived_usage_share": 0.0429
+    },
+    {
+      "artifact_code": "efw39",
+      "artifact_name": "Jumbo Berry Special",
+      "total_games": 25,
+      "total_wins": 4,
+      "total_losses": 21,
+      "derived_win_rate": 0.16,
+      "derived_usage_share": 0.0173
     },
     {
       "artifact_code": "efw31",
       "artifact_name": "Golden Rose",
-      "total_games": 17,
-      "total_wins": 11,
-      "total_losses": 6,
-      "derived_win_rate": 0.6471,
-      "derived_usage_share": 0.02
-    },
-    {
-      "artifact_code": "ef507",
-      "artifact_name": "Bastion of Hope",
-      "total_games": 11,
-      "total_wins": 3,
-      "total_losses": 8,
-      "derived_win_rate": 0.2727,
-      "derived_usage_share": 0.013
+      "total_games": 25,
+      "total_wins": 14,
+      "total_losses": 11,
+      "derived_win_rate": 0.56,
+      "derived_usage_share": 0.0173
     },
     {
       "artifact_code": "efw36",
       "artifact_name": "Ruyi Jingu Bang",
-      "total_games": 11,
-      "total_wins": 6,
-      "total_losses": 5,
-      "derived_win_rate": 0.5455,
-      "derived_usage_share": 0.013
-    },
-    {
-      "artifact_code": "efw34",
-      "artifact_name": "Pipette Lance",
-      "total_games": 10,
-      "total_wins": 2,
+      "total_games": 16,
+      "total_wins": 8,
       "total_losses": 8,
-      "derived_win_rate": 0.2,
-      "derived_usage_share": 0.0118
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0111
     },
     {
       "artifact_code": "",
       "artifact_name": null,
-      "total_games": 10,
-      "total_wins": 4,
-      "total_losses": 6,
-      "derived_win_rate": 0.4,
-      "derived_usage_share": 0.0118
+      "total_games": 15,
+      "total_wins": 5,
+      "total_losses": 10,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0104
+    },
+    {
+      "artifact_code": "efw34",
+      "artifact_name": "Pipette Lance",
+      "total_games": 14,
+      "total_wins": 5,
+      "total_losses": 9,
+      "derived_win_rate": 0.3571,
+      "derived_usage_share": 0.0097
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
-      "total_games": 338,
-      "total_wins": 174,
-      "total_losses": 164,
-      "derived_win_rate": 0.5148
+      "total_games": 548,
+      "total_wins": 262,
+      "total_losses": 286,
+      "derived_win_rate": 0.4781
     },
     {
       "set_agg_code": "set_counter+set_penetrate",
-      "total_games": 181,
-      "total_wins": 73,
-      "total_losses": 108,
-      "derived_win_rate": 0.4033
+      "total_games": 322,
+      "total_wins": 123,
+      "total_losses": 199,
+      "derived_win_rate": 0.382
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 165,
-      "total_wins": 76,
-      "total_losses": 89,
-      "derived_win_rate": 0.4606
+      "total_games": 203,
+      "total_wins": 95,
+      "total_losses": 108,
+      "derived_win_rate": 0.468
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 99,
-      "total_wins": 53,
-      "total_losses": 46,
-      "derived_win_rate": 0.5354
+      "total_games": 185,
+      "total_wins": 83,
+      "total_losses": 102,
+      "derived_win_rate": 0.4486
     },
     {
       "set_agg_code": "set_cri_dmg+set_max_hp",
-      "total_games": 84,
-      "total_wins": 40,
-      "total_losses": 44,
-      "derived_win_rate": 0.4762
+      "total_games": 159,
+      "total_wins": 76,
+      "total_losses": 83,
+      "derived_win_rate": 0.478
     },
     {
       "set_agg_code": "set_counter+set_penetrate",
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 62,
-      "total_wins": 26,
-      "total_losses": 36,
-      "derived_win_rate": 0.4194
-    },
-    {
-      "set_agg_code": "set_cri_dmg+set_max_hp",
-      "artifact_code": "efw11",
-      "artifact_name": "Draco Plate",
-      "total_games": 49,
-      "total_wins": 28,
-      "total_losses": 21,
-      "derived_win_rate": 0.5714
+      "total_games": 126,
+      "total_wins": 50,
+      "total_losses": 76,
+      "derived_win_rate": 0.3968
     },
     {
       "set_agg_code": "set_cri_dmg+set_penetrate",
       "artifact_code": "efw11",
       "artifact_name": "Draco Plate",
-      "total_games": 47,
-      "total_wins": 25,
-      "total_losses": 22,
-      "derived_win_rate": 0.5319
+      "total_games": 85,
+      "total_wins": 48,
+      "total_losses": 37,
+      "derived_win_rate": 0.5647
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "artifact_code": "efw11",
+      "artifact_name": "Draco Plate",
+      "total_games": 82,
+      "total_wins": 43,
+      "total_losses": 39,
+      "derived_win_rate": 0.5244
     },
     {
       "set_agg_code": "set_speed+set_penetrate",
-      "total_games": 42,
-      "total_wins": 16,
-      "total_losses": 26,
-      "derived_win_rate": 0.381
+      "total_games": 77,
+      "total_wins": 28,
+      "total_losses": 49,
+      "derived_win_rate": 0.3636
     },
     {
-      "set_agg_code": "set_counter+set_penetrate",
-      "artifact_code": "efw11",
-      "artifact_name": "Draco Plate",
-      "total_games": 40,
-      "total_wins": 21,
-      "total_losses": 19,
-      "derived_win_rate": 0.525
+      "set_agg_code": "set_counter+set_max_hp",
+      "total_games": 67,
+      "total_wins": 27,
+      "total_losses": 40,
+      "derived_win_rate": 0.403
     }
   ],
-  "total_set_stats_games": 1717,
-  "total_artifact_stats_games": 848,
+  "total_set_stats_games": 2923,
+  "total_artifact_stats_games": 1445,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.4628,
+    "win_rate": 0.4517,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -282,5 +280,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2019?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:07:48Z"
+  "scraped_at": "2026-09-14T15:57:38Z"
 }

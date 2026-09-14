@@ -1,0 +1,237 @@
+{
+  "hero": "Eligos",
+  "hero_slug": "eligos",
+  "hero_code": "c1142",
+  "element": "fire",
+  "class": "ranger",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 1733,
+      "total_wins": 606,
+      "total_losses": 1127,
+      "total_bans": 161,
+      "total_prebans": 0
+    }
+  ],
+  "sample_size": 1733,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1522,
+      "total_wins": 518,
+      "total_losses": 1004,
+      "derived_win_rate": 0.3403,
+      "derived_usage_share": 0.5228
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 646,
+      "total_wins": 232,
+      "total_losses": 414,
+      "derived_win_rate": 0.3591,
+      "derived_usage_share": 0.2219
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 586,
+      "total_wins": 159,
+      "total_losses": 427,
+      "derived_win_rate": 0.2713,
+      "derived_usage_share": 0.2013
+    },
+    {
+      "set_code": "set_acc",
+      "set_name": "Hit",
+      "total_games": 61,
+      "total_wins": 29,
+      "total_losses": 32,
+      "derived_win_rate": 0.4754,
+      "derived_usage_share": 0.021
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 43,
+      "total_wins": 12,
+      "total_losses": 31,
+      "derived_win_rate": 0.2791,
+      "derived_usage_share": 0.0148
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 42,
+      "total_wins": 17,
+      "total_losses": 25,
+      "derived_win_rate": 0.4048,
+      "derived_usage_share": 0.0144
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efr24",
+      "artifact_name": "An Offer You Can't Refuse",
+      "total_games": 1154,
+      "total_wins": 370,
+      "total_losses": 784,
+      "derived_win_rate": 0.3206,
+      "derived_usage_share": 0.7341
+    },
+    {
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 254,
+      "total_wins": 119,
+      "total_losses": 135,
+      "derived_win_rate": 0.4685,
+      "derived_usage_share": 0.1616
+    },
+    {
+      "artifact_code": "efr17",
+      "artifact_name": "Air-to-Surface Missile: MISHA",
+      "total_games": 59,
+      "total_wins": 18,
+      "total_losses": 41,
+      "derived_win_rate": 0.3051,
+      "derived_usage_share": 0.0375
+    },
+    {
+      "artifact_code": "efr04",
+      "artifact_name": "Sashe Ithanes",
+      "total_games": 57,
+      "total_wins": 19,
+      "total_losses": 38,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0363
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 11,
+      "total_wins": 3,
+      "total_losses": 8,
+      "derived_win_rate": 0.2727,
+      "derived_usage_share": 0.007
+    },
+    {
+      "artifact_code": "efr15",
+      "artifact_name": "Wall of Order",
+      "total_games": 11,
+      "total_wins": 1,
+      "total_losses": 10,
+      "derived_win_rate": 0.0909,
+      "derived_usage_share": 0.007
+    },
+    {
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 8,
+      "total_wins": 2,
+      "total_losses": 6,
+      "derived_win_rate": 0.25,
+      "derived_usage_share": 0.0051
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "total_games": 606,
+      "total_wins": 217,
+      "total_losses": 389,
+      "derived_win_rate": 0.3581
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 576,
+      "total_wins": 156,
+      "total_losses": 420,
+      "derived_win_rate": 0.2708
+    },
+    {
+      "set_agg_code": "set_speed+set_penetrate",
+      "artifact_code": "efr24",
+      "artifact_name": "An Offer You Can't Refuse",
+      "total_games": 558,
+      "total_wins": 207,
+      "total_losses": 351,
+      "derived_win_rate": 0.371
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efr24",
+      "artifact_name": "An Offer You Can't Refuse",
+      "total_games": 506,
+      "total_wins": 137,
+      "total_losses": 369,
+      "derived_win_rate": 0.2708
+    },
+    {
+      "set_agg_code": "set_speed",
+      "total_games": 228,
+      "total_wins": 101,
+      "total_losses": 127,
+      "derived_win_rate": 0.443
+    },
+    {
+      "set_agg_code": "set_speed",
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 199,
+      "total_wins": 92,
+      "total_losses": 107,
+      "derived_win_rate": 0.4623
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "total_games": 61,
+      "total_wins": 29,
+      "total_losses": 32,
+      "derived_win_rate": 0.4754
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 43,
+      "total_wins": 12,
+      "total_losses": 31,
+      "derived_win_rate": 0.2791
+    },
+    {
+      "set_agg_code": "set_speed+set_acc",
+      "artifact_code": "efr31",
+      "artifact_name": "Gifted Pen",
+      "total_games": 41,
+      "total_wins": 21,
+      "total_losses": 20,
+      "derived_win_rate": 0.5122
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 40,
+      "total_wins": 15,
+      "total_losses": 25,
+      "derived_win_rate": 0.375
+    }
+  ],
+  "total_set_stats_games": 2911,
+  "total_artifact_stats_games": 1572,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-09-14T04:37:27.655Z"
+  },
+  "derived": {
+    "win_rate": 0.3497,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1142?season=pvp_rta_ss21",
+  "scraped_at": "2026-09-14T15:57:39Z"
+}

@@ -7,258 +7,258 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 5564,
-      "total_wins": 2905,
-      "total_losses": 2651,
-      "total_bans": 1499,
+      "total_games": 8241,
+      "total_wins": 4318,
+      "total_losses": 3915,
+      "total_bans": 2195,
       "total_prebans": 8
     }
   ],
-  "sample_size": 5564,
+  "sample_size": 8241,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 3780,
-      "total_wins": 1998,
-      "total_losses": 1782,
-      "derived_win_rate": 0.5286,
-      "derived_usage_share": 0.4634
+      "total_games": 5596,
+      "total_wins": 2970,
+      "total_losses": 2626,
+      "derived_win_rate": 0.5307,
+      "derived_usage_share": 0.4613
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 2155,
-      "total_wins": 1111,
-      "total_losses": 1044,
-      "derived_win_rate": 0.5155,
-      "derived_usage_share": 0.2642
+      "total_games": 3172,
+      "total_wins": 1653,
+      "total_losses": 1519,
+      "derived_win_rate": 0.5211,
+      "derived_usage_share": 0.2615
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 1093,
-      "total_wins": 562,
-      "total_losses": 531,
-      "derived_win_rate": 0.5142,
-      "derived_usage_share": 0.134
+      "total_games": 1700,
+      "total_wins": 867,
+      "total_losses": 833,
+      "derived_win_rate": 0.51,
+      "derived_usage_share": 0.1401
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 955,
-      "total_wins": 529,
-      "total_losses": 426,
-      "derived_win_rate": 0.5539,
-      "derived_usage_share": 0.1171
+      "total_games": 1395,
+      "total_wins": 778,
+      "total_losses": 617,
+      "derived_win_rate": 0.5577,
+      "derived_usage_share": 0.115
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 58,
-      "total_wins": 27,
-      "total_losses": 31,
-      "derived_win_rate": 0.4655,
-      "derived_usage_share": 0.0071
+      "total_games": 103,
+      "total_wins": 57,
+      "total_losses": 46,
+      "derived_win_rate": 0.5534,
+      "derived_usage_share": 0.0085
     },
     {
       "set_code": "set_def",
       "set_name": "Defense",
-      "total_games": 56,
-      "total_wins": 27,
-      "total_losses": 29,
-      "derived_win_rate": 0.4821,
-      "derived_usage_share": 0.0069
+      "total_games": 80,
+      "total_wins": 39,
+      "total_losses": 41,
+      "derived_win_rate": 0.4875,
+      "derived_usage_share": 0.0066
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efh10",
       "artifact_name": "Unfading Memories",
-      "total_games": 1171,
-      "total_wins": 641,
-      "total_losses": 530,
-      "derived_win_rate": 0.5474,
-      "derived_usage_share": 0.2886
+      "total_games": 1888,
+      "total_wins": 1029,
+      "total_losses": 859,
+      "derived_win_rate": 0.545,
+      "derived_usage_share": 0.3127
     },
     {
       "artifact_code": "efh03",
       "artifact_name": "Water's Origin",
-      "total_games": 1017,
-      "total_wins": 538,
-      "total_losses": 479,
-      "derived_win_rate": 0.529,
-      "derived_usage_share": 0.2507
+      "total_games": 1451,
+      "total_wins": 771,
+      "total_losses": 680,
+      "derived_win_rate": 0.5314,
+      "derived_usage_share": 0.2403
     },
     {
       "artifact_code": "efh02",
       "artifact_name": "Shimadra Staff",
-      "total_games": 982,
-      "total_wins": 509,
-      "total_losses": 473,
-      "derived_win_rate": 0.5183,
-      "derived_usage_share": 0.2421
-    },
-    {
-      "artifact_code": "efh29",
-      "artifact_name": "Excommunicant's Censer",
-      "total_games": 160,
-      "total_wins": 82,
-      "total_losses": 78,
-      "derived_win_rate": 0.5125,
-      "derived_usage_share": 0.0394
+      "total_games": 1440,
+      "total_wins": 752,
+      "total_losses": 688,
+      "derived_win_rate": 0.5222,
+      "derived_usage_share": 0.2385
     },
     {
       "artifact_code": "efh14",
       "artifact_name": "Guardian Ice Crystals",
-      "total_games": 150,
-      "total_wins": 85,
-      "total_losses": 65,
-      "derived_win_rate": 0.5667,
-      "derived_usage_share": 0.037
+      "total_games": 221,
+      "total_wins": 126,
+      "total_losses": 95,
+      "derived_win_rate": 0.5701,
+      "derived_usage_share": 0.0366
+    },
+    {
+      "artifact_code": "efh29",
+      "artifact_name": "Excommunicant's Censer",
+      "total_games": 194,
+      "total_wins": 101,
+      "total_losses": 93,
+      "derived_win_rate": 0.5206,
+      "derived_usage_share": 0.0321
     },
     {
       "artifact_code": "efh27",
       "artifact_name": "Cure-All Magic Wand",
-      "total_games": 120,
-      "total_wins": 63,
-      "total_losses": 57,
-      "derived_win_rate": 0.525,
-      "derived_usage_share": 0.0296
+      "total_games": 168,
+      "total_wins": 89,
+      "total_losses": 79,
+      "derived_win_rate": 0.5298,
+      "derived_usage_share": 0.0278
     },
     {
       "artifact_code": "efh23",
       "artifact_name": "Proof of Friendship",
-      "total_games": 113,
+      "total_games": 116,
       "total_wins": 57,
-      "total_losses": 56,
-      "derived_win_rate": 0.5044,
-      "derived_usage_share": 0.0279
-    },
-    {
-      "artifact_code": "efh28",
-      "artifact_name": "Veritas",
-      "total_games": 56,
-      "total_wins": 35,
-      "total_losses": 21,
-      "derived_win_rate": 0.625,
-      "derived_usage_share": 0.0138
-    },
-    {
-      "artifact_code": "ef507",
-      "artifact_name": "Bastion of Hope",
-      "total_games": 52,
-      "total_wins": 24,
-      "total_losses": 28,
-      "derived_win_rate": 0.4615,
-      "derived_usage_share": 0.0128
+      "total_losses": 59,
+      "derived_win_rate": 0.4914,
+      "derived_usage_share": 0.0192
     },
     {
       "artifact_code": "efh06",
       "artifact_name": "Celestine",
-      "total_games": 49,
-      "total_wins": 21,
-      "total_losses": 28,
-      "derived_win_rate": 0.4286,
-      "derived_usage_share": 0.0121
+      "total_games": 98,
+      "total_wins": 48,
+      "total_losses": 50,
+      "derived_win_rate": 0.4898,
+      "derived_usage_share": 0.0162
+    },
+    {
+      "artifact_code": "efh28",
+      "artifact_name": "Veritas",
+      "total_games": 77,
+      "total_wins": 47,
+      "total_losses": 30,
+      "derived_win_rate": 0.6104,
+      "derived_usage_share": 0.0128
+    },
+    {
+      "artifact_code": "ef507",
+      "artifact_name": "Bastion of Hope",
+      "total_games": 72,
+      "total_wins": 34,
+      "total_losses": 38,
+      "derived_win_rate": 0.4722,
+      "derived_usage_share": 0.0119
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_res",
-      "total_games": 1906,
-      "total_wins": 984,
-      "total_losses": 922,
-      "derived_win_rate": 0.5163
+      "total_games": 2789,
+      "total_wins": 1458,
+      "total_losses": 1331,
+      "derived_win_rate": 0.5228
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 923,
-      "total_wins": 487,
-      "total_losses": 436,
-      "derived_win_rate": 0.5276
+      "total_games": 1406,
+      "total_wins": 733,
+      "total_losses": 673,
+      "derived_win_rate": 0.5213
     },
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 850,
-      "total_wins": 477,
-      "total_losses": 373,
-      "derived_win_rate": 0.5612
+      "total_games": 1247,
+      "total_wins": 700,
+      "total_losses": 547,
+      "derived_win_rate": 0.5613
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh10",
+      "artifact_name": "Unfading Memories",
+      "total_games": 782,
+      "total_wins": 434,
+      "total_losses": 348,
+      "derived_win_rate": 0.555
     },
     {
       "set_agg_code": "set_speed+set_res",
       "artifact_code": "efh02",
       "artifact_name": "Shimadra Staff",
-      "total_games": 511,
+      "total_games": 745,
+      "total_wins": 387,
+      "total_losses": 358,
+      "derived_win_rate": 0.5195
+    },
+    {
+      "set_agg_code": "set_speed+set_res",
+      "artifact_code": "efh03",
+      "artifact_name": "Water's Origin",
+      "total_games": 528,
+      "total_wins": 269,
+      "total_losses": 259,
+      "derived_win_rate": 0.5095
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efh10",
+      "artifact_name": "Unfading Memories",
+      "total_games": 496,
       "total_wins": 257,
-      "total_losses": 254,
-      "derived_win_rate": 0.5029
-    },
-    {
-      "set_agg_code": "set_speed+set_res",
-      "artifact_code": "efh10",
-      "artifact_name": "Unfading Memories",
-      "total_games": 482,
-      "total_wins": 263,
-      "total_losses": 219,
-      "derived_win_rate": 0.5456
-    },
-    {
-      "set_agg_code": "set_speed+set_res",
-      "artifact_code": "efh03",
-      "artifact_name": "Water's Origin",
-      "total_games": 363,
-      "total_wins": 184,
-      "total_losses": 179,
-      "derived_win_rate": 0.5069
-    },
-    {
-      "set_agg_code": "set_speed+set_max_hp",
-      "artifact_code": "efh10",
-      "artifact_name": "Unfading Memories",
-      "total_games": 321,
-      "total_wins": 170,
-      "total_losses": 151,
-      "derived_win_rate": 0.5296
+      "total_losses": 239,
+      "derived_win_rate": 0.5181
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efh10",
       "artifact_name": "Unfading Memories",
-      "total_games": 288,
-      "total_wins": 164,
-      "total_losses": 124,
-      "derived_win_rate": 0.5694
+      "total_games": 445,
+      "total_wins": 248,
+      "total_losses": 197,
+      "derived_win_rate": 0.5573
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efh03",
       "artifact_name": "Water's Origin",
-      "total_games": 281,
-      "total_wins": 152,
-      "total_losses": 129,
-      "derived_win_rate": 0.5409
+      "total_games": 402,
+      "total_wins": 219,
+      "total_losses": 183,
+      "derived_win_rate": 0.5448
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efh03",
       "artifact_name": "Water's Origin",
-      "total_games": 242,
-      "total_wins": 131,
-      "total_losses": 111,
-      "derived_win_rate": 0.5413
+      "total_games": 352,
+      "total_wins": 191,
+      "total_losses": 161,
+      "derived_win_rate": 0.5426
     }
   ],
-  "total_set_stats_games": 8157,
-  "total_artifact_stats_games": 4057,
+  "total_set_stats_games": 12130,
+  "total_artifact_stats_games": 6038,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.5229,
+    "win_rate": 0.5245,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -266,5 +266,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2049?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:06:54Z"
+  "scraped_at": "2026-09-14T15:56:42Z"
 }

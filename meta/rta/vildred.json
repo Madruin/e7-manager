@@ -7,249 +7,249 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 18054,
-      "total_wins": 9158,
-      "total_losses": 8895,
-      "total_bans": 3491,
-      "total_prebans": 1
+      "total_games": 25740,
+      "total_wins": 13042,
+      "total_losses": 12694,
+      "total_bans": 5055,
+      "total_prebans": 4
     }
   ],
-  "sample_size": 18054,
+  "sample_size": 25740,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 13692,
-      "total_wins": 6844,
-      "total_losses": 6848,
-      "derived_win_rate": 0.4999,
-      "derived_usage_share": 0.4729
+      "total_games": 19473,
+      "total_wins": 9729,
+      "total_losses": 9744,
+      "derived_win_rate": 0.4996,
+      "derived_usage_share": 0.4733
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 9206,
-      "total_wins": 4706,
-      "total_losses": 4500,
-      "derived_win_rate": 0.5112,
-      "derived_usage_share": 0.318
+      "total_games": 12853,
+      "total_wins": 6546,
+      "total_losses": 6307,
+      "derived_win_rate": 0.5093,
+      "derived_usage_share": 0.3124
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 5106,
-      "total_wins": 2451,
-      "total_losses": 2655,
-      "derived_win_rate": 0.48,
-      "derived_usage_share": 0.1763
+      "total_games": 7489,
+      "total_wins": 3625,
+      "total_losses": 3864,
+      "derived_win_rate": 0.484,
+      "derived_usage_share": 0.182
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 708,
-      "total_wins": 357,
-      "total_losses": 351,
-      "derived_win_rate": 0.5042,
-      "derived_usage_share": 0.0245
+      "total_games": 982,
+      "total_wins": 497,
+      "total_losses": 485,
+      "derived_win_rate": 0.5061,
+      "derived_usage_share": 0.0239
     },
     {
       "set_code": "set_penetrate",
       "set_name": "Penetration",
-      "total_games": 175,
-      "total_wins": 84,
-      "total_losses": 91,
-      "derived_win_rate": 0.48,
-      "derived_usage_share": 0.006
+      "total_games": 225,
+      "total_wins": 104,
+      "total_losses": 121,
+      "derived_win_rate": 0.4622,
+      "derived_usage_share": 0.0055
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa17",
       "artifact_name": "Sword of Summer Twilight",
-      "total_games": 8973,
-      "total_wins": 4465,
-      "total_losses": 4508,
-      "derived_win_rate": 0.4976,
-      "derived_usage_share": 0.6162
+      "total_games": 12573,
+      "total_wins": 6258,
+      "total_losses": 6315,
+      "derived_win_rate": 0.4977,
+      "derived_usage_share": 0.6079
     },
     {
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 2898,
-      "total_wins": 1468,
-      "total_losses": 1430,
-      "derived_win_rate": 0.5066,
-      "derived_usage_share": 0.199
+      "total_games": 4233,
+      "total_wins": 2133,
+      "total_losses": 2100,
+      "derived_win_rate": 0.5039,
+      "derived_usage_share": 0.2047
     },
     {
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 763,
-      "total_wins": 406,
-      "total_losses": 357,
-      "derived_win_rate": 0.5321,
-      "derived_usage_share": 0.0524
+      "total_games": 1127,
+      "total_wins": 601,
+      "total_losses": 526,
+      "derived_win_rate": 0.5333,
+      "derived_usage_share": 0.0545
     },
     {
       "artifact_code": "efa02",
       "artifact_name": "Wind Rider",
-      "total_games": 445,
-      "total_wins": 221,
-      "total_losses": 224,
-      "derived_win_rate": 0.4966,
-      "derived_usage_share": 0.0306
+      "total_games": 676,
+      "total_wins": 338,
+      "total_losses": 338,
+      "derived_win_rate": 0.5,
+      "derived_usage_share": 0.0327
     },
     {
       "artifact_code": "efa07",
       "artifact_name": "Alexa's Basket",
-      "total_games": 442,
-      "total_wins": 235,
-      "total_losses": 207,
-      "derived_win_rate": 0.5317,
-      "derived_usage_share": 0.0304
+      "total_games": 615,
+      "total_wins": 329,
+      "total_losses": 286,
+      "derived_win_rate": 0.535,
+      "derived_usage_share": 0.0297
     },
     {
       "artifact_code": "ef504",
       "artifact_name": "A Symbol of Unity",
-      "total_games": 211,
-      "total_wins": 108,
-      "total_losses": 103,
-      "derived_win_rate": 0.5118,
-      "derived_usage_share": 0.0145
+      "total_games": 358,
+      "total_wins": 172,
+      "total_losses": 186,
+      "derived_win_rate": 0.4804,
+      "derived_usage_share": 0.0173
     },
     {
       "artifact_code": "efa13",
       "artifact_name": "Manica of Control",
-      "total_games": 166,
-      "total_wins": 88,
-      "total_losses": 78,
-      "derived_win_rate": 0.5301,
-      "derived_usage_share": 0.0114
+      "total_games": 222,
+      "total_wins": 125,
+      "total_losses": 97,
+      "derived_win_rate": 0.5631,
+      "derived_usage_share": 0.0107
     },
     {
       "artifact_code": "efa05",
       "artifact_name": "Dust Devil",
-      "total_games": 152,
-      "total_wins": 64,
-      "total_losses": 88,
-      "derived_win_rate": 0.4211,
-      "derived_usage_share": 0.0104
+      "total_games": 195,
+      "total_wins": 83,
+      "total_losses": 112,
+      "derived_win_rate": 0.4256,
+      "derived_usage_share": 0.0094
     },
     {
       "artifact_code": "ef510",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 135,
-      "total_wins": 64,
-      "total_losses": 71,
-      "derived_win_rate": 0.4741,
-      "derived_usage_share": 0.0093
+      "total_games": 182,
+      "total_wins": 81,
+      "total_losses": 101,
+      "derived_win_rate": 0.4451,
+      "derived_usage_share": 0.0088
     },
     {
-      "artifact_code": "ef403",
-      "artifact_name": "Portrait of the Saviors",
-      "total_games": 100,
-      "total_wins": 44,
-      "total_losses": 56,
-      "derived_win_rate": 0.44,
-      "derived_usage_share": 0.0069
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 136,
+      "total_wins": 54,
+      "total_losses": 82,
+      "derived_win_rate": 0.3971,
+      "derived_usage_share": 0.0066
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_torrent",
-      "total_games": 8401,
-      "total_wins": 4295,
-      "total_losses": 4106,
+      "total_games": 11767,
+      "total_wins": 5999,
+      "total_losses": 5768,
+      "derived_win_rate": 0.5098
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 7212,
+      "total_wins": 3491,
+      "total_losses": 3721,
+      "derived_win_rate": 0.4841
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efa17",
+      "artifact_name": "Sword of Summer Twilight",
+      "total_games": 7161,
+      "total_wins": 3644,
+      "total_losses": 3517,
+      "derived_win_rate": 0.5089
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efa17",
+      "artifact_name": "Sword of Summer Twilight",
+      "total_games": 4600,
+      "total_wins": 2220,
+      "total_losses": 2380,
+      "derived_win_rate": 0.4826
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efa28",
+      "artifact_name": "Summer Photogenic",
+      "total_games": 2774,
+      "total_wins": 1418,
+      "total_losses": 1356,
       "derived_win_rate": 0.5112
     },
     {
-      "set_agg_code": "set_speed+set_torrent",
-      "artifact_code": "efa17",
-      "artifact_name": "Sword of Summer Twilight",
-      "total_games": 5203,
-      "total_wins": 2655,
-      "total_losses": 2548,
-      "derived_win_rate": 0.5103
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "total_games": 4927,
-      "total_wins": 2368,
-      "total_losses": 2559,
-      "derived_win_rate": 0.4806
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "artifact_code": "efa17",
-      "artifact_name": "Sword of Summer Twilight",
-      "total_games": 3162,
-      "total_wins": 1514,
-      "total_losses": 1648,
-      "derived_win_rate": 0.4788
-    },
-    {
-      "set_agg_code": "set_speed+set_torrent",
-      "artifact_code": "efa28",
-      "artifact_name": "Summer Photogenic",
-      "total_games": 2022,
-      "total_wins": 1031,
-      "total_losses": 991,
-      "derived_win_rate": 0.5099
-    },
-    {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efa28",
       "artifact_name": "Summer Photogenic",
-      "total_games": 717,
-      "total_wins": 349,
-      "total_losses": 368,
-      "derived_win_rate": 0.4868
+      "total_games": 1174,
+      "total_wins": 568,
+      "total_losses": 606,
+      "derived_win_rate": 0.4838
     },
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
-      "total_games": 550,
-      "total_wins": 282,
-      "total_losses": 268,
-      "derived_win_rate": 0.5127
+      "total_games": 732,
+      "total_wins": 373,
+      "total_losses": 359,
+      "derived_win_rate": 0.5096
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 345,
-      "total_wins": 184,
-      "total_losses": 161,
-      "derived_win_rate": 0.5333
+      "total_games": 532,
+      "total_wins": 278,
+      "total_losses": 254,
+      "derived_win_rate": 0.5226
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 264,
-      "total_wins": 142,
-      "total_losses": 122,
-      "derived_win_rate": 0.5379
+      "total_games": 421,
+      "total_wins": 236,
+      "total_losses": 185,
+      "derived_win_rate": 0.5606
     },
     {
-      "set_agg_code": "set_cri_dmg+set_torrent",
-      "artifact_code": "efa17",
-      "artifact_name": "Sword of Summer Twilight",
-      "total_games": 230,
-      "total_wins": 119,
-      "total_losses": 111,
-      "derived_win_rate": 0.5174
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efa07",
+      "artifact_name": "Alexa's Basket",
+      "total_games": 329,
+      "total_wins": 187,
+      "total_losses": 142,
+      "derived_win_rate": 0.5684
     }
   ],
-  "total_set_stats_games": 28954,
-  "total_artifact_stats_games": 14562,
+  "total_set_stats_games": 41142,
+  "total_artifact_stats_games": 20681,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.5073,
+    "win_rate": 0.5068,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -257,5 +257,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c1007?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:06:19Z"
+  "scraped_at": "2026-09-14T15:56:04Z"
 }

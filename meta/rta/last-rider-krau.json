@@ -7,247 +7,256 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1622,
-      "total_wins": 781,
-      "total_losses": 841,
-      "total_bans": 324,
+      "total_games": 2409,
+      "total_wins": 1164,
+      "total_losses": 1245,
+      "total_bans": 470,
       "total_prebans": 0
     }
   ],
-  "sample_size": 1622,
+  "sample_size": 2409,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 1112,
-      "total_wins": 535,
-      "total_losses": 577,
-      "derived_win_rate": 0.4811,
-      "derived_usage_share": 0.419
-    },
-    {
-      "set_code": "set_immune",
-      "set_name": "Immunity",
-      "total_games": 698,
-      "total_wins": 372,
-      "total_losses": 326,
-      "derived_win_rate": 0.533,
-      "derived_usage_share": 0.263
+      "total_games": 1665,
+      "total_wins": 807,
+      "total_losses": 858,
+      "derived_win_rate": 0.4847,
+      "derived_usage_share": 0.4197
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 688,
-      "total_wins": 303,
-      "total_losses": 385,
-      "derived_win_rate": 0.4404,
-      "derived_usage_share": 0.2592
+      "total_games": 1051,
+      "total_wins": 482,
+      "total_losses": 569,
+      "derived_win_rate": 0.4586,
+      "derived_usage_share": 0.2649
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1021,
+      "total_wins": 531,
+      "total_losses": 490,
+      "derived_win_rate": 0.5201,
+      "derived_usage_share": 0.2574
     },
     {
       "set_code": "set_shield",
       "set_name": "Protection",
-      "total_games": 57,
-      "total_wins": 31,
-      "total_losses": 26,
-      "derived_win_rate": 0.5439,
-      "derived_usage_share": 0.0215
+      "total_games": 87,
+      "total_wins": 43,
+      "total_losses": 44,
+      "derived_win_rate": 0.4943,
+      "derived_usage_share": 0.0219
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 43,
-      "total_wins": 23,
-      "total_losses": 20,
-      "derived_win_rate": 0.5349,
-      "derived_usage_share": 0.0162
+      "total_games": 61,
+      "total_wins": 31,
+      "total_losses": 30,
+      "derived_win_rate": 0.5082,
+      "derived_usage_share": 0.0154
     },
     {
       "set_code": "set_vampire",
       "set_name": "Lifesteal",
-      "total_games": 34,
-      "total_wins": 15,
-      "total_losses": 19,
-      "derived_win_rate": 0.4412,
-      "derived_usage_share": 0.0128
+      "total_games": 47,
+      "total_wins": 22,
+      "total_losses": 25,
+      "derived_win_rate": 0.4681,
+      "derived_usage_share": 0.0118
+    },
+    {
+      "set_code": "set_def",
+      "set_name": "Defense",
+      "total_games": 20,
+      "total_wins": 13,
+      "total_losses": 7,
+      "derived_win_rate": 0.65,
+      "derived_usage_share": 0.005
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk13",
       "artifact_name": "Crown of Glory",
-      "total_games": 1014,
-      "total_wins": 498,
-      "total_losses": 516,
-      "derived_win_rate": 0.4911,
-      "derived_usage_share": 0.7812
+      "total_games": 1512,
+      "total_wins": 740,
+      "total_losses": 772,
+      "derived_win_rate": 0.4894,
+      "derived_usage_share": 0.7798
     },
     {
       "artifact_code": "efk03",
       "artifact_name": "Aurius",
-      "total_games": 102,
-      "total_wins": 49,
-      "total_losses": 53,
-      "derived_win_rate": 0.4804,
-      "derived_usage_share": 0.0786
-    },
-    {
-      "artifact_code": "efk21",
-      "artifact_name": "3F",
-      "total_games": 45,
-      "total_wins": 15,
-      "total_losses": 30,
-      "derived_win_rate": 0.3333,
-      "derived_usage_share": 0.0347
+      "total_games": 150,
+      "total_wins": 69,
+      "total_losses": 81,
+      "derived_win_rate": 0.46,
+      "derived_usage_share": 0.0774
     },
     {
       "artifact_code": "efk24",
       "artifact_name": "Glorious Throne",
-      "total_games": 42,
-      "total_wins": 26,
-      "total_losses": 16,
-      "derived_win_rate": 0.619,
-      "derived_usage_share": 0.0324
+      "total_games": 62,
+      "total_wins": 37,
+      "total_losses": 25,
+      "derived_win_rate": 0.5968,
+      "derived_usage_share": 0.032
+    },
+    {
+      "artifact_code": "efk21",
+      "artifact_name": "3F",
+      "total_games": 59,
+      "total_wins": 23,
+      "total_losses": 36,
+      "derived_win_rate": 0.3898,
+      "derived_usage_share": 0.0304
     },
     {
       "artifact_code": "efk04",
       "artifact_name": "Adamant Shield",
-      "total_games": 23,
-      "total_wins": 12,
-      "total_losses": 11,
-      "derived_win_rate": 0.5217,
-      "derived_usage_share": 0.0177
-    },
-    {
-      "artifact_code": "efk23",
-      "artifact_name": "A Precious Connection",
-      "total_games": 16,
-      "total_wins": 5,
-      "total_losses": 11,
-      "derived_win_rate": 0.3125,
-      "derived_usage_share": 0.0123
+      "total_games": 34,
+      "total_wins": 20,
+      "total_losses": 14,
+      "derived_win_rate": 0.5882,
+      "derived_usage_share": 0.0175
     },
     {
       "artifact_code": "efk09",
       "artifact_name": "Bastion of Perlutia",
-      "total_games": 15,
-      "total_wins": 6,
-      "total_losses": 9,
-      "derived_win_rate": 0.4,
-      "derived_usage_share": 0.0116
-    },
-    {
-      "artifact_code": "",
-      "artifact_name": null,
-      "total_games": 13,
-      "total_wins": 6,
-      "total_losses": 7,
-      "derived_win_rate": 0.4615,
-      "derived_usage_share": 0.01
+      "total_games": 31,
+      "total_wins": 18,
+      "total_losses": 13,
+      "derived_win_rate": 0.5806,
+      "derived_usage_share": 0.016
     },
     {
       "artifact_code": "efk12",
       "artifact_name": "Rise of a Monarch",
-      "total_games": 13,
-      "total_wins": 5,
-      "total_losses": 8,
-      "derived_win_rate": 0.3846,
-      "derived_usage_share": 0.01
+      "total_games": 24,
+      "total_wins": 10,
+      "total_losses": 14,
+      "derived_win_rate": 0.4167,
+      "derived_usage_share": 0.0124
+    },
+    {
+      "artifact_code": "efk23",
+      "artifact_name": "A Precious Connection",
+      "total_games": 21,
+      "total_wins": 7,
+      "total_losses": 14,
+      "derived_win_rate": 0.3333,
+      "derived_usage_share": 0.0108
+    },
+    {
+      "artifact_code": "",
+      "artifact_name": null,
+      "total_games": 18,
+      "total_wins": 8,
+      "total_losses": 10,
+      "derived_win_rate": 0.4444,
+      "derived_usage_share": 0.0093
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_immune",
-      "total_games": 579,
-      "total_wins": 304,
-      "total_losses": 275,
-      "derived_win_rate": 0.525
+      "total_games": 848,
+      "total_wins": 439,
+      "total_losses": 409,
+      "derived_win_rate": 0.5177
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 494,
-      "total_wins": 210,
-      "total_losses": 284,
-      "derived_win_rate": 0.4251
+      "total_games": 757,
+      "total_wins": 339,
+      "total_losses": 418,
+      "derived_win_rate": 0.4478
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efk13",
       "artifact_name": "Crown of Glory",
-      "total_games": 480,
-      "total_wins": 253,
-      "total_losses": 227,
-      "derived_win_rate": 0.5271
+      "total_games": 714,
+      "total_wins": 367,
+      "total_losses": 347,
+      "derived_win_rate": 0.514
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efk13",
       "artifact_name": "Crown of Glory",
-      "total_games": 377,
-      "total_wins": 161,
-      "total_losses": 216,
-      "derived_win_rate": 0.4271
+      "total_games": 551,
+      "total_wins": 247,
+      "total_losses": 304,
+      "derived_win_rate": 0.4483
     },
     {
-      "set_agg_code": "set_shield+set_immune",
-      "total_games": 53,
-      "total_wins": 31,
-      "total_losses": 22,
-      "derived_win_rate": 0.5849
-    },
-    {
-      "set_agg_code": "set_max_hp+set_max_hp+set_immune",
-      "total_games": 50,
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efk03",
+      "artifact_name": "Aurius",
+      "total_games": 76,
       "total_wins": 29,
-      "total_losses": 21,
-      "derived_win_rate": 0.58
+      "total_losses": 47,
+      "derived_win_rate": 0.3816
     },
     {
-      "set_agg_code": "set_speed+set_max_hp",
-      "artifact_code": "efk03",
-      "artifact_name": "Aurius",
-      "total_games": 49,
-      "total_wins": 21,
-      "total_losses": 28,
-      "derived_win_rate": 0.4286
+      "set_agg_code": "set_max_hp+set_max_hp+set_immune",
+      "total_games": 76,
+      "total_wins": 41,
+      "total_losses": 35,
+      "derived_win_rate": 0.5395
+    },
+    {
+      "set_agg_code": "set_shield+set_immune",
+      "total_games": 73,
+      "total_wins": 40,
+      "total_losses": 33,
+      "derived_win_rate": 0.5479
     },
     {
       "set_agg_code": "set_max_hp+set_max_hp+set_immune",
       "artifact_code": "efk13",
       "artifact_name": "Crown of Glory",
-      "total_games": 44,
-      "total_wins": 26,
-      "total_losses": 18,
-      "derived_win_rate": 0.5909
+      "total_games": 67,
+      "total_wins": 36,
+      "total_losses": 31,
+      "derived_win_rate": 0.5373
     },
     {
       "set_agg_code": "set_shield+set_immune",
       "artifact_code": "efk13",
       "artifact_name": "Crown of Glory",
-      "total_games": 39,
-      "total_wins": 23,
-      "total_losses": 16,
-      "derived_win_rate": 0.5897
+      "total_games": 55,
+      "total_wins": 30,
+      "total_losses": 25,
+      "derived_win_rate": 0.5455
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efk03",
       "artifact_name": "Aurius",
-      "total_games": 39,
-      "total_wins": 19,
-      "total_losses": 20,
-      "derived_win_rate": 0.4872
+      "total_games": 52,
+      "total_wins": 27,
+      "total_losses": 25,
+      "derived_win_rate": 0.5192
     }
   ],
-  "total_set_stats_games": 2654,
-  "total_artifact_stats_games": 1298,
+  "total_set_stats_games": 3967,
+  "total_artifact_stats_games": 1939,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-07T05:14:36.897Z"
+    "last_updated": "2026-09-14T04:37:27.655Z"
   },
   "derived": {
-    "win_rate": 0.4815,
+    "win_rate": 0.4832,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -255,5 +264,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2070?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-07T15:07:39Z"
+  "scraped_at": "2026-09-14T15:57:29Z"
 }
