@@ -22,15 +22,15 @@ _Number in parens = total reforge-projected WSS (gear quality). Role labels are 
 These come straight from the gear data and help in *every* mode:
 
 - **No active set bonus** (2): Sage Baal & Sezan, All-Rounder Wanda. These waste their substats — re-slot into a real set (see the allocator). Biggest loss: your best-geared piece is often here.
-- **Set differs from RTA meta** (11), for the heroes where we *have* RTA data — worth a look for PvP:
-    - Boss Arunka: you run Health+Health+Health · meta Protection+Immunity (57% WR)
-    - Sage Baal & Sezan: you run no set · meta Speed+Hit (54% WR)
-    - Silvertide Christy: you run Immunity+Health+Health · meta Resist+Resist+Resist (53% WR)
+- **Set differs from RTA meta** (14), for the heroes where we *have* RTA data — worth a look for PvP:
+    - Sage Baal & Sezan: you run no set · meta Speed+Hit (53% WR)
+    - Genesis Ras: you run Destruction+Health · meta Destruction+Fervor (53% WR)
     - Ruele of Light: you run Health+Resist+Resist · meta Reversal+Immunity (52% WR)
+    - Silvertide Christy: you run Immunity+Health+Health · meta Resist+Resist+Resist (51% WR)
     - Politis: you run Critical+Defense · meta Weakening+Hit (51% WR)
-    - Setsuka: you run Hit+Critical · meta Riposte+Immunity (51% WR)
+    - Setsuka: you run Hit+Critical · meta Riposte+Immunity (50% WR)
+    - Boss Arunka: you run Health+Health+Health · meta Protection+Immunity (49% WR)
     - Dark Corvus: you run Health+Health · meta Warfare+Health (49% WR)
-    - Spirit Eye Celine: you run Destruction · meta Speed+Penetration (49% WR)
 - **Reforge-pending**: 438 lv85 pieces gain WSS from a free reforge (see gear_report.md) — cheapest upgrade across all modes.
 
 ## 3. Per-mode readiness
@@ -40,21 +40,23 @@ Built heroes present in the RTA meta, with your set alignment:
 
 | Hero | RTA WR | Games | Your sets | Meta build | Aligned |
 |---|--:|--:|---|---|:-:|
-| Boss Arunka | 57.2% | 1,290 | Health+Health+Health | Protection+Immunity | · |
-| Sage Baal & Sezan | 54.1% | 3,722 | no set | Speed+Hit | · |
-| Silvertide Christy | 53.1% | 20,279 | Immunity+Health+Health | Resist+Resist+Resist | · |
-| Genesis Ras | 52.6% | 20,145 | Destruction+Health | Destruction+Health | ✓ |
-| Ruele of Light | 52.3% | 17,685 | Health+Resist+Resist | Reversal+Immunity | · |
-| Politis | 51.1% | 4,612 | Critical+Defense | Weakening+Hit | · |
-| Setsuka | 50.8% | 21,788 | Hit+Critical | Riposte+Immunity | · |
-| Briar Witch Iseria | 49.7% | 13,980 | Speed | Speed | ✓ |
-| Dark Corvus | 48.8% | 5,840 | Health+Health | Warfare+Health | · |
-| Spirit Eye Celine | 48.8% | 13,857 | Destruction | Speed+Penetration | · |
-| Celine | 48.5% | 11,615 | Hit+Critical+Critical | Destruction+Penetration | · |
-| Elena | 48.3% | 3,056 | Critical+Defense | Speed+Resist | · |
-| Straze | 46.8% | 3,410 | Attack | Speed+Torrent | · |
+| Sage Baal & Sezan | 52.7% | 7,012 | no set | Speed+Hit | · |
+| Genesis Ras | 52.6% | 44,100 | Destruction+Health | Destruction+Fervor | · |
+| Ruele of Light | 51.9% | 30,002 | Health+Resist+Resist | Reversal+Immunity | · |
+| Silvertide Christy | 51.2% | 38,210 | Immunity+Health+Health | Resist+Resist+Resist | · |
+| Politis | 50.9% | 7,156 | Critical+Defense | Weakening+Hit | · |
+| Setsuka | 50.5% | 38,344 | Hit+Critical | Riposte+Immunity | · |
+| Briar Witch Iseria | 49.6% | 47,865 | Speed | Speed | ✓ |
+| Boss Arunka | 49.1% | 174,313 | Health+Health+Health | Protection+Immunity | · |
+| Dark Corvus | 48.9% | 18,446 | Health+Health | Warfare+Health | · |
+| Elena | 48.7% | 8,466 | Critical+Defense | Speed+Resist | · |
+| Celine | 48.5% | 14,688 | Hit+Critical+Critical | Destruction+Penetration | · |
+| Straze | 48.1% | 9,053 | Attack | Speed+Torrent | · |
+| Spirit Eye Celine | 47.9% | 31,715 | Destruction | Speed+Penetration | · |
+| Blood Blade Karin | 45.1% | 1,595 | Destruction | Torrent+Torrent+Torrent | · |
+| Lilias | 42.0% | 1,541 | Immunity+Health | Speed+Immunity | · |
 
-_Only 13 of your 56 built heroes are in the RTA meta; the rest are older/PvE-oriented and can't be ranked on PvP data._
+_Only 15 of your 56 built heroes are in the RTA meta; the rest are older/PvE-oriented and can't be ranked on PvP data._
 
 ### Arena / Guild War offense
 Overlaps RTA heavily; use the RTA table as the working proxy until a dedicated arena-defense / GW sample is added. **Not separately data-backed.**
