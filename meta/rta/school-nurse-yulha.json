@@ -7,229 +7,220 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 87818,
-      "total_wins": 39253,
-      "total_losses": 35370,
-      "total_bans": 13049,
-      "total_prebans": 13364
+      "total_games": 132185,
+      "total_wins": 60388,
+      "total_losses": 56932,
+      "total_bans": 20170,
+      "total_prebans": 15043
     }
   ],
-  "sample_size": 87818,
+  "sample_size": 132185,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 61159,
-      "total_wins": 32300,
-      "total_losses": 28859,
-      "derived_win_rate": 0.5281,
-      "derived_usage_share": 0.5284
-    },
-    {
-      "set_code": "set_immune",
-      "set_name": "Immunity",
-      "total_games": 22840,
-      "total_wins": 12468,
-      "total_losses": 10372,
-      "derived_win_rate": 0.5459,
-      "derived_usage_share": 0.1973
+      "total_games": 96503,
+      "total_wins": 49808,
+      "total_losses": 46695,
+      "derived_win_rate": 0.5161,
+      "derived_usage_share": 0.5339
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 22754,
-      "total_wins": 12014,
-      "total_losses": 10740,
-      "derived_win_rate": 0.528,
-      "derived_usage_share": 0.1966
+      "total_games": 36274,
+      "total_wins": 18731,
+      "total_losses": 17543,
+      "derived_win_rate": 0.5164,
+      "derived_usage_share": 0.2007
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 33383,
+      "total_wins": 17887,
+      "total_losses": 15496,
+      "derived_win_rate": 0.5358,
+      "derived_usage_share": 0.1847
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 5403,
-      "total_wins": 2830,
-      "total_losses": 2573,
-      "derived_win_rate": 0.5238,
-      "derived_usage_share": 0.0467
+      "total_games": 8349,
+      "total_wins": 4321,
+      "total_losses": 4028,
+      "derived_win_rate": 0.5175,
+      "derived_usage_share": 0.0462
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 2306,
-      "total_wins": 1122,
-      "total_losses": 1184,
-      "derived_win_rate": 0.4866,
-      "derived_usage_share": 0.0199
-    },
-    {
-      "set_code": "set_cri",
-      "set_name": "Critical",
-      "total_games": 592,
-      "total_wins": 294,
-      "total_losses": 298,
-      "derived_win_rate": 0.4966,
-      "derived_usage_share": 0.0051
+      "total_games": 4231,
+      "total_wins": 1991,
+      "total_losses": 2240,
+      "derived_win_rate": 0.4706,
+      "derived_usage_share": 0.0234
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 26880,
-      "total_wins": 14072,
-      "total_losses": 12808,
-      "derived_win_rate": 0.5235,
-      "derived_usage_share": 0.4365
+      "total_games": 44535,
+      "total_wins": 22689,
+      "total_losses": 21846,
+      "derived_win_rate": 0.5095,
+      "derived_usage_share": 0.4584
     },
     {
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 13160,
-      "total_wins": 6829,
-      "total_losses": 6331,
-      "derived_win_rate": 0.5189,
-      "derived_usage_share": 0.2137
+      "total_games": 21257,
+      "total_wins": 10864,
+      "total_losses": 10393,
+      "derived_win_rate": 0.5111,
+      "derived_usage_share": 0.2188
     },
     {
       "artifact_code": "efa31",
       "artifact_name": "Glorious Flag",
-      "total_games": 8887,
-      "total_wins": 4780,
-      "total_losses": 4107,
-      "derived_win_rate": 0.5379,
-      "derived_usage_share": 0.1443
+      "total_games": 12843,
+      "total_wins": 6822,
+      "total_losses": 6021,
+      "derived_win_rate": 0.5312,
+      "derived_usage_share": 0.1322
     },
     {
       "artifact_code": "ef507",
       "artifact_name": "Bastion of Hope",
-      "total_games": 7117,
-      "total_wins": 4009,
-      "total_losses": 3108,
-      "derived_win_rate": 0.5633,
-      "derived_usage_share": 0.1156
-    },
-    {
-      "artifact_code": "ef505",
-      "artifact_name": "War Horn",
-      "total_games": 1955,
-      "total_wins": 1104,
-      "total_losses": 851,
-      "derived_win_rate": 0.5647,
-      "derived_usage_share": 0.0318
+      "total_games": 9929,
+      "total_wins": 5477,
+      "total_losses": 4452,
+      "derived_win_rate": 0.5516,
+      "derived_usage_share": 0.1022
     },
     {
       "artifact_code": "efa30",
       "artifact_name": "Master of the Nightmare",
-      "total_games": 1947,
-      "total_wins": 924,
-      "total_losses": 1023,
-      "derived_win_rate": 0.4746,
-      "derived_usage_share": 0.0316
+      "total_games": 3441,
+      "total_wins": 1593,
+      "total_losses": 1848,
+      "derived_win_rate": 0.4629,
+      "derived_usage_share": 0.0354
+    },
+    {
+      "artifact_code": "ef505",
+      "artifact_name": "War Horn",
+      "total_games": 2427,
+      "total_wins": 1349,
+      "total_losses": 1078,
+      "derived_win_rate": 0.5558,
+      "derived_usage_share": 0.025
     },
     {
       "artifact_code": "efa32",
       "artifact_name": "Shadow Winds 7",
-      "total_games": 534,
-      "total_wins": 292,
-      "total_losses": 242,
-      "derived_win_rate": 0.5468,
-      "derived_usage_share": 0.0087
+      "total_games": 881,
+      "total_wins": 483,
+      "total_losses": 398,
+      "derived_win_rate": 0.5482,
+      "derived_usage_share": 0.0091
     }
   ],
   "top_builds": [
     {
-      "set_agg_code": "set_speed+set_immune",
-      "total_games": 22668,
-      "total_wins": 12381,
-      "total_losses": 10287,
-      "derived_win_rate": 0.5462
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 35502,
+      "total_wins": 18379,
+      "total_losses": 17123,
+      "derived_win_rate": 0.5177
     },
     {
-      "set_agg_code": "set_speed+set_max_hp",
-      "total_games": 22233,
-      "total_wins": 11769,
-      "total_losses": 10464,
-      "derived_win_rate": 0.5293
+      "set_agg_code": "set_speed+set_immune",
+      "total_games": 33142,
+      "total_wins": 17773,
+      "total_losses": 15369,
+      "derived_win_rate": 0.5363
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 9911,
-      "total_wins": 5278,
-      "total_losses": 4633,
-      "derived_win_rate": 0.5325
+      "total_games": 16356,
+      "total_wins": 8521,
+      "total_losses": 7835,
+      "derived_win_rate": 0.521
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 9908,
-      "total_wins": 5318,
-      "total_losses": 4590,
-      "derived_win_rate": 0.5367
+      "total_games": 15164,
+      "total_wins": 7935,
+      "total_losses": 7229,
+      "derived_win_rate": 0.5233
     },
     {
       "set_agg_code": "set_speed",
-      "total_games": 7556,
-      "total_wins": 3683,
-      "total_losses": 3873,
-      "derived_win_rate": 0.4874
+      "total_games": 13757,
+      "total_wins": 6563,
+      "total_losses": 7194,
+      "derived_win_rate": 0.4771
     },
     {
       "set_agg_code": "set_speed+set_max_hp",
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 5396,
-      "total_wins": 2811,
-      "total_losses": 2585,
-      "derived_win_rate": 0.5209
+      "total_games": 9010,
+      "total_wins": 4603,
+      "total_losses": 4407,
+      "derived_win_rate": 0.5109
     },
     {
       "set_agg_code": "set_speed+set_res",
-      "total_games": 5266,
-      "total_wins": 2765,
-      "total_losses": 2501,
-      "derived_win_rate": 0.5251
-    },
-    {
-      "set_agg_code": "set_speed+set_immune",
-      "artifact_code": "ef501",
-      "artifact_name": "Proof of Valor",
-      "total_games": 5140,
-      "total_wins": 2774,
-      "total_losses": 2366,
-      "derived_win_rate": 0.5397
+      "total_games": 8181,
+      "total_wins": 4241,
+      "total_losses": 3940,
+      "derived_win_rate": 0.5184
     },
     {
       "set_agg_code": "set_speed",
       "artifact_code": "efa14",
       "artifact_name": "Secret Art - Storm Sword",
-      "total_games": 4285,
-      "total_wins": 2103,
-      "total_losses": 2182,
-      "derived_win_rate": 0.4908
+      "total_games": 8167,
+      "total_wins": 3907,
+      "total_losses": 4260,
+      "derived_win_rate": 0.4784
+    },
+    {
+      "set_agg_code": "set_speed+set_immune",
+      "artifact_code": "ef501",
+      "artifact_name": "Proof of Valor",
+      "total_games": 7585,
+      "total_wins": 4048,
+      "total_losses": 3537,
+      "derived_win_rate": 0.5337
     },
     {
       "set_agg_code": "set_speed+set_immune",
       "artifact_code": "efa31",
       "artifact_name": "Glorious Flag",
-      "total_games": 3390,
-      "total_wins": 1865,
-      "total_losses": 1525,
-      "derived_win_rate": 0.5501
+      "total_games": 4661,
+      "total_wins": 2567,
+      "total_losses": 2094,
+      "derived_win_rate": 0.5507
     }
   ],
-  "total_set_stats_games": 115746,
-  "total_artifact_stats_games": 61574,
+  "total_set_stats_games": 180755,
+  "total_artifact_stats_games": 97150,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-14T04:37:27.655Z"
+    "last_updated": "2026-09-21T04:46:39.194Z"
   },
   "derived": {
-    "win_rate": 0.526,
+    "win_rate": 0.5147,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -237,5 +228,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2131?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-14T15:55:34Z"
+  "scraped_at": "2026-09-21T15:55:46Z"
 }

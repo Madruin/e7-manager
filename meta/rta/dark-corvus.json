@@ -7,49 +7,49 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 18446,
-      "total_wins": 8994,
-      "total_losses": 9409,
-      "total_bans": 6072,
-      "total_prebans": 43
+      "total_games": 24861,
+      "total_wins": 12048,
+      "total_losses": 12717,
+      "total_bans": 8035,
+      "total_prebans": 96
     }
   ],
-  "sample_size": 18446,
+  "sample_size": 24861,
   "top_sets": [
     {
       "set_code": "set_opener",
       "set_name": "Warfare",
-      "total_games": 12281,
-      "total_wins": 5882,
-      "total_losses": 6399,
-      "derived_win_rate": 0.479,
-      "derived_usage_share": 0.5024
+      "total_games": 16666,
+      "total_wins": 7968,
+      "total_losses": 8698,
+      "derived_win_rate": 0.4781,
+      "derived_usage_share": 0.5019
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 8493,
-      "total_wins": 4021,
-      "total_losses": 4472,
-      "derived_win_rate": 0.4734,
-      "derived_usage_share": 0.3474
+      "total_games": 11641,
+      "total_wins": 5509,
+      "total_losses": 6132,
+      "derived_win_rate": 0.4732,
+      "derived_usage_share": 0.3506
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 3250,
-      "total_wins": 1577,
-      "total_losses": 1673,
-      "derived_win_rate": 0.4852,
-      "derived_usage_share": 0.133
+      "total_games": 4337,
+      "total_wins": 2109,
+      "total_losses": 2228,
+      "derived_win_rate": 0.4863,
+      "derived_usage_share": 0.1306
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 275,
-      "total_wins": 145,
-      "total_losses": 130,
-      "derived_win_rate": 0.5273,
+      "total_games": 372,
+      "total_wins": 187,
+      "total_losses": 185,
+      "derived_win_rate": 0.5027,
       "derived_usage_share": 0.0112
     }
   ],
@@ -57,161 +57,170 @@
     {
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 5464,
-      "total_wins": 2615,
-      "total_losses": 2849,
-      "derived_win_rate": 0.4786,
-      "derived_usage_share": 0.4431
+      "total_games": 7564,
+      "total_wins": 3621,
+      "total_losses": 3943,
+      "derived_win_rate": 0.4787,
+      "derived_usage_share": 0.4521
     },
     {
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 4106,
-      "total_wins": 2076,
-      "total_losses": 2030,
-      "derived_win_rate": 0.5056,
-      "derived_usage_share": 0.333
+      "total_games": 5253,
+      "total_wins": 2647,
+      "total_losses": 2606,
+      "derived_win_rate": 0.5039,
+      "derived_usage_share": 0.314
     },
     {
       "artifact_code": "efw02",
       "artifact_name": "Durandal",
-      "total_games": 1878,
-      "total_wins": 811,
-      "total_losses": 1067,
-      "derived_win_rate": 0.4318,
-      "derived_usage_share": 0.1523
+      "total_games": 2504,
+      "total_wins": 1093,
+      "total_losses": 1411,
+      "derived_win_rate": 0.4365,
+      "derived_usage_share": 0.1497
     },
     {
       "artifact_code": "efw39",
       "artifact_name": "Jumbo Berry Special",
-      "total_games": 277,
-      "total_wins": 128,
-      "total_losses": 149,
-      "derived_win_rate": 0.4621,
-      "derived_usage_share": 0.0225
+      "total_games": 338,
+      "total_wins": 154,
+      "total_losses": 184,
+      "derived_win_rate": 0.4556,
+      "derived_usage_share": 0.0202
     },
     {
       "artifact_code": "efw32",
       "artifact_name": "Prayer of Solitude",
-      "total_games": 195,
-      "total_wins": 94,
-      "total_losses": 101,
-      "derived_win_rate": 0.4821,
-      "derived_usage_share": 0.0158
+      "total_games": 254,
+      "total_wins": 121,
+      "total_losses": 133,
+      "derived_win_rate": 0.4764,
+      "derived_usage_share": 0.0152
     },
     {
       "artifact_code": "efw05",
       "artifact_name": "Strak Gauntlet",
-      "total_games": 115,
-      "total_wins": 54,
-      "total_losses": 61,
-      "derived_win_rate": 0.4696,
-      "derived_usage_share": 0.0093
+      "total_games": 170,
+      "total_wins": 75,
+      "total_losses": 95,
+      "derived_win_rate": 0.4412,
+      "derived_usage_share": 0.0102
+    },
+    {
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 160,
+      "total_wins": 81,
+      "total_losses": 79,
+      "derived_win_rate": 0.5062,
+      "derived_usage_share": 0.0096
     },
     {
       "artifact_code": "ef501",
       "artifact_name": "Proof of Valor",
-      "total_games": 99,
-      "total_wins": 46,
-      "total_losses": 53,
-      "derived_win_rate": 0.4646,
-      "derived_usage_share": 0.008
+      "total_games": 153,
+      "total_wins": 64,
+      "total_losses": 89,
+      "derived_win_rate": 0.4183,
+      "derived_usage_share": 0.0091
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_opener+set_max_hp",
-      "total_games": 8423,
-      "total_wins": 4007,
-      "total_losses": 4416,
-      "derived_win_rate": 0.4757
+      "total_games": 11554,
+      "total_wins": 5491,
+      "total_losses": 6063,
+      "derived_win_rate": 0.4752
     },
     {
       "set_agg_code": "set_opener+set_max_hp",
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 3559,
-      "total_wins": 1692,
-      "total_losses": 1867,
-      "derived_win_rate": 0.4754
+      "total_games": 5045,
+      "total_wins": 2386,
+      "total_losses": 2659,
+      "derived_win_rate": 0.4729
     },
     {
       "set_agg_code": "set_opener+set_immune",
-      "total_games": 3239,
-      "total_wins": 1571,
-      "total_losses": 1668,
-      "derived_win_rate": 0.485
+      "total_games": 4323,
+      "total_wins": 2102,
+      "total_losses": 2221,
+      "derived_win_rate": 0.4862
     },
     {
       "set_agg_code": "set_opener+set_max_hp",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 2877,
-      "total_wins": 1452,
-      "total_losses": 1425,
-      "derived_win_rate": 0.5047
+      "total_games": 3617,
+      "total_wins": 1826,
+      "total_losses": 1791,
+      "derived_win_rate": 0.5048
     },
     {
       "set_agg_code": "set_opener+set_immune",
       "artifact_code": "efw37",
       "artifact_name": "Thorn of the Blue Rose",
-      "total_games": 1589,
-      "total_wins": 774,
-      "total_losses": 815,
-      "derived_win_rate": 0.4871
+      "total_games": 2131,
+      "total_wins": 1052,
+      "total_losses": 1079,
+      "derived_win_rate": 0.4937
     },
     {
       "set_agg_code": "set_opener+set_max_hp",
       "artifact_code": "efw02",
       "artifact_name": "Durandal",
-      "total_games": 1381,
-      "total_wins": 596,
-      "total_losses": 785,
-      "derived_win_rate": 0.4316
+      "total_games": 1898,
+      "total_wins": 835,
+      "total_losses": 1063,
+      "derived_win_rate": 0.4399
     },
     {
       "set_agg_code": "set_opener+set_immune",
       "artifact_code": "efw35",
       "artifact_name": "Sweet Miracle",
-      "total_games": 1081,
-      "total_wins": 551,
-      "total_losses": 530,
-      "derived_win_rate": 0.5097
+      "total_games": 1448,
+      "total_wins": 732,
+      "total_losses": 716,
+      "derived_win_rate": 0.5055
     },
     {
       "set_agg_code": "set_opener+set_immune",
       "artifact_code": "efw02",
       "artifact_name": "Durandal",
-      "total_games": 331,
-      "total_wins": 138,
-      "total_losses": 193,
-      "derived_win_rate": 0.4169
+      "total_games": 402,
+      "total_wins": 168,
+      "total_losses": 234,
+      "derived_win_rate": 0.4179
     },
     {
       "set_agg_code": "set_opener+set_res",
-      "total_games": 273,
-      "total_wins": 144,
-      "total_losses": 129,
-      "derived_win_rate": 0.5275
+      "total_games": 370,
+      "total_wins": 186,
+      "total_losses": 184,
+      "derived_win_rate": 0.5027
     },
     {
       "set_agg_code": "set_opener",
-      "total_games": 212,
-      "total_wins": 96,
-      "total_losses": 116,
-      "derived_win_rate": 0.4528
+      "total_games": 244,
+      "total_wins": 106,
+      "total_losses": 138,
+      "derived_win_rate": 0.4344
     }
   ],
-  "total_set_stats_games": 24445,
-  "total_artifact_stats_games": 12331,
+  "total_set_stats_games": 33204,
+  "total_artifact_stats_games": 16730,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-14T04:37:27.655Z"
+    "last_updated": "2026-09-21T04:46:39.194Z"
   },
   "derived": {
-    "win_rate": 0.4887,
+    "win_rate": 0.4865,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -219,5 +228,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2012?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-14T15:56:14Z"
+  "scraped_at": "2026-09-21T15:56:26Z"
 }

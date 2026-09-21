@@ -7,202 +7,202 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 93224,
-      "total_wins": 37247,
-      "total_losses": 39328,
-      "total_bans": 20825,
-      "total_prebans": 16930
+      "total_games": 116497,
+      "total_wins": 46890,
+      "total_losses": 49742,
+      "total_bans": 27219,
+      "total_prebans": 20192
     }
   ],
-  "sample_size": 93224,
+  "sample_size": 116497,
   "top_sets": [
     {
       "set_code": "set_chase",
       "set_name": "Pursuit",
-      "total_games": 46686,
-      "total_wins": 22941,
-      "total_losses": 23745,
-      "derived_win_rate": 0.4914,
-      "derived_usage_share": 0.4198
+      "total_games": 58224,
+      "total_wins": 28602,
+      "total_losses": 29622,
+      "derived_win_rate": 0.4912,
+      "derived_usage_share": 0.4208
     },
     {
       "set_code": "set_weak",
       "set_name": "Weakening",
-      "total_games": 42532,
-      "total_wins": 21056,
-      "total_losses": 21476,
-      "derived_win_rate": 0.4951,
-      "derived_usage_share": 0.3825
+      "total_games": 52851,
+      "total_wins": 26097,
+      "total_losses": 26754,
+      "derived_win_rate": 0.4938,
+      "derived_usage_share": 0.3819
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 12684,
-      "total_wins": 5942,
-      "total_losses": 6742,
-      "derived_win_rate": 0.4685,
-      "derived_usage_share": 0.1141
+      "total_games": 15878,
+      "total_wins": 7454,
+      "total_losses": 8424,
+      "derived_win_rate": 0.4695,
+      "derived_usage_share": 0.1147
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 6342,
-      "total_wins": 2979,
-      "total_losses": 3363,
-      "derived_win_rate": 0.4697,
-      "derived_usage_share": 0.057
+      "total_games": 7801,
+      "total_wins": 3629,
+      "total_losses": 4172,
+      "derived_win_rate": 0.4652,
+      "derived_usage_share": 0.0564
     },
     {
       "set_code": "set_immune",
       "set_name": "Immunity",
-      "total_games": 1372,
-      "total_wins": 640,
-      "total_losses": 732,
-      "derived_win_rate": 0.4665,
-      "derived_usage_share": 0.0123
+      "total_games": 1686,
+      "total_wins": 793,
+      "total_losses": 893,
+      "derived_win_rate": 0.4703,
+      "derived_usage_share": 0.0122
     },
     {
       "set_code": "set_res",
       "set_name": "Resist",
-      "total_games": 715,
-      "total_wins": 338,
-      "total_losses": 377,
-      "derived_win_rate": 0.4727,
-      "derived_usage_share": 0.0064
+      "total_games": 871,
+      "total_wins": 407,
+      "total_losses": 464,
+      "derived_win_rate": 0.4673,
+      "derived_usage_share": 0.0063
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efr32",
       "artifact_name": "Aubade Orb",
-      "total_games": 41594,
-      "total_wins": 20610,
-      "total_losses": 20984,
-      "derived_win_rate": 0.4955,
-      "derived_usage_share": 0.7461
+      "total_games": 52085,
+      "total_wins": 25713,
+      "total_losses": 26372,
+      "derived_win_rate": 0.4937,
+      "derived_usage_share": 0.7504
     },
     {
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 10774,
-      "total_wins": 5065,
-      "total_losses": 5709,
-      "derived_win_rate": 0.4701,
-      "derived_usage_share": 0.1933
+      "total_games": 13153,
+      "total_wins": 6213,
+      "total_losses": 6940,
+      "derived_win_rate": 0.4724,
+      "derived_usage_share": 0.1895
     },
     {
       "artifact_code": "efr16",
       "artifact_name": "Unseen Observer",
-      "total_games": 1906,
-      "total_wins": 886,
-      "total_losses": 1020,
-      "derived_win_rate": 0.4648,
-      "derived_usage_share": 0.0342
+      "total_games": 2355,
+      "total_wins": 1121,
+      "total_losses": 1234,
+      "derived_win_rate": 0.476,
+      "derived_usage_share": 0.0339
     },
     {
       "artifact_code": "efr15",
       "artifact_name": "Wall of Order",
-      "total_games": 641,
-      "total_wins": 302,
-      "total_losses": 339,
-      "derived_win_rate": 0.4711,
-      "derived_usage_share": 0.0115
+      "total_games": 759,
+      "total_wins": 354,
+      "total_losses": 405,
+      "derived_win_rate": 0.4664,
+      "derived_usage_share": 0.0109
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_weak+set_chase",
-      "total_games": 37317,
-      "total_wins": 18510,
-      "total_losses": 18807,
-      "derived_win_rate": 0.496
+      "total_games": 46460,
+      "total_wins": 23019,
+      "total_losses": 23441,
+      "derived_win_rate": 0.4955
     },
     {
       "set_agg_code": "set_weak+set_chase",
       "artifact_code": "efr32",
       "artifact_name": "Aubade Orb",
-      "total_games": 28585,
-      "total_wins": 14410,
-      "total_losses": 14175,
-      "derived_win_rate": 0.5041
+      "total_games": 35801,
+      "total_wins": 17971,
+      "total_losses": 17830,
+      "derived_win_rate": 0.502
     },
     {
       "set_agg_code": "set_speed+set_chase",
-      "total_games": 8971,
-      "total_wins": 4266,
-      "total_losses": 4705,
+      "total_games": 11292,
+      "total_wins": 5382,
+      "total_losses": 5910,
+      "derived_win_rate": 0.4766
+    },
+    {
+      "set_agg_code": "set_speed+set_chase",
+      "artifact_code": "efr32",
+      "artifact_name": "Aubade Orb",
+      "total_games": 8267,
+      "total_wins": 3931,
+      "total_losses": 4336,
       "derived_win_rate": 0.4755
     },
     {
-      "set_agg_code": "set_speed+set_chase",
-      "artifact_code": "efr32",
-      "artifact_name": "Aubade Orb",
-      "total_games": 6556,
-      "total_wins": 3107,
-      "total_losses": 3449,
-      "derived_win_rate": 0.4739
-    },
-    {
       "set_agg_code": "set_weak+set_chase",
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 6499,
-      "total_wins": 3053,
-      "total_losses": 3446,
-      "derived_win_rate": 0.4698
+      "total_games": 8000,
+      "total_wins": 3791,
+      "total_losses": 4209,
+      "derived_win_rate": 0.4739
     },
     {
       "set_agg_code": "set_weak+set_acc",
-      "total_games": 3674,
-      "total_wins": 1796,
-      "total_losses": 1878,
-      "derived_win_rate": 0.4888
+      "total_games": 4542,
+      "total_wins": 2179,
+      "total_losses": 2363,
+      "derived_win_rate": 0.4797
     },
     {
       "set_agg_code": "set_weak+set_acc",
       "artifact_code": "efr32",
       "artifact_name": "Aubade Orb",
-      "total_games": 3018,
-      "total_wins": 1485,
-      "total_losses": 1533,
-      "derived_win_rate": 0.492
+      "total_games": 3723,
+      "total_wins": 1801,
+      "total_losses": 1922,
+      "derived_win_rate": 0.4837
     },
     {
       "set_agg_code": "set_speed+set_acc",
-      "total_games": 2632,
-      "total_wins": 1169,
-      "total_losses": 1463,
-      "derived_win_rate": 0.4441
+      "total_games": 3210,
+      "total_wins": 1428,
+      "total_losses": 1782,
+      "derived_win_rate": 0.4449
     },
     {
       "set_agg_code": "set_speed+set_chase",
       "artifact_code": "efr13",
       "artifact_name": "Guiding Light",
-      "total_games": 1970,
-      "total_wins": 958,
-      "total_losses": 1012,
-      "derived_win_rate": 0.4863
+      "total_games": 2427,
+      "total_wins": 1182,
+      "total_losses": 1245,
+      "derived_win_rate": 0.487
     },
     {
       "set_agg_code": "set_speed+set_acc",
       "artifact_code": "efr32",
       "artifact_name": "Aubade Orb",
-      "total_games": 1675,
-      "total_wins": 756,
-      "total_losses": 919,
-      "derived_win_rate": 0.4513
+      "total_games": 2071,
+      "total_wins": 939,
+      "total_losses": 1132,
+      "derived_win_rate": 0.4534
     }
   ],
-  "total_set_stats_games": 111198,
-  "total_artifact_stats_games": 55750,
+  "total_set_stats_games": 138380,
+  "total_artifact_stats_games": 69413,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-14T04:37:27.655Z"
+    "last_updated": "2026-09-21T04:46:39.194Z"
   },
   "derived": {
-    "win_rate": 0.4864,
+    "win_rate": 0.4852,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -210,5 +210,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c5069?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-14T15:55:32Z"
+  "scraped_at": "2026-09-21T15:55:49Z"
 }

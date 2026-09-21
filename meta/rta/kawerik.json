@@ -1,0 +1,252 @@
+{
+  "hero": "Kawerik",
+  "hero_slug": "kawerik",
+  "hero_code": "c1073",
+  "element": "fire",
+  "class": "mage",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 8756,
+      "total_wins": 4353,
+      "total_losses": 4305,
+      "total_bans": 1181,
+      "total_prebans": 98
+    }
+  ],
+  "sample_size": 8756,
+  "top_sets": [
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 6790,
+      "total_wins": 3423,
+      "total_losses": 3367,
+      "derived_win_rate": 0.5041,
+      "derived_usage_share": 0.4479
+    },
+    {
+      "set_code": "set_torrent",
+      "set_name": "Torrent",
+      "total_games": 3389,
+      "total_wins": 1744,
+      "total_losses": 1645,
+      "derived_win_rate": 0.5146,
+      "derived_usage_share": 0.2235
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 2460,
+      "total_wins": 1292,
+      "total_losses": 1168,
+      "derived_win_rate": 0.5252,
+      "derived_usage_share": 0.1623
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 1407,
+      "total_wins": 659,
+      "total_losses": 748,
+      "derived_win_rate": 0.4684,
+      "derived_usage_share": 0.0928
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 615,
+      "total_wins": 337,
+      "total_losses": 278,
+      "derived_win_rate": 0.548,
+      "derived_usage_share": 0.0406
+    },
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 247,
+      "total_wins": 133,
+      "total_losses": 114,
+      "derived_win_rate": 0.5385,
+      "derived_usage_share": 0.0163
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 144,
+      "total_wins": 81,
+      "total_losses": 63,
+      "derived_win_rate": 0.5625,
+      "derived_usage_share": 0.0095
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 4043,
+      "total_wins": 2043,
+      "total_losses": 2000,
+      "derived_win_rate": 0.5053,
+      "derived_usage_share": 0.5407
+    },
+    {
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 1572,
+      "total_wins": 866,
+      "total_losses": 706,
+      "derived_win_rate": 0.5509,
+      "derived_usage_share": 0.2102
+    },
+    {
+      "artifact_code": "efm16",
+      "artifact_name": "Black Hand of the Goddess",
+      "total_games": 985,
+      "total_wins": 470,
+      "total_losses": 515,
+      "derived_win_rate": 0.4772,
+      "derived_usage_share": 0.1317
+    },
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 307,
+      "total_wins": 141,
+      "total_losses": 166,
+      "derived_win_rate": 0.4593,
+      "derived_usage_share": 0.0411
+    },
+    {
+      "artifact_code": "ef504",
+      "artifact_name": "A Symbol of Unity",
+      "total_games": 293,
+      "total_wins": 156,
+      "total_losses": 137,
+      "derived_win_rate": 0.5324,
+      "derived_usage_share": 0.0392
+    },
+    {
+      "artifact_code": "efm06",
+      "artifact_name": "Time Matter",
+      "total_games": 82,
+      "total_wins": 40,
+      "total_losses": 42,
+      "derived_win_rate": 0.4878,
+      "derived_usage_share": 0.011
+    },
+    {
+      "artifact_code": "ef403",
+      "artifact_name": "Portrait of the Saviors",
+      "total_games": 55,
+      "total_wins": 30,
+      "total_losses": 25,
+      "derived_win_rate": 0.5455,
+      "derived_usage_share": 0.0074
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "total_games": 2816,
+      "total_wins": 1434,
+      "total_losses": 1382,
+      "derived_win_rate": 0.5092
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "total_games": 2123,
+      "total_wins": 1094,
+      "total_losses": 1029,
+      "derived_win_rate": 0.5153
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 1595,
+      "total_wins": 807,
+      "total_losses": 788,
+      "derived_win_rate": 0.506
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 1395,
+      "total_wins": 657,
+      "total_losses": 738,
+      "derived_win_rate": 0.471
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 1058,
+      "total_wins": 547,
+      "total_losses": 511,
+      "derived_win_rate": 0.517
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "artifact_code": "efm03",
+      "artifact_name": "Tagehel's Ancient Book",
+      "total_games": 833,
+      "total_wins": 389,
+      "total_losses": 444,
+      "derived_win_rate": 0.467
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 604,
+      "total_wins": 327,
+      "total_losses": 277,
+      "derived_win_rate": 0.5414
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm32",
+      "artifact_name": "Mirrored Lotus Ring",
+      "total_games": 461,
+      "total_wins": 252,
+      "total_losses": 209,
+      "derived_win_rate": 0.5466
+    },
+    {
+      "set_agg_code": "set_speed+set_torrent",
+      "artifact_code": "efm16",
+      "artifact_name": "Black Hand of the Goddess",
+      "total_games": 344,
+      "total_wins": 169,
+      "total_losses": 175,
+      "derived_win_rate": 0.4913
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm16",
+      "artifact_name": "Black Hand of the Goddess",
+      "total_games": 334,
+      "total_wins": 158,
+      "total_losses": 176,
+      "derived_win_rate": 0.4731
+    }
+  ],
+  "total_set_stats_games": 15161,
+  "total_artifact_stats_games": 7477,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-09-21T04:46:39.194Z"
+  },
+  "derived": {
+    "win_rate": 0.5028,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1073?season=pvp_rta_ss21",
+  "scraped_at": "2026-09-21T15:57:09Z"
+}

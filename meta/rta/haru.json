@@ -1,0 +1,221 @@
+{
+  "hero": "Haru",
+  "hero_slug": "haru",
+  "hero_code": "c1192",
+  "element": "ice",
+  "class": "warrior",
+  "season_stats": [
+    {
+      "season_code": "pvp_rta_ss21",
+      "total_games": 17744,
+      "total_wins": 8597,
+      "total_losses": 8531,
+      "total_bans": 1332,
+      "total_prebans": 616
+    }
+  ],
+  "sample_size": 17744,
+  "top_sets": [
+    {
+      "set_code": "set_cri_dmg",
+      "set_name": "Destruction",
+      "total_games": 12268,
+      "total_wins": 6259,
+      "total_losses": 6009,
+      "derived_win_rate": 0.5102,
+      "derived_usage_share": 0.3887
+    },
+    {
+      "set_code": "set_max_hp",
+      "set_name": "Health",
+      "total_games": 9062,
+      "total_wins": 4620,
+      "total_losses": 4442,
+      "derived_win_rate": 0.5098,
+      "derived_usage_share": 0.2871
+    },
+    {
+      "set_code": "set_penetrate",
+      "set_name": "Penetration",
+      "total_games": 3174,
+      "total_wins": 1594,
+      "total_losses": 1580,
+      "derived_win_rate": 0.5022,
+      "derived_usage_share": 0.1006
+    },
+    {
+      "set_code": "set_speed",
+      "set_name": "Speed",
+      "total_games": 1983,
+      "total_wins": 943,
+      "total_losses": 1040,
+      "derived_win_rate": 0.4755,
+      "derived_usage_share": 0.0628
+    },
+    {
+      "set_code": "set_cri",
+      "set_name": "Critical",
+      "total_games": 1509,
+      "total_wins": 741,
+      "total_losses": 768,
+      "derived_win_rate": 0.4911,
+      "derived_usage_share": 0.0478
+    },
+    {
+      "set_code": "set_immune",
+      "set_name": "Immunity",
+      "total_games": 1455,
+      "total_wins": 722,
+      "total_losses": 733,
+      "derived_win_rate": 0.4962,
+      "derived_usage_share": 0.0461
+    },
+    {
+      "set_code": "set_counter",
+      "set_name": "Counter",
+      "total_games": 1235,
+      "total_wins": 600,
+      "total_losses": 635,
+      "derived_win_rate": 0.4858,
+      "derived_usage_share": 0.0391
+    },
+    {
+      "set_code": "set_might",
+      "set_name": "Fervor",
+      "total_games": 526,
+      "total_wins": 265,
+      "total_losses": 261,
+      "derived_win_rate": 0.5038,
+      "derived_usage_share": 0.0167
+    },
+    {
+      "set_code": "set_res",
+      "set_name": "Resist",
+      "total_games": 191,
+      "total_wins": 75,
+      "total_losses": 116,
+      "derived_win_rate": 0.3927,
+      "derived_usage_share": 0.0061
+    }
+  ],
+  "top_artifacts": [
+    {
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 15074,
+      "total_wins": 7627,
+      "total_losses": 7447,
+      "derived_win_rate": 0.506,
+      "derived_usage_share": 0.9543
+    },
+    {
+      "artifact_code": "efw37",
+      "artifact_name": "Thorn of the Blue Rose",
+      "total_games": 315,
+      "total_wins": 135,
+      "total_losses": 180,
+      "derived_win_rate": 0.4286,
+      "derived_usage_share": 0.0199
+    }
+  ],
+  "top_builds": [
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "total_games": 7718,
+      "total_wins": 3971,
+      "total_losses": 3747,
+      "derived_win_rate": 0.5145
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_max_hp",
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 7525,
+      "total_wins": 3875,
+      "total_losses": 3650,
+      "derived_win_rate": 0.515
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "total_games": 2258,
+      "total_wins": 1136,
+      "total_losses": 1122,
+      "derived_win_rate": 0.5031
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_penetrate",
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 2079,
+      "total_wins": 1054,
+      "total_losses": 1025,
+      "derived_win_rate": 0.507
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "total_games": 852,
+      "total_wins": 437,
+      "total_losses": 415,
+      "derived_win_rate": 0.5129
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_cri",
+      "total_games": 832,
+      "total_wins": 421,
+      "total_losses": 411,
+      "derived_win_rate": 0.506
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_immune",
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 821,
+      "total_wins": 424,
+      "total_losses": 397,
+      "derived_win_rate": 0.5164
+    },
+    {
+      "set_agg_code": "set_cri_dmg+set_cri",
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 789,
+      "total_wins": 401,
+      "total_losses": 388,
+      "derived_win_rate": 0.5082
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "total_games": 705,
+      "total_wins": 328,
+      "total_losses": 377,
+      "derived_win_rate": 0.4652
+    },
+    {
+      "set_agg_code": "set_speed+set_max_hp",
+      "artifact_code": "efw42",
+      "artifact_name": "Custom-Made Power Anchor",
+      "total_games": 672,
+      "total_wins": 316,
+      "total_losses": 356,
+      "derived_win_rate": 0.4702
+    }
+  ],
+  "total_set_stats_games": 31563,
+  "total_artifact_stats_games": 15796,
+  "season": {
+    "code": "pvp_rta_ss21",
+    "name": "Fall 2026 Season",
+    "start_date": "2026-08-10T00:00:00.000Z",
+    "last_updated": "2026-09-21T04:46:39.194Z"
+  },
+  "derived": {
+    "win_rate": 0.5019,
+    "formulas": {
+      "win_rate": "total_wins / (total_wins + total_losses)",
+      "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
+      "derived_usage_share": "row total_games / totalSetStatsGames (sets) or totalArtifactStatsGames (artifacts)"
+    }
+  },
+  "source_url": "https://www.epic7rtastats.com/heroes/c1192?season=pvp_rta_ss21",
+  "scraped_at": "2026-09-21T15:56:41Z"
+}

@@ -7,243 +7,243 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 44100,
-      "total_wins": 23114,
-      "total_losses": 20834,
-      "total_bans": 8793,
-      "total_prebans": 152
+      "total_games": 59064,
+      "total_wins": 30915,
+      "total_losses": 27899,
+      "total_bans": 11487,
+      "total_prebans": 250
     }
   ],
-  "sample_size": 44100,
+  "sample_size": 59064,
   "top_sets": [
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 29561,
-      "total_wins": 15829,
-      "total_losses": 13732,
+      "total_games": 40164,
+      "total_wins": 21507,
+      "total_losses": 18657,
       "derived_win_rate": 0.5355,
-      "derived_usage_share": 0.4227
+      "derived_usage_share": 0.4265
     },
     {
       "set_code": "set_might",
       "set_name": "Fervor",
-      "total_games": 14937,
-      "total_wins": 8396,
-      "total_losses": 6541,
-      "derived_win_rate": 0.5621,
-      "derived_usage_share": 0.2136
+      "total_games": 20067,
+      "total_wins": 11267,
+      "total_losses": 8800,
+      "derived_win_rate": 0.5615,
+      "derived_usage_share": 0.2131
     },
     {
       "set_code": "set_max_hp",
       "set_name": "Health",
-      "total_games": 13181,
-      "total_wins": 6676,
-      "total_losses": 6505,
-      "derived_win_rate": 0.5065,
-      "derived_usage_share": 0.1885
+      "total_games": 18071,
+      "total_wins": 9180,
+      "total_losses": 8891,
+      "derived_win_rate": 0.508,
+      "derived_usage_share": 0.1919
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 5825,
-      "total_wins": 2824,
-      "total_losses": 3001,
-      "derived_win_rate": 0.4848,
-      "derived_usage_share": 0.0833
+      "total_games": 7632,
+      "total_wins": 3722,
+      "total_losses": 3910,
+      "derived_win_rate": 0.4877,
+      "derived_usage_share": 0.081
     },
     {
       "set_code": "set_revenant",
       "set_name": "Reversal",
-      "total_games": 2310,
-      "total_wins": 1108,
-      "total_losses": 1202,
-      "derived_win_rate": 0.4797,
-      "derived_usage_share": 0.033
+      "total_games": 2961,
+      "total_wins": 1432,
+      "total_losses": 1529,
+      "derived_win_rate": 0.4836,
+      "derived_usage_share": 0.0314
     },
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 2217,
-      "total_wins": 1090,
-      "total_losses": 1127,
-      "derived_win_rate": 0.4917,
-      "derived_usage_share": 0.0317
+      "total_games": 2799,
+      "total_wins": 1362,
+      "total_losses": 1437,
+      "derived_win_rate": 0.4866,
+      "derived_usage_share": 0.0297
     },
     {
       "set_code": "set_counter",
       "set_name": "Counter",
-      "total_games": 796,
-      "total_wins": 374,
-      "total_losses": 422,
-      "derived_win_rate": 0.4698,
-      "derived_usage_share": 0.0114
+      "total_games": 1020,
+      "total_wins": 481,
+      "total_losses": 539,
+      "derived_win_rate": 0.4716,
+      "derived_usage_share": 0.0108
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 743,
-      "total_wins": 428,
-      "total_losses": 315,
-      "derived_win_rate": 0.576,
-      "derived_usage_share": 0.0106
+      "total_games": 908,
+      "total_wins": 526,
+      "total_losses": 382,
+      "derived_win_rate": 0.5793,
+      "derived_usage_share": 0.0096
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efk23",
       "artifact_name": "A Precious Connection",
-      "total_games": 32438,
-      "total_wins": 17154,
-      "total_losses": 15284,
-      "derived_win_rate": 0.5288,
-      "derived_usage_share": 0.9227
+      "total_games": 43678,
+      "total_wins": 23119,
+      "total_losses": 20559,
+      "derived_win_rate": 0.5293,
+      "derived_usage_share": 0.9229
     },
     {
       "artifact_code": "efk21",
       "artifact_name": "3F",
-      "total_games": 773,
-      "total_wins": 461,
-      "total_losses": 312,
-      "derived_win_rate": 0.5964,
-      "derived_usage_share": 0.022
-    },
-    {
-      "artifact_code": "efk01",
-      "artifact_name": "Holy Sacrifice",
-      "total_games": 371,
-      "total_wins": 174,
-      "total_losses": 197,
-      "derived_win_rate": 0.469,
-      "derived_usage_share": 0.0106
-    },
-    {
-      "artifact_code": "ef317",
-      "artifact_name": "Daydream Joker",
-      "total_games": 325,
-      "total_wins": 156,
-      "total_losses": 169,
-      "derived_win_rate": 0.48,
-      "derived_usage_share": 0.0092
+      "total_games": 1099,
+      "total_wins": 641,
+      "total_losses": 458,
+      "derived_win_rate": 0.5833,
+      "derived_usage_share": 0.0232
     },
     {
       "artifact_code": "efk24",
       "artifact_name": "Glorious Throne",
-      "total_games": 316,
-      "total_wins": 169,
-      "total_losses": 147,
-      "derived_win_rate": 0.5348,
-      "derived_usage_share": 0.009
+      "total_games": 480,
+      "total_wins": 248,
+      "total_losses": 232,
+      "derived_win_rate": 0.5167,
+      "derived_usage_share": 0.0101
+    },
+    {
+      "artifact_code": "efk01",
+      "artifact_name": "Holy Sacrifice",
+      "total_games": 462,
+      "total_wins": 213,
+      "total_losses": 249,
+      "derived_win_rate": 0.461,
+      "derived_usage_share": 0.0098
+    },
+    {
+      "artifact_code": "ef317",
+      "artifact_name": "Daydream Joker",
+      "total_games": 412,
+      "total_wins": 200,
+      "total_losses": 212,
+      "derived_win_rate": 0.4854,
+      "derived_usage_share": 0.0087
     },
     {
       "artifact_code": "efk16",
       "artifact_name": "Wings of Light and Shadow",
-      "total_games": 313,
-      "total_wins": 149,
-      "total_losses": 164,
-      "derived_win_rate": 0.476,
-      "derived_usage_share": 0.0089
+      "total_games": 398,
+      "total_wins": 191,
+      "total_losses": 207,
+      "derived_win_rate": 0.4799,
+      "derived_usage_share": 0.0084
     },
     {
       "artifact_code": "efk02",
       "artifact_name": "Elbris Ritual Sword",
-      "total_games": 309,
-      "total_wins": 135,
-      "total_losses": 174,
-      "derived_win_rate": 0.4369,
-      "derived_usage_share": 0.0088
+      "total_games": 375,
+      "total_wins": 166,
+      "total_losses": 209,
+      "derived_win_rate": 0.4427,
+      "derived_usage_share": 0.0079
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_cri_dmg+set_might",
-      "total_games": 13535,
-      "total_wins": 7726,
-      "total_losses": 5809,
-      "derived_win_rate": 0.5708
+      "total_games": 18215,
+      "total_wins": 10372,
+      "total_losses": 7843,
+      "derived_win_rate": 0.5694
     },
     {
       "set_agg_code": "set_cri_dmg+set_might",
       "artifact_code": "efk23",
       "artifact_name": "A Precious Connection",
-      "total_games": 12865,
-      "total_wins": 7340,
-      "total_losses": 5525,
-      "derived_win_rate": 0.5705
+      "total_games": 17284,
+      "total_wins": 9840,
+      "total_losses": 7444,
+      "derived_win_rate": 0.5693
     },
     {
       "set_agg_code": "set_cri_dmg+set_max_hp",
-      "total_games": 11150,
-      "total_wins": 5678,
-      "total_losses": 5472,
-      "derived_win_rate": 0.5092
+      "total_games": 15465,
+      "total_wins": 7913,
+      "total_losses": 7552,
+      "derived_win_rate": 0.5117
     },
     {
       "set_agg_code": "set_cri_dmg+set_max_hp",
       "artifact_code": "efk23",
       "artifact_name": "A Precious Connection",
-      "total_games": 10324,
-      "total_wins": 5253,
-      "total_losses": 5071,
-      "derived_win_rate": 0.5088
+      "total_games": 14385,
+      "total_wins": 7351,
+      "total_losses": 7034,
+      "derived_win_rate": 0.511
     },
     {
       "set_agg_code": "set_cri_dmg+set_cri",
-      "total_games": 3575,
-      "total_wins": 1748,
-      "total_losses": 1827,
-      "derived_win_rate": 0.489
+      "total_games": 4798,
+      "total_wins": 2352,
+      "total_losses": 2446,
+      "derived_win_rate": 0.4902
     },
     {
       "set_agg_code": "set_cri_dmg+set_cri",
       "artifact_code": "efk23",
       "artifact_name": "A Precious Connection",
-      "total_games": 3367,
-      "total_wins": 1655,
-      "total_losses": 1712,
+      "total_games": 4484,
+      "total_wins": 2204,
+      "total_losses": 2280,
       "derived_win_rate": 0.4915
     },
     {
       "set_agg_code": "set_speed+set_cri",
-      "total_games": 943,
-      "total_wins": 447,
-      "total_losses": 496,
-      "derived_win_rate": 0.474
+      "total_games": 1197,
+      "total_wins": 570,
+      "total_losses": 627,
+      "derived_win_rate": 0.4762
+    },
+    {
+      "set_agg_code": "set_revenant+set_max_hp",
+      "total_games": 1103,
+      "total_wins": 538,
+      "total_losses": 565,
+      "derived_win_rate": 0.4878
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efk23",
       "artifact_name": "A Precious Connection",
-      "total_games": 856,
-      "total_wins": 411,
-      "total_losses": 445,
-      "derived_win_rate": 0.4801
+      "total_games": 1088,
+      "total_wins": 524,
+      "total_losses": 564,
+      "derived_win_rate": 0.4816
     },
     {
       "set_agg_code": "set_revenant+set_cri",
-      "total_games": 837,
-      "total_wins": 391,
-      "total_losses": 446,
-      "derived_win_rate": 0.4671
-    },
-    {
-      "set_agg_code": "set_revenant+set_max_hp",
-      "total_games": 831,
-      "total_wins": 406,
-      "total_losses": 425,
-      "derived_win_rate": 0.4886
+      "total_games": 1030,
+      "total_wins": 482,
+      "total_losses": 548,
+      "derived_win_rate": 0.468
     }
   ],
-  "total_set_stats_games": 69938,
-  "total_artifact_stats_games": 35155,
+  "total_set_stats_games": 94166,
+  "total_artifact_stats_games": 47327,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-14T04:37:27.655Z"
+    "last_updated": "2026-09-21T04:46:39.194Z"
   },
   "derived": {
-    "win_rate": 0.5259,
+    "win_rate": 0.5256,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -251,5 +251,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2001?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-14T15:55:48Z"
+  "scraped_at": "2026-09-21T15:56:02Z"
 }

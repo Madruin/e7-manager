@@ -7,106 +7,106 @@
   "season_stats": [
     {
       "season_code": "pvp_rta_ss21",
-      "total_games": 1884,
-      "total_wins": 846,
-      "total_losses": 1038,
-      "total_bans": 599,
+      "total_games": 2336,
+      "total_wins": 1039,
+      "total_losses": 1297,
+      "total_bans": 726,
       "total_prebans": 0
     }
   ],
-  "sample_size": 1884,
+  "sample_size": 2336,
   "top_sets": [
     {
       "set_code": "set_speed",
       "set_name": "Speed",
-      "total_games": 1019,
-      "total_wins": 452,
-      "total_losses": 567,
-      "derived_win_rate": 0.4436,
-      "derived_usage_share": 0.3973
+      "total_games": 1229,
+      "total_wins": 543,
+      "total_losses": 686,
+      "derived_win_rate": 0.4418,
+      "derived_usage_share": 0.3831
     },
     {
       "set_code": "set_torrent",
       "set_name": "Torrent",
-      "total_games": 528,
-      "total_wins": 228,
-      "total_losses": 300,
-      "derived_win_rate": 0.4318,
-      "derived_usage_share": 0.2058
+      "total_games": 693,
+      "total_wins": 296,
+      "total_losses": 397,
+      "derived_win_rate": 0.4271,
+      "derived_usage_share": 0.216
     },
     {
       "set_code": "set_might",
       "set_name": "Fervor",
-      "total_games": 468,
-      "total_wins": 222,
-      "total_losses": 246,
-      "derived_win_rate": 0.4744,
-      "derived_usage_share": 0.1825
+      "total_games": 539,
+      "total_wins": 255,
+      "total_losses": 284,
+      "derived_win_rate": 0.4731,
+      "derived_usage_share": 0.168
     },
     {
       "set_code": "set_cri",
       "set_name": "Critical",
-      "total_games": 287,
-      "total_wins": 112,
-      "total_losses": 175,
-      "derived_win_rate": 0.3902,
-      "derived_usage_share": 0.1119
+      "total_games": 366,
+      "total_wins": 147,
+      "total_losses": 219,
+      "derived_win_rate": 0.4016,
+      "derived_usage_share": 0.1141
     },
     {
       "set_code": "set_cri_dmg",
       "set_name": "Destruction",
-      "total_games": 232,
-      "total_wins": 100,
-      "total_losses": 132,
-      "derived_win_rate": 0.431,
-      "derived_usage_share": 0.0904
+      "total_games": 345,
+      "total_wins": 149,
+      "total_losses": 196,
+      "derived_win_rate": 0.4319,
+      "derived_usage_share": 0.1075
     },
     {
       "set_code": "set_acc",
       "set_name": "Hit",
-      "total_games": 16,
-      "total_wins": 6,
+      "total_games": 17,
+      "total_wins": 7,
       "total_losses": 10,
-      "derived_win_rate": 0.375,
-      "derived_usage_share": 0.0062
+      "derived_win_rate": 0.4118,
+      "derived_usage_share": 0.0053
     }
   ],
   "top_artifacts": [
     {
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 724,
-      "total_wins": 319,
-      "total_losses": 405,
-      "derived_win_rate": 0.4406,
-      "derived_usage_share": 0.5634
-    },
-    {
-      "artifact_code": "efm34",
-      "artifact_name": "Refracted Desire",
-      "total_games": 243,
-      "total_wins": 113,
-      "total_losses": 130,
-      "derived_win_rate": 0.465,
-      "derived_usage_share": 0.1891
+      "total_games": 882,
+      "total_wins": 388,
+      "total_losses": 494,
+      "derived_win_rate": 0.4399,
+      "derived_usage_share": 0.5478
     },
     {
       "artifact_code": "efm29",
       "artifact_name": "Umbral Keystones",
-      "total_games": 223,
-      "total_wins": 96,
-      "total_losses": 127,
-      "derived_win_rate": 0.4305,
-      "derived_usage_share": 0.1735
+      "total_games": 322,
+      "total_wins": 141,
+      "total_losses": 181,
+      "derived_win_rate": 0.4379,
+      "derived_usage_share": 0.2
+    },
+    {
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 286,
+      "total_wins": 133,
+      "total_losses": 153,
+      "derived_win_rate": 0.465,
+      "derived_usage_share": 0.1776
     },
     {
       "artifact_code": "efm32",
       "artifact_name": "Mirrored Lotus Ring",
-      "total_games": 47,
-      "total_wins": 17,
-      "total_losses": 30,
-      "derived_win_rate": 0.3617,
-      "derived_usage_share": 0.0366
+      "total_games": 58,
+      "total_wins": 20,
+      "total_losses": 38,
+      "derived_win_rate": 0.3448,
+      "derived_usage_share": 0.036
     },
     {
       "artifact_code": "efm04",
@@ -115,121 +115,121 @@
       "total_wins": 8,
       "total_losses": 13,
       "derived_win_rate": 0.381,
-      "derived_usage_share": 0.0163
+      "derived_usage_share": 0.013
     },
     {
       "artifact_code": "",
       "artifact_name": null,
-      "total_games": 8,
+      "total_games": 12,
       "total_wins": 2,
-      "total_losses": 6,
-      "derived_win_rate": 0.25,
-      "derived_usage_share": 0.0062
+      "total_losses": 10,
+      "derived_win_rate": 0.1667,
+      "derived_usage_share": 0.0075
     },
     {
       "artifact_code": "efm13",
       "artifact_name": "Dignus Orb",
-      "total_games": 7,
+      "total_games": 9,
       "total_wins": 2,
-      "total_losses": 5,
-      "derived_win_rate": 0.2857,
-      "derived_usage_share": 0.0054
+      "total_losses": 7,
+      "derived_win_rate": 0.2222,
+      "derived_usage_share": 0.0056
     }
   ],
   "top_builds": [
     {
       "set_agg_code": "set_speed+set_might",
-      "total_games": 447,
-      "total_wins": 215,
-      "total_losses": 232,
-      "derived_win_rate": 0.481
+      "total_games": 513,
+      "total_wins": 247,
+      "total_losses": 266,
+      "derived_win_rate": 0.4815
     },
     {
       "set_agg_code": "set_speed+set_might",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 313,
-      "total_wins": 155,
-      "total_losses": 158,
-      "derived_win_rate": 0.4952
-    },
-    {
-      "set_agg_code": "set_speed+set_cri",
-      "total_games": 273,
-      "total_wins": 110,
-      "total_losses": 163,
-      "derived_win_rate": 0.4029
+      "total_games": 362,
+      "total_wins": 180,
+      "total_losses": 182,
+      "derived_win_rate": 0.4972
     },
     {
       "set_agg_code": "set_speed+set_torrent",
-      "total_games": 262,
-      "total_wins": 111,
-      "total_losses": 151,
-      "derived_win_rate": 0.4237
+      "total_games": 344,
+      "total_wins": 145,
+      "total_losses": 199,
+      "derived_win_rate": 0.4215
+    },
+    {
+      "set_agg_code": "set_speed+set_cri",
+      "total_games": 326,
+      "total_wins": 131,
+      "total_losses": 195,
+      "derived_win_rate": 0.4018
     },
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
-      "total_games": 224,
-      "total_wins": 99,
-      "total_losses": 125,
-      "derived_win_rate": 0.442
+      "total_games": 306,
+      "total_wins": 133,
+      "total_losses": 173,
+      "derived_win_rate": 0.4346
     },
     {
       "set_agg_code": "set_cri_dmg+set_torrent",
       "artifact_code": "efm29",
       "artifact_name": "Umbral Keystones",
-      "total_games": 220,
-      "total_wins": 96,
-      "total_losses": 124,
-      "derived_win_rate": 0.4364
+      "total_games": 296,
+      "total_wins": 128,
+      "total_losses": 168,
+      "derived_win_rate": 0.4324
     },
     {
       "set_agg_code": "set_speed+set_cri",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 204,
-      "total_wins": 86,
-      "total_losses": 118,
-      "derived_win_rate": 0.4216
+      "total_games": 247,
+      "total_wins": 104,
+      "total_losses": 143,
+      "derived_win_rate": 0.4211
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efm03",
       "artifact_name": "Tagehel's Ancient Book",
-      "total_games": 156,
-      "total_wins": 58,
-      "total_losses": 98,
-      "derived_win_rate": 0.3718
-    },
-    {
-      "set_agg_code": "set_speed+set_might",
-      "artifact_code": "efm34",
-      "artifact_name": "Refracted Desire",
-      "total_games": 94,
-      "total_wins": 47,
-      "total_losses": 47,
-      "derived_win_rate": 0.5
+      "total_games": 207,
+      "total_wins": 80,
+      "total_losses": 127,
+      "derived_win_rate": 0.3865
     },
     {
       "set_agg_code": "set_speed+set_torrent",
       "artifact_code": "efm34",
       "artifact_name": "Refracted Desire",
-      "total_games": 88,
-      "total_wins": 42,
-      "total_losses": 46,
-      "derived_win_rate": 0.4773
+      "total_games": 115,
+      "total_wins": 54,
+      "total_losses": 61,
+      "derived_win_rate": 0.4696
+    },
+    {
+      "set_agg_code": "set_speed+set_might",
+      "artifact_code": "efm34",
+      "artifact_name": "Refracted Desire",
+      "total_games": 105,
+      "total_wins": 52,
+      "total_losses": 53,
+      "derived_win_rate": 0.4952
     }
   ],
-  "total_set_stats_games": 2565,
-  "total_artifact_stats_games": 1285,
+  "total_set_stats_games": 3208,
+  "total_artifact_stats_games": 1610,
   "season": {
     "code": "pvp_rta_ss21",
     "name": "Fall 2026 Season",
     "start_date": "2026-08-10T00:00:00.000Z",
-    "last_updated": "2026-09-14T04:37:27.655Z"
+    "last_updated": "2026-09-21T04:46:39.194Z"
   },
   "derived": {
-    "win_rate": 0.449,
+    "win_rate": 0.4448,
     "formulas": {
       "win_rate": "total_wins / (total_wins + total_losses)",
       "derived_win_rate": "per-row total_wins / (total_wins + total_losses)",
@@ -237,5 +237,5 @@
     }
   },
   "source_url": "https://www.epic7rtastats.com/heroes/c2099?season=pvp_rta_ss21",
-  "scraped_at": "2026-09-14T15:57:35Z"
+  "scraped_at": "2026-09-21T15:57:55Z"
 }
